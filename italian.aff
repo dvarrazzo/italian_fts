@@ -224,8 +224,8 @@ flag *A:
 flag *B:
    ERE    > -ERE,O                # pres. 1° pers. sn. (-o)
    [^I]ERE    > -ERE,I            # \ pres. 2° pers. sn. (-i)
-   IERE    > -ERE,               # / 
-   ERE    > -RE,                 # pres. 3° pers. sn. (-e)
+   IERE    > -IERE,I              # / 
+   ERE    > -ERE,E                # pres. 3° pers. sn. (-e)
    [^I]ERE    > -ERE,IAMO         # \ pres. 1° pers. pl. (-iamo)
    IERE    > -ERE,AMO             # /
    ERE    > -RE,TE                # pres. 2° pers. pl. (-ete)
@@ -719,7 +719,7 @@ flag *H:
    ITO    > VENE
 
 flag *I:
-   [AEI]RE    > -E,              # troncamento
+   [AEI]RE    > -RE,R             # troncamento
    [AEI]RE    > -E,MI             # mi pron. 1° pr. sn.
    [AEI]RE    > -E,TI             # ti pron. 2° pr. sn.
    [AEI]RE    > -E,CI             # ci pron. 1° pr. pl.
@@ -772,7 +772,7 @@ flag *I:
    [AEI]RE    > -E,LESI           # le + si
    [AEI]RE    > -E,CISI           # ci + si
    [AEI]RE    > -E,VISI           # vi + si
-   RRE    > -RE,                 # troncamento
+   RRE    > -RRE,R                # troncamento
    RRE    > -RE,MI                # mi pron. 1° pr. sn.
    RRE    > -RE,TI                # ti pron. 2° pr. sn.
    RRE    > -RE,CI                # ci pron. 1° pr. pl.
@@ -990,261 +990,261 @@ flag S:
 
 prefixes
 
-flag T:
-   [AEIOUHAEIOUH]    > L'
-   A    > L'A
-   E    > L'E
-   I    > L'I
-   O    > L'O
-   U    > L'U
-   H    > L'H
-   [AEIOUH]    > L'
-   A    > L'A
-   E    > L'E
-   I    > L'I
-   O    > L'O
-   U    > L'U
-   H    > L'H
-   [AEIOUHAEIOUH]    > ALL'
-   A    > ALL'A
-   E    > ALL'E
-   I    > ALL'I
-   O    > ALL'O
-   U    > ALL'U
-   H    > ALL'H
-   [AEIOUH]    > ALL'
-   A    > ALL'A
-   E    > ALL'E
-   I    > ALL'I
-   O    > ALL'O
-   U    > ALL'U
-   H    > ALL'H
-   [AEIOUH][QWERTYUIOPLKJHGFDSAZXCVBNM]    > ALL'
-   [AEIOUHAEIOUH]    > DELL'
-   A    > DELL'A
-   E    > DELL'E
-   I    > DELL'I
-   O    > DELL'O
-   U    > DELL'U
-   H    > DELL'H
-   [AEIOUH]    > DELL'
-   A    > DELL'A
-   E    > DELL'E
-   I    > DELL'I
-   O    > DELL'O
-   U    > DELL'U
-   H    > DELL'H
-   [AEIOUH][QWERTYUIOPLKJHGFDSAZXCVBNM]    > DELL'
-   [AEIOUHAEIOUH]    > DALL'
-   A    > DALL'A
-   E    > DALL'E
-   I    > DALL'I
-   O    > DALL'O
-   U    > DALL'U
-   H    > DALL'H
-   [AEIOUH]    > DALL'
-   A    > DALL'A
-   E    > DALL'E
-   I    > DALL'I
-   O    > DALL'O
-   U    > DALL'U
-   H    > DALL'H
-   [AEIOUH][QWERTYUIOPLKJHGFDSAZXCVBNM]    > DALL'
-   [AEIOUHAEIOUH]    > NELL'
-   A    > NELL'A
-   E    > NELL'E
-   I    > NELL'I
-   O    > NELL'O
-   U    > NELL'U
-   H    > NELL'H
-   [AEIOUH]    > NELL'
-   A    > NELL'A
-   E    > NELL'E
-   I    > NELL'I
-   O    > NELL'O
-   U    > NELL'U
-   H    > NELL'H
-   [AEIOUH][QWERTYUIOPLKJHGFDSAZXCVBNM]    > NELL'
-   [AEIOUHAEIOUH]    > SULL'
-   A    > SULL'A
-   E    > SULL'E
-   I    > SULL'I
-   O    > SULL'O
-   U    > SULL'U
-   H    > SULL'H
-   [AEIOUH]    > SULL'
-   A    > SULL'A
-   E    > SULL'E
-   I    > SULL'I
-   O    > SULL'O
-   U    > SULL'U
-   H    > SULL'H
-   [AEIOUH][QWERTYUIOPLKJHGFDSAZXCVBNM]    > SULL'
-   [AEIOUHAEIOUH]    > COLL'
-   A    > COLL'A
-   E    > COLL'E
-   I    > COLL'I
-   O    > COLL'O
-   U    > COLL'U
-   H    > COLL'H
-   [AEIOUH]    > COLL'
-   A    > COLL'A
-   E    > COLL'E
-   I    > COLL'I
-   O    > COLL'O
-   U    > COLL'U
-   H    > COLL'H
-   [AEIOUH][QWERTYUIOPLKJHGFDSAZXCVBNM]    > COLL'
-   [AEIOUHAEIOUH]    > D'
-   A    > D'A
-   E    > D'E
-   I    > D'I
-   O    > D'O
-   U    > D'U
-   H    > D'H
-   [AEIOUH]    > D'
-   A    > D'A
-   E    > D'E
-   I    > D'I
-   O    > D'O
-   U    > D'U
-   H    > D'H
-   [AEIOUHAEIOUH]    > QUEST'
-   A    > QUEST'A
-   E    > QUEST'E
-   I    > QUEST'I
-   O    > QUEST'O
-   U    > QUEST'U
-   H    > QUEST'H
-   [AEIOUH]    > QUEST'
-   A    > QUEST'A
-   E    > QUEST'E
-   I    > QUEST'I
-   O    > QUEST'O
-   U    > QUEST'U
-   H    > QUEST'H
-   [AEIOUH][QWERTYUIOPLKJHGFDSAZXCVBNM]    > QUEST'
-   [AEIOUHAEIOUH]    > QUELL'
-   A    > QUELL'A
-   E    > QUELL'E
-   I    > QUELL'I
-   O    > QUELL'O
-   U    > QUELL'U
-   H    > QUELL'H
-   [AEIOUH]    > QUELL'
-   A    > QUELL'A
-   E    > QUELL'E
-   I    > QUELL'I
-   O    > QUELL'O
-   U    > QUELL'U
-   H    > QUELL'H
-   [AEIOUH][QWERTYUIOPLKJHGFDSAZXCVBNM]    > QUELL'
+#flag T:
+#   [AEIOUHAEIOUH]    > L'
+#   A    > L'A
+#   E    > L'E
+#   I    > L'I
+#   O    > L'O
+#   U    > L'U
+#   H    > L'H
+#   [AEIOUH]    > L'
+#   A    > L'A
+#   E    > L'E
+#   I    > L'I
+#   O    > L'O
+#   U    > L'U
+#   H    > L'H
+#   [AEIOUHAEIOUH]    > ALL'
+#   A    > ALL'A
+#   E    > ALL'E
+#   I    > ALL'I
+#   O    > ALL'O
+#   U    > ALL'U
+#   H    > ALL'H
+#   [AEIOUH]    > ALL'
+#   A    > ALL'A
+#   E    > ALL'E
+#   I    > ALL'I
+#   O    > ALL'O
+#   U    > ALL'U
+#   H    > ALL'H
+#   [AEIOUH][QWERTYUIOPLKJHGFDSAZXCVBNM]    > ALL'
+#   [AEIOUHAEIOUH]    > DELL'
+#   A    > DELL'A
+#   E    > DELL'E
+#   I    > DELL'I
+#   O    > DELL'O
+#   U    > DELL'U
+#   H    > DELL'H
+#   [AEIOUH]    > DELL'
+#   A    > DELL'A
+#   E    > DELL'E
+#   I    > DELL'I
+#   O    > DELL'O
+#   U    > DELL'U
+#   H    > DELL'H
+#   [AEIOUH][QWERTYUIOPLKJHGFDSAZXCVBNM]    > DELL'
+#   [AEIOUHAEIOUH]    > DALL'
+#   A    > DALL'A
+#   E    > DALL'E
+#   I    > DALL'I
+#   O    > DALL'O
+#   U    > DALL'U
+#   H    > DALL'H
+#   [AEIOUH]    > DALL'
+#   A    > DALL'A
+#   E    > DALL'E
+#   I    > DALL'I
+#   O    > DALL'O
+#   U    > DALL'U
+#   H    > DALL'H
+#   [AEIOUH][QWERTYUIOPLKJHGFDSAZXCVBNM]    > DALL'
+#   [AEIOUHAEIOUH]    > NELL'
+#   A    > NELL'A
+#   E    > NELL'E
+#   I    > NELL'I
+#   O    > NELL'O
+#   U    > NELL'U
+#   H    > NELL'H
+#   [AEIOUH]    > NELL'
+#   A    > NELL'A
+#   E    > NELL'E
+#   I    > NELL'I
+#   O    > NELL'O
+#   U    > NELL'U
+#   H    > NELL'H
+#   [AEIOUH][QWERTYUIOPLKJHGFDSAZXCVBNM]    > NELL'
+#   [AEIOUHAEIOUH]    > SULL'
+#   A    > SULL'A
+#   E    > SULL'E
+#   I    > SULL'I
+#   O    > SULL'O
+#   U    > SULL'U
+#   H    > SULL'H
+#   [AEIOUH]    > SULL'
+#   A    > SULL'A
+#   E    > SULL'E
+#   I    > SULL'I
+#   O    > SULL'O
+#   U    > SULL'U
+#   H    > SULL'H
+#   [AEIOUH][QWERTYUIOPLKJHGFDSAZXCVBNM]    > SULL'
+#   [AEIOUHAEIOUH]    > COLL'
+#   A    > COLL'A
+#   E    > COLL'E
+#   I    > COLL'I
+#   O    > COLL'O
+#   U    > COLL'U
+#   H    > COLL'H
+#   [AEIOUH]    > COLL'
+#   A    > COLL'A
+#   E    > COLL'E
+#   I    > COLL'I
+#   O    > COLL'O
+#   U    > COLL'U
+#   H    > COLL'H
+#   [AEIOUH][QWERTYUIOPLKJHGFDSAZXCVBNM]    > COLL'
+#   [AEIOUHAEIOUH]    > D'
+#   A    > D'A
+#   E    > D'E
+#   I    > D'I
+#   O    > D'O
+#   U    > D'U
+#   H    > D'H
+#   [AEIOUH]    > D'
+#   A    > D'A
+#   E    > D'E
+#   I    > D'I
+#   O    > D'O
+#   U    > D'U
+#   H    > D'H
+#   [AEIOUHAEIOUH]    > QUEST'
+#   A    > QUEST'A
+#   E    > QUEST'E
+#   I    > QUEST'I
+#   O    > QUEST'O
+#   U    > QUEST'U
+#   H    > QUEST'H
+#   [AEIOUH]    > QUEST'
+#   A    > QUEST'A
+#   E    > QUEST'E
+#   I    > QUEST'I
+#   O    > QUEST'O
+#   U    > QUEST'U
+#   H    > QUEST'H
+#   [AEIOUH][QWERTYUIOPLKJHGFDSAZXCVBNM]    > QUEST'
+#   [AEIOUHAEIOUH]    > QUELL'
+#   A    > QUELL'A
+#   E    > QUELL'E
+#   I    > QUELL'I
+#   O    > QUELL'O
+#   U    > QUELL'U
+#   H    > QUELL'H
+#   [AEIOUH]    > QUELL'
+#   A    > QUELL'A
+#   E    > QUELL'E
+#   I    > QUELL'I
+#   O    > QUELL'O
+#   U    > QUELL'U
+#   H    > QUELL'H
+#   [AEIOUH][QWERTYUIOPLKJHGFDSAZXCVBNM]    > QUELL'
 
-flag U:
-   [AEIOUHAEIOUH]    > UN'
-   A    > UN'A
-   E    > UN'E
-   I    > UN'I
-   O    > UN'O
-   U    > UN'U
-   H    > UN'H
-   [AEIOUH]    > UN'
-   A    > UN'A
-   E    > UN'E
-   I    > UN'I
-   O    > UN'O
-   U    > UN'U
-   H    > UN'H
-   [AEIOUH][QWERTYUIOPLKJHGFDSAZXCVBNM]    > UN'
-   [AEIOUHAEIOUH]    > CIASCUN'
-   A    > CIASCUN'A
-   E    > CIASCUN'E
-   I    > CIASCUN'I
-   O    > CIASCUN'O
-   U    > CIASCUN'U
-   H    > CIASCUN'H
-   [AEIOUH]    > CIASCUN'
-   A    > CIASCUN'A
-   E    > CIASCUN'E
-   I    > CIASCUN'I
-   O    > CIASCUN'O
-   U    > CIASCUN'U
-   H    > CIASCUN'H
-   [AEIOUH][QWERTYUIOPLKJHGFDSAZXCVBNM]    > CIASCUN'
+#flag U:
+#   [AEIOUHAEIOUH]    > UN'
+#   A    > UN'A
+#   E    > UN'E
+#   I    > UN'I
+#   O    > UN'O
+#   U    > UN'U
+#   H    > UN'H
+#   [AEIOUH]    > UN'
+#   A    > UN'A
+#   E    > UN'E
+#   I    > UN'I
+#   O    > UN'O
+#   U    > UN'U
+#   H    > UN'H
+#   [AEIOUH][QWERTYUIOPLKJHGFDSAZXCVBNM]    > UN'
+#   [AEIOUHAEIOUH]    > CIASCUN'
+#   A    > CIASCUN'A
+#   E    > CIASCUN'E
+#   I    > CIASCUN'I
+#   O    > CIASCUN'O
+#   U    > CIASCUN'U
+#   H    > CIASCUN'H
+#   [AEIOUH]    > CIASCUN'
+#   A    > CIASCUN'A
+#   E    > CIASCUN'E
+#   I    > CIASCUN'I
+#   O    > CIASCUN'O
+#   U    > CIASCUN'U
+#   H    > CIASCUN'H
+#   [AEIOUH][QWERTYUIOPLKJHGFDSAZXCVBNM]    > CIASCUN'
 
-flag X:
-   [AEIOUAEIOU]    > M'
-   A    > M'A
-   E    > M'E
-   I    > M'I
-   O    > M'O
-   U    > M'U
-   [AEIOU]    > M'
-   A    > M'A
-   E    > M'E
-   I    > M'I
-   O    > M'O
-   U    > M'U
-   [AEIOUAEIOU]    > T'
-   A    > T'A
-   E    > T'E
-   I    > T'I
-   O    > T'O
-   U    > T'U
-   [AEIOU]    > T'
-   A    > T'A
-   E    > T'E
-   I    > T'I
-   O    > T'O
-   U    > T'U
-   [AEIOUAEIOU]    > S'
-   A    > S'A
-   E    > S'E
-   I    > S'I
-   O    > S'O
-   U    > S'U
-   [AEIOU]    > S'
-   A    > S'A
-   E    > S'E
-   I    > S'I
-   O    > S'O
-   U    > S'U
-   [AEIOUAEIOU]    > C'
-   A    > C'A
-   E    > C'E
-   I    > C'I
-   O    > C'O
-   U    > C'U
-   [AEIOU]    > C'
-   A    > C'A
-   E    > C'E
-   I    > C'I
-   O    > C'O
-   U    > C'U
-   [AEIOUAEIOU]    > V'
-   A    > V'A
-   E    > V'E
-   I    > V'I
-   O    > V'O
-   U    > V'U
-   [AEIOU]    > V'
-   A    > V'A
-   E    > V'E
-   I    > V'I
-   O    > V'O
-   U    > V'U
-   [AEIOUAEIOU]    > N'
-   A    > N'A
-   E    > N'E
-   I    > N'I
-   O    > N'O
-   U    > N'U
-   [AEIOU]    > N'
-   A    > N'A
-   E    > N'E
-   I    > N'I
-   O    > N'O
-   U    > N'U
+#flag X:
+#   [AEIOUAEIOU]    > M'
+#   A    > M'A
+#   E    > M'E
+#   I    > M'I
+#   O    > M'O
+#   U    > M'U
+#   [AEIOU]    > M'
+#   A    > M'A
+#   E    > M'E
+#   I    > M'I
+#   O    > M'O
+#   U    > M'U
+#   [AEIOUAEIOU]    > T'
+#   A    > T'A
+#   E    > T'E
+#   I    > T'I
+#   O    > T'O
+#   U    > T'U
+#   [AEIOU]    > T'
+#   A    > T'A
+#   E    > T'E
+#   I    > T'I
+#   O    > T'O
+#   U    > T'U
+#   [AEIOUAEIOU]    > S'
+#   A    > S'A
+#   E    > S'E
+#   I    > S'I
+#   O    > S'O
+#   U    > S'U
+#   [AEIOU]    > S'
+#   A    > S'A
+#   E    > S'E
+#   I    > S'I
+#   O    > S'O
+#   U    > S'U
+#   [AEIOUAEIOU]    > C'
+#   A    > C'A
+#   E    > C'E
+#   I    > C'I
+#   O    > C'O
+#   U    > C'U
+#   [AEIOU]    > C'
+#   A    > C'A
+#   E    > C'E
+#   I    > C'I
+#   O    > C'O
+#   U    > C'U
+#   [AEIOUAEIOU]    > V'
+#   A    > V'A
+#   E    > V'E
+#   I    > V'I
+#   O    > V'O
+#   U    > V'U
+#   [AEIOU]    > V'
+#   A    > V'A
+#   E    > V'E
+#   I    > V'I
+#   O    > V'O
+#   U    > V'U
+#   [AEIOUAEIOU]    > N'
+#   A    > N'A
+#   E    > N'E
+#   I    > N'I
+#   O    > N'O
+#   U    > N'U
+#   [AEIOU]    > N'
+#   A    > N'A
+#   E    > N'E
+#   I    > N'I
+#   O    > N'O
+#   U    > N'U
 
 flag Y:
    [LU]ENTO    > -O,EMENTE
@@ -1543,7 +1543,7 @@ flag *Z:
 
 flag *\À:
    UCIRE    > -RE,O               # pres. 1° pers. sn. (ucio)
-   UCIRE    > -RE,               # pres. 2° pers. sn. (uci)
+   UCIRE    > -IRE,I              # pres. 2° pers. sn. (uci)
    UCIRE    > -IRE,E              # pres. 3° pers. sn. (uce)
    UCIRE    > -RE,AMO             # pres. 1° pers. pl. (uciamo)
    UCIRE    > -RE,TE              # pres. 2° pers. pl. (ucite)
@@ -1678,22 +1678,22 @@ flag g:
    O    > -O,I
    LO    > -LO,NE
 
-flag i:
-   [AEIOUHAEIOUH]    > L'
-   A    > L'A
-   E    > L'E
-   I    > L'I
-   O    > L'O
-   U    > L'U
-   H    > L'H
-   [AEIOUH]    > L'
-   A    > L'A
-   E    > L'E
-   I    > L'I
-   O    > L'O
-   U    > L'U
-   H    > L'H
-
+#flag i:
+#   [AEIOUHAEIOUH]    > L'
+#   A    > L'A
+#   E    > L'E
+#   I    > L'I
+#   O    > L'O
+#   U    > L'U
+#   H    > L'H
+#   [AEIOUH]    > L'
+#   A    > L'A
+#   E    > L'E
+#   I    > L'I
+#   O    > L'O
+#   U    > L'U
+#   H    > L'H
+#
 flag *j:
    ARRE    > -RRE,IMI             # -arre pres. 2° pers. sn. + mi (i + mi)
    ARRE    > -RRE,ITI             # -arre pres. 2° pers. sn. + ti (i + ti)
@@ -1968,56 +1968,56 @@ flag *p:
    O    > -O,A
    O    > -O,HE
 
-flag q:
-   [AEIOUHAEIOUH]    > BELL'
-   A    > BELL'A
-   E    > BELL'E
-   I    > BELL'I
-   O    > BELL'O
-   U    > BELL'U
-   H    > BELL'H
-   [AEIOUH]    > BELL'
-   A    > BELL'A
-   E    > BELL'E
-   I    > BELL'I
-   O    > BELL'O
-   U    > BELL'U
-   H    > BELL'H
-   [AEIOUH][QWERTYUIOPLKJHGFDSAZXCVBNM]    > BELL'
+#flag q:
+#   [AEIOUHAEIOUH]    > BELL'
+#   A    > BELL'A
+#   E    > BELL'E
+#   I    > BELL'I
+#   O    > BELL'O
+#   U    > BELL'U
+#   H    > BELL'H
+#   [AEIOUH]    > BELL'
+#   A    > BELL'A
+#   E    > BELL'E
+#   I    > BELL'I
+#   O    > BELL'O
+#   U    > BELL'U
+#   H    > BELL'H
+#   [AEIOUH][QWERTYUIOPLKJHGFDSAZXCVBNM]    > BELL'
 
-flag r:
-   [AEIOUHAEIOUH]    > BRAV'
-   A    > BRAV'A
-   E    > BRAV'E
-   I    > BRAV'I
-   O    > BRAV'O
-   U    > BRAV'U
-   H    > BRAV'H
-   [AEIOUH]    > BRAV'
-   A    > BRAV'A
-   E    > BRAV'E
-   I    > BRAV'I
-   O    > BRAV'O
-   U    > BRAV'U
-   H    > BRAV'H
-   [AEIOUH][QWERTYUIOPLKJHGFDSAZXCVBNM]    > BRAV'
+#flag r:
+#   [AEIOUHAEIOUH]    > BRAV'
+#   A    > BRAV'A
+#   E    > BRAV'E
+#   I    > BRAV'I
+#   O    > BRAV'O
+#   U    > BRAV'U
+#   H    > BRAV'H
+#   [AEIOUH]    > BRAV'
+#   A    > BRAV'A
+#   E    > BRAV'E
+#   I    > BRAV'I
+#   O    > BRAV'O
+#   U    > BRAV'U
+#   H    > BRAV'H
+#   [AEIOUH][QWERTYUIOPLKJHGFDSAZXCVBNM]    > BRAV'
 
-flag s:
-   [AEIOUHAEIOUH]    > BUON'
-   A    > BUON'A
-   E    > BUON'E
-   I    > BUON'I
-   O    > BUON'O
-   U    > BUON'U
-   H    > BUON'H
-   [AEIOUH]    > BUON'
-   A    > BUON'A
-   E    > BUON'E
-   I    > BUON'I
-   O    > BUON'O
-   U    > BUON'U
-   H    > BUON'H
-   [AEIOUH][QWERTYUIOPLKJHGFDSAZXCVBNM]    > BUON'
+#flag s:
+#   [AEIOUHAEIOUH]    > BUON'
+#   A    > BUON'A
+#   E    > BUON'E
+#   I    > BUON'I
+#   O    > BUON'O
+#   U    > BUON'U
+#   H    > BUON'H
+#   [AEIOUH]    > BUON'
+#   A    > BUON'A
+#   E    > BUON'E
+#   I    > BUON'I
+#   O    > BUON'O
+#   U    > BUON'U
+#   H    > BUON'H
+#   [AEIOUH][QWERTYUIOPLKJHGFDSAZXCVBNM]    > BUON'
 
 flag *t:
    IRE    > -RE,SCO
@@ -2293,10 +2293,10 @@ flag *z:
    ARE    > -RE,TI
    ARE    > -RE,TIVI
 
-flag ^:
-   [AEIOUH]    > SANT'
-   [AEIOUH]    > SANT'
-   [AEIOUH][QWERTYUIOPLKJHGFDSAZXCVBNM]    > SANT'
+#flag ^:
+#   [AEIOUH]    > SANT'
+#   [AEIOUH]    > SANT'
+#   [AEIOUH][QWERTYUIOPLKJHGFDSAZXCVBNM]    > SANT'
 
 flag *\|:
    TI    > -I,UNO
