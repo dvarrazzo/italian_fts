@@ -1,0 +1,3146 @@
+# Copyright 2001, 2002 Gianluca Turconi
+# Copyright 2002, 2003, 2004 Gianluca Turconi, Davide Prina
+# Copyright 2004, 2005, 2006 Davide Prina
+#
+# E-Mail: DavidePrina(CHIOCCIOLA)yahoo(PUNTO)com
+#
+# Version 2.3 beta (23/07/2006) (dd/mm/yyyy)
+#
+# This file is distributed under GPL license
+#
+# This file is part of the Italian dictionary.
+#
+# The Italian dictionary is free software; you can redistribute it and/or
+# modify it under the terms of the GNU General Public License as published
+# by the Free Software Foundation; either version 2 of the License, or
+# (at your option) any later version.
+#
+# The Italian dictionary is distributed in the hope that it will be
+# useful, but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public
+# License along with Italian dictionary,
+# if not, write to the Free Software Foundation, Inc.,
+# 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA
+#
+# GPL license can be found here:
+# http://www.fsf.org/licenses/licenses.html
+
+#SET ISO8859-15
+#TRY aioertnsclmdpgubzfvhàq'ACMSkBGPLxEyRTVòIODNwFéùèìjUZKHWJYQX
+
+MAP 5
+MAP aàAÀ
+MAP eéèEÉÈ
+MAP iìIÌ
+MAP oòOÒ
+MAP uùUÙ
+
+suffixes
+
+flag *A:
+   ARE    > -ARE,O
+   [^ICG]ARE    > -ARE,I
+   IARE    > -ARE,
+   [CG]ARE    > -ARE,HI
+   ARE    > -RE,
+   [^ICG]ARE    > -ARE,IAMO
+   [^ICG]ARE    > -ARE,IAMOCI
+   [^ICG]ARE    > -ARE,IAMOLA
+   [^ICG]ARE    > -ARE,IAMOLO
+   [^ICG]ARE    > -ARE,IAMOLE
+   [^ICG]ARE    > -ARE,IAMOLI
+   [^ICG]ARE    > -ARE,IAMOGLI
+   [^ICG]ARE    > -ARE,IAMONE
+   [^ICG]ARE    > -ARE,IAMOCELA
+   [^ICG]ARE    > -ARE,IAMOCELO
+   [^ICG]ARE    > -ARE,IAMOCELE
+   [^ICG]ARE    > -ARE,IAMOCELI
+   [^ICG]ARE    > -ARE,IAMOCENE
+   [^ICG]ARE    > -ARE,IAMOGLIELA
+   [^ICG]ARE    > -ARE,IAMOGLIELO
+   [^ICG]ARE    > -ARE,IAMOGLIELE
+   [^ICG]ARE    > -ARE,IAMOGLIELI
+   [^ICG]ARE    > -ARE,IAMOGLIENE
+   IARE    > -RE,MO
+   IARE    > -RE,MOCI
+   IARE    > -RE,MOLA
+   IARE    > -RE,MOLO
+   IARE    > -RE,MOLE
+   IARE    > -RE,MOLI
+   IARE    > -RE,MONE
+   IARE    > -RE,MOGLI
+   IARE    > -RE,MOGLIELA
+   IARE    > -RE,MOGLIELO
+   IARE    > -RE,MOGLIELE
+   IARE    > -RE,MOGLIELI
+   IARE    > -RE,MOGLIENE
+   IARE    > -RE,MOCELA
+   IARE    > -RE,MOCELO
+   IARE    > -RE,MOCELE
+   IARE    > -RE,MOCELI
+   IARE    > -RE,MOCENE
+   [CG]ARE    > -ARE,HIAMO
+   [CG]ARE    > -ARE,HIAMOCI
+   [CG]ARE    > -ARE,HIAMOLA
+   [CG]ARE    > -ARE,HIAMOLO
+   [CG]ARE    > -ARE,HIAMOLE
+   [CG]ARE    > -ARE,HIAMOLI
+   [CG]ARE    > -ARE,HIAMOGLI
+   [CG]ARE    > -ARE,HIAMONE
+   [CG]ARE    > -ARE,HIAMOCELA
+   [CG]ARE    > -ARE,HIAMOCELO
+   [CG]ARE    > -ARE,HIAMOCELE
+   [CG]ARE    > -ARE,HIAMOCELI
+   [CG]ARE    > -ARE,HIAMOCENE
+   [CG]ARE    > -ARE,HIAMOGLIELA
+   [CG]ARE    > -ARE,HIAMOGLIELO
+   [CG]ARE    > -ARE,HIAMOGLIELE
+   [CG]ARE    > -ARE,HIAMOGLIELI
+   [CG]ARE    > -ARE,HIAMOGLIENE
+   ARE    > -RE,TEMELO
+   ARE    > -RE,TEMELI
+   ARE    > -RE,TEMELA
+   ARE    > -RE,TEMELE
+   ARE    > -RE,TEVELO
+   ARE    > -RE,TEMENE
+   ARE    > -RE,TEVELI
+   ARE    > -RE,TEVELA
+   ARE    > -RE,TEVELE
+   ARE    > -RE,TEVENE
+   ARE    > -RE,TEGLIELO
+   ARE    > -RE,TEGLIELI
+   ARE    > -RE,TEGLIELA
+   ARE    > -RE,TEGLIELE
+   ARE    > -RE,TEGLIENE
+   ARE    > -RE,TECELO
+   ARE    > -RE,TECELI
+   ARE    > -RE,TECELA
+   ARE    > -RE,TECELE
+   ARE    > -RE,TECENE
+   ARE    > -RE,NO
+   ARE    > -RE,VO
+   ARE    > -RE,VI
+   ARE    > -RE,VA
+   ARE    > -RE,VAMO
+   ARE    > -RE,VATE
+   ARE    > -RE,VANO
+   ARE    > -RE,I
+   ARE    > -RE,STI
+   ARE    > -ARE,ò
+   ARE    > -RE,MMO
+   ARE    > -RE,STE
+   ARE    > -E,ONO
+   [^CGI]ARE    > -ARE,ERò
+   [^CGI]ARE    > -ARE,ERAI
+   [^CGI]ARE    > -ARE,ERà
+   [^CGI]ARE    > -ARE,EREMO
+   [^CGI]ARE    > -ARE,ERETE
+   [^CGI]ARE    > -ARE,ERANNO
+   [CG]ARE    > -ARE,HERò
+   [CG]ARE    > -ARE,HERAI
+   [CG]ARE    > -ARE,HERà
+   [CG]ARE    > -ARE,HEREMO
+   [CG]ARE    > -ARE,HERETE
+   [CG]ARE    > -ARE,HERANNO
+   [^CG]IARE    > -ARE,ERò
+   [^CG]IARE    > -ARE,ERAI
+   [^CG]IARE    > -ARE,ERà
+   [^CG]IARE    > -ARE,EREMO
+   [^CG]IARE    > -ARE,ERETE
+   [^CG]IARE    > -ARE,ERANNO
+   [CG]IARE    > -IARE,ERò
+   [CG]IARE    > -IARE,ERAI
+   [CG]IARE    > -IARE,ERà
+   [CG]IARE    > -IARE,EREMO
+   [CG]IARE    > -IARE,ERETE
+   [CG]IARE    > -IARE,ERANNO
+   [^ICG]ARE    > -ARE,IATE
+   [^ICG]ARE    > -ARE,INO
+   [CG]ARE    > -ARE,HIATE
+   [CG]ARE    > -ARE,HINO
+   IARE    > -ARE,NO
+   ARE    > -RE,SSI
+   ARE    > -RE,SSE
+   ARE    > -RE,SSIMO
+   ARE    > -RE,SSERO
+   [^CGI]ARE    > -ARE,EREI
+   [^CGI]ARE    > -ARE,ERESTI
+   [^CGI]ARE    > -ARE,EREBBE
+   [^CGI]ARE    > -ARE,EREMMO
+   [^CGI]ARE    > -ARE,ERESTE
+   [^CGI]ARE    > -ARE,EREBBERO
+   [CG]ARE    > -ARE,HEREI
+   [CG]ARE    > -ARE,HERESTI
+   [CG]ARE    > -ARE,HEREBBE
+   [CG]ARE    > -ARE,HEREMMO
+   [CG]ARE    > -ARE,HERESTE
+   [CG]ARE    > -ARE,HEREBBERO
+   [^CG]IARE    > -ARE,EREI
+   [^CG]IARE    > -ARE,ERESTI
+   [^CG]IARE    > -ARE,EREBBE
+   [^CG]IARE    > -ARE,EREMMO
+   [^CG]IARE    > -ARE,ERESTE
+   [^CG]IARE    > -ARE,EREBBERO
+   [CG]IARE    > -IARE,EREI
+   [CG]IARE    > -IARE,ERESTI
+   [CG]IARE    > -IARE,EREBBE
+   [CG]IARE    > -IARE,EREMMO
+   [CG]IARE    > -IARE,ERESTE
+   [CG]IARE    > -IARE,EREBBERO
+   ARE    > -RE,NTE
+   ARE    > -RE,NTESI
+   ARE    > -RE,NTI
+   ARE    > -RE,NTISI
+   ARE    > -RE,VASI
+   ARE    > -RE,TISI
+   ARE    > -RE,MI
+   ARE    > -RE,TI
+   ARE    > -RE,CI
+   ARE    > -RE,LE
+   ARE    > -RE,LO
+   ARE    > -RE,LI
+   ARE    > -RE,GLI
+   ARE    > -RE,NE
+   ARE    > -RE,LA
+   ARE    > -RE,MELO
+   ARE    > -RE,MELA
+   ARE    > -RE,MELI
+   ARE    > -RE,MELE
+   ARE    > -RE,MENE
+   ARE    > -RE,CELO
+   ARE    > -RE,CELA
+   ARE    > -RE,CELI
+   ARE    > -RE,CELE
+   ARE    > -RE,CENE
+   ARE    > -RE,GLIELO
+   ARE    > -RE,GLIELA
+   ARE    > -RE,GLIELI
+   ARE    > -RE,GLIELE
+   ARE    > -RE,GLIENE
+
+flag *B:
+   ERE    > -ERE,O                # pres. 1° pers. sn. (-o)
+   [^I]ERE    > -ERE,I            # \ pres. 2° pers. sn. (-i)
+   IERE    > -ERE,               # / 
+   ERE    > -RE,                 # pres. 3° pers. sn. (-e)
+   [^I]ERE    > -ERE,IAMO         # \ pres. 1° pers. pl. (-iamo)
+   IERE    > -ERE,AMO             # /
+   ERE    > -RE,TE                # pres. 2° pers. pl. (-ete)
+   ERE    > -ERE,ONO              # pres. 3° pers. pl. (-ono)
+   ERE    > -RE,VO                # impf. 1° pers. sn. (-evo)
+   ERE    > -RE,VI                # impf. 2° pers. sn. (-evi)
+   ERE    > -RE,VA                # impf. 3° pers. sn. (-eva)
+   ERE    > -RE,VAMO              # impf. 1° pers. pl. (-evamo)
+   ERE    > -RE,VATE              # impf. 2° pers. pl. (-evate)
+   ERE    > -RE,VANO              # impf. 3° pers. pl. (-evano)
+   ERE    > -RE,TTI               # \ p.r. 1° pers. sn. (-etti)
+   ERE    > -RE,I                 # /                   (-ei)
+   ERE    > -RE,STI               # p.r. 2° pers. sn. (-esti)
+   ERE    > -ERE,é                # \ p.r. 3° pers. sn. (-é)
+   ERE    > -RE,TTE               # /                   (-ette)
+   ERE    > -RE,MMO               # p.r. 1° pers. pl. (-emmo)
+   ERE    > -RE,STE               # p.r. 2° pers. pl. (-este)
+   ERE    > -RE,TTERO             # \ p.r. 3° pers. pl. (-ettero)
+   ERE    > -E,ONO                # /                   (-erono)
+   ERE    > -E,ò                  # f.s. 1° pers. sn. (-erò)
+   ERE    > -E,AI                 # f.s. 2° pers. sn. (-erai)
+   ERE    > -E,à                  # f.s. 3° pers. sn. (-erà)
+   ERE    > MO                 # f.s. 1° pers. pl. (-eremo)
+   ERE    > TE                 # f.s. 2° pers. pl. (-erete)
+   ERE    > -E,ANNO               # f.s. 3° pers. pl. (-eranno)
+   ERE    > -ERE,A                # cg.p. 1-2-3° pers. sn. (-a)
+   [^I]ERE    > -ERE,IATE         # \ cg.p. 2° pers. pl. (-iate)
+   IERE    > -ERE,ATE             # /
+   ERE    > -ERE,ANO              # cg.p. 3° pers. pl. (-ano)
+   ERE    > -RE,SSI               # cg.i. 1-2° pers. sn. (-essi)
+   ERE    > -RE,SSE               # cg.i. 3° pers. sn. (-esse)
+   ERE    > -RE,SSIMO             # cg.i. 1° pers. pl. (-essimo)
+   ERE    > -RE,SSERO             # cg.i. 3° pers. pl. (-essero)
+   ERE    > I                  # cd.p. 1° pers. sn. (-erei)
+   ERE    > STI                # cd.p. 2° pers. sn. (-esti)
+   ERE    > BBE                # cd.p. 3° pers. sn. (-ebbe)
+   ERE    > MMO                # cd.p. 1° pers. pl. (-emmo)
+   ERE    > STE                # cd.p. 2° pers. pl. (-este)
+   ERE    > BBERO              # cd.p. 3° pers. pl. (-ebbero)
+   ERE    > -RE,NTE               # p.pres. sn. (-ente)
+   ERE    > -RE,NTI               # p.pres. pl. (-enti) 
+   [^I]ERE    > -ERE,IMI          # \ pres. 2° pers. sn. + mi (i + mi)
+   IERE    > -ERE,MI              # / 
+   [^I]ERE    > -ERE,ITI          # \ pres. 2° pers. sn. + ti (i + ti)
+   IERE    > -ERE,TI              # /
+   [^I]ERE    > -ERE,ICI          # \ pres. 2° pers. sn. + ci (i + ci)
+   IERE    > -ERE,CI              # /
+   [^I]ERE    > -ERE,ILO          # \ pres. 2° pers. sn. + lo (i + lo)
+   IERE    > -ERE,LO              # /
+   [^I]ERE    > -ERE,ILA          # \ pres. 2° pers. sn. + la (i + la)
+   IERE    > -ERE,LA              # /
+   [^I]ERE    > -ERE,ILI          # \ pres. 2° pers. sn. + li (i + li)
+   IERE    > -ERE,LI              # /
+   [^I]ERE    > -ERE,ILE          # \ pres. 2° pers. sn. + le (i + le)
+   IERE    > -ERE,LE              # /
+   [^I]ERE    > -ERE,INE          # \ pres. 2° pers. sn. + ne (i + ne)
+   IERE    > -ERE,NE              # /
+   [^I]ERE    > -ERE,IGLI         # \ pres. 2° pers. sn. + gli (i + gli)
+   IERE    > -ERE,GLI             # /
+   [^I]ERE    > -ERE,IMELO        # \ pres. 2° pers. sn. + melo (i + melo)
+   IERE    > -ERE,MELO            # /
+   [^I]ERE    > -ERE,IMELA        # \ pres. 2° pers. sn. + mela (i + mela)
+   IERE    > -ERE,MELA            # /
+   [^I]ERE    > -ERE,IMELI        # \ pres. 2° pers. sn. + meli (i + meli)
+   IERE    > -ERE,MELI            # /
+   [^I]ERE    > -ERE,IMELE        # \ pres. 2° pers. sn. + mele (i + mele)
+   IERE    > -ERE,MELE            # /
+   [^I]ERE    > -ERE,IMENE        # \ pres. 2° pers. sn. + mene (i + mene)
+   IERE    > -ERE,MENE            # /
+   [^I]ERE    > -ERE,ICELO        # \ pres. 2° pers. sn. + celo (i + celo)
+   IERE    > -ERE,CELO            # /
+   [^I]ERE    > -ERE,ICELA        # \ pres. 2° pers. sn. + cela (i + cela)
+   IERE    > -ERE,CELA            # /
+   [^I]ERE    > -ERE,ICELI        # \ pres. 2° pers. sn. + celi (i + celi)
+   IERE    > -ERE,CELI            # /
+   [^I]ERE    > -ERE,ICELE        # \ pres. 2° pers. sn. + cele (i + cele)
+   IERE    > -ERE,CELE            # /
+   [^I]ERE    > -ERE,ICENE        # \ pres. 2° pers. sn. + cene (i + cene)
+   IERE    > -ERE,CENE            # /
+   [^I]ERE    > -ERE,IGLIELO      # \ pres. 2° pers. sn. + glielo (i + glielo)
+   IERE    > -ERE,GLIELO          # /
+   [^I]ERE    > -ERE,IGLIELA      # \ pres. 2° pers. sn. + gliela (i + gliela)
+   IERE    > -ERE,GLIELA          # /
+   [^I]ERE    > -ERE,IGLIELI      # \ pres. 2° pers. sn. + glieli (i + glieli)
+   IERE    > -ERE,GLIELI          # /
+   [^I]ERE    > -ERE,IGLIELE      # \ pres. 2° pers. sn. + gliele (i + gliele)
+   IERE    > -ERE,GLIELE          # /
+   [^I]ERE    > -ERE,IGLIENE      # \ pres. 2° pers. sn. + gliene (i + gliene)
+   IERE    > -ERE,GLIENE          # /
+   [^I]ERE    > -ERE,IAMOCI       # \ pres. 1° pers. pl. + ci (iamo + ci)
+   IERE    > -ERE,AMOCI           # /
+   [^I]ERE    > -ERE,IAMOLO       # \ pres. 1° pers. pl. + lo (iamo + lo)
+   IERE    > -ERE,AMOLO           # /
+   [^I]ERE    > -ERE,IAMOLA       # \ pres. 1° pers. pl. + la (iamo + la)
+   IERE    > -ERE,AMOLA           # /
+   [^I]ERE    > -ERE,IAMOLI       # \ pres. 1° pers. pl. + li (iamo + li)
+   IERE    > -ERE,AMOLI           # /
+   [^I]ERE    > -ERE,IAMOLE       # \ pres. 1° pers. pl. + le (iamo + le)
+   IERE    > -ERE,AMOLE           # /
+   [^I]ERE    > -ERE,IAMONE       # \ pres. 1° pers. pl. + ne (iamo + ne)
+   IERE    > -ERE,AMONE           # /
+   [^I]ERE    > -ERE,IAMOCELO     # \ pres. 1° pers. pl. + celo (iamo + celo)
+   IERE    > -ERE,AMOCELO         # /
+   [^I]ERE    > -ERE,IAMOCELA     # \ pres. 1° pers. pl. + cela (iamo + cela)
+   IERE    > -ERE,AMOCELA         # /
+   [^I]ERE    > -ERE,IAMOCELI     # \ pres. 1° pers. pl. + celi (iamo + celi)
+   IERE    > -ERE,AMOCELI         # /
+   [^I]ERE    > -ERE,IAMOCELE     # \ pres. 1° pers. pl. + cele (iamo + cele)
+   IERE    > -ERE,AMOCELE         # /
+   [^I]ERE    > -ERE,IAMOCENE     # \ pres. 1° pers. pl. + cene (iamo + cene)
+   IERE    > -ERE,AMOCENE         # /
+   [^I]ERE    > -ERE,IAMOGLI      # \ pres. 1° pers. pl. + gli (iamo + gli)
+   IERE    > -ERE,AMOGLI          # /
+   [^I]ERE    > -ERE,IAMOGLIELO   # \ pres. 1° pers. pl. + glielo (iamo + glielo)
+   IERE    > -ERE,AMOGLIELO       # /
+   [^I]ERE    > -ERE,IAMOGLIELA   # \ pres. 1° pers. pl. + gliela (iamo + gliela)
+   IERE    > -ERE,AMOGLIELA       # /
+   [^I]ERE    > -ERE,IAMOGLIELI   # \ pres. 1° pers. pl. + glieli (iamo + glieli)
+   IERE    > -ERE,AMOGLIELI       # /
+   [^I]ERE    > -ERE,IAMOGLIELE   # \ pres. 1° pers. pl. + gliele (iamo + gliele)
+   IERE    > -ERE,AMOGLIELE       # /
+   [^I]ERE    > -ERE,IAMOGLIENE   # \ pres. 1° pers. pl. + gliene (iamo + gliene)
+   IERE    > -ERE,AMOGLIENE       # /
+   ERE    > -RE,TELO              # pres. 2° pers. pl. + lo (te + lo)
+   ERE    > -RE,TELI              # pres. 2° pers. pl. + li (te + li)
+   ERE    > -RE,TELA              # pres. 2° pers. pl. + la (te + la)
+   ERE    > -RE,TELE              # pres. 2° pers. pl. + le (te + le)
+   ERE    > -RE,TENE              # pres. 2° pers. pl. + ne (te + ne)
+   ERE    > -RE,TEVELO            # pres. 2° pers. pl. + velo (te + velo)
+   ERE    > -RE,TEVELI            # pres. 2° pers. pl. + veli (te + veli)
+   ERE    > -RE,TEVELA            # pres. 2° pers. pl. + vela (te + vela)
+   ERE    > -RE,TEVELE            # pres. 2° pers. pl. + vele (te + vele)
+   ERE    > -RE,TEVENE            # pres. 2° pers. pl. + vene (te + vene)
+   ERE    > -RE,TECELO            # pres. 2° pers. pl. + celo (te + celo)
+   ERE    > -RE,TECELI            # pres. 2° pers. pl. + celi (te + celi)
+   ERE    > -RE,TECELA            # pres. 2° pers. pl. + cela (te + cela)
+   ERE    > -RE,TECELE            # pres. 2° pers. pl. + cele (te + cele)
+   ERE    > -RE,TECENE            # pres. 2° pers. pl. + cene (te + cene)
+   ERE    > -RE,TEGLIELO          # pres. 2° pers. pl. + glielo (te + glielo)
+   ERE    > -RE,TEGLIELI          # pres. 2° pers. pl. + glieli (te + glieli)
+   ERE    > -RE,TEGLIELA          # pres. 2° pers. pl. + gliela (te + gliela)
+   ERE    > -RE,TEGLIELE          # pres. 2° pers. pl. + gliele (te + gliele)
+   ERE    > -RE,TEGLIENE          # pres. 2° pers. pl. + gliene (te + gliene)
+   ERE    > -RE,TEMI              # pres. 2° pers. pl. + mi (te + mi)
+   ERE    > -RE,TEGLI             # pres. 2° pers. pl. + gli (te + gli)
+   ERE    > -RE,TECI              # pres. 2° pers. pl. + ci (te + ci)
+   ERE    > -RE,TEVI              # pres. 2° pers. pl. + vi (te + vi)
+   ERE    > -RE,TEMENE            # pres. 2° pers. pl. + mene (te + mene)
+   ERE    > -RE,TEMELO            # pres. 2° pers. pl. + melo (te + melo)
+   ERE    > -RE,TEMELI            # pres. 2° pers. pl. + meli (te + meli)
+   ERE    > -RE,TEMELA            # pres. 2° pers. pl. + mela (te + mela)
+   ERE    > -RE,TEMELE            # pres. 2° pers. pl. + mele (te + mele)
+   ERE    > -RE,NTESI             # p.pres. sn. + si (ente + si)
+   ERE    > -RE,NTISI             # p.pres. pl. + si (enti + si)
+   ERE    > -RE,VASI
+# v.: pres. 1° pers. pl.       # cg.p. 1° pers. pl. (-iamo)
+# v.: p.r. 2° pers. pl.        # cg.i. 2° pers. pl. (-este)
+# v.: pres. 2° pers. sn.       # impr. 2° pers. sn. (-i)
+# v.: cg.p. 1-2-3° pers. sn.   # impr. 3° pers. sn. (-a)
+# v.: pres. 1° pers. pl.       # impr. 1° pers. pl. (-iamo)
+# v.: pres. 2° pers. pl.       # impr. 2° pers. pl. (-ete)
+# v.: cg.p. 3° pers. pl.       # impr. 3° pers. pl. (-ano)
+
+flag *C:
+   IRE    > -IRE,O
+   IRE    > -RE,
+   IRE    > -IRE,E
+   IRE    > -RE,AMO
+   IRE    > -RE,AMOCI
+   IRE    > -RE,AMOLO
+   IRE    > -RE,AMOLA
+   IRE    > -RE,AMOLI
+   IRE    > -RE,AMOLE
+   IRE    > -RE,AMONE
+   IRE    > -RE,AMOCELO
+   IRE    > -RE,AMOCELA
+   IRE    > -RE,AMOCELI
+   IRE    > -RE,AMOCELE
+   IRE    > -RE,AMOCENE
+   IRE    > -RE,AMOGLI
+   IRE    > -RE,AMOGLIELO
+   IRE    > -RE,AMOGLIELA
+   IRE    > -RE,AMOGLIELI
+   IRE    > -RE,AMOGLIELE
+   IRE    > -RE,AMOGLIENE
+   IRE    > -RE,TE
+   IRE    > -RE,TEMELO
+   IRE    > -RE,TEMELI
+   IRE    > -RE,TEMELA
+   IRE    > -RE,TEMELE
+   IRE    > -RE,TEMENE
+   IRE    > -RE,TEGLIELO
+   IRE    > -RE,TEGLIELI
+   IRE    > -RE,TEGLIELA
+   IRE    > -RE,TEGLIELE
+   IRE    > -RE,TEGLIENE
+   IRE    > -RE,TESENE
+   IRE    > -RE,TECELO
+   IRE    > -RE,TECELI
+   IRE    > -RE,TECELA
+   IRE    > -RE,TECELE
+   IRE    > -RE,TECENE
+   IRE    > -RE,TEVELO
+   IRE    > -RE,TEVELI
+   IRE    > -RE,TEVELA
+   IRE    > -RE,TEVELE
+   IRE    > -RE,TEVENE
+   IRE    > -RE,TEMI
+   IRE    > -RE,TEGLI
+   IRE    > -RE,TECI
+   IRE    > -RE,TEVI
+   IRE    > -RE,TENE
+   IRE    > -IRE,ONO
+   IRE    > -RE,VO
+   IRE    > -RE,VI
+   IRE    > -RE,VA
+   IRE    > -RE,VAMO
+   IRE    > -RE,VATE
+   IRE    > -RE,VANO
+   IRE    > -RE,I
+   IRE    > -RE,STI
+   IRE    > -IRE,ì
+   IRE    > -RE,MMO
+   IRE    > -RE,STE
+   IRE    > -E,ONO
+   IRE    > -E,ò
+   IRE    > -E,AI
+   IRE    > -E,à
+   IRE    > MO
+   IRE    > TE
+   IRE    > -E,ANNO
+   IRE    > -IRE,A
+   IRE    > -RE,ATE
+   IRE    > -IRE,ANO
+   IRE    > -RE,SSI
+   IRE    > -RE,SSE
+   IRE    > -RE,SSIMO
+   IRE    > -RE,SSERO
+   IRE    > I
+   IRE    > STI
+   IRE    > BBE
+   IRE    > MMO
+   IRE    > STE
+   IRE    > BBERO
+   IRE    > -IRE,ENTE
+   IRE    > -IRE,ENTESI
+   IRE    > -IRE,ENTI
+   IRE    > -IRE,ENTISI
+   IRE    > -RE,VASI
+   IRE    > -RE,AMOVELO
+   IRE    > -RE,AMOVELA
+   IRE    > -RE,AMOVELI
+   IRE    > -RE,AMOVELE
+   IRE    > -RE,AMOVENE
+   IRE    > -RE,AMOVI
+
+flag *D:
+   ANDO    > SI
+   ANDO    > MI
+   ANDO    > TI
+   ANDO    > CI
+   ANDO    > VI
+   ANDO    > LI
+   ANDO    > MELI
+   ANDO    > SELI
+   ANDO    > CELI
+   ANDO    > VELI
+   ANDO    > LA
+   ANDO    > MELA
+   ANDO    > SELA
+   ANDO    > CELA
+   ANDO    > VELA
+   ANDO    > LO
+   ANDO    > MELO
+   ANDO    > SELO
+   ANDO    > CELO
+   ANDO    > VELO
+   ANDO    > LE
+   ANDO    > MELE
+   ANDO    > SELE
+   ANDO    > CELE
+   ANDO    > VELE
+   ANDO    > GLIELE
+   ANDO    > NE
+   ANDO    > MENE
+   ANDO    > SENE
+   ANDO    > CENE
+   ANDO    > VENE
+   ANDO    > GLIENE
+   ANDO    > GLI
+   ANDO    > GLIELA
+   ANDO    > GLIELI
+   ANDO    > GLIELO
+   ANDO    > TELO
+   ANDO    > TELA
+   ANDO    > TELI
+   ANDO    > TELE
+   ANDO    > TENE
+   ANDO    > GLISI
+   ANDO    > LESI
+   ANDO    > VISI
+   ANDO    > TISI
+   ANDO    > CISI
+   ANDO    > -NDO,SI
+
+flag *E:
+   ENDO    > SI
+   ENDO    > MI
+   ENDO    > TI
+   ENDO    > CI
+   ENDO    > VI
+   ENDO    > LI
+   ENDO    > MELI
+   ENDO    > SELI
+   ENDO    > CELI
+   ENDO    > VELI
+   ENDO    > LA
+   ENDO    > MELA
+   ENDO    > SELA
+   ENDO    > CELA
+   ENDO    > VELA
+   ENDO    > LO
+   ENDO    > MELO
+   ENDO    > SELO
+   ENDO    > CELO
+   ENDO    > VELO
+   ENDO    > LE
+   ENDO    > MELE
+   ENDO    > SELE
+   ENDO    > CELE
+   ENDO    > VELE
+   ENDO    > GLIELE
+   ENDO    > NE
+   ENDO    > MENE
+   ENDO    > SENE
+   ENDO    > CENE
+   ENDO    > VENE
+   ENDO    > GLIENE
+   ENDO    > GLI
+   ENDO    > GLIELA
+   ENDO    > GLIELI
+   ENDO    > GLIELO
+   ENDO    > TELO
+   ENDO    > TELA
+   ENDO    > TELI
+   ENDO    > TELE
+   ENDO    > TENE
+   ENDO    > GLISI
+   ENDO    > LESI
+   ENDO    > VISI
+   ENDO    > TISI
+   ENDO    > CISI
+   ENDO    > -NDO,SI
+
+flag *F:
+   ATO    > -O,E
+   ATO    > -O,A
+   ATO    > -O,ISSIMO
+   ATO    > -O,ISSIMA
+   ATO    > -O,ISSIME
+   ATO    > -O,ISSIMI
+   ATO    > MI
+   ATO    > TI
+   ATO    > SI
+   ATO    > CI
+   ATO    > VI
+   ATO    > LO
+   ATO    > LA
+   ATO    > LE
+   ATO    > LI
+   ATO    > GLI
+   ATO    > NE
+   ATO    > -O,AMI
+   ATO    > -O,ASI
+   ATO    > -O,ACI
+   ATO    > -O,AVI
+   ATO    > -O,AGLI
+   ATO    > -O,ANE
+   ATO    > -O,ALO
+   ATO    > -O,ALA
+   ATO    > -O,ALE
+   ATO    > -O,ALI
+   ATO    > -O,EMI
+   ATO    > -O,ESI
+   ATO    > -O,ECI
+   ATO    > -O,EVI
+   ATO    > -O,EGLI
+   ATO    > -O,ENE
+   ATO    > -O,ELO
+   ATO    > -O,ELA
+   ATO    > -O,ELE
+   ATO    > -O,ELI
+   ATO    > -O,IGLI
+   ATO    > -O,ILI
+   ATO    > -O,IMI
+   ATO    > -O,ICI
+   ATO    > -O,IVI
+   ATO    > -O,AVENE
+   ATO    > -O,IVENE
+   ATO    > VENE
+   ATO    > -O,ASELA
+   ATO    > -O,ESELE
+   ATO    > SELO
+   ATO    > -O,ISELI
+   ATO    > SENE
+
+flag *G:
+   UTO    > -O,E
+   UTO    > -O,I
+   UTO    > -O,A
+   UTO    > -O,ISSIMO
+   UTO    > -O,ISSIMA
+   UTO    > -O,ISSIME
+   UTO    > -O,ISSIMI
+   UTO    > MI
+   UTO    > TI
+   UTO    > SI
+   UTO    > CI
+   UTO    > VI
+   UTO    > LA
+   UTO    > LE
+   UTO    > LO
+   UTO    > LI
+   UTO    > NE
+   UTO    > GLI
+   UTO    > -O,EMI
+   UTO    > -O,ESI
+   UTO    > -O,ECI
+   UTO    > -O,EVI
+   UTO    > -O,EGLI
+   UTO    > -O,ENE
+   UTO    > -O,ELO
+   UTO    > -O,ELA
+   UTO    > -O,ELE
+   UTO    > -O,ELI
+   UTO    > -O,AMI
+   UTO    > -O,ATI
+   UTO    > -O,ASI
+   UTO    > -O,ACI
+   UTO    > -O,AVI
+   UTO    > -O,AGLI
+   UTO    > -O,ANE
+   UTO    > -O,ALA
+   UTO    > -O,EVENE
+   UTO    > -O,AVENE
+   UTO    > -O,IVENE
+   UTO    > VENE
+
+flag *H:
+   ITO    > -O,E
+   ITO    > -O,I
+   ITO    > -O,A
+   ITO    > LO
+   ITO    > LA
+   ITO    > LE
+   ITO    > -O,ISSIMO
+   ITO    > -O,ISSIMA
+   ITO    > -O,ISSIME
+   ITO    > -O,ISSIMI
+   ITO    > MI
+   ITO    > TI
+   ITO    > SI
+   ITO    > CI
+   ITO    > VI
+   ITO    > LI
+   ITO    > NE
+   ITO    > GLI
+   ITO    > -O,EMI
+   ITO    > -O,ESI
+   ITO    > -O,ECI
+   ITO    > -O,EVI
+   ITO    > -O,EGLI
+   ITO    > -O,ENE
+   ITO    > -O,ELO
+   ITO    > -O,ELA
+   ITO    > -O,ELE
+   ITO    > -O,ELI
+   ITO    > -O,AMI
+   ITO    > -O,ATI
+   ITO    > -O,ASI
+   ITO    > -O,ACI
+   ITO    > -O,AVI
+   ITO    > -O,AGLI
+   ITO    > -O,ANE
+   ITO    > -O,ALA
+   ITO    > -O,ILI
+   ITO    > -O,INE
+   ITO    > -O,EVENE
+   ITO    > -O,AVENE
+   ITO    > -O,IVENE
+   ITO    > VENE
+
+flag *I:
+   [AEI]RE    > -E,              # troncamento
+   [AEI]RE    > -E,MI             # mi pron. 1° pr. sn.
+   [AEI]RE    > -E,TI             # ti pron. 2° pr. sn.
+   [AEI]RE    > -E,CI             # ci pron. 1° pr. pl.
+   [AEI]RE    > -E,VI             # vi pron. 2° pr. pl.
+   [AEI]RE    > -E,LO             # lo pron. compl. ogg. m. sn.
+   [AEI]RE    > -E,LI             # li pron. compl. ogg. m. pl.
+   [AEI]RE    > -E,LA             # la pron. compl. ogg. f. sn.
+   [AEI]RE    > -E,LE             # le pron. compl. ogg. f. pl. e compl. term. f.
+   [AEI]RE    > -E,GLI            # gli pron. compl. term. m.
+   [AEI]RE    > -E,NE             # ne pron. atono
+   [AEI]RE    > -E,SI             # si pron. rif. sn. e pl.
+   [AEI]RE    > -E,MELO           # me + lo
+   [AEI]RE    > -E,MELI           # me + li
+   [AEI]RE    > -E,MELA           # me + la
+   [AEI]RE    > -E,MELE           # me + le
+   [AEI]RE    > -E,MENE           # me + ne
+   [AEI]RE    > -E,TELO           # te + lo
+   [AEI]RE    > -E,TELI           # te + li
+   [AEI]RE    > -E,TELA           # te + la
+   [AEI]RE    > -E,TELE           # te + le
+   [AEI]RE    > -E,TENE           # te + ne
+   [AEI]RE    > -E,SELO           # se + lo
+   [AEI]RE    > -E,SELI           # se + li
+   [AEI]RE    > -E,SELA           # se + la
+   [AEI]RE    > -E,SELE           # se + le
+   [AEI]RE    > -E,SENE           # se + ne
+   [AEI]RE    > -E,CELO           # ce + lo
+   [AEI]RE    > -E,CELI           # ce + li
+   [AEI]RE    > -E,CELA           # ce + la
+   [AEI]RE    > -E,CELE           # ce + le
+   [AEI]RE    > -E,CENE           # ce + ne
+   [AEI]RE    > -E,VELO           # ve + lo
+   [AEI]RE    > -E,VELI           # ve + li
+   [AEI]RE    > -E,VELA           # ve + la
+   [AEI]RE    > -E,VELE           # ve + le
+   [AEI]RE    > -E,VENE           # ve + ne
+   [AEI]RE    > -E,GLIELO         # glie + lo
+   [AEI]RE    > -E,GLIELI         # glie + li
+   [AEI]RE    > -E,GLIELA         # glie + la
+   [AEI]RE    > -E,GLIELE         # glie + le
+   [AEI]RE    > -E,GLIENE         # glie + ne
+   [AEI]RE    > -E,MICI           # mi + ci
+   [AEI]RE    > -E,TICI           # ti + ci
+   [AEI]RE    > -E,GLICI          # gli + ci
+   [AEI]RE    > -E,LECI           # le + ci
+   [AEI]RE    > -E,VICI           # vi + ci
+   [AEI]RE    > -E,MISI           # mi + si
+   [AEI]RE    > -E,TISI           # ti + si
+   [AEI]RE    > -E,GLISI          # gli + si
+   [AEI]RE    > -E,LESI           # le + si
+   [AEI]RE    > -E,CISI           # ci + si
+   [AEI]RE    > -E,VISI           # vi + si
+   RRE    > -RE,                 # troncamento
+   RRE    > -RE,MI                # mi pron. 1° pr. sn.
+   RRE    > -RE,TI                # ti pron. 2° pr. sn.
+   RRE    > -RE,CI                # ci pron. 1° pr. pl.
+   RRE    > -RE,VI                # vi pron. 2° pr. pl.
+   RRE    > -RE,LO                # lo pron. compl. ogg. m. sn.
+   RRE    > -RE,LI                # li pron. compl. ogg. m. pl.
+   RRE    > -RE,LA                # la pron. compl. ogg. f. sn.
+   RRE    > -RE,LE                # le pron. compl. ogg. f. pl. e compl. term. f.
+   RRE    > -RE,GLI               # gli pron. compl. term. m.
+   RRE    > -RE,NE                # ne pron. atono
+   RRE    > -RE,SI                # si pron. rif. sn. e pl.
+   RRE    > -RE,MELO              # me + lo
+   RRE    > -RE,MELI              # me + li
+   RRE    > -RE,MELA              # me + la
+   RRE    > -RE,MELE              # me + le
+   RRE    > -RE,MENE              # me + ne
+   RRE    > -RE,TELO              # te + lo
+   RRE    > -RE,TELI              # te + li
+   RRE    > -RE,TELA              # te + la
+   RRE    > -RE,TELE              # te + le
+   RRE    > -RE,TENE              # te + ne
+   RRE    > -RE,SELO              # se + lo
+   RRE    > -RE,SELI              # se + li
+   RRE    > -RE,SELA              # se + la
+   RRE    > -RE,SELE              # se + le
+   RRE    > -RE,SENE              # se + ne
+   RRE    > -RE,CELO              # ce + lo
+   RRE    > -RE,CELI              # ce + li
+   RRE    > -RE,CELA              # ce + la
+   RRE    > -RE,CELE              # ce + le
+   RRE    > -RE,CENE              # ce + ne
+   RRE    > -RE,VELO              # ve + lo
+   RRE    > -RE,VELI              # ve + li
+   RRE    > -RE,VELA              # ve + la
+   RRE    > -RE,VELE              # ve + le
+   RRE    > -RE,VENE              # ve + ne
+   RRE    > -RE,GLIELO            # glie + lo
+   RRE    > -RE,GLIELI            # glie + li
+   RRE    > -RE,GLIELA            # glie + la
+   RRE    > -RE,GLIELE            # glie + le
+   RRE    > -RE,GLIENE            # glie + ne
+   RRE    > -RE,MICI              # mi + ci
+   RRE    > -RE,TICI              # ti + ci
+   RRE    > -RE,GLICI             # gli + ci
+   RRE    > -RE,LECI              # le + ci
+   RRE    > -RE,VICI              # vi + ci
+   RRE    > -RE,MISI              # mi + si
+   RRE    > -RE,TISI              # ti + si
+   RRE    > -RE,GLISI             # gli + si
+   RRE    > -RE,LESI              # le + si
+   RRE    > -RE,CISI              # ci + si
+   RRE    > -RE,VISI              # vi + si
+
+flag *M:
+   IRSI    > -RSI,MI
+   IRSI    > -RSI,TI
+   IRSI    > -RSI,CI
+   IRSI    > -RSI,LE
+   IRSI    > -RSI,LO
+   IRSI    > -RSI,LI
+   IRSI    > -RSI,GLI
+   IRSI    > -RSI,NE
+   IRSI    > -RSI,LA
+   IRSI    > -RSI,MELO
+   IRSI    > -RSI,MELA
+   IRSI    > -RSI,MELI
+   IRSI    > -RSI,MELE
+   IRSI    > -RSI,TELO
+   IRSI    > -RSI,TELA
+   IRSI    > -RSI,TELI
+   IRSI    > -RSI,TELE
+   IRSI    > -RSI,TENE
+   IRSI    > -RSI,MENE
+   IRSI    > -RSI,CELO
+   IRSI    > -RSI,CELA
+   IRSI    > -RSI,CELI
+   IRSI    > -RSI,CELE
+   IRSI    > -RSI,CENE
+   IRSI    > -RSI,GLIELO
+   IRSI    > -RSI,GLIELA
+   IRSI    > -RSI,GLIELI
+   IRSI    > -RSI,GLIELE
+   IRSI    > -RSI,GLIENE
+
+flag *P:
+   ARE    > -RE,
+   ARE    > -RE,CCIA
+   ARE    > -RE,CCIAMO
+   ARE    > -RE,CCIANO
+   ARE    > -RE,CCIATE
+   ARE    > -RE,CCIO
+   ARE    > -RE,CEMMO
+   ARE    > -RE,CENDO
+   ARE    > -RE,CENTE
+   ARE    > -RE,CENTI
+   ARE    > -RE,CENTISI
+   ARE    > -RE,CESSE
+   ARE    > -RE,CESSERO
+   ARE    > -RE,CESSI
+   ARE    > -RE,CESSIMO
+   ARE    > -RE,CESTE
+   ARE    > -RE,CESTI
+   ARE    > -RE,CEVA
+   ARE    > -RE,CEVAMO
+   ARE    > -RE,CEVANO
+   ARE    > -RE,CEVASI
+   ARE    > -RE,CEVATE
+   ARE    > -RE,CEVI
+   ARE    > -RE,CEVO
+   ARE    > -RE,I
+   ARE    > -RE,NNO
+   ARE    > -E,à
+   ARE    > -E,AI
+   ARE    > -E,ANNO
+   ARE    > BBE
+   ARE    > BBERO
+   ARE    > I
+   ARE    > MMO
+   ARE    > MO
+   ARE    > STE
+   ARE    > STI
+   ARE    > TE
+   ARE    > -E,ò
+   ARE    > -RE,TE
+   ARE    > -RE,TTO
+   ARE    > -ARE,ECE
+   ARE    > -ARE,ECERO
+   ARE    > -ARE,ECI
+   ARE    > -RE,CCIAMOCI
+   ARE    > -RE,CCIAMOLA
+   ARE    > -RE,CCIAMOLO
+   ARE    > -RE,CCIAMOLE
+   ARE    > -RE,CCIAMOLI
+   ARE    > -RE,CCIAMOGLI
+   ARE    > -RE,CCIAMONE
+   ARE    > -RE,CCIAMOCELA
+   ARE    > -RE,CCIAMOCELO
+   ARE    > -RE,CCIAMOCELE
+   ARE    > -RE,CCIAMOCELI
+   ARE    > -RE,CCIAMOCENE
+   ARE    > -RE,CCIAMOGLIELA
+   ARE    > -RE,CCIAMOGLIELO
+   ARE    > -RE,CCIAMOGLIELE
+   ARE    > -RE,CCIAMOGLIELI
+   ARE    > -RE,CCIAMOGLIENE
+   ARE    > -RE,TEVELO
+   ARE    > -RE,TEVELI
+   ARE    > -RE,TEVELA
+   ARE    > -RE,TEVELE
+   ARE    > -RE,TEVENE
+   ARE    > -RE,TEGLIELO
+   ARE    > -RE,TEGLIELI
+   ARE    > -RE,TEGLIELA
+   ARE    > -RE,TEGLIELE
+   ARE    > -RE,TEGLIENE
+   ARE    > -RE,TECELO
+   ARE    > -RE,TECELI
+   ARE    > -RE,TECELA
+   ARE    > -RE,TECELE
+   ARE    > -RE,TECENE
+   ARE    > -RE,MMI
+   ARE    > -RE,TTI
+   ARE    > -RE,CCI
+   ARE    > -RE,LLE
+   ARE    > -RE,LLO
+   ARE    > -RE,LLI
+   ARE    > -RE,GLI
+   ARE    > -RE,NNE
+   ARE    > -RE,LLA
+   ARE    > -RE,MMELO
+   ARE    > -RE,MMELA
+   ARE    > -RE,MMELI
+   ARE    > -RE,MMELE
+   ARE    > -RE,MMENE
+   ARE    > -RE,CCELO
+   ARE    > -RE,CCELA
+   ARE    > -RE,CCELI
+   ARE    > -RE,CCELE
+   ARE    > -RE,CCENE
+   ARE    > -RE,GLIELO
+   ARE    > -RE,GLIELA
+   ARE    > -RE,GLIELI
+   ARE    > -RE,GLIELE
+   ARE    > -RE,GLIENE
+   ARE    > -RE,TECI
+   ARE    > -RE,TELA
+   ARE    > -RE,TELE
+   ARE    > -RE,TELI
+   ARE    > -RE,TELO
+   ARE    > -RE,TENE
+   ARE    > -RE,TEMELA
+   ARE    > -RE,TEMELE
+   ARE    > -RE,TEMELO
+   ARE    > -RE,TEMELI
+   ARE    > -RE,TEMENE
+   ARE    > -RE,TEMI
+   ARE    > -RE,TEGLI
+   ARE    > -RE,TEVI
+   ARE    > -RE,TETI
+
+flag O:
+   [^IGC]O    > -O,I
+   [GC]O    > -O,HI
+   IO    > -O,
+
+flag Q:
+   [^GC]A    > -A,E
+   [GC]A    > -A,HE
+
+flag R:
+   A    > -A,I
+
+flag S:
+   E    > -E,I
+
+prefixes
+
+flag T:
+   [AEIOUHAEIOUH]    > L'
+   A    > L'A
+   E    > L'E
+   I    > L'I
+   O    > L'O
+   U    > L'U
+   H    > L'H
+   [AEIOUH]    > L'
+   A    > L'A
+   E    > L'E
+   I    > L'I
+   O    > L'O
+   U    > L'U
+   H    > L'H
+   [AEIOUHAEIOUH]    > ALL'
+   A    > ALL'A
+   E    > ALL'E
+   I    > ALL'I
+   O    > ALL'O
+   U    > ALL'U
+   H    > ALL'H
+   [AEIOUH]    > ALL'
+   A    > ALL'A
+   E    > ALL'E
+   I    > ALL'I
+   O    > ALL'O
+   U    > ALL'U
+   H    > ALL'H
+   [AEIOUH][QWERTYUIOPLKJHGFDSAZXCVBNM]    > ALL'
+   [AEIOUHAEIOUH]    > DELL'
+   A    > DELL'A
+   E    > DELL'E
+   I    > DELL'I
+   O    > DELL'O
+   U    > DELL'U
+   H    > DELL'H
+   [AEIOUH]    > DELL'
+   A    > DELL'A
+   E    > DELL'E
+   I    > DELL'I
+   O    > DELL'O
+   U    > DELL'U
+   H    > DELL'H
+   [AEIOUH][QWERTYUIOPLKJHGFDSAZXCVBNM]    > DELL'
+   [AEIOUHAEIOUH]    > DALL'
+   A    > DALL'A
+   E    > DALL'E
+   I    > DALL'I
+   O    > DALL'O
+   U    > DALL'U
+   H    > DALL'H
+   [AEIOUH]    > DALL'
+   A    > DALL'A
+   E    > DALL'E
+   I    > DALL'I
+   O    > DALL'O
+   U    > DALL'U
+   H    > DALL'H
+   [AEIOUH][QWERTYUIOPLKJHGFDSAZXCVBNM]    > DALL'
+   [AEIOUHAEIOUH]    > NELL'
+   A    > NELL'A
+   E    > NELL'E
+   I    > NELL'I
+   O    > NELL'O
+   U    > NELL'U
+   H    > NELL'H
+   [AEIOUH]    > NELL'
+   A    > NELL'A
+   E    > NELL'E
+   I    > NELL'I
+   O    > NELL'O
+   U    > NELL'U
+   H    > NELL'H
+   [AEIOUH][QWERTYUIOPLKJHGFDSAZXCVBNM]    > NELL'
+   [AEIOUHAEIOUH]    > SULL'
+   A    > SULL'A
+   E    > SULL'E
+   I    > SULL'I
+   O    > SULL'O
+   U    > SULL'U
+   H    > SULL'H
+   [AEIOUH]    > SULL'
+   A    > SULL'A
+   E    > SULL'E
+   I    > SULL'I
+   O    > SULL'O
+   U    > SULL'U
+   H    > SULL'H
+   [AEIOUH][QWERTYUIOPLKJHGFDSAZXCVBNM]    > SULL'
+   [AEIOUHAEIOUH]    > COLL'
+   A    > COLL'A
+   E    > COLL'E
+   I    > COLL'I
+   O    > COLL'O
+   U    > COLL'U
+   H    > COLL'H
+   [AEIOUH]    > COLL'
+   A    > COLL'A
+   E    > COLL'E
+   I    > COLL'I
+   O    > COLL'O
+   U    > COLL'U
+   H    > COLL'H
+   [AEIOUH][QWERTYUIOPLKJHGFDSAZXCVBNM]    > COLL'
+   [AEIOUHAEIOUH]    > D'
+   A    > D'A
+   E    > D'E
+   I    > D'I
+   O    > D'O
+   U    > D'U
+   H    > D'H
+   [AEIOUH]    > D'
+   A    > D'A
+   E    > D'E
+   I    > D'I
+   O    > D'O
+   U    > D'U
+   H    > D'H
+   [AEIOUHAEIOUH]    > QUEST'
+   A    > QUEST'A
+   E    > QUEST'E
+   I    > QUEST'I
+   O    > QUEST'O
+   U    > QUEST'U
+   H    > QUEST'H
+   [AEIOUH]    > QUEST'
+   A    > QUEST'A
+   E    > QUEST'E
+   I    > QUEST'I
+   O    > QUEST'O
+   U    > QUEST'U
+   H    > QUEST'H
+   [AEIOUH][QWERTYUIOPLKJHGFDSAZXCVBNM]    > QUEST'
+   [AEIOUHAEIOUH]    > QUELL'
+   A    > QUELL'A
+   E    > QUELL'E
+   I    > QUELL'I
+   O    > QUELL'O
+   U    > QUELL'U
+   H    > QUELL'H
+   [AEIOUH]    > QUELL'
+   A    > QUELL'A
+   E    > QUELL'E
+   I    > QUELL'I
+   O    > QUELL'O
+   U    > QUELL'U
+   H    > QUELL'H
+   [AEIOUH][QWERTYUIOPLKJHGFDSAZXCVBNM]    > QUELL'
+
+flag U:
+   [AEIOUHAEIOUH]    > UN'
+   A    > UN'A
+   E    > UN'E
+   I    > UN'I
+   O    > UN'O
+   U    > UN'U
+   H    > UN'H
+   [AEIOUH]    > UN'
+   A    > UN'A
+   E    > UN'E
+   I    > UN'I
+   O    > UN'O
+   U    > UN'U
+   H    > UN'H
+   [AEIOUH][QWERTYUIOPLKJHGFDSAZXCVBNM]    > UN'
+   [AEIOUHAEIOUH]    > CIASCUN'
+   A    > CIASCUN'A
+   E    > CIASCUN'E
+   I    > CIASCUN'I
+   O    > CIASCUN'O
+   U    > CIASCUN'U
+   H    > CIASCUN'H
+   [AEIOUH]    > CIASCUN'
+   A    > CIASCUN'A
+   E    > CIASCUN'E
+   I    > CIASCUN'I
+   O    > CIASCUN'O
+   U    > CIASCUN'U
+   H    > CIASCUN'H
+   [AEIOUH][QWERTYUIOPLKJHGFDSAZXCVBNM]    > CIASCUN'
+
+flag X:
+   [AEIOUAEIOU]    > M'
+   A    > M'A
+   E    > M'E
+   I    > M'I
+   O    > M'O
+   U    > M'U
+   [AEIOU]    > M'
+   A    > M'A
+   E    > M'E
+   I    > M'I
+   O    > M'O
+   U    > M'U
+   [AEIOUAEIOU]    > T'
+   A    > T'A
+   E    > T'E
+   I    > T'I
+   O    > T'O
+   U    > T'U
+   [AEIOU]    > T'
+   A    > T'A
+   E    > T'E
+   I    > T'I
+   O    > T'O
+   U    > T'U
+   [AEIOUAEIOU]    > S'
+   A    > S'A
+   E    > S'E
+   I    > S'I
+   O    > S'O
+   U    > S'U
+   [AEIOU]    > S'
+   A    > S'A
+   E    > S'E
+   I    > S'I
+   O    > S'O
+   U    > S'U
+   [AEIOUAEIOU]    > C'
+   A    > C'A
+   E    > C'E
+   I    > C'I
+   O    > C'O
+   U    > C'U
+   [AEIOU]    > C'
+   A    > C'A
+   E    > C'E
+   I    > C'I
+   O    > C'O
+   U    > C'U
+   [AEIOUAEIOU]    > V'
+   A    > V'A
+   E    > V'E
+   I    > V'I
+   O    > V'O
+   U    > V'U
+   [AEIOU]    > V'
+   A    > V'A
+   E    > V'E
+   I    > V'I
+   O    > V'O
+   U    > V'U
+   [AEIOUAEIOU]    > N'
+   A    > N'A
+   E    > N'E
+   I    > N'I
+   O    > N'O
+   U    > N'U
+   [AEIOU]    > N'
+   A    > N'A
+   E    > N'E
+   I    > N'I
+   O    > N'O
+   U    > N'U
+
+flag Y:
+   [LU]ENTO    > -O,EMENTE
+   [^T]O    > -O,AMENTE
+   [^N]TO    > -O,AMENTE
+   [^E]NTO    > -O,AMENTE
+   [^LU]ENTO    > -O,AMENTE
+   [^RL]E    > MENTE
+   [AEIOU]RE    > -E,MENTE
+   [^AEIOU]RE    > MENTE
+   [^L]LE    > -E,MENTE
+   LLE    > MENTE
+   [^I]E    > -E,ISSIMAMENTE
+   [^I]O    > -O,ISSIMAMENTE
+   IE    > -E,SSIMAMENTE
+   IO    > -O,SSIMAMENTE
+
+flag *W:
+   [^IGC]O    > -O,ISSIMO
+   [^IGC]O    > -O,ISSIMI
+   [^R]E    > -E,ISSIMO
+   [^R]E    > -E,ISSIMI
+   [^IGC]O    > -O,ISSIMA
+   [^IGC]O    > -O,ISSIME
+   [^R]E    > -E,ISSIMA
+   [^R]E    > -E,ISSIME
+   IO    > -O,SSIMO
+   IO    > -O,SSIMI
+   IO    > -O,SSIMA
+   IO    > -O,SSIME
+   RE    > -RE,ERRIMO
+   RE    > -RE,ERRIMI
+   RE    > -RE,ERRIMA
+   RE    > -RE,ERRIME
+   [CG]O    > -O,HISSIMO
+   [CG]O    > -O,HISSIMA
+   [CG]O    > -O,HISSIME
+   [CG]O    > -O,HISSIMI
+
+flag *N:
+   [^ICG]A    > -A,INA
+   [^ICG]A    > -A,INE
+   [CG]A    > -A,HINA
+   [CG]A    > -A,HINE
+   [CG]A    > -A,HETTA
+   [CG]A    > -A,HETTE
+   [^CG]A    > -A,ETTA
+   [^CG]A    > -A,ETTE
+   IA    > -A,NA
+   IA    > -A,NE
+   A    > -A,ONA
+   A    > -A,ONE
+
+flag J:
+   .    > RI
+
+flag *V:
+   URRE    > -RRE,CA
+   URRE    > -RRE,CANO
+   URRE    > -RRE,CE
+   URRE    > -RRE,CEMMO
+   URRE    > -RRE,CENTE
+   URRE    > -RRE,CENTI
+   URRE    > -RRE,CESSE
+   URRE    > -RRE,CESSERO
+   URRE    > -RRE,CESSI
+   URRE    > -RRE,CESSIMO
+   URRE    > -RRE,CESTE
+   URRE    > -RRE,CESTI
+   URRE    > -RRE,CETE
+   URRE    > -RRE,CEVA
+   URRE    > -RRE,CEVAMO
+   URRE    > -RRE,CEVANO
+   URRE    > -RRE,CEVATE
+   URRE    > -RRE,CEVI
+   URRE    > -RRE,CEVO
+   URRE    > -RRE,CI
+   URRE    > -RRE,CIAMO
+   URRE    > -RRE,CIATE
+   URRE    > -RRE,CO
+   URRE    > -RRE,CONO
+   URRE    > -E,à
+   URRE    > -E,AI
+   URRE    > -E,ANNO
+   URRE    > -E,ò
+   URRE    > BBE
+   URRE    > BBERO
+   URRE    > I
+   URRE    > MMO
+   URRE    > MO
+   URRE    > STE
+   URRE    > STI
+   URRE    > TE
+   URRE    > -RRE,SSE
+   URRE    > -RRE,SSERO
+   URRE    > -RRE,SSI
+   ORRE    > -RRE,NE
+   ORRE    > -RRE,NEMMO
+   ORRE    > -RRE,NENTE
+   ORRE    > -RRE,NENTI
+   ORRE    > -RRE,NESSE
+   ORRE    > -RRE,NESSERO
+   ORRE    > -RRE,NESSI
+   ORRE    > -RRE,NESSIMO
+   ORRE    > -RRE,NESTE
+   ORRE    > -RRE,NESTI
+   ORRE    > -RRE,NETE
+   ORRE    > -RRE,NEVA
+   ORRE    > -RRE,NEVAMO
+   ORRE    > -RRE,NEVANO
+   ORRE    > -RRE,NEVATE
+   ORRE    > -RRE,NEVI
+   ORRE    > -RRE,NEVO
+   ORRE    > -RRE,NGA
+   ORRE    > -RRE,NGANO
+   ORRE    > -RRE,NGO
+   ORRE    > -RRE,NGONO
+   ORRE    > -RRE,NI
+   ORRE    > -RRE,NIAMO
+   ORRE    > -RRE,NIATE
+   ORRE    > -E,à
+   ORRE    > -E,AI
+   ORRE    > -E,ANNO
+   ORRE    > -E,ò
+   ORRE    > BBE
+   ORRE    > BBERO
+   ORRE    > I
+   ORRE    > MMO
+   ORRE    > MO
+   ORRE    > STE
+   ORRE    > STI
+   ORRE    > TE
+   ORRE    > -RRE,SE
+   ORRE    > -RRE,SERO
+   ORRE    > -RRE,SI
+   ARRE    > -RRE,E
+   ARRE    > -RRE,EMMO
+   ARRE    > -RRE,ENTE
+   ARRE    > -RRE,ENTI
+   ARRE    > -RRE,ESSE
+   ARRE    > -RRE,ESSERO
+   ARRE    > -RRE,ESSI
+   ARRE    > -RRE,ESSIMO
+   ARRE    > -RRE,ESTE
+   ARRE    > -RRE,ESTI
+   ARRE    > -RRE,ETE
+   ARRE    > -RRE,EVA
+   ARRE    > -RRE,EVAMO
+   ARRE    > -RRE,EVANO
+   ARRE    > -RRE,EVATE
+   ARRE    > -RRE,EVI
+   ARRE    > -RRE,EVO
+   ARRE    > -RRE,GGA
+   ARRE    > -RRE,GGANO
+   ARRE    > -RRE,GGO
+   ARRE    > -RRE,GGONO
+   ARRE    > -RRE,I
+   ARRE    > -RRE,IAMO
+   ARRE    > -RRE,IATE
+   ARRE    > -E,à
+   ARRE    > -E,AI
+   ARRE    > -E,ANNO
+   ARRE    > -E,ò
+   ARRE    > BBE
+   ARRE    > BBERO
+   ARRE    > I
+   ARRE    > MMO
+   ARRE    > MO
+   ARRE    > STE
+   ARRE    > STI
+   ARRE    > TE
+   ARRE    > -RRE,SSE
+   ARRE    > -RRE,SSERO
+   ARRE    > -RRE,SSI
+
+flag *Z:
+   ENIRE    > -IRE,GO             # pres. 1° pers. sn. (vengo)
+   ENIRE    > -ENIRE,IENI         # pres. 2° pers. sn. (vieni)
+   ENIRE    > -ENIRE,IENE         # pres. 3° pers. sn. (viene)
+   ENIRE    > -RE,AMO             # pres. 1° pers. pl. (veniamo)
+   ENIRE    > -RE,TE              # pres. 2° pers. pl. (venite)
+   ENIRE    > -IRE,GONO           # pres. 3° pers. pl. (vengono)
+   ENIRE    > -RE,VO              # impf. 1° pers. sn. (venivo)
+   ENIRE    > -RE,VI              # impf. 2° pers. sn. (venivi)
+   ENIRE    > -RE,VA              # impf. 3° pers. sn. (veniva)
+   ENIRE    > -RE,VAMO            # impf. 1° pers. pl. (venivamo)
+   ENIRE    > -RE,VATE            # impf. 2° pers. pl. (venivate)
+   ENIRE    > -RE,VANO            # impf. 3° pers. pl. (venivano)
+   ENIRE    > -IRE,NI             # p.r. 1° pers. sn. (venni)
+   ENIRE    > -RE,STI             # p.r. 2° pers. sn. (venisti)
+   ENIRE    > -IRE,NE             # p.r. 3° pers. sn. (venne)
+   ENIRE    > -RE,MMO             # p.r. 1° pers. pl. (venimmo)
+   ENIRE    > -RE,STE             # p.r. 2° pers. pl. (veniste)
+   ENIRE    > -IRE,NERO           # p.r. 3° pers. pl. (vennero)
+   ENIRE    > -NIRE,RRò           # f.s. 1° pers. sn. (verrò)
+   ENIRE    > -NIRE,RRAI          # f.s. 2° pers. sn. (verrai)
+   ENIRE    > -NIRE,RRà           # f.s. 3° pers. sn. (verrà)
+   ENIRE    > -NIRE,RREMO         # f.s. 1° pers. pl. (verremo)
+   ENIRE    > -NIRE,RRETE         # f.s. 2° pers. pl. (verrete)
+   ENIRE    > -NIRE,RRANNO        # f.s. 3° pers. pl. (verranno)
+   ENIRE    > -IRE,GA             # cg.p. 1-2-3° pers. sn. (venga)
+   ENIRE    > -RE,ATE             # cg.p. 2° pers. pl. (veniate)
+   ENIRE    > -IRE,GANO           # cg.p. 3° pers. pl. (vengano)
+   ENIRE    > -RE,SSI             # cg.i. 1-2° pers. sn. (venissi)
+   ENIRE    > -RE,SSE             # cg.i. 3° pers. sn. (venisse)
+   ENIRE    > -RE,SSIMO           # cg.i. 1° pers. pl. (venissimo)
+   ENIRE    > -RE,SSERO           # cg.i. 3° pers. pl. (venissero)
+   ENIRE    > -NIRE,RREI          # cd.p. 1° pers. sn. (verrei)
+   ENIRE    > -NIRE,RRESTI        # cd.p. 2° pers. sn. (verresti)
+   ENIRE    > -NIRE,RREBBE        # cd.p. 3° pers. sn. (verrebbe)
+   ENIRE    > -NIRE,RREMMO        # cd.p. 1° pers. pl. (verremmo)
+   ENIRE    > -NIRE,RRESTE        # cd.p. 2° pers. pl. (verreste)
+   ENIRE    > -NIRE,RREBBERO      # cd.p. 3° pers. pl. (verrebbero)
+   ENIRE    > -RE,ENTE            # p.pres. sn. (venente)
+   ENIRE    > -RE,ENTI            # p.pres. pl. (venenti)
+   ENIRE    > -ENIRE,IENIMI       # pres. 2° pers. sn. + mi (ieni + mi)
+   ENIRE    > -ENIRE,IENITI       # pres. 2° pers. sn. + ti (ieni + ti)
+   ENIRE    > -ENIRE,IENICI       # pres. 2° pers. sn. + ci (ieni + ci)
+   ENIRE    > -ENIRE,IENILO       # pres. 2° pers. sn. + lo (ieni + lo)
+   ENIRE    > -ENIRE,IENILA       # pres. 2° pers. sn. + la (ieni + la)
+   ENIRE    > -ENIRE,IENILI       # pres. 2° pers. sn. + li (ieni + li)
+   ENIRE    > -ENIRE,IENILE       # pres. 2° pers. sn. + le (ieni + le)
+   ENIRE    > -ENIRE,IENINE       # pres. 2° pers. sn. + ne (ieni + ne)
+   ENIRE    > -ENIRE,IENIGLI      # pres. 2° pers. sn. + gli (ieni + gli)
+   ENIRE    > -ENIRE,IENIMELO     # pres. 2° pers. sn. + melo (ieni + melo)
+   ENIRE    > -ENIRE,IENIMELA     # pres. 2° pers. sn. + mela (ieni + mela)
+   ENIRE    > -ENIRE,IENIMELI     # pres. 2° pers. sn. + meli (ieni + meli)
+   ENIRE    > -ENIRE,IENIMELE     # pres. 2° pers. sn. + mele (ieni + mele)
+   ENIRE    > -ENIRE,IENIMENE     # pres. 2° pers. sn. + mene (ieni + mene)
+   ENIRE    > -ENIRE,IENICELO     # pres. 2° pers. sn. + celo (ieni + celo)
+   ENIRE    > -ENIRE,IENICELA     # pres. 2° pers. sn. + cela (ieni + cela)
+   ENIRE    > -ENIRE,IENICELI     # pres. 2° pers. sn. + celi (ieni + celi)
+   ENIRE    > -ENIRE,IENICELE     # pres. 2° pers. sn. + cele (ieni + cele)
+   ENIRE    > -ENIRE,IENICENE     # pres. 2° pers. sn. + cene (ieni + cene)
+   ENIRE    > -ENIRE,IENIGLIELO   # pres. 2° pers. sn. + glielo (ieni + glielo)
+   ENIRE    > -ENIRE,IENIGLIELA   # pres. 2° pers. sn. + gliela (ieni + gliela)
+   ENIRE    > -ENIRE,IENIGLIELI   # pres. 2° pers. sn. + glieli (ieni + glieli)
+   ENIRE    > -ENIRE,IENIGLIELE   # pres. 2° pers. sn. + gliele (ieni + gliele)
+   ENIRE    > -ENIRE,IENIGLIENE   # pres. 2° pers. sn. + gliene (ieni + gliene)
+   ENIRE    > -RE,AMOCI           # pres. 1° pers. pl. + ci (iamo + ci)
+   ENIRE    > -RE,AMOLO           # pres. 1° pers. pl. + lo (iamo + lo)
+   ENIRE    > -RE,AMOLA           # pres. 1° pers. pl. + la (iamo + la)
+   ENIRE    > -RE,AMOLI           # pres. 1° pers. pl. + li (iamo + li)
+   ENIRE    > -RE,AMOLE           # pres. 1° pers. pl. + le (iamo + le)
+   ENIRE    > -RE,AMONE           # pres. 1° pers. pl. + ne (iamo + ne)
+   ENIRE    > -RE,AMOCELO         # pres. 1° pers. pl. + celo (iamo + celo)
+   ENIRE    > -RE,AMOCELA         # pres. 1° pers. pl. + cela (iamo + cela)
+   ENIRE    > -RE,AMOCELI         # pres. 1° pers. pl. + celi (iamo + celi)
+   ENIRE    > -RE,AMOCELE         # pres. 1° pers. pl. + cele (iamo + cele)
+   ENIRE    > -RE,AMOCENE         # pres. 1° pers. pl. + cene (iamo + cene)
+   ENIRE    > -RE,AMOGLI          # pres. 1° pers. pl. + gli (iamo + gli)
+   ENIRE    > -RE,AMOGLIELO       # pres. 1° pers. pl. + glielo (iamo + glielo)
+   ENIRE    > -RE,AMOGLIELA       # pres. 1° pers. pl. + gliela (iamo + gliela)
+   ENIRE    > -RE,AMOGLIELI       # pres. 1° pers. pl. + glieli (iamo + glieli)
+   ENIRE    > -RE,AMOGLIELE       # pres. 1° pers. pl. + gliele (iamo + gliele)
+   ENIRE    > -RE,AMOGLIENE       # pres. 1° pers. pl. + gliene (iamo + gliene)
+   ENIRE    > -RE,TELO            # pres. 2° pers. pl. + lo (te + lo)
+   ENIRE    > -RE,TELI            # pres. 2° pers. pl. + li (te + li)
+   ENIRE    > -RE,TELA            # pres. 2° pers. pl. + la (te + la)
+   ENIRE    > -RE,TELE            # pres. 2° pers. pl. + le (te + le)
+   ENIRE    > -RE,TENE            # pres. 2° pers. pl. + ne (te + ne)
+   ENIRE    > -RE,TEVELO          # pres. 2° pers. pl. + velo (te + velo)
+   ENIRE    > -RE,TEVELI          # pres. 2° pers. pl. + veli (te + veli)
+   ENIRE    > -RE,TEVELA          # pres. 2° pers. pl. + vela (te + vela)
+   ENIRE    > -RE,TEVELE          # pres. 2° pers. pl. + vele (te + vele)
+   ENIRE    > -RE,TEVENE          # pres. 2° pers. pl. + vene (te + vene)
+   ENIRE    > -RE,TECELO          # pres. 2° pers. pl. + celo (te + celo)
+   ENIRE    > -RE,TECELI          # pres. 2° pers. pl. + celi (te + celi)
+   ENIRE    > -RE,TECELA          # pres. 2° pers. pl. + cela (te + cela)
+   ENIRE    > -RE,TECELE          # pres. 2° pers. pl. + cele (te + cele)
+   ENIRE    > -RE,TECENE          # pres. 2° pers. pl. + cene (te + cene)
+   ENIRE    > -RE,TEGLIELO        # pres. 2° pers. pl. + glielo (te + glielo)
+   ENIRE    > -RE,TEGLIELI        # pres. 2° pers. pl. + glieli (te + glieli)
+   ENIRE    > -RE,TEGLIELA        # pres. 2° pers. pl. + gliela (te + gliela)
+   ENIRE    > -RE,TEGLIELE        # pres. 2° pers. pl. + gliele (te + gliele)
+   ENIRE    > -RE,TEGLIENE        # pres. 2° pers. pl. + gliene (te + gliene)
+   ENIRE    > -RE,TEMI            # pres. 2° pers. pl. + mi (te + mi)
+   ENIRE    > -RE,TEGLI           # pres. 2° pers. pl. + gli (te + gli)
+   ENIRE    > -RE,TECI            # pres. 2° pers. pl. + ci (te + ci)
+   ENIRE    > -RE,TEVI            # pres. 2° pers. pl. + vi (te + vi)
+   ENIRE    > -RE,TEMENE          # pres. 2° pers. pl. + mene (te + mene)
+   ENIRE    > -RE,TEMELO          # pres. 2° pers. pl. + melo (te + melo)
+   ENIRE    > -RE,TEMELI          # pres. 2° pers. pl. + meli (te + meli)
+   ENIRE    > -RE,TEMELA          # pres. 2° pers. pl. + mela (te + mela)
+   ENIRE    > -RE,TEMELE          # pres. 2° pers. pl. + mele (te + mele)
+   ENIRE    > -RE,NTESI           # p.pres. sn. + si (ente + si)
+   ENIRE    > -RE,NTISI           # p.pres. pl. + si (enti + si)
+   ENIRE    > -RE,VASI
+# v.: pres. 1° pers. pl.       # cg.p. 1° pers. pl. (veniamo)
+# v.: p.r. 2° pers. pl.        # cg.i. 2° pers. pl. (veniste)
+# v.: pres. 2° pers. sn.       # impr. 2° pers. sn. (vieni)
+# v.: cg.p. 1-2-3° pers. sn.   # impr. 3° pers. sn. (venga)
+# v.: pres. 1° pers. pl.       # impr. 1° pers. pl. (veniamo)
+# v.: pres. 2° pers. pl.       # impr. 2° pers. pl. (venite)
+# v.: cg.p. 3° pers. pl.       # impr. 3° pers. pl. (vengano)
+
+flag *\À:
+   UCIRE    > -RE,O               # pres. 1° pers. sn. (ucio)
+   UCIRE    > -RE,               # pres. 2° pers. sn. (uci)
+   UCIRE    > -IRE,E              # pres. 3° pers. sn. (uce)
+   UCIRE    > -RE,AMO             # pres. 1° pers. pl. (uciamo)
+   UCIRE    > -RE,TE              # pres. 2° pers. pl. (ucite)
+   UCIRE    > -RE,ONO             # pres. 3° pers. pl. (uciono)
+   UCIRE    > -RE,VO              # impf. 1° pers. sn. (ucivo)
+   UCIRE    > -RE,VI              # impf. 2° pers. sn. (ucivi)
+   UCIRE    > -RE,VA              # impf. 3° pers. sn. (uciva)
+   UCIRE    > -RE,VAMO            # impf. 1° pers. pl. (ucivamo)
+   UCIRE    > -RE,VATE            # impf. 2° pers. pl. (ucivate)
+   UCIRE    > -RE,VANO            # impf. 3° pers. pl. (ucivano)
+   UCIRE    > -RE,I               # p.r. 1° pers. sn. (ucii)
+   UCIRE    > -RE,STI             # p.r. 2° pers. sn. (ucisti)
+   UCIRE    > -IRE,ì              # p.r. 3° pers. sn. (ucì)
+   UCIRE    > -RE,MMO             # p.r. 1° pers. pl. (ucimmo)
+   UCIRE    > -RE,STE             # p.r. 2° pers. pl. (uciste)
+   UCIRE    > -E,ONO              # p.r. 3° pers. pl. (ucirono)
+   UCIRE    > -E,ò                # f.s. 1° pers. sn. (ucirò)
+   UCIRE    > -E,AI               # f.s. 2° pers. sn. (ucirai)
+   UCIRE    > -E,à                # f.s. 3° pers. sn. (ucirà)
+   UCIRE    > MO               # f.s. 1° pers. pl. (uciremo)
+   UCIRE    > TE               # f.s. 2° pers. pl. (ucirete)
+   UCIRE    > -E,ANNO             # f.s. 3° pers. pl. (uciranno)
+   UCIRE    > -RE,A               # cg.p. 1-2-3° pers. sn. (ucia)
+   UCIRE    > -RE,ATE             # cg.p. 2° pers. pl. (uciate)
+   UCIRE    > -RE,ANO             # cg.p. 3° pers. pl. (uciano)
+   UCIRE    > -RE,SSI             # cg.i. 1-2° pers. sn. (ucissi)
+   UCIRE    > -RE,SSE             # cg.i. 3° pers. sn. (ucisse)
+   UCIRE    > -RE,SSIMO           # cg.i. 1° pers. pl. (ucissimo)
+   UCIRE    > -RE,SSERO           # cg.i. 3° pers. pl. (ucissero)
+   UCIRE    > I                # cd.p. 1° pers. sn. (ucirei)
+   UCIRE    > STI              # cd.p. 2° pers. sn. (uciresti)
+   UCIRE    > BBE              # cd.p. 3° pers. sn. (ucirebbe)
+   UCIRE    > MMO              # cd.p. 1° pers. pl. (uciremmo)
+   UCIRE    > STE              # cd.p. 2° pers. pl. (ucireste)
+   UCIRE    > BBERO            # cd.p. 3° pers. pl. (ucirebbero)
+   UCIRE    > -IRE,ENTE           # p.pres. sn. (ucente)
+   UCIRE    > -IRE,ENTI           # p.pres. pl. (ucenti)
+# v.: pres. 1° pers. pl.       # cg.p. 1° pers. pl. (uciamo)
+# v.: p.r. 2° pers. pl.        # cg.i. 2° pers. pl. (uciste)
+# v.: pres. 2° pers. sn.       # impr. 2° pers. sn. (uci)
+# v.: cg.p. 1-2-3° pers. sn.   # impr. 3° pers. sn. (ucia)
+# v.: pres. 1° pers. pl.       # impr. 1° pers. pl. (uciamo)
+# v.: pres. 2° pers. pl.       # impr. 2° pers. pl. (ucite)
+# v.: cg.p. 3° pers. pl.       # impr. 3° pers. pl. (uciano)
+
+flag *a:
+   O    > -O,A
+   O    > -O,E
+   O    > -O,I
+   O    > -O,ALA
+   O    > -O,ANE
+   O    > CI
+   O    > GLI
+   O    > GLIELA
+   O    > GLIELE
+   O    > GLIELI
+   O    > GLIELO
+   O    > GLIENE
+   O    > CELA
+   O    > CELE
+   O    > CELI
+   O    > CELO
+   O    > CENE
+   O    > SELA
+   O    > SELE
+   O    > SELI
+   O    > SELO
+   O    > SENE
+   O    > LA
+   O    > LE
+   O    > LI
+   O    > LO
+   O    > MI
+   O    > NE
+   O    > SI
+   O    > TI
+   O    > VI
+
+flag *b:
+   [EIO]    > CI
+   [EIO]    > LA
+   [EIO]    > LE
+   [EIO]    > LI
+   [EIO]    > LO
+   [EIO]    > NE
+   [EIO]    > CELA
+   [EIO]    > CELE
+   [EIO]    > CELO
+   [EIO]    > CELI
+   [EIO]    > CENE
+   [EIO]    > GLIELO
+   [EIO]    > GLIELA
+   [EIO]    > GLIELI
+   [EIO]    > GLIENE
+   [EIO]    > GLIELE
+   [EIO]    > MELA
+   [EIO]    > MELE
+   [EIO]    > MELO
+   [EIO]    > MELI
+   [EIO]    > MENE
+   [EI]    > MI
+   [EI]    > GLI
+   [EI]    > VI
+   [IO]    > TI
+   [EO]    > VELA
+   [EO]    > VELE
+   [EO]    > VELO
+   [EO]    > VELI
+   [EO]    > VENE
+
+flag c:
+   IMMI    > -I,ELO
+   IMMI    > -I,ELA
+   IMMI    > -I,ELE
+   IMMI    > -I,ELI
+   IMMI    > -I,ENE
+   IGLI    > ELO
+   IGLI    > ELA
+   IGLI    > ELE
+   IGLI    > ELI
+   IGLI    > ENE
+
+flag d:
+   .    > STRA
+
+flag e:
+   .    > PRE
+
+flag g:
+   O    > -O,A
+   O    > -O,E
+   O    > -O,I
+   LO    > -LO,NE
+
+flag i:
+   [AEIOUHAEIOUH]    > L'
+   A    > L'A
+   E    > L'E
+   I    > L'I
+   O    > L'O
+   U    > L'U
+   H    > L'H
+   [AEIOUH]    > L'
+   A    > L'A
+   E    > L'E
+   I    > L'I
+   O    > L'O
+   U    > L'U
+   H    > L'H
+
+flag *j:
+   ARRE    > -RRE,IMI             # -arre pres. 2° pers. sn. + mi (i + mi)
+   ARRE    > -RRE,ITI             # -arre pres. 2° pers. sn. + ti (i + ti)
+   ARRE    > -RRE,ICI             # -arre pres. 2° pers. sn. + ci (i + ci)
+   ARRE    > -RRE,ILO             # -arre pres. 2° pers. sn. + lo (i + lo)
+   ARRE    > -RRE,ILA             # -arre pres. 2° pers. sn. + la (i + la)
+   ARRE    > -RRE,ILI             # -arre pres. 2° pers. sn. + li (i + li)
+   ARRE    > -RRE,ILE             # -arre pres. 2° pers. sn. + le (i + le)
+   ARRE    > -RRE,INE             # -arre pres. 2° pers. sn. + ne (i + ne)
+   ARRE    > -RRE,IGLI            # -arre pres. 2° pers. sn. + gli (i + gli)
+   ARRE    > -RRE,IMELO           # -arre pres. 2° pers. sn. + melo (i + melo)
+   ARRE    > -RRE,IMELA           # -arre pres. 2° pers. sn. + mela (i + mela)
+   ARRE    > -RRE,IMELI           # -arre pres. 2° pers. sn. + meli (i + meli)
+   ARRE    > -RRE,IMELE           # -arre pres. 2° pers. sn. + mele (i + mele)
+   ARRE    > -RRE,IMENE           # -arre pres. 2° pers. sn. + mene (i + mene)
+   ARRE    > -RRE,ICELO           # -arre pres. 2° pers. sn. + celo (i + celo)
+   ARRE    > -RRE,ICELA           # -arre pres. 2° pers. sn. + cela (i + cela)
+   ARRE    > -RRE,ICELI           # -arre pres. 2° pers. sn. + celi (i + celi)
+   ARRE    > -RRE,ICELE           # -arre pres. 2° pers. sn. + cele (i + cele)
+   ARRE    > -RRE,ICENE           # -arre pres. 2° pers. sn. + cene (i + cene)
+   ARRE    > -RRE,IGLIELO         # -arre pres. 2° pers. sn. + glielo (i + glielo)
+   ARRE    > -RRE,IGLIELA         # -arre pres. 2° pers. sn. + gliela (i + gliela)
+   ARRE    > -RRE,IGLIELI         # -arre pres. 2° pers. sn. + glieli (i + glieli)
+   ARRE    > -RRE,IGLIELE         # -arre pres. 2° pers. sn. + gliele (i + gliele)
+   ARRE    > -RRE,IGLIENE         # -arre pres. 2° pers. sn. + gliene (i + gliene)
+   ARRE    > -RRE,IAMOCI          # -arre pres. 1° pers. pl. + ci (iamo + ci)
+   ARRE    > -RRE,IAMOTI          # -arre pres. 1° pers. pl. + ti (iamo + ti)
+   ARRE    > -RRE,IAMOLO          # -arre pres. 1° pers. pl. + lo (iamo + lo)
+   ARRE    > -RRE,IAMOLA          # -arre pres. 1° pers. pl. + la (iamo + la)
+   ARRE    > -RRE,IAMOLI          # -arre pres. 1° pers. pl. + li (iamo + li)
+   ARRE    > -RRE,IAMOLE          # -arre pres. 1° pers. pl. + le (iamo + le)
+   ARRE    > -RRE,IAMONE          # -arre pres. 1° pers. pl. + ne (iamo + ne)
+   ARRE    > -RRE,IAMOCELO        # -arre pres. 1° pers. pl. + celo (iamo + celo)
+   ARRE    > -RRE,IAMOCELA        # -arre pres. 1° pers. pl. + cela (iamo + cela)
+   ARRE    > -RRE,IAMOCELI        # -arre pres. 1° pers. pl. + celi (iamo + celi)
+   ARRE    > -RRE,IAMOCELE        # -arre pres. 1° pers. pl. + cele (iamo + cele)
+   ARRE    > -RRE,IAMOCENE        # -arre pres. 1° pers. pl. + cene (iamo + cene)
+   ARRE    > -RRE,IAMOGLI         # -arre pres. 1° pers. pl. + gli (iamo + gli)
+   ARRE    > -RRE,IAMOGLIELO      # -arre pres. 1° pers. pl. + glielo (iamo + glielo)
+   ARRE    > -RRE,IAMOGLIELA      # -arre pres. 1° pers. pl. + gliela (iamo + gliela)
+   ARRE    > -RRE,IAMOGLIELI      # -arre pres. 1° pers. pl. + glieli (iamo + glieli)
+   ARRE    > -RRE,IAMOGLIELE      # -arre pres. 1° pers. pl. + gliele (iamo + gliele)
+   ARRE    > -RRE,IAMOGLIENE      # -arre pres. 1° pers. pl. + gliene (iamo + gliene)
+   ARRE    > -RRE,ETELO           # -arre pres. 2° pers. pl. + lo (te + lo)
+   ARRE    > -RRE,ETELI           # -arre pres. 2° pers. pl. + li (te + li)
+   ARRE    > -RRE,ETELA           # -arre pres. 2° pers. pl. + la (te + la)
+   ARRE    > -RRE,ETELE           # -arre pres. 2° pers. pl. + le (te + le)
+   ARRE    > -RRE,ETENE           # -arre pres. 2° pers. pl. + ne (te + ne)
+   ARRE    > -RRE,ETEVELO         # -arre pres. 2° pers. pl. + velo (te + velo)
+   ARRE    > -RRE,ETEVELI         # -arre pres. 2° pers. pl. + veli (te + veli)
+   ARRE    > -RRE,ETEVELA         # -arre pres. 2° pers. pl. + vela (te + vela)
+   ARRE    > -RRE,ETEVELE         # -arre pres. 2° pers. pl. + vele (te + vele)
+   ARRE    > -RRE,ETEVENE         # -arre pres. 2° pers. pl. + vene (te + vene)
+   ARRE    > -RRE,ETECELO         # -arre pres. 2° pers. pl. + celo (te + celo)
+   ARRE    > -RRE,ETECELI         # -arre pres. 2° pers. pl. + celi (te + celi)
+   ARRE    > -RRE,ETECELA         # -arre pres. 2° pers. pl. + cela (te + cela)
+   ARRE    > -RRE,ETECELE         # -arre pres. 2° pers. pl. + cele (te + cele)
+   ARRE    > -RRE,ETECENE         # -arre pres. 2° pers. pl. + cene (te + cene)
+   ARRE    > -RRE,ETEGLIELO       # -arre pres. 2° pers. pl. + glielo (te + glielo)
+   ARRE    > -RRE,ETEGLIELI       # -arre pres. 2° pers. pl. + glieli (te + glieli)
+   ARRE    > -RRE,ETEGLIELA       # -arre pres. 2° pers. pl. + gliela (te + gliela)
+   ARRE    > -RRE,ETEGLIELE       # -arre pres. 2° pers. pl. + gliele (te + gliele)
+   ARRE    > -RRE,ETEGLIENE       # -arre pres. 2° pers. pl. + gliene (te + gliene)
+   ARRE    > -RRE,ETEMI           # -arre pres. 2° pers. pl. + mi (te + mi)
+   ARRE    > -RRE,ETEGLI          # -arre pres. 2° pers. pl. + gli (te + gli)
+   ARRE    > -RRE,ETECI           # -arre pres. 2° pers. pl. + ci (te + ci)
+   ARRE    > -RRE,ETEVI           # -arre pres. 2° pers. pl. + vi (te + vi)
+   ARRE    > -RRE,ETEMENE         # -arre pres. 2° pers. pl. + mene (te + mene)
+   ARRE    > -RRE,ETEMELO         # -arre pres. 2° pers. pl. + melo (te + melo)
+   ARRE    > -RRE,ETEMELI         # -arre pres. 2° pers. pl. + meli (te + meli)
+   ARRE    > -RRE,ETEMELA         # -arre pres. 2° pers. pl. + mela (te + mela)
+   ARRE    > -RRE,ETEMELE         # -arre pres. 2° pers. pl. + mele (te + mele)
+   ARRE    > -RRE,ENTESI          # -arre p.pres. sn. + si (ente + si)
+   ARRE    > -RRE,ENTISI          # -arre p.pres. pl. + si (enti + si)
+   ORRE    > -RRE,NIMI            # -orre pres. 2° pers. sn. + mi (ni + mi)
+   ORRE    > -RRE,NITI            # -orre pres. 2° pers. sn. + ti (ni + ti)
+   ORRE    > -RRE,NICI            # -orre pres. 2° pers. sn. + ci (ni + ci)
+   ORRE    > -RRE,NILO            # -orre pres. 2° pers. sn. + lo (ni + lo)
+   ORRE    > -RRE,NILA            # -orre pres. 2° pers. sn. + la (ni + la)
+   ORRE    > -RRE,NILI            # -orre pres. 2° pers. sn. + li (ni + li)
+   ORRE    > -RRE,NILE            # -orre pres. 2° pers. sn. + le (ni + le)
+   ORRE    > -RRE,NINE            # -orre pres. 2° pers. sn. + ne (ni + ne)
+   ORRE    > -RRE,NIGLI           # -orre pres. 2° pers. sn. + gli (ni + gli)
+   ORRE    > -RRE,NIMELO          # -orre pres. 2° pers. sn. + melo (ni + melo)
+   ORRE    > -RRE,NIMELA          # -orre pres. 2° pers. sn. + mela (ni + mela)
+   ORRE    > -RRE,NIMELI          # -orre pres. 2° pers. sn. + meli (ni + meli)
+   ORRE    > -RRE,NIMELE          # -orre pres. 2° pers. sn. + mele (ni + mele)
+   ORRE    > -RRE,NIMENE          # -orre pres. 2° pers. sn. + mene (ni + mene)
+   ORRE    > -RRE,NICELO          # -orre pres. 2° pers. sn. + celo (ni + celo)
+   ORRE    > -RRE,NICELA          # -orre pres. 2° pers. sn. + cela (ni + cela)
+   ORRE    > -RRE,NICELI          # -orre pres. 2° pers. sn. + celi (ni + celi)
+   ORRE    > -RRE,NICELE          # -orre pres. 2° pers. sn. + cele (ni + cele)
+   ORRE    > -RRE,NICENE          # -orre pres. 2° pers. sn. + cene (ni + cene)
+   ORRE    > -RRE,NIGLIELO        # -orre pres. 2° pers. sn. + glielo (ni + glielo)
+   ORRE    > -RRE,NIGLIELA        # -orre pres. 2° pers. sn. + gliela (ni + gliela)
+   ORRE    > -RRE,NIGLIELI        # -orre pres. 2° pers. sn. + glieli (ni + glieli)
+   ORRE    > -RRE,NIGLIELE        # -orre pres. 2° pers. sn. + gliele (ni + gliele)
+   ORRE    > -RRE,NIGLIENE        # -orre pres. 2° pers. sn. + gliene (ni + gliene)
+   ORRE    > -RRE,NIAMOCI         # -orre pres. 1° pers. pl. + ci (niamo + ci)
+   ORRE    > -RRE,NIAMOTI         # -orre pres. 1° pers. pl. + ti (niamo + ti)
+   ORRE    > -RRE,NIAMOLO         # -orre pres. 1° pers. pl. + lo (niamo + lo)
+   ORRE    > -RRE,NIAMOLA         # -orre pres. 1° pers. pl. + la (niamo + la)
+   ORRE    > -RRE,NIAMOLI         # -orre pres. 1° pers. pl. + li (niamo + li)
+   ORRE    > -RRE,NIAMOLE         # -orre pres. 1° pers. pl. + le (niamo + le)
+   ORRE    > -RRE,NIAMONE         # -orre pres. 1° pers. pl. + ne (niamo + ne)
+   ORRE    > -RRE,NIAMOCELO       # -orre pres. 1° pers. pl. + celo (niamo + celo)
+   ORRE    > -RRE,NIAMOCELA       # -orre pres. 1° pers. pl. + cela (niamo + cela)
+   ORRE    > -RRE,NIAMOCELI       # -orre pres. 1° pers. pl. + celi (niamo + celi)
+   ORRE    > -RRE,NIAMOCELE       # -orre pres. 1° pers. pl. + cele (niamo + cele)
+   ORRE    > -RRE,NIAMOCENE       # -orre pres. 1° pers. pl. + cene (niamo + cene)
+   ORRE    > -RRE,NIAMOGLI        # -orre pres. 1° pers. pl. + gli (niamo + gli)
+   ORRE    > -RRE,NIAMOGLIELO     # -orre pres. 1° pers. pl. + glielo (niamo + glielo)
+   ORRE    > -RRE,NIAMOGLIELA     # -orre pres. 1° pers. pl. + gliela (niamo + gliela)
+   ORRE    > -RRE,NIAMOGLIELI     # -orre pres. 1° pers. pl. + glieli (niamo + glieli)
+   ORRE    > -RRE,NIAMOGLIELE     # -orre pres. 1° pers. pl. + gliele (niamo + gliele)
+   ORRE    > -RRE,NIAMOGLIENE     # -orre pres. 1° pers. pl. + gliene (niamo + gliene)
+   ORRE    > -RRE,NETELO          # -orre pres. 2° pers. pl. + lo (nete + lo)
+   ORRE    > -RRE,NETELI          # -orre pres. 2° pers. pl. + li (nete + li)
+   ORRE    > -RRE,NETELA          # -orre pres. 2° pers. pl. + la (nete + la)
+   ORRE    > -RRE,NETELE          # -orre pres. 2° pers. pl. + le (nete + le)
+   ORRE    > -RRE,NETENE          # -orre pres. 2° pers. pl. + ne (nete + ne)
+   ORRE    > -RRE,NETEVELO        # -orre pres. 2° pers. pl. + velo (nete + velo)
+   ORRE    > -RRE,NETEVELI        # -orre pres. 2° pers. pl. + veli (nete + veli)
+   ORRE    > -RRE,NETEVELA        # -orre pres. 2° pers. pl. + vela (nete + vela)
+   ORRE    > -RRE,NETEVELE        # -orre pres. 2° pers. pl. + vele (nete + vele)
+   ORRE    > -RRE,NETEVENE        # -orre pres. 2° pers. pl. + vene (nete + vene)
+   ORRE    > -RRE,NETECELO        # -orre pres. 2° pers. pl. + celo (nete + celo)
+   ORRE    > -RRE,NETECELI        # -orre pres. 2° pers. pl. + celi (nete + celi)
+   ORRE    > -RRE,NETECELA        # -orre pres. 2° pers. pl. + cela (nete + cela)
+   ORRE    > -RRE,NETECELE        # -orre pres. 2° pers. pl. + cele (nete + cele)
+   ORRE    > -RRE,NETECENE        # -orre pres. 2° pers. pl. + cene (nete + cene)
+   ORRE    > -RRE,NETEGLIELO      # -orre pres. 2° pers. pl. + glielo (nete + glielo)
+   ORRE    > -RRE,NETEGLIELI      # -orre pres. 2° pers. pl. + glieli (nete + glieli)
+   ORRE    > -RRE,NETEGLIELA      # -orre pres. 2° pers. pl. + gliela (nete + gliela)
+   ORRE    > -RRE,NETEGLIELE      # -orre pres. 2° pers. pl. + gliele (nete + gliele)
+   ORRE    > -RRE,NETEGLIENE      # -orre pres. 2° pers. pl. + gliene (nete + gliene)
+   ORRE    > -RRE,NETEMI          # -orre pres. 2° pers. pl. + mi (nete + mi)
+   ORRE    > -RRE,NETEGLI         # -orre pres. 2° pers. pl. + gli (nete + gli)
+   ORRE    > -RRE,NETECI          # -orre pres. 2° pers. pl. + ci (nete + ci)
+   ORRE    > -RRE,NETEVI          # -orre pres. 2° pers. pl. + vi (nete + vi)
+   ORRE    > -RRE,NETEMENE        # -orre pres. 2° pers. pl. + mene (nete + mene)
+   ORRE    > -RRE,NETEMELO        # -orre pres. 2° pers. pl. + melo (nete + melo)
+   ORRE    > -RRE,NETEMELI        # -orre pres. 2° pers. pl. + meli (nete + meli)
+   ORRE    > -RRE,NETEMELA        # -orre pres. 2° pers. pl. + mela (nete + mela)
+   ORRE    > -RRE,NETEMELE        # -orre pres. 2° pers. pl. + mele (nete + mele)
+   ORRE    > -RRE,NENTESI         # -orre p.pres. sn. + si (nente + si)
+   ORRE    > -RRE,NENTISI         # -orre p.pres. pl. + si (nenti + si)
+   URRE    > -RRE,CIMI            # -urre pres. 2° pers. sn. + mi (ci + mi)
+   URRE    > -RRE,CITI            # -urre pres. 2° pers. sn. + ti (ci + ti)
+   URRE    > -RRE,CICI            # -urre pres. 2° pers. sn. + ci (ci + ci)
+   URRE    > -RRE,CILO            # -urre pres. 2° pers. sn. + lo (ci + lo)
+   URRE    > -RRE,CILA            # -urre pres. 2° pers. sn. + la (ci + la)
+   URRE    > -RRE,CILI            # -urre pres. 2° pers. sn. + li (ci + li)
+   URRE    > -RRE,CILE            # -urre pres. 2° pers. sn. + le (ci + le)
+   URRE    > -RRE,CINE            # -urre pres. 2° pers. sn. + ne (ci + ne)
+   URRE    > -RRE,CIGLI           # -urre pres. 2° pers. sn. + gli (ci + gli)
+   URRE    > -RRE,CIMELO          # -urre pres. 2° pers. sn. + melo (ci + melo)
+   URRE    > -RRE,CIMELA          # -urre pres. 2° pers. sn. + mela (ci + mela)
+   URRE    > -RRE,CIMELI          # -urre pres. 2° pers. sn. + meli (ci + meli)
+   URRE    > -RRE,CIMELE          # -urre pres. 2° pers. sn. + mele (ci + mele)
+   URRE    > -RRE,CIMENE          # -urre pres. 2° pers. sn. + mene (ci + mene)
+   URRE    > -RRE,CICELO          # -urre pres. 2° pers. sn. + celo (ci + celo)
+   URRE    > -RRE,CICELA          # -urre pres. 2° pers. sn. + cela (ci + cela)
+   URRE    > -RRE,CICELI          # -urre pres. 2° pers. sn. + celi (ci + celi)
+   URRE    > -RRE,CICELE          # -urre pres. 2° pers. sn. + cele (ci + cele)
+   URRE    > -RRE,CICENE          # -urre pres. 2° pers. sn. + cene (ci + cene)
+   URRE    > -RRE,CIGLIELO        # -urre pres. 2° pers. sn. + glielo (ci + glielo)
+   URRE    > -RRE,CIGLIELA        # -urre pres. 2° pers. sn. + gliela (ci + gliela)
+   URRE    > -RRE,CIGLIELI        # -urre pres. 2° pers. sn. + glieli (ci + glieli)
+   URRE    > -RRE,CIGLIELE        # -urre pres. 2° pers. sn. + gliele (ci + gliele)
+   URRE    > -RRE,CIGLIENE        # -urre pres. 2° pers. sn. + gliene (ci + gliene)
+   URRE    > -RRE,CIAMOCI         # -urre pres. 1° pers. pl. + ci (ciamo + ci)
+   URRE    > -RRE,CIAMOTI         # -urre pres. 1° pers. pl. + ti (ciamo + ti)
+   URRE    > -RRE,CIAMOLO         # -urre pres. 1° pers. pl. + lo (ciamo + lo)
+   URRE    > -RRE,CIAMOLA         # -urre pres. 1° pers. pl. + la (ciamo + la)
+   URRE    > -RRE,CIAMOLI         # -urre pres. 1° pers. pl. + li (ciamo + li)
+   URRE    > -RRE,CIAMOLE         # -urre pres. 1° pers. pl. + le (ciamo + le)
+   URRE    > -RRE,CIAMONE         # -urre pres. 1° pers. pl. + ne (ciamo + ne)
+   URRE    > -RRE,CIAMOCELO       # -urre pres. 1° pers. pl. + celo (ciamo + celo)
+   URRE    > -RRE,CIAMOCELA       # -urre pres. 1° pers. pl. + cela (ciamo + cela)
+   URRE    > -RRE,CIAMOCELI       # -urre pres. 1° pers. pl. + celi (ciamo + celi)
+   URRE    > -RRE,CIAMOCELE       # -urre pres. 1° pers. pl. + cele (ciamo + cele)
+   URRE    > -RRE,CIAMOCENE       # -urre pres. 1° pers. pl. + cene (ciamo + cene)
+   URRE    > -RRE,CIAMOGLI        # -urre pres. 1° pers. pl. + gli (ciamo + gli)
+   URRE    > -RRE,CIAMOGLIELO     # -urre pres. 1° pers. pl. + glielo (ciamo + glielo)
+   URRE    > -RRE,CIAMOGLIELA     # -urre pres. 1° pers. pl. + gliela (ciamo + gliela)
+   URRE    > -RRE,CIAMOGLIELI     # -urre pres. 1° pers. pl. + glieli (ciamo + glieli)
+   URRE    > -RRE,CIAMOGLIELE     # -urre pres. 1° pers. pl. + gliele (ciamo + gliele)
+   URRE    > -RRE,CIAMOGLIENE     # -urre pres. 1° pers. pl. + gliene (ciamo + gliene)
+   URRE    > -RRE,CETELO          # -urre pres. 2° pers. pl. + lo (cete + lo)
+   URRE    > -RRE,CETELI          # -urre pres. 2° pers. pl. + li (cete + li)
+   URRE    > -RRE,CETELA          # -urre pres. 2° pers. pl. + la (cete + la)
+   URRE    > -RRE,CETELE          # -urre pres. 2° pers. pl. + le (cete + le)
+   URRE    > -RRE,CETENE          # -urre pres. 2° pers. pl. + ne (cete + ne)
+   URRE    > -RRE,CETEVELO        # -urre pres. 2° pers. pl. + velo (cete + velo)
+   URRE    > -RRE,CETEVELI        # -urre pres. 2° pers. pl. + veli (cete + veli)
+   URRE    > -RRE,CETEVELA        # -urre pres. 2° pers. pl. + vela (cete + vela)
+   URRE    > -RRE,CETEVELE        # -urre pres. 2° pers. pl. + vele (cete + vele)
+   URRE    > -RRE,CETEVENE        # -urre pres. 2° pers. pl. + vene (cete + vene)
+   URRE    > -RRE,CETECELO        # -urre pres. 2° pers. pl. + celo (cete + celo)
+   URRE    > -RRE,CETECELI        # -urre pres. 2° pers. pl. + celi (cete + celi)
+   URRE    > -RRE,CETECELA        # -urre pres. 2° pers. pl. + cela (cete + cela)
+   URRE    > -RRE,CETECELE        # -urre pres. 2° pers. pl. + cele (cete + cele)
+   URRE    > -RRE,CETECENE        # -urre pres. 2° pers. pl. + cene (cete + cene)
+   URRE    > -RRE,CETEGLIELO      # -urre pres. 2° pers. pl. + glielo (cete + glielo)
+   URRE    > -RRE,CETEGLIELI      # -urre pres. 2° pers. pl. + glieli (cete + glieli)
+   URRE    > -RRE,CETEGLIELA      # -urre pres. 2° pers. pl. + gliela (cete + gliela)
+   URRE    > -RRE,CETEGLIELE      # -urre pres. 2° pers. pl. + gliele (cete + gliele)
+   URRE    > -RRE,CETEGLIENE      # -urre pres. 2° pers. pl. + gliene (cete + gliene)
+   URRE    > -RRE,CETEMI          # -urre pres. 2° pers. pl. + mi (cete + mi)
+   URRE    > -RRE,CETEGLI         # -urre pres. 2° pers. pl. + gli (cete + gli)
+   URRE    > -RRE,CETECI          # -urre pres. 2° pers. pl. + ci (cete + ci)
+   URRE    > -RRE,CETEVI          # -urre pres. 2° pers. pl. + vi (cete + vi)
+   URRE    > -RRE,CETEMENE        # -urre pres. 2° pers. pl. + mene (cete + mene)
+   URRE    > -RRE,CETEMELO        # -urre pres. 2° pers. pl. + melo (cete + melo)
+   URRE    > -RRE,CETEMELI        # -urre pres. 2° pers. pl. + meli (cete + meli)
+   URRE    > -RRE,CETEMELA        # -urre pres. 2° pers. pl. + mela (cete + mela)
+   URRE    > -RRE,CETEMELE        # -urre pres. 2° pers. pl. + mele (cete + mele)
+   URRE    > -RRE,CENTESI         # -urre p.pres. sn. + si (cente + si)
+   URRE    > -RRE,CENTISI         # -urre p.pres. pl. + si (centi + si)
+
+flag *m:
+   O    > CI
+   O    > GLI
+   O    > TI
+   O    > SI
+   O    > VI
+   O    > -O,A
+   O    > -O,E
+   O    > -O,I
+   O    > LA
+   O    > LE
+   O    > LI
+   O    > LO
+   O    > NE
+   O    > CELA
+   O    > CELE
+   O    > CELO
+   O    > CELI
+   O    > CENE
+   O    > GLIELO
+   O    > GLIELA
+   O    > GLIELI
+   O    > GLIENE
+   O    > GLIELE
+   O    > MELA
+   O    > MELE
+   O    > MELO
+   O    > MELI
+   O    > MENE
+   O    > VELA
+   O    > VELE
+   O    > VELO
+   O    > VELI
+   O    > VENE
+   O    > MI
+
+flag n:
+   IA    > -IA,E
+   O    > -O,I
+
+flag *o:
+   [^IGC]O    > -O,I
+   [GC]O    > -O,HI
+   IO    > -O,
+   O    > -O,A
+   [^GC]O    > -O,E
+   [GC]O    > -O,HE
+
+flag *p:
+   O    > -O,I
+   O    > -O,A
+   O    > -O,HE
+
+flag q:
+   [AEIOUHAEIOUH]    > BELL'
+   A    > BELL'A
+   E    > BELL'E
+   I    > BELL'I
+   O    > BELL'O
+   U    > BELL'U
+   H    > BELL'H
+   [AEIOUH]    > BELL'
+   A    > BELL'A
+   E    > BELL'E
+   I    > BELL'I
+   O    > BELL'O
+   U    > BELL'U
+   H    > BELL'H
+   [AEIOUH][QWERTYUIOPLKJHGFDSAZXCVBNM]    > BELL'
+
+flag r:
+   [AEIOUHAEIOUH]    > BRAV'
+   A    > BRAV'A
+   E    > BRAV'E
+   I    > BRAV'I
+   O    > BRAV'O
+   U    > BRAV'U
+   H    > BRAV'H
+   [AEIOUH]    > BRAV'
+   A    > BRAV'A
+   E    > BRAV'E
+   I    > BRAV'I
+   O    > BRAV'O
+   U    > BRAV'U
+   H    > BRAV'H
+   [AEIOUH][QWERTYUIOPLKJHGFDSAZXCVBNM]    > BRAV'
+
+flag s:
+   [AEIOUHAEIOUH]    > BUON'
+   A    > BUON'A
+   E    > BUON'E
+   I    > BUON'I
+   O    > BUON'O
+   U    > BUON'U
+   H    > BUON'H
+   [AEIOUH]    > BUON'
+   A    > BUON'A
+   E    > BUON'E
+   I    > BUON'I
+   O    > BUON'O
+   U    > BUON'U
+   H    > BUON'H
+   [AEIOUH][QWERTYUIOPLKJHGFDSAZXCVBNM]    > BUON'
+
+flag *t:
+   IRE    > -RE,SCO
+   IRE    > -RE,SCI
+   IRE    > -RE,SCE
+   IRE    > -RE,SCONO
+   IRE    > -RE,AMO
+   IRE    > -RE,SCANO
+   IRE    > -RE,VO
+   IRE    > -RE,VI
+   IRE    > -RE,VA
+   IRE    > -RE,VAMO
+   IRE    > -RE,VATE
+   IRE    > -RE,VANO
+   IRE    > -RE,I
+   IRE    > -RE,STI
+   IRE    > -IRE,ì
+   IRE    > -RE,MMO
+   IRE    > -RE,STE
+   IRE    > -E,ONO
+   IRE    > -E,ò
+   IRE    > -E,AI
+   IRE    > -E,à
+   IRE    > MO
+   IRE    > TE
+   IRE    > -E,ANNO
+   IRE    > -RE,SCA
+   IRE    > -RE,ATE
+   IRE    > -RE,SSI
+   IRE    > -RE,SSE
+   IRE    > -RE,SSIMO
+   IRE    > -RE,SSERO
+   IRE    > I
+   IRE    > STI
+   IRE    > BBE
+   IRE    > MMO
+   IRE    > STE
+   IRE    > BBERO
+   IRE    > -IRE,ENTE
+   IRE    > -IRE,ENTI
+   IRE    > -RE,TO
+   IRE    > -RE,TE
+   IRE    > -RE,TI
+   IRE    > -RE,TA
+
+flag *u:
+   E    > -E,A # femminile
+   E    > -E,I # plurale maschile
+
+flag v:
+   IRE    > -IRE,ENTISI
+   IRE    > -IRE,ENTESI
+   IRE    > -RE,VASI
+   IRE    > -RE,SCIMI
+   IRE    > -RE,SCITI
+   IRE    > -RE,SCIGLI
+   IRE    > -RE,SCINE
+   IRE    > -RE,SCICI
+   IRE    > -RE,SCILA
+   IRE    > -RE,SCILE
+   IRE    > -RE,SCILO
+   IRE    > -RE,SCILI
+   IRE    > -RE,SCIMELA
+   IRE    > -RE,SCIMELE
+   IRE    > -RE,SCIMELO
+   IRE    > -RE,SCIMELI
+   IRE    > -RE,SCIMENE
+   IRE    > -RE,SCITELA
+   IRE    > -RE,SCITELE
+   IRE    > -RE,SCITELO
+   IRE    > -RE,SCITELI
+   IRE    > -RE,SCITENE
+   IRE    > -RE,SCIGLIELI
+   IRE    > -RE,SCIGLIELE
+   IRE    > -RE,SCIGLIELO
+   IRE    > -RE,SCIGLIELA
+   IRE    > -RE,SCIGLIENE
+   IRE    > -RE,SCICELA
+   IRE    > -RE,SCICELE
+   IRE    > -RE,SCICELO
+   IRE    > -RE,SCICELI
+   IRE    > -RE,SCICENE
+   IRE    > -RE,AMOLA
+   IRE    > -RE,AMOLE
+   IRE    > -RE,AMOLO
+   IRE    > -RE,AMOLI
+   IRE    > -RE,AMONE
+   IRE    > -RE,AMOCELO
+   IRE    > -RE,AMOCELI
+   IRE    > -RE,AMOCELA
+   IRE    > -RE,AMOCELE
+   IRE    > -RE,AMOCENE
+   IRE    > -RE,AMOGLIELA
+   IRE    > -RE,AMOGLIELE
+   IRE    > -RE,AMOGLIELO
+   IRE    > -RE,AMOGLIELI
+   IRE    > -RE,AMOGLIENE
+   IRE    > -RE,AMOVELO
+   IRE    > -RE,AMOVELI
+   IRE    > -RE,AMOVELA
+   IRE    > -RE,AMOVELE
+   IRE    > -RE,AMOVENE
+   IRE    > -RE,AMOCI
+   IRE    > -RE,AMOVI
+   IRE    > -RE,AMOGLI
+   IRE    > -RE,TEMELO
+   IRE    > -RE,TEMELA
+   IRE    > -RE,TEMELE
+   IRE    > -RE,TEMELI
+   IRE    > -RE,TEMENE
+   IRE    > -RE,TEGLIELO
+   IRE    > -RE,TEGLIELA
+   IRE    > -RE,TEGLIELE
+   IRE    > -RE,TEGLIELI
+   IRE    > -RE,TEGLIENE
+   IRE    > -RE,TESELO
+   IRE    > -RE,TESELA
+   IRE    > -RE,TESELE
+   IRE    > -RE,TESELI
+   IRE    > -RE,TESENE
+   IRE    > -RE,TECELA
+   IRE    > -RE,TECELE
+   IRE    > -RE,TECELO
+   IRE    > -RE,TECELI
+   IRE    > -RE,TECENE
+   IRE    > -RE,TEVELO
+   IRE    > -RE,TEVELA
+   IRE    > -RE,TEVELE
+   IRE    > -RE,TEVELI
+   IRE    > -RE,TOLO
+   IRE    > -RE,TOLA
+   IRE    > -RE,TOLE
+   IRE    > -RE,TOMI
+   IRE    > -RE,TOTI
+   IRE    > -RE,TOSI
+   IRE    > -RE,TOCI
+   IRE    > -RE,TOVI
+   IRE    > -RE,TOLI
+   IRE    > -RE,TONE
+   IRE    > -RE,TOGLI
+   IRE    > -RE,TEMI
+   IRE    > -RE,TESI
+   IRE    > -RE,TECI
+   IRE    > -RE,TEVI
+   IRE    > -RE,TEGLI
+   IRE    > -RE,TENE
+   IRE    > -RE,TAMI
+   IRE    > -RE,TATI
+   IRE    > -RE,TASI
+   IRE    > -RE,TACI
+   IRE    > -RE,TAVI
+   IRE    > -RE,TAGLI
+   IRE    > -RE,TANE
+   IRE    > -RE,TALA
+   IRE    > -RE,TILI
+   IRE    > -RE,TINE
+   IRE    > -RE,TEVENE
+   IRE    > -RE,TAVENE
+   IRE    > -RE,TIVENE
+   IRE    > -RE,TOVENE
+   IRE    > -RE,TELO
+   IRE    > -RE,TELA
+   IRE    > -RE,TELE
+   IRE    > -RE,TELI
+   IRE    > -RE,AMOTI
+   IRE    > -RE,AMOMELO
+   IRE    > -RE,AMOMELA
+   IRE    > -RE,AMOMELE
+   IRE    > -RE,AMOMELI
+   IRE    > -RE,AMOMENE
+   IRE    > -RE,TISSIMO
+   IRE    > -RE,TISSIMA
+   IRE    > -RE,TISSIME
+   IRE    > -RE,TISSIMI
+
+flag *z:
+   ARE    > -ARE,O
+   [^ICG]ARE    > -ARE,I
+   IARE    > -ARE,
+   [CG]ARE    > -ARE,HI
+   ARE    > -RE,
+   [^ICG]ARE    > -ARE,IAMO
+   IARE    > -RE,MO
+   [CG]ARE    > -ARE,HIAMO
+   ARE    > -RE,NO
+   ARE    > -RE,VO
+   ARE    > -RE,VI
+   ARE    > -RE,VA
+   ARE    > -RE,VAMO
+   ARE    > -RE,VATE
+   ARE    > -RE,VANO
+   ARE    > -RE,I
+   ARE    > -RE,STI
+   ARE    > -ARE,ò
+   ARE    > -RE,MMO
+   ARE    > -RE,STE
+   ARE    > -E,ONO
+   [^CGI]ARE    > -ARE,ERò
+   [^CGI]ARE    > -ARE,ERAI
+   [^CGI]ARE    > -ARE,ERà
+   [^CGI]ARE    > -ARE,EREMO
+   [^CGI]ARE    > -ARE,ERETE
+   [^CGI]ARE    > -ARE,ERANNO
+   [CG]ARE    > -ARE,HERò
+   [CG]ARE    > -ARE,HERAI
+   [CG]ARE    > -ARE,HERà
+   [CG]ARE    > -ARE,HEREMO
+   [CG]ARE    > -ARE,HERETE
+   [CG]ARE    > -ARE,HERANNO
+   [^CG]IARE    > -ARE,ERò
+   [^CG]IARE    > -ARE,ERAI
+   [^CG]IARE    > -ARE,ERà
+   [^CG]IARE    > -ARE,EREMO
+   [^CG]IARE    > -ARE,ERETE
+   [^CG]IARE    > -ARE,ERANNO
+   [CG]IARE    > -IARE,ERò
+   [CG]IARE    > -IARE,ERAI
+   [CG]IARE    > -IARE,ERà
+   [CG]IARE    > -IARE,EREMO
+   [CG]IARE    > -IARE,ERETE
+   [CG]IARE    > -IARE,ERANNO
+   [^ICG]ARE    > -ARE,IATE
+   [^ICG]ARE    > -ARE,INO
+   [CG]ARE    > -ARE,HIATE
+   [CG]ARE    > -ARE,HINO
+   IARE    > -ARE,NO
+   ARE    > -RE,SSI
+   ARE    > -RE,SSE
+   ARE    > -RE,SSIMO
+   ARE    > -RE,SSERO
+   [^CGI]ARE    > -ARE,EREI
+   [^CGI]ARE    > -ARE,ERESTI
+   [^CGI]ARE    > -ARE,EREBBE
+   [^CGI]ARE    > -ARE,EREMMO
+   [^CGI]ARE    > -ARE,ERESTE
+   [^CGI]ARE    > -ARE,EREBBERO
+   [CG]ARE    > -ARE,HEREI
+   [CG]ARE    > -ARE,HERESTI
+   [CG]ARE    > -ARE,HEREBBE
+   [CG]ARE    > -ARE,HEREMMO
+   [CG]ARE    > -ARE,HERESTE
+   [CG]ARE    > -ARE,HEREBBERO
+   [^CG]IARE    > -ARE,EREI
+   [^CG]IARE    > -ARE,ERESTI
+   [^CG]IARE    > -ARE,EREBBE
+   [^CG]IARE    > -ARE,EREMMO
+   [^CG]IARE    > -ARE,ERESTE
+   [^CG]IARE    > -ARE,EREBBERO
+   [CG]IARE    > -IARE,EREI
+   [CG]IARE    > -IARE,ERESTI
+   [CG]IARE    > -IARE,EREBBE
+   [CG]IARE    > -IARE,EREMMO
+   [CG]IARE    > -IARE,ERESTE
+   [CG]IARE    > -IARE,EREBBERO
+   ARE    > -RE,NTE
+   ARE    > -RE,NTI
+   ARE    > -E,VI
+   ARE    > -E,NE
+   ARE    > -RE,NDO
+   ARE    > -RE,NDOVI
+   ARE    > -RE,NDONE
+   ARE    > -RE,TA
+   ARE    > -RE,TAVI
+   ARE    > -RE,TANE
+   ARE    > -RE,TEVI
+   ARE    > -RE,TE
+   ARE    > -RE,TENE
+   [^ICG]ARE    > -ARE,IAMONE
+   [CG]ARE    > -ARE,HIAMONE
+   ARE    > -RE,TO
+   ARE    > -RE,TOVI
+   ARE    > -RE,TONE
+   ARE    > -RE,TI
+   ARE    > -RE,TIVI
+
+flag ^:
+   [AEIOUH]    > SANT'
+   [AEIOUH]    > SANT'
+   [AEIOUH][QWERTYUIOPLKJHGFDSAZXCVBNM]    > SANT'
+
+flag *\|:
+   TI    > -I,UNO
+   TA    > -A,UNO
+   [^T][AI]    > UNO
+   [EO]    > UNO
+   TI    > -I,UN
+   TA    > -A,UN
+   [^T][AI]    > UN
+   [EO]    > UN
+   .    > DUE
+   .    > TRé
+   .    > QUATTRO
+   .    > CINQUE
+   .    > SEI
+   .    > SETTE
+   TI    > -I,OTTO
+   TA    > -A,OTTO
+   [^T][AI]    > OTTO
+   [EO]    > OTTO
+   O    > TTO #gestione del non raddoppio della 'o' davanti a ott...
+   .    > NOVE
+
+flag *\!:
+   .    > DIECI
+   .    > UNDICI
+   .    > DODICI
+   .    > TREDICI
+   .    > QUATTORDICI
+   .    > QUINDICI
+   .    > SEDICI
+   .    > DICIASSETTE
+   .    > DICIOTTO
+   .    > DICIANNOVE
+   .    > VENTI
+   .    > VENTUNO
+   .    > VENTUN
+   .    > VENTIDUE
+   .    > VENTITRé
+   .    > VENTIQUATTRO
+   .    > VENTICINQUE
+   .    > VENTISEI
+   .    > VENTISETTE
+   .    > VENTOTTO
+   .    > VENTINOVE
+   .    > TRENTA
+   .    > TRENTUNO
+   .    > TRENTUN
+   .    > TRENTADUE
+   .    > TRENTATRé
+   .    > TRENTAQUATTRO
+   .    > TRENTACINQUE
+   .    > TRENTASEI
+   .    > TRENTASETTE
+   .    > TRENTOTTO
+   .    > TRENTANOVE
+   .    > QUARANTA
+   .    > QUARANTUNO
+   .    > QUARANTUN
+   .    > QUARANTADUE
+   .    > QUARANTATRé
+   .    > QUARANTAQUATTRO
+   .    > QUARANTACINQUE
+   .    > QUARANTASEI
+   .    > QUARANTASETTE
+   .    > QUARANTOTTO
+   .    > QUARANTANOVE
+   .    > CINQUANTA
+   .    > CINQUANTUNO
+   .    > CINQUANTUN
+   .    > CINQUANTADUE
+   .    > CINQUANTATRé
+   .    > CINQUANTAQUATTRO
+   .    > CINQUANTACINQUE
+   .    > CINQUANTASEI
+   .    > CINQUANTASETTE
+   .    > CINQUANTOTTO
+   .    > CINQUANTANOVE
+   .    > SESSANTA
+   .    > SESSANTUNO
+   .    > SESSANTUN
+   .    > SESSANTADUE
+   .    > SESSANTATRé
+   .    > SESSANTAQUATTRO
+   .    > SESSANTACINQUE
+   .    > SESSANTASEI
+   .    > SESSANTASETTE
+   .    > SESSANTOTTO
+   .    > SESSANTANOVE
+   .    > SETTANTA
+   .    > SETTANTUNO
+   .    > SETTANTUN
+   .    > SETTANTADUE
+   .    > SETTANTATRé
+   .    > SETTANTAQUATTRO
+   .    > SETTANTACINQUE
+   .    > SETTANTASEI
+   .    > SETTANTASETTE
+   .    > SETTANTOTTO
+   .    > SETTANTANOVE
+   .    > OTTANTA
+   .    > OTTANTUNO
+   .    > OTTANTUN
+   .    > OTTANTADUE
+   .    > OTTANTATRé
+   .    > OTTANTAQUATTRO
+   .    > OTTANTACINQUE
+   .    > OTTANTASEI
+   .    > OTTANTASETTE
+   .    > OTTANTOTTO
+   .    > OTTANTANOVE
+   O    > TTANTA
+   O    > TTANTUNO
+   O    > TTANTUN
+   O    > TTANTADUE
+   O    > TTANTATRé
+   O    > TTANTAQUATTRO
+   O    > TTANTACINQUE
+   O    > TTANTASEI
+   O    > TTANTASETTE
+   O    > TTANTOTTO
+   O    > TTANTANOVE
+   .    > NOVANTA
+   .    > NOVANTUNO
+   .    > NOVANTUN
+   .    > NOVANTADUE
+   .    > NOVANTATRé
+   .    > NOVANTAQUATTRO
+   .    > NOVANTACINQUE
+   .    > NOVANTASEI
+   .    > NOVANTASETTE
+   .    > NOVANTOTTO
+   .    > NOVANTANOVE
+
+flag ":
+   .    > MILLE
+   .    > DUEMILA
+   .    > TREMILA
+   .    > QUATTROMILA
+   .    > CINQUEMILA
+   .    > SEIMILA
+   .    > SETTEMILA
+   .    > OTTOMILA
+   .    > NOVEMILA
+   .    > DIECIMILA
+   .    > UNDICIMILA
+   .    > DODICIMILA
+   .    > TREDICIMILA
+   .    > QUATTORDICIMILA
+   .    > QUINDICIMILA
+   .    > SEDICIMILA
+   .    > DICIASSETTEMILA
+   .    > DICIOTTOMILA
+   .    > DICIANNOVEMILA
+   .    > VENTIMILA
+   .    > VENTUNMILA
+   .    > VENTIDUEMILA
+   .    > VENTITREMILA
+   .    > VENTIQUATTROMILA
+   .    > VENTICINQUEMILA
+   .    > VENTISEIMILA
+   .    > VENTISETTEMILA
+   .    > VENTOTTOMILA
+   .    > VENTINOVEMILA
+   .    > TRENTAMILA
+   .    > TRENTUNMILA
+   .    > TRENTADUEMILA
+   .    > TRENTATREMILA
+   .    > TRENTAQUATTROMILA
+   .    > TRENTACINQUEMILA
+   .    > TRENTASEIMILA
+   .    > TRENTASETTEMILA
+   .    > TRENTOTTOMILA
+   .    > TRENTANOVEMILA
+   .    > QUARANTAMILA
+   .    > QUARANTUNMILA
+   .    > QUARANTADUEMILA
+   .    > QUARANTATREMILA
+   .    > QUARANTAQUATTROMILA
+   .    > QUARANTACINQUEMILA
+   .    > QUARANTASEIMILA
+   .    > QUARANTASETTEMILA
+   .    > QUARANTOTTOMILA
+   .    > QUARANTANOVEMILA
+   .    > CINQUANTAMILA
+   .    > CINQUANTUNMILA
+   .    > CINQUANTADUEMILA
+   .    > CINQUANTATREMILA
+   .    > CINQUANTAQUATTROMILA
+   .    > CINQUANTACINQUEMILA
+   .    > CINQUANTASEIMILA
+   .    > CINQUANTASETTEMILA
+   .    > CINQUANTOTTOMILA
+   .    > CINQUANTANOVEMILA
+   .    > SESSANTAMILA
+   .    > SESSANTUNMILA
+   .    > SESSANTADUEMILA
+   .    > SESSANTATREMILA
+   .    > SESSANTAQUATTROMILA
+   .    > SESSANTACINQUEMILA
+   .    > SESSANTASEIMILA
+   .    > SESSANTASETTEMILA
+   .    > SESSANTOTTOMILA
+   .    > SESSANTANOVEMILA
+   .    > SETTANTAMILA
+   .    > SETTANTUNMILA
+   .    > SETTANTADUEMILA
+   .    > SETTANTATREMILA
+   .    > SETTANTAQUATTROMILA
+   .    > SETTANTACINQUEMILA
+   .    > SETTANTASEIMILA
+   .    > SETTANTASETTEMILA
+   .    > SETTANTOTTOMILA
+   .    > SETTANTANOVEMILA
+   .    > OTTANTAMILA
+   .    > OTTANTUNMILA
+   .    > OTTANTADUEMILA
+   .    > OTTANTATREMILA
+   .    > OTTANTAQUATTROMILA
+   .    > OTTANTACINQUEMILA
+   .    > OTTANTASEIMILA
+   .    > OTTANTASETTEMILA
+   .    > OTTANTOTTOMILA
+   .    > OTTANTANOVEMILA
+   .    > NOVANTAMILA
+   .    > NOVANTUNMILA
+   .    > NOVANTADUEMILA
+   .    > NOVANTATREMILA
+   .    > NOVANTAQUATTROMILA
+   .    > NOVANTACINQUEMILA
+   .    > NOVANTASEIMILA
+   .    > NOVANTASETTEMILA
+   .    > NOVANTOTTOMILA
+   .    > NOVANTANOVEMILA
+
+flag *\£:
+   [IVXLCDM]    > I
+   [IVXLCDM]    > II
+   [VXLCDM]    > III
+   [XLCDM]    > IV
+   [IXLCDM]    > V
+   [XLCDM]    > VI
+   [XLCDM]    > VII
+   [XLCDM]    > VIII
+   [XLCDM]    > IX
+   I    > X
+
+flag $:
+   [CL]    > X
+   X    > L
+   [XLCDM]    > C
+   [LC]    > CX
+   X    > CL
+   [XLC]    > CC
+   [LC]    > CCX
+   X    > CCL
+   [XL]    > CCC
+   [LC]    > CCCX
+   X    > CCCL
+   [XL]    > CD
+   [LC]    > CDX
+   X    > CDL
+   [XLC]    > D
+   [LC]    > DX
+   X    > DL
+   [XLC]    > DC
+   [LC]    > DCX
+   X    > DCL
+   [XLC]    > DCC
+   [LC]    > DCCX
+   X    > DCCL
+   [XL]    > DCCC
+   [LC]    > DCCCX
+   X    > DCCCL
+   [XL]    > CM
+   [LC]    > CMX
+   X    > CML
+   [XLCDM]    > M
+   [LC]    > MX
+   X    > ML
+   [XLCMD]    > MC
+   [LC]    > MCX
+   X    > MCL
+   [XLC]    > MCC
+   [LC]    > MCCX
+   X    > MCCL
+   [XL]    > MCCC
+   [LC]    > MCCCX
+   X    > MCCCL
+   [XL]    > MCD
+   [LC]    > MCDX
+   X    > MCDL
+   [XLC]    > MD
+   [LC]    > MDX
+   X    > MDL
+   [XLC]    > MDC
+   [LC]    > MDCX
+   X    > MDCL
+   [XLC]    > MDCC
+   [LC]    > MDCCX
+   X    > MDCCL
+   [XL]    > MDCCC
+   [LC]    > MDCCCX
+   X    > MDCCCL
+   [XL]    > MCM
+   [LC]    > MCMX
+   X    > MCML
+   [XLC]    > MM
+   [LC]    > MMX
+   X    > MML
+
+flag \@:
+   I    > -I,ESIMO
+   I    > -I,ESIMA
+   I    > -I,ESIMI
+   I    > -I,ESIME
+   E    > SIMO
+   E    > SIMA
+   E    > SIMI
+   E    > SIME
+   O    > -O,ESIMO
+   O    > -O,ESIMA
+   O    > -O,ESIMI
+   O    > -O,ESIME
+   A    > -A,ESIMO
+   A    > -A,ESIMA
+   A    > -A,ESIMI
+   A    > -A,ESIME
+
+flag \&:
+   I    > -I,UNESIMO
+   I    > -I,UNESIMA
+   I    > -I,UNESIMI
+   I    > -I,UNESIME
+   A    > -A,UNESIMO
+   A    > -A,UNESIMA
+   A    > -A,UNESIMI
+   A    > -A,UNESIME
+   [^AI]    > UNESIMO
+   [^AI]    > UNESIMA
+   [^AI]    > UNESIMI
+   [^AI]    > UNESIME
+   .    > DUESIMO
+   .    > DUESIMA
+   .    > DUESIMI
+   .    > DUESIME
+   .    > TREESIMO
+   .    > TREESIMA
+   .    > TREESIMI
+   .    > TREESIME
+   .    > QUATTRESIMO
+   .    > QUATTRESIMA
+   .    > QUATTRESIMI
+   .    > QUATTRESIME
+   .    > CINQUESIMO
+   .    > CINQUESIMA
+   .    > CINQUESIMI
+   .    > CINQUESIME
+   .    > SEIESIMO
+   .    > SEIESIMA
+   .    > SEIESIMI
+   .    > SEIESIME
+   .    > SETTESIMO
+   .    > SETTESIMA
+   .    > SETTESIMI
+   .    > SETTESIME
+   I    > -I,OTTESIMO
+   I    > -I,OTTESIMA
+   I    > -I,OTTESIMI
+   I    > -I,OTTESIME
+   A    > -A,OTTESIMO
+   A    > -A,OTTESIMA
+   A    > -A,OTTESIMI
+   A    > -A,OTTESIME
+   O    > TTESIMO
+   O    > TTESIMA
+   O    > TTESIMI
+   O    > TTESIME
+   [^AI]    > OTTESIMO
+   [^AI]    > OTTESIMA
+   [^AI]    > OTTESIMI
+   [^AI]    > OTTESIME
+   .    > NOVESIMO
+   .    > NOVESIMA
+   .    > NOVESIMI
+   .    > NOVESIME
+
+flag \(:
+   .    > DECIMO
+   .    > DECIMI
+   .    > DECIMA
+   .    > DECIME
+   .    > UNDICESIMO
+   .    > UNDICESIMI
+   .    > UNDICESIMA
+   .    > UNDICESIME
+   .    > DODICESIMO
+   .    > DODICESIMI
+   .    > DODICESIMA
+   .    > DODICESIME
+   .    > TREDICESIMO
+   .    > TREDICESIMI
+   .    > TREDICESIMA
+   .    > TREDICESIME
+   .    > QUATTORDICESIMO
+   .    > QUATTORDICESIMI
+   .    > QUATTORDICESIMA
+   .    > QUATTORDICESIME
+   .    > QUINDICESIMO
+   .    > QUINDICESIMI
+   .    > QUINDICESIMA
+   .    > QUINDICESIME
+   .    > SEDICESIMO
+   .    > SEDICESIMI
+   .    > SEDICESIMA
+   .    > SEDICESIME
+   .    > DICIASSETTESIMO
+   .    > DICIASSETTESIMI
+   .    > DICIASSETTESIMA
+   .    > DICIASSETTESIME
+   .    > DICIOTTESIMO
+   .    > DICIOTTESIMI
+   .    > DICIOTTESIMA
+   .    > DICIOTTESIME
+   .    > DICIANNOVESIMO
+   .    > DICIANNOVESIMI
+   .    > DICIANNOVESIMA
+   .    > DICIANNOVESIME
+   .    > VENTESIMO
+   .    > VENTESIMI
+   .    > VENTESIMA
+   .    > VENTESIME
+   .    > VENTUNESIMO
+   .    > VENTUNESIMI
+   .    > VENTUNESIMA
+   .    > VENTUNESIME
+   .    > VENTIDUESIMO
+   .    > VENTIDUESIMI
+   .    > VENTIDUESIMA
+   .    > VENTIDUESIME
+   .    > VENTITREESIMO
+   .    > VENTITREESIMI
+   .    > VENTITREESIMA
+   .    > VENTITREESIME
+   .    > VENTIQUATTRESIMO
+   .    > VENTIQUATTRESIMI
+   .    > VENTIQUATTRESIMA
+   .    > VENTIQUATTRESIME
+   .    > VENTICINQUESIMO
+   .    > VENTICINQUESIMI
+   .    > VENTICINQUESIMA
+   .    > VENTICINQUESIME
+   .    > VENTISEIESIMO
+   .    > VENTISEIESIMI
+   .    > VENTISEIESIMA
+   .    > VENTISEIESIME
+   .    > VENTISETTESIMO
+   .    > VENTISETTESIMI
+   .    > VENTISETTESIMA
+   .    > VENTISETTESIME
+   .    > VENTOTTOESIMO
+   .    > VENTOTTOESIMI
+   .    > VENTOTTOESIMA
+   .    > VENTOTTOESIME
+   .    > VENTINOVESIMO
+   .    > VENTINOVESIMI
+   .    > VENTINOVESIMA
+   .    > VENTINOVESIME
+   .    > TRENTESIMO
+   .    > TRENTESIMI
+   .    > TRENTESIMA
+   .    > TRENTESIME
+   .    > TRENTUNESIMO
+   .    > TRENTUNESIMI
+   .    > TRENTUNESIMA
+   .    > TRENTUNESIME
+   .    > TRENTADUESIMO
+   .    > TRENTADUESIMI
+   .    > TRENTADUESIMA
+   .    > TRENTADUESIME
+   .    > TRENTATREESIMO
+   .    > TRENTATREESIMI
+   .    > TRENTATREESIMA
+   .    > TRENTATREESIME
+   .    > TRENTAQUATTRESIMO
+   .    > TRENTAQUATTRESIMI
+   .    > TRENTAQUATTRESIMA
+   .    > TRENTAQUATTRESIME
+   .    > TRENTACINQUESIMO
+   .    > TRENTACINQUESIMI
+   .    > TRENTACINQUESIMA
+   .    > TRENTACINQUESIME
+   .    > TRENTASEIESIMO
+   .    > TRENTASEIESIMI
+   .    > TRENTASEIESIMA
+   .    > TRENTASEIESIME
+   .    > TRENTASETTESIMO
+   .    > TRENTASETTESIMI
+   .    > TRENTASETTESIMA
+   .    > TRENTASETTESIME
+   .    > TRENTOTTESIMO
+   .    > TRENTOTTESIMI
+   .    > TRENTOTTESIMA
+   .    > TRENTOTTESIME
+   .    > TRENTANOVESIMO
+   .    > TRENTANOVESIMI
+   .    > TRENTANOVESIME
+   .    > TRENTANOVESIMA
+   .    > QUARANTESIMO
+   .    > QUARANTESIMI
+   .    > QUARANTESIMA
+   .    > QUARANTESIME
+   .    > QUARANTUNESIMO
+   .    > QUARANTUNESIMI
+   .    > QUARANTUNESIMA
+   .    > QUARANTUNESIME
+   .    > QUARANTADUESIMO
+   .    > QUARANTADUESIMI
+   .    > QUARANTADUESIMA
+   .    > QUARANTADUESIME
+   .    > QUARANTATREESIMO
+   .    > QUARANTATREESIMI
+   .    > QUARANTATREESIMA
+   .    > QUARANTATREESIME
+   .    > QUARANTAQUATTRESIMO
+   .    > QUARANTAQUATTRESIMI
+   .    > QUARANTAQUATTRESIMA
+   .    > QUARANTAQUATTRESIME
+   .    > QUARANTACINQUESIMO
+   .    > QUARANTACINQUESIMI
+   .    > QUARANTACINQUESIMA
+   .    > QUARANTACINQUESIME
+   .    > QUARANTASEIESIMO
+   .    > QUARANTASEIESIMI
+   .    > QUARANTASEIESIMA
+   .    > QUARANTASEIESIME
+   .    > QUARANTASETTESIMO
+   .    > QUARANTASETTESIMI
+   .    > QUARANTASETTESIMA
+   .    > QUARANTASETTESIME
+   .    > QUARANTOTTESIMO
+   .    > QUARANTOTTESIMI
+   .    > QUARANTOTTESIMA
+   .    > QUARANTOTTESIME
+   .    > QUARANTANOVESIMO
+   .    > QUARANTANOVESIMI
+   .    > QUARANTANOVESIMA
+   .    > QUARANTANOVESIME
+   .    > CINQUANTESIMO
+   .    > CINQUANTESIMI
+   .    > CINQUANTESIMA
+   .    > CINQUANTESIME
+   .    > CINQUANTUNESIMO
+   .    > CINQUANTUNESIMI
+   .    > CINQUANTUNESIMA
+   .    > CINQUANTUNESIME
+   .    > CINQUANTADUESIMO
+   .    > CINQUANTADUESIMI
+   .    > CINQUANTADUESIMA
+   .    > CINQUANTADUESIME
+   .    > CINQUANTATREESIMO
+   .    > CINQUANTATREESIMI
+   .    > CINQUANTATREESIMA
+   .    > CINQUANTATREESIME
+   .    > CINQUANTAQUATTRESIMO
+   .    > CINQUANTAQUATTRESIMI
+   .    > CINQUANTAQUATTRESIMA
+   .    > CINQUANTAQUATTRESIME
+   .    > CINQUANTACINQUESIMO
+   .    > CINQUANTACINQUESIMI
+   .    > CINQUANTACINQUESIMA
+   .    > CINQUANTACINQUESIME
+   .    > CINQUANTASEIESIMO
+   .    > CINQUANTASEIESIMI
+   .    > CINQUANTASEIESIMA
+   .    > CINQUANTASEIESIME
+   .    > CINQUANTASETTESIMO
+   .    > CINQUANTASETTESIMI
+   .    > CINQUANTASETTESIMA
+   .    > CINQUANTASETTESIME
+   .    > CINQUANTOTTESIMO
+   .    > CINQUANTOTTESIMI
+   .    > CINQUANTOTTESIMA
+   .    > CINQUANTOTTESIME
+   .    > CINQUANTANOVESIMO
+   .    > CINQUANTANOVESIMI
+   .    > CINQUANTANOVESIMA
+   .    > CINQUANTANOVESIME
+   .    > SESSANTESIMO
+   .    > SESSANTESIMI
+   .    > SESSANTESIMA
+   .    > SESSANTESIME
+   .    > SESSANTUNESIMO
+   .    > SESSANTUNESIMI
+   .    > SESSANTUNESIMA
+   .    > SESSANTUNESIME
+   .    > SESSANTADUESIMO
+   .    > SESSANTADUESIMI
+   .    > SESSANTADUESIMA
+   .    > SESSANTADUESIME
+   .    > SESSANTATREESIMO
+   .    > SESSANTATREESIMI
+   .    > SESSANTATREESIMA
+   .    > SESSANTATREESIME
+   .    > SESSANTAQUATTRESIMO
+   .    > SESSANTAQUATTRESIMI
+   .    > SESSANTAQUATTRESIMA
+   .    > SESSANTAQUATTRESIME
+   .    > SESSANTACINQUESIMO
+   .    > SESSANTACINQUESIMI
+   .    > SESSANTACINQUESIMA
+   .    > SESSANTACINQUESIME
+   .    > SESSANTASEIESIMO
+   .    > SESSANTASEIESIMI
+   .    > SESSANTASEIESIMA
+   .    > SESSANTASEIESIME
+   .    > SESSANTASETTESIMO
+   .    > SESSANTASETTESIMI
+   .    > SESSANTASETTESIMA
+   .    > SESSANTASETTESIME
+   .    > SESSANTOTTESIMO
+   .    > SESSANTOTTESIMI
+   .    > SESSANTOTTESIMA
+   .    > SESSANTOTTESIME
+   .    > SESSANTANOVESIMO
+   .    > SESSANTANOVESIMI
+   .    > SESSANTANOVESIMA
+   .    > SESSANTANOVESIME
+   .    > SETTANTESIMO
+   .    > SETTANTESIMI
+   .    > SETTANTESIMA
+   .    > SETTANTESIME
+   .    > SETTANTUNESIMO
+   .    > SETTANTUNESIMI
+   .    > SETTANTUNESIMA
+   .    > SETTANTUNESIME
+   .    > SETTANTADUESIMO
+   .    > SETTANTADUESIMI
+   .    > SETTANTADUESIMA
+   .    > SETTANTADUESIME
+   .    > SETTANTATREESIMO
+   .    > SETTANTATREESIMI
+   .    > SETTANTATREESIMA
+   .    > SETTANTATREESIME
+   .    > SETTANTAQUATTRESIMO
+   .    > SETTANTAQUATTRESIMI
+   .    > SETTANTAQUATTRESIMA
+   .    > SETTANTAQUATTRESIME
+   .    > SETTANTACINQUESIMO
+   .    > SETTANTACINQUESIMI
+   .    > SETTANTACINQUESIMA
+   .    > SETTANTACINQUESIME
+   .    > SETTANTASEIESIMO
+   .    > SETTANTASEIESIMI
+   .    > SETTANTASEIESIMA
+   .    > SETTANTASEIESIME
+   .    > SETTANTASETTESIMO
+   .    > SETTANTASETTESIMI
+   .    > SETTANTASETTESIMA
+   .    > SETTANTASETTESIME
+   .    > SETTANTOTTESIMO
+   .    > SETTANTOTTESIMI
+   .    > SETTANTOTTESIMA
+   .    > SETTANTOTTESIME
+   .    > SETTANTANOVESIMO
+   .    > SETTANTANOVESIMI
+   .    > SETTANTANOVESIMA
+   .    > SETTANTANOVESIME
+   .    > OTTANTESIMO
+   .    > OTTANTESIMI
+   .    > OTTANTESIMA
+   .    > OTTANTESIME
+   .    > OTTANTUNESIMO
+   .    > OTTANTUNESIMI
+   .    > OTTANTUNESIMA
+   .    > OTTANTUNESIME
+   .    > OTTANTADUESIMO
+   .    > OTTANTADUESIMI
+   .    > OTTANTADUESIMA
+   .    > OTTANTADUESIME
+   .    > OTTANTATREESIMO
+   .    > OTTANTATREESIMI
+   .    > OTTANTATREESIMA
+   .    > OTTANTATREESIME
+   .    > OTTANTAQUATTRESIMO
+   .    > OTTANTAQUATTRESIMI
+   .    > OTTANTAQUATTRESIMA
+   .    > OTTANTAQUATTRESIME
+   .    > OTTANTACINQUESIMO
+   .    > OTTANTACINQUESIMI
+   .    > OTTANTACINQUESIMA
+   .    > OTTANTACINQUESIME
+   .    > OTTANTASEIESIMO
+   .    > OTTANTASEIESIMI
+   .    > OTTANTASEIESIMA
+   .    > OTTANTASEIESIME
+   .    > OTTANTASETTESIMO
+   .    > OTTANTASETTESIMI
+   .    > OTTANTASETTESIMA
+   .    > OTTANTASETTESIME
+   .    > OTTANTOTTESIMO
+   .    > OTTANTOTTESIMI
+   .    > OTTANTOTTESIMA
+   .    > OTTANTOTTESIME
+   .    > OTTANTANOVESIMO
+   .    > OTTANTANOVESIMI
+   .    > OTTANTANOVESIMA
+   .    > OTTANTANOVESIME
+   O    > TTANTESIMO
+   O    > TTANTESIMI
+   O    > TTANTESIMA
+   O    > TTANTESIME
+   O    > TTANTUNESIMO
+   O    > TTANTUNESIMI
+   O    > TTANTUNESIMA
+   O    > TTANTUNESIME
+   O    > TTANTADUESIMO
+   O    > TTANTADUESIMI
+   O    > TTANTADUESIMA
+   O    > TTANTADUESIME
+   O    > TTANTATREESIMO
+   O    > TTANTATREESIMI
+   O    > TTANTATREESIMA
+   O    > TTANTATREESIME
+   O    > TTANTAQUATTRESIMO
+   O    > TTANTAQUATTRESIMI
+   O    > TTANTAQUATTRESIMA
+   O    > TTANTAQUATTRESIME
+   O    > TTANTACINQUESIMO
+   O    > TTANTACINQUESIMI
+   O    > TTANTACINQUESIMA
+   O    > TTANTACINQUESIME
+   O    > TTANTOTTESIMO
+   O    > TTANTOTTESIMI
+   O    > TTANTOTTESIMA
+   O    > TTANTOTTESIME
+   O    > TTANTASETTESIMO
+   O    > TTANTASETTESIMI
+   O    > TTANTASETTESIMA
+   O    > TTANTASETTESIME
+   O    > TTANTASEIESIMO
+   O    > TTANTASEIESIMI
+   O    > TTANTASEIESIMA
+   O    > TTANTASEIESIME
+   O    > TTANTANOVESIMO
+   O    > TTANTANOVESIMI
+   O    > TTANTANOVESIMA
+   O    > TTANTANOVESIME
+   .    > NOVANTESIMO
+   .    > NOVANTESIMI
+   .    > NOVANTESIMA
+   .    > NOVANTESIME
+   .    > NOVANTUNESIMO
+   .    > NOVANTUNESIMI
+   .    > NOVANTUNESIMA
+   .    > NOVANTUNESIME
+   .    > NOVANTADUESIMO
+   .    > NOVANTADUESIMI
+   .    > NOVANTADUESIMA
+   .    > NOVANTADUESIME
+   .    > NOVANTATREESIMO
+   .    > NOVANTATREESIMI
+   .    > NOVANTATREESIMA
+   .    > NOVANTATREESIME
+   .    > NOVANTAQUATTRESIMO
+   .    > NOVANTAQUATTRESIMI
+   .    > NOVANTAQUATTRESIMA
+   .    > NOVANTAQUATTRESIME
+   .    > NOVANTACINQUESIMO
+   .    > NOVANTACINQUESIMI
+   .    > NOVANTACINQUESIMA
+   .    > NOVANTACINQUESIME
+   .    > NOVANTASEIESIMO
+   .    > NOVANTASEIESIMI
+   .    > NOVANTASEIESIMA
+   .    > NOVANTASEIESIME
+   .    > NOVANTASETTESIMO
+   .    > NOVANTASETTESIMI
+   .    > NOVANTASETTESIMA
+   .    > NOVANTASETTESIME
+   .    > NOVANTOTTESIMO
+   .    > NOVANTOTTESIMI
+   .    > NOVANTOTTESIMA
+   .    > NOVANTOTTESIME
+   .    > NOVANTANOVESIMO
+   .    > NOVANTANOVESIMI
+   .    > NOVANTANOVESIMA
+   .    > NOVANTANOVESIME
+
+flag \):
+   I    > -I,ENNE
+   I    > -I,ENNI
+   [EOA]    > NNE
+   [EOA]    > NNI
+
+flag \=:
+   I    > -I,UNENNE
+   I    > -I,UNENNI
+   A    > -A,UNENNE
+   A    > -A,UNENNI
+   O    > -O,UNENNE
+   O    > -O,UNENNI
+   .    > DUENNE
+   .    > DUENNI
+   .    > TREENNE
+   .    > TREENNI
+   .    > QUATTRENNE
+   .    > QUATTRENNI
+   .    > CINQUENNE
+   .    > CINQUENNI
+   .    > SEIENNE
+   .    > SEIENNI
+   .    > SETTENNE
+   .    > SETTENNI
+   .    > OTTENNE
+   .    > OTTENNI
+   O    > TTENNE
+   O    > TTENNI
+   .    > NOVENNE
+   .    > NOVENNI
+
+
+# legenda abbreviazioni nei commenti:
+
+# cd.p. = condizionale presente
+# cg.i. = congiuntivo imperfetto
+# cg.p. = congiuntivo presente
+# compl. = complemento
+# f. = femminile
+# f.s. = futuro semplice
+# ger. = gerundio presente
+# inf. = infinito presente
+# impf. = imperfetto
+# impr. = imperativo
+# m. = maschile
+# ogg. = oggetto
+# p.pass. = participio passato
+# p.pres. = participio presente
+# p.r. = passato remoto
+# pl. = plurale
+# pr. = persona
+# pres. = presente
+# rif. = riflessivo
+# sn. = singolare
+# term. = termine
+# v. = vedere
+
