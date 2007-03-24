@@ -162,6 +162,13 @@ class PassatoRemotoIrregolare(Operation):
                 for suf in ('si', 'se', 'sero'):
                     dictionary.pop(tema+suf, None)
 
+class RimuoviFemminileInPp(Operation):
+    def _run(self, dictionary):
+        for w,f in list(dictionary.iteritems()):
+            if w.endswith('a') and f and 'Q' in f \
+            and 'F' in (dictionary.get(w[:-1]+'o') or ''):
+                del dictionary[w]
+
 #: The list of operation to perform.
 #: The first item is the revision number after which the operation is not to
 #: be performed. Other parameters are the callable to run and the positional
@@ -190,6 +197,8 @@ processes = [
     (22, PassatoRemotoIrregolare(label="Aggiungi flag per p.r. 2a coniugazione"
                                        " (sconfiggere -> sconfissi)",
         flag='s')),
+    (24, RimuoviFemminileInPp(label="Rimuovi sostantivi femminili se c'è un"
+                                    "participio passato che li include."))
 ]
 
 if __name__ == '__main__':
