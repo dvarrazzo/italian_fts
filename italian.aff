@@ -939,8 +939,6 @@ flag R:
 flag S:
    E    > -E,I
 
-prefixes
-
 flag Y:
    [LU]ENTO    > -O,EMENTE
    [^T]O    > -O,AMENTE
@@ -992,9 +990,6 @@ flag *N:
    IA    > -A,NE
    A    > -A,ONA
    A    > -A,ONE
-
-flag J:
-   .    > RI
 
 flag *V:
    URRE    > -RRE,CA
@@ -1360,12 +1355,6 @@ flag c:
    IGLI    > ELE
    IGLI    > ELI
    IGLI    > ENE
-
-flag d:
-   .    > STRA
-
-flag e:
-   .    > PRE
 
 flag g:
    O    > -O,A
@@ -2054,107 +2043,6 @@ flag *\!:
    .    > NOVANTOTTO
    .    > NOVANTANOVE
 
-flag ":
-   .    > MILLE
-   .    > DUEMILA
-   .    > TREMILA
-   .    > QUATTROMILA
-   .    > CINQUEMILA
-   .    > SEIMILA
-   .    > SETTEMILA
-   .    > OTTOMILA
-   .    > NOVEMILA
-   .    > DIECIMILA
-   .    > UNDICIMILA
-   .    > DODICIMILA
-   .    > TREDICIMILA
-   .    > QUATTORDICIMILA
-   .    > QUINDICIMILA
-   .    > SEDICIMILA
-   .    > DICIASSETTEMILA
-   .    > DICIOTTOMILA
-   .    > DICIANNOVEMILA
-   .    > VENTIMILA
-   .    > VENTUNMILA
-   .    > VENTIDUEMILA
-   .    > VENTITREMILA
-   .    > VENTIQUATTROMILA
-   .    > VENTICINQUEMILA
-   .    > VENTISEIMILA
-   .    > VENTISETTEMILA
-   .    > VENTOTTOMILA
-   .    > VENTINOVEMILA
-   .    > TRENTAMILA
-   .    > TRENTUNMILA
-   .    > TRENTADUEMILA
-   .    > TRENTATREMILA
-   .    > TRENTAQUATTROMILA
-   .    > TRENTACINQUEMILA
-   .    > TRENTASEIMILA
-   .    > TRENTASETTEMILA
-   .    > TRENTOTTOMILA
-   .    > TRENTANOVEMILA
-   .    > QUARANTAMILA
-   .    > QUARANTUNMILA
-   .    > QUARANTADUEMILA
-   .    > QUARANTATREMILA
-   .    > QUARANTAQUATTROMILA
-   .    > QUARANTACINQUEMILA
-   .    > QUARANTASEIMILA
-   .    > QUARANTASETTEMILA
-   .    > QUARANTOTTOMILA
-   .    > QUARANTANOVEMILA
-   .    > CINQUANTAMILA
-   .    > CINQUANTUNMILA
-   .    > CINQUANTADUEMILA
-   .    > CINQUANTATREMILA
-   .    > CINQUANTAQUATTROMILA
-   .    > CINQUANTACINQUEMILA
-   .    > CINQUANTASEIMILA
-   .    > CINQUANTASETTEMILA
-   .    > CINQUANTOTTOMILA
-   .    > CINQUANTANOVEMILA
-   .    > SESSANTAMILA
-   .    > SESSANTUNMILA
-   .    > SESSANTADUEMILA
-   .    > SESSANTATREMILA
-   .    > SESSANTAQUATTROMILA
-   .    > SESSANTACINQUEMILA
-   .    > SESSANTASEIMILA
-   .    > SESSANTASETTEMILA
-   .    > SESSANTOTTOMILA
-   .    > SESSANTANOVEMILA
-   .    > SETTANTAMILA
-   .    > SETTANTUNMILA
-   .    > SETTANTADUEMILA
-   .    > SETTANTATREMILA
-   .    > SETTANTAQUATTROMILA
-   .    > SETTANTACINQUEMILA
-   .    > SETTANTASEIMILA
-   .    > SETTANTASETTEMILA
-   .    > SETTANTOTTOMILA
-   .    > SETTANTANOVEMILA
-   .    > OTTANTAMILA
-   .    > OTTANTUNMILA
-   .    > OTTANTADUEMILA
-   .    > OTTANTATREMILA
-   .    > OTTANTAQUATTROMILA
-   .    > OTTANTACINQUEMILA
-   .    > OTTANTASEIMILA
-   .    > OTTANTASETTEMILA
-   .    > OTTANTOTTOMILA
-   .    > OTTANTANOVEMILA
-   .    > NOVANTAMILA
-   .    > NOVANTUNMILA
-   .    > NOVANTADUEMILA
-   .    > NOVANTATREMILA
-   .    > NOVANTAQUATTROMILA
-   .    > NOVANTACINQUEMILA
-   .    > NOVANTASEIMILA
-   .    > NOVANTASETTEMILA
-   .    > NOVANTOTTOMILA
-   .    > NOVANTANOVEMILA
-
 flag *\£:
    [IVXLCDM]    > I
    [IVXLCDM]    > II
@@ -2166,70 +2054,6 @@ flag *\£:
    [XLCDM]    > VIII
    [XLCDM]    > IX
    I    > X
-
-flag $:
-   [CL]    > X
-   X    > L
-   [XLCDM]    > C
-   [LC]    > CX
-   X    > CL
-   [XLC]    > CC
-   [LC]    > CCX
-   X    > CCL
-   [XL]    > CCC
-   [LC]    > CCCX
-   X    > CCCL
-   [XL]    > CD
-   [LC]    > CDX
-   X    > CDL
-   [XLC]    > D
-   [LC]    > DX
-   X    > DL
-   [XLC]    > DC
-   [LC]    > DCX
-   X    > DCL
-   [XLC]    > DCC
-   [LC]    > DCCX
-   X    > DCCL
-   [XL]    > DCCC
-   [LC]    > DCCCX
-   X    > DCCCL
-   [XL]    > CM
-   [LC]    > CMX
-   X    > CML
-   [XLCDM]    > M
-   [LC]    > MX
-   X    > ML
-   [XLCMD]    > MC
-   [LC]    > MCX
-   X    > MCL
-   [XLC]    > MCC
-   [LC]    > MCCX
-   X    > MCCL
-   [XL]    > MCCC
-   [LC]    > MCCCX
-   X    > MCCCL
-   [XL]    > MCD
-   [LC]    > MCDX
-   X    > MCDL
-   [XLC]    > MD
-   [LC]    > MDX
-   X    > MDL
-   [XLC]    > MDC
-   [LC]    > MDCX
-   X    > MDCL
-   [XLC]    > MDCC
-   [LC]    > MDCCX
-   X    > MDCCL
-   [XL]    > MDCCC
-   [LC]    > MDCCCX
-   X    > MDCCCL
-   [XL]    > MCM
-   [LC]    > MCMX
-   X    > MCML
-   [XLC]    > MM
-   [LC]    > MMX
-   X    > MML
 
 flag \@:
    I    > -I,ESIMO
@@ -2740,6 +2564,183 @@ flag \=:
    O    > TTENNI
    .    > NOVENNE
    .    > NOVENNI
+
+
+prefixes
+
+flag J:
+   .    > RI
+
+flag d:
+   .    > STRA
+
+flag e:
+   .    > PRE
+
+flag ":
+   .    > MILLE
+   .    > DUEMILA
+   .    > TREMILA
+   .    > QUATTROMILA
+   .    > CINQUEMILA
+   .    > SEIMILA
+   .    > SETTEMILA
+   .    > OTTOMILA
+   .    > NOVEMILA
+   .    > DIECIMILA
+   .    > UNDICIMILA
+   .    > DODICIMILA
+   .    > TREDICIMILA
+   .    > QUATTORDICIMILA
+   .    > QUINDICIMILA
+   .    > SEDICIMILA
+   .    > DICIASSETTEMILA
+   .    > DICIOTTOMILA
+   .    > DICIANNOVEMILA
+   .    > VENTIMILA
+   .    > VENTUNMILA
+   .    > VENTIDUEMILA
+   .    > VENTITREMILA
+   .    > VENTIQUATTROMILA
+   .    > VENTICINQUEMILA
+   .    > VENTISEIMILA
+   .    > VENTISETTEMILA
+   .    > VENTOTTOMILA
+   .    > VENTINOVEMILA
+   .    > TRENTAMILA
+   .    > TRENTUNMILA
+   .    > TRENTADUEMILA
+   .    > TRENTATREMILA
+   .    > TRENTAQUATTROMILA
+   .    > TRENTACINQUEMILA
+   .    > TRENTASEIMILA
+   .    > TRENTASETTEMILA
+   .    > TRENTOTTOMILA
+   .    > TRENTANOVEMILA
+   .    > QUARANTAMILA
+   .    > QUARANTUNMILA
+   .    > QUARANTADUEMILA
+   .    > QUARANTATREMILA
+   .    > QUARANTAQUATTROMILA
+   .    > QUARANTACINQUEMILA
+   .    > QUARANTASEIMILA
+   .    > QUARANTASETTEMILA
+   .    > QUARANTOTTOMILA
+   .    > QUARANTANOVEMILA
+   .    > CINQUANTAMILA
+   .    > CINQUANTUNMILA
+   .    > CINQUANTADUEMILA
+   .    > CINQUANTATREMILA
+   .    > CINQUANTAQUATTROMILA
+   .    > CINQUANTACINQUEMILA
+   .    > CINQUANTASEIMILA
+   .    > CINQUANTASETTEMILA
+   .    > CINQUANTOTTOMILA
+   .    > CINQUANTANOVEMILA
+   .    > SESSANTAMILA
+   .    > SESSANTUNMILA
+   .    > SESSANTADUEMILA
+   .    > SESSANTATREMILA
+   .    > SESSANTAQUATTROMILA
+   .    > SESSANTACINQUEMILA
+   .    > SESSANTASEIMILA
+   .    > SESSANTASETTEMILA
+   .    > SESSANTOTTOMILA
+   .    > SESSANTANOVEMILA
+   .    > SETTANTAMILA
+   .    > SETTANTUNMILA
+   .    > SETTANTADUEMILA
+   .    > SETTANTATREMILA
+   .    > SETTANTAQUATTROMILA
+   .    > SETTANTACINQUEMILA
+   .    > SETTANTASEIMILA
+   .    > SETTANTASETTEMILA
+   .    > SETTANTOTTOMILA
+   .    > SETTANTANOVEMILA
+   .    > OTTANTAMILA
+   .    > OTTANTUNMILA
+   .    > OTTANTADUEMILA
+   .    > OTTANTATREMILA
+   .    > OTTANTAQUATTROMILA
+   .    > OTTANTACINQUEMILA
+   .    > OTTANTASEIMILA
+   .    > OTTANTASETTEMILA
+   .    > OTTANTOTTOMILA
+   .    > OTTANTANOVEMILA
+   .    > NOVANTAMILA
+   .    > NOVANTUNMILA
+   .    > NOVANTADUEMILA
+   .    > NOVANTATREMILA
+   .    > NOVANTAQUATTROMILA
+   .    > NOVANTACINQUEMILA
+   .    > NOVANTASEIMILA
+   .    > NOVANTASETTEMILA
+   .    > NOVANTOTTOMILA
+   .    > NOVANTANOVEMILA
+
+flag $:
+   [CL]    > X
+   X    > L
+   [XLCDM]    > C
+   [LC]    > CX
+   X    > CL
+   [XLC]    > CC
+   [LC]    > CCX
+   X    > CCL
+   [XL]    > CCC
+   [LC]    > CCCX
+   X    > CCCL
+   [XL]    > CD
+   [LC]    > CDX
+   X    > CDL
+   [XLC]    > D
+   [LC]    > DX
+   X    > DL
+   [XLC]    > DC
+   [LC]    > DCX
+   X    > DCL
+   [XLC]    > DCC
+   [LC]    > DCCX
+   X    > DCCL
+   [XL]    > DCCC
+   [LC]    > DCCCX
+   X    > DCCCL
+   [XL]    > CM
+   [LC]    > CMX
+   X    > CML
+   [XLCDM]    > M
+   [LC]    > MX
+   X    > ML
+   [XLCMD]    > MC
+   [LC]    > MCX
+   X    > MCL
+   [XLC]    > MCC
+   [LC]    > MCCX
+   X    > MCCL
+   [XL]    > MCCC
+   [LC]    > MCCCX
+   X    > MCCCL
+   [XL]    > MCD
+   [LC]    > MCDX
+   X    > MCDL
+   [XLC]    > MD
+   [LC]    > MDX
+   X    > MDL
+   [XLC]    > MDC
+   [LC]    > MDCX
+   X    > MDCL
+   [XLC]    > MDCC
+   [LC]    > MDCCX
+   X    > MDCCL
+   [XL]    > MDCCC
+   [LC]    > MDCCCX
+   X    > MDCCCL
+   [XL]    > MCM
+   [LC]    > MCMX
+   X    > MCML
+   [XLC]    > MM
+   [LC]    > MMX
+   X    > MML
 
 
 # legenda abbreviazioni nei commenti:
