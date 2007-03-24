@@ -10,6 +10,7 @@ use as full-text search dictionary in PostgreSQL using the tsearch2 tool.
 # $Id$
 __version__ = "$Revision$"[11:-2]
 
+import re
 import locale
 
 def getRevision(filename):
@@ -132,6 +133,35 @@ class RenameFlag(Operation):
             if f and flag_in in f:
                 dictionary[w] = flag_out.join(f.split(flag_in))
 
+class PassatoRemotoIrregolare(Operation):
+    eccezioni = set([
+        'assurgere', 'capovolgere', 'convergere', 'dirigere', 'divergere',
+        'eleggere', 'erigere', 'esigere', 'frangere', 'fungere', 'indulgere',
+        'prediligere', 'recingere', 'redigere', 'redirigere', 'ricingere',
+        'ridirigere', 'rifrangere', 'sorreggere', 'succingere', 'transigere',
+        'urgere'])
+
+    def __init__(self, flag, **kwargs):
+        super(PassatoRemotoIrregolare, self).__init__(**kwargs)
+        self.flag = flag
+
+    def _run(self, dictionary):
+        for w,f in list(dictionary.iteritems()):
+            if not f or 'B' not in f:
+                continue
+
+            if w.endswith("ggere") and w not in self.eccezioni:
+                dictionary[w] = (dictionary[w] or '') + self.flag
+                tema = w[:-5]
+                for suf in ('ssi', 'sse', 'ssero'):
+                    dictionary.pop(tema+suf, None)
+
+            elif w.endswith("gere") and w not in self.eccezioni:
+                dictionary[w] = (dictionary[w] or '') + self.flag
+                tema = w[:-4]
+                for suf in ('si', 'se', 'sero'):
+                    dictionary.pop(tema+suf, None)
+
 #: The list of operation to perform.
 #: The first item is the revision number after which the operation is not to
 #: be performed. Other parameters are the callable to run and the positional
@@ -157,6 +187,9 @@ processes = [
         flag="^")),
     (17, RenameFlag(label="Unisci i flag D ed E (pronominali, riflessivi)",
         flag_in="E", flag_out="D")),
+    (22, PassatoRemotoIrregolare(label="Aggiungi flag per p.r. 2a coniugazione"
+                                       " (sconfiggere -> sconfissi)",
+        flag='s')),
 ]
 
 if __name__ == '__main__':

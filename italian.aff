@@ -389,6 +389,16 @@ flag *B:
 # v.: pres. 2° pers. pl.       # impr. 2° pers. pl. (-ete)
 # v.: cg.p. 3° pers. pl.       # impr. 3° pers. pl. (-ano)
 
+# Verbi col passato remoto irregolare es. piangere, sconfiggere
+
+flag *s:
+  [^G]GERE     > -GERE,SI           # p.r. 1° pers. sn.
+  GGERE        > -GGERE,SSI         # p.r. 1° pers. sn.
+  [^G]GERE     > -GERE,SE           # p.r. 3° pers. sn.
+  GGERE        > -GGERE,SSE         # p.r. 3° pers. sn.
+  [^G]GERE     > -GERE,SERO         # p.r. 3° pers. pl.
+  GGERE        > -GGERE,SSERO       # p.r. 3° pers. pl.
+
 flag *C:
    IRE    > -IRE,O
    IRE    > -RE,
