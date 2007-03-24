@@ -68,7 +68,7 @@ class Dictionary(dict):
 
         o = []
         for w, fl in self.iteritems():
-            if fl is None:
+            if not fl:
                 o.append(w)
             else:
                 o.append("%s/%s" % (w,fl))
@@ -106,6 +106,18 @@ class RemoveWords(Operation):
         for k in to_del:
             del dictionary[k]
 
+class DropFlag(Operation):
+    """Remove a flag from all the words."""
+    def __init__(self, flag, **kwargs):
+        super(DropFlag, self).__init__(**kwargs)
+        self.flag = flag
+
+    def _run(self, dictionary):
+        flag = self.flag
+        for w,f in dictionary.iteritems():
+            if f and flag in f:
+                dictionary[w] = "".join(f.split(flag))
+
 #: The list of operation to perform.
 #: The first item is the revision number after which the operation is not to
 #: be performed. Other parameters are the callable to run and the positional
@@ -113,6 +125,22 @@ class RemoveWords(Operation):
 processes = [
     (13, RemoveWords(label="Togli le parole contenenti un apostrofo.",
         predicate=lambda w: "'" in w)),
+    (16, DropFlag(label="Rimuovi il flag T (prefisso accentato).",
+        flag="T")),
+    (16, DropFlag(label="Rimuovi il flag U (un, ciascun).",
+        flag="U")),
+    (16, DropFlag(label="Rimuovi il flag X (pronomi tronchi).",
+        flag="X")),
+    (16, DropFlag(label="Rimuovi il flag i (articolo L').",
+        flag="i")),
+    (16, DropFlag(label="Rimuovi il flag q (prefisso bell').",
+        flag="q")),
+    (16, DropFlag(label="Rimuovi il flag r (prefisso brav').",
+        flag="r")),
+    (16, DropFlag(label="Rimuovi il flag s (prefisso buon').",
+        flag="s")),
+    (16, DropFlag(label="Rimuovi il flag ^ (prefisso sant').",
+        flag="^")),
 ]
 
 if __name__ == '__main__':
