@@ -118,6 +118,20 @@ class DropFlag(Operation):
             if f and flag in f:
                 dictionary[w] = "".join(f.split(flag))
 
+class RenameFlag(Operation):
+    """Change a flag letter."""
+    def __init__(self, flag_in, flag_out, **kwargs):
+        super(RenameFlag, self).__init__(**kwargs)
+        self.flag_in = flag_in
+        self.flag_out = flag_out
+
+    def _run(self, dictionary):
+        flag_in = self.flag_in
+        flag_out = self.flag_out
+        for w,f in dictionary.iteritems():
+            if f and flag_in in f:
+                dictionary[w] = flag_out.join(f.split(flag_in))
+
 #: The list of operation to perform.
 #: The first item is the revision number after which the operation is not to
 #: be performed. Other parameters are the callable to run and the positional
@@ -141,6 +155,8 @@ processes = [
         flag="s")),
     (16, DropFlag(label="Rimuovi il flag ^ (prefisso sant').",
         flag="^")),
+    (17, RenameFlag(label="Unisci i flag D ed E (pronominali, riflessivi)",
+        flag_in="E", flag_out="D")),
 ]
 
 if __name__ == '__main__':
