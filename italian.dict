@@ -26018,7 +26018,6 @@ defalcare/AI
 defalcato/F
 defalcazione/S
 default
-defebrillando/D
 defecando/D
 defecare/AI
 defecato/F
@@ -26039,6 +26038,7 @@ defezionare/AI
 defezionato/o
 defezione/S
 defezionista/R
+defibrillando/D
 defibrillare/AI
 defibrillato/F
 defibrillatore/S
@@ -27966,9 +27966,7 @@ discolpe
 disconnessione/S
 disconnesso/m
 disconnettendo/D
-disconnettere/I
-disconnetto
-disconnettono
+disconnettere/BI
 disconobbe
 disconobbero
 disconobbi
@@ -28193,7 +28191,7 @@ disillabico/p
 disillabo/o
 disilluda
 disilludendo/D
-disilludere
+disilludere/BI
 disillusione/S
 disilluso/m
 disilvestro
@@ -90461,7 +90459,7 @@ videotex
 videotrasmessione/S
 videotrasmesso/m
 videotrasmettendo/D
-videotrasmettere
+videotrasmettere/AI
 videro
 vidi
 vidicon
@@ -91093,7 +91091,7 @@ volitivo/o
 volizione/S
 volle/S
 volleando/D
-volleare
+volleare/AI
 volleista/R
 vollero
 vollista/R
