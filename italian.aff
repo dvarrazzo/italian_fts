@@ -949,6 +949,13 @@ flag R:
 flag S:
    E    > -E,I
 
+ Sostantivi femminili con equivalente maschile, prodotti dal maschile
+flag f:
+   E         > -E,A
+   O         > -O,A
+   [^CG]O    > -O,E
+   [CG]O     > -O,HE
+
 flag Y:
    [LU]ENTO    > -O,EMENTE
    [^T]O    > -O,AMENTE

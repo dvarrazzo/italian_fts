@@ -1305,6 +1305,7 @@ Cassina
 Cassine
 Cassinelle
 Cassinetta
+Cassino
 Cassio
 Cassiopea
 Cassolnovo
@@ -5182,8 +5183,7 @@ abortire/tIv
 abortista/QR
 abortita/Q
 abortito/O
-abortiva/Q
-abortivo/O
+abortivo/o
 aborto/O
 abracadabra
 abradendo/D
@@ -5722,7 +5722,6 @@ accomunamento/O
 accomunando/D
 accomunare/AI
 accomunato/F
-acconcia/Q
 acconciabile/S
 acconciamento/O
 acconciando/D
@@ -5731,7 +5730,7 @@ acconciato/F
 acconciatore/S
 acconciatrice/S
 acconciatura/Q
-acconcio/O
+acconcio/o
 accondiscendendo/D
 accondiscendente/S
 accondiscendenza/Q
@@ -6010,11 +6009,10 @@ acidofilo/O
 acidolisi
 acidolo/O
 acidosi
-acidula/Q
 acidulando/D
 acidulare/AI
 acidulato/F
-acidulo/O
+acidulo/o
 aciduria/Q
 acile/S
 acinace/S
@@ -6237,7 +6235,6 @@ adamantino/O
 adamita/QR
 adamitica/QR
 adamitico
-adatta/Q
 adattabile/S
 adattabilità
 adattamento/O
@@ -6249,7 +6246,7 @@ adattato/F
 adattatore/S
 adattiva/Q
 adattivo/O
-adatto/OW
+adatto/oW
 addebitabile/S
 addebitamento/O
 addebitando/D
@@ -7050,7 +7047,7 @@ agemine
 agenda/Q
 agendina/Q
 agendo/D
-agente
+agente/S
 agenzia/Q
 agerato/O
 ageusia/Q
@@ -8306,7 +8303,7 @@ amamelidale/S
 amamelide/S
 amando/D
 amanita/Q
-amante
+amante/S
 amantiglio/O
 amanuense/S
 amara
@@ -8448,21 +8445,19 @@ ametrope/S
 ametropia/Q
 amfetamina/Q
 amianto/O
-amica/Q
 amicabile/S
 amicale/S
 amicando/D
 amicare/AI
 amicarelli
 amicato/F
-amiche
 amichetta/Q
 amichetto/O
 amichevole/SY
-amici
 amicissima/Q
 amicissimo/O
 amicizia/Q
+amico/p
 amicrobica/QR
 amicrobico
 amidacea/Q
@@ -8843,7 +8838,7 @@ amnios
 amniote/S
 amniotica/QR
 amniotico
-amnistia
+amnistia/Q
 amnistiando/D
 amnistiante
 amnistiare/AI
@@ -9661,7 +9656,6 @@ antibiotico
 antibloccaggio/O
 antibolscevica/QR
 antibolscevico
-antica/Q
 anticaglia/Q
 anticamente
 anticamera/Q
@@ -9699,6 +9693,7 @@ anticipazione/S
 anticlericale/S
 anticlericalismo/O
 anticlinale/S
+antico/o
 anticoagulante/S
 anticolerica/QR
 anticolerico/O
@@ -10116,7 +10111,6 @@ aperiodico/Y
 aperitivo/O
 aperse/S
 apersero
-aperta/Q
 apertaci
 apertagli
 apertala/Q
@@ -10125,7 +10119,7 @@ apertami
 apertasi
 apertati
 apertavi
-aperto/OYW
+aperta/oYW
 apertolo/o
 apertone
 apertosi
@@ -12165,7 +12159,6 @@ assaporando/D
 assaporante
 assaporare/AI
 assaporato/F
-assassina/Q
 assassinamento/O
 assassinando/D
 assassinante
@@ -12173,6 +12166,7 @@ assassinare/AI
 assassinato/F
 assassinii
 assassinio
+assassino/Of
 assatanata/Q
 assatanato/O
 asse/S
@@ -12708,14 +12702,13 @@ astrografia
 astrografo/O
 astrolabio/O
 astrolatria
-astrologa/Q
 astrologando/D
 astrologare/AI
 astrologato/F
 astrologia/Q
 astrologica/QR
 astrologico/Y
-astrologo/n
+astrologo/p
 astrometria
 astrometrica/QR
 astrometrico
@@ -12947,7 +12940,6 @@ attengo
 attengono
 attenne/S
 attennero
-attenta/Q
 attentamente
 attentando/D
 attentante
@@ -12958,6 +12950,7 @@ attentatrice/S
 attentissima/Q
 attentissimamente
 attentissimo/O
+attento/o
 attenuamento/O
 attenuando/D
 attenuante
@@ -13000,10 +12993,9 @@ atterrisco
 atterriscono
 atterrito/H
 atterrà
-attesa/Q
 attesero/J
 attesista/QR
-atteso/OW
+atteso/oW
 attestabile/S
 attestamento/O
 attestando/D
@@ -13070,7 +13062,6 @@ attirare/AI
 attirato/F
 attitudinale/SY
 attitudine/S
-attiva
 attivabile/S
 attivamente
 attivando/D
@@ -13080,7 +13071,6 @@ attivato/F
 attivatore/S
 attivatrice/S
 attivazione/S
-attive
 attivismo/O
 attivissima/Q
 attivissimo/O
@@ -13092,6 +13082,7 @@ attivizzando/D
 attivizzante
 attivizzare/AI
 attivizzato/F
+attivo/oWY
 attizzamento/O
 attizzando/D
 attizzante
@@ -13391,7 +13382,6 @@ autarchizzando/D
 autarchizzante
 autarchizzare/AI
 autarchizzato/F
-autentica/QR
 autenticabile/S
 autenticamente
 autenticando/D
@@ -13400,6 +13390,7 @@ autenticare/AI
 autenticato/F
 autenticazione/S
 autenticità
+autentico/p
 autentificando/D
 autentificante
 autentificare/AI
@@ -14174,7 +14165,6 @@ avverare/AI
 avverato/F
 avverbiale/SY
 avverbio/O
-avversa/Q
 avversamente
 avversando/D
 avversante
@@ -14188,6 +14178,7 @@ avversatore/S
 avversatrice/S
 avversione/S
 avversità
+avverso/o
 avvertendo/DeJ
 avvertenza/Q
 avvertibile/S
@@ -14474,7 +14465,6 @@ azzuffando/JD
 azzuffante
 azzuffare/JAI
 azzuffato/JF
-azzurra/Q
 azzurrabile/S
 azzurraggio/O
 azzurramento/O
@@ -14485,6 +14475,7 @@ azzurrato/F
 azzurrina/QR
 azzurrite/S
 azzurrità
+azzurro/o
 azzurrognola/Q
 azzurrognolo/O
 b
@@ -15642,7 +15633,7 @@ becchettii
 becchettio
 becchime/S
 becchincroce
-becchino/o
+becchino/Of
 beccofrusone/S
 beccolando/D
 beccolare/AI
@@ -17906,7 +17897,6 @@ bue
 bufalino/o
 bufalo/o
 bufera/Q
-buffa/Q
 buffando/D
 buffare/AI
 buffato/F
@@ -17919,7 +17909,7 @@ bufferizzazione/S
 buffet
 buffetteria/Q
 buffetto/O
-buffo/YW
+buffo/oYW
 buffona/QR
 buffonaggine/S
 buffonata/Q
@@ -18493,7 +18483,6 @@ calloni
 callori
 callosità
 calloso/o
-calma/Q
 calmabile/S
 calmando/D
 calmare/AI
@@ -18504,7 +18493,7 @@ calmierato/F
 calmieratore/S
 calmieratrice/S
 calmiere/S
-calmo/YW
+calmo/oYW
 caloca
 caloia
 calomarde
@@ -19592,7 +19581,7 @@ carrozzato/F
 carrozzella/Q
 carrozzeria/Q
 carrozziera/QR
-carrozzino/o
+carrozzino/Of
 carrozzone/S
 carrubba
 carrubo/o
@@ -22742,7 +22731,7 @@ concorrenziale/S
 concorrenzialità
 concorrere/BI
 concorsero
-concorso/o
+concorso/O
 concorsuale/S
 concreare/AI
 concreato/F
@@ -23628,12 +23617,12 @@ contrappuntato/F
 contrappuntista/QR
 contrappuntistico/pY
 contrargine/S
-contraria/Q
 contrariamente
 contrariando/D
 contrariare/AI
 contrariato/F
 contrarietà
+contrario/o
 contrarre/VJjI
 contrassalto/O
 contrassegnando/D
@@ -23643,7 +23632,6 @@ contrastabile/S
 contrastando/D
 contrastare/AI
 contrastato/F
-contratta/Q
 contrattabile/S
 contrattaccando/D
 contrattaccare/AI
@@ -23655,6 +23643,7 @@ contrattazione/S
 contrattempo/O
 contrattile/S
 contrattilità
+contratto/O
 contrattuale/SY
 contrattualismo/O
 contrattualistica/Q
@@ -28785,6 +28774,7 @@ divinizzare/AI
 divinizzato/F
 divinizzazione/S
 divisamento/O
+divisa/Q
 divisero
 divisibile/S
 divisibilità
@@ -29293,13 +29283,11 @@ duplicatrice/S
 duplicazione/S
 duplice/SY
 duplicità
-dura/Q
 durabilità
 duracino/o
 duralluminio/O
 duramadre
 durame/S
-duramente
 durandette
 durando/D
 duranza
@@ -29312,8 +29300,8 @@ duremadri
 durevole/SY
 durevolezza/Q
 durezza/Q
-durissimo/o
 durlindana/Q
+duro/oYW
 durometro/O
 durona/QR
 durra/Q
@@ -29609,14 +29597,13 @@ edilizia/Q
 edilizio/O
 edipica/QR
 edipico
-edita/Q
 editabile/S
 editando/D
 editante
 editare/AI
 editato/F
 editing
-edito/OJ
+edito/oJ
 editor
 editore/S
 editoria/Q
@@ -31496,11 +31483,10 @@ esatonale/S
 esatonalità
 esatonia/Q
 esatonico
-esatta/Q
 esattezza/Q
 esattissima/QR
 esattivo
-esatto/OYW
+esatto/oYW
 esattore/S
 esattoria/Q
 esattoriale/S
@@ -31536,7 +31522,7 @@ esborsando/D
 esborsare/AI
 esborsato/F
 esbosco/O
-esca
+esca/Q
 escalante/S
 escalation
 escamilla
@@ -31559,7 +31545,6 @@ escavatore/S
 escavatrice/S
 escavazione/S
 esce/S
-esche
 escherichia
 eschileo
 eschimese/S
@@ -31959,12 +31944,11 @@ esplicativa/Q
 esplicativo/O
 esplicato/F
 esplicazione/S
-esplicita/Q
 esplicitando/D
 esplicitare/AI
 esplicitato/F
 esplicitazione/S
-esplicito/OY
+esplicito/oY
 esplodendo/D
 esplodente
 esplodere/BI
@@ -32142,7 +32126,6 @@ esteriorizzando/D
 esteriorizzare/AI
 esteriorizzato/F
 esteriorizzazione/S
-esterna/Q
 esternalità
 esternamente
 esternando/D
@@ -32150,6 +32133,7 @@ esternante
 esternare/AI
 esternato/F
 esternazione/S
+esterno/o
 estero/O
 esterofila/Q
 esterofilia/Q
@@ -32160,13 +32144,12 @@ esteromania
 esterrefatta/Q
 esterrefatto/O
 estervina
-estesa/Q
 estesami
 estesero
 estesiologia/Q
 estesiometro/O
 estesisi
-esteso/OYW
+esteso/oYW
 estesosi
 esteta/R
 estetica/QR
@@ -32212,13 +32195,12 @@ estirpatore/S
 estirpatrice/S
 estirpatura
 estirpazione/S
-estiva/Q
 estivando/D
 estivante/S
 estivare/AI
 estivato/F
 estivazione/S
-estivo/O
+estivo/o
 estone/S
 estorcendo/D
 estorcente
@@ -32296,13 +32278,13 @@ estremizzato/F
 estremizzazione/S
 estremo/OYW
 estremofile/S
-estrinseca/QR
 estrinsecamente
 estrinsecando/D
 estrinsecare/AI
 estrinsecato/F
 estrinsecazione/S
 estrinsicamento
+estrinseco/p
 estro/O
 estroflessione/S
 estroflesso
@@ -32390,13 +32372,13 @@ eterizzando/D
 eterizzare/AI
 eterizzato/F
 eterizzazione/S
-eterna/Q
 eternamente
 eternando/D
 eternante
 eternare/AI
 eternato/F
 eternità
+eterno/o
 etero/O
 eterocarpia
 eterocentrico
@@ -33300,7 +33282,7 @@ fattici
 fattispecie
 fattivo/oY
 fattizio/o
-fatto/mJ
+fatto/OmJW
 fattore/S
 fattoressa/Q
 fattoria/Q
@@ -33406,9 +33388,7 @@ fecale/S
 feccia/n
 feccioso/o
 fecola/Q
-feconda/Q
 fecondabile/S
-fecondamente
 fecondando/D
 fecondare/AI
 fecondativo/o
@@ -33416,9 +33396,8 @@ fecondato/F
 fecondatore/S
 fecondatrice/S
 fecondazione/S
-fecondissimo/o
 fecondità
-fedain
+fecondo/oYW
 fedayn
 fede/S
 fedecommesso/O
@@ -34093,13 +34072,12 @@ fino
 finocchio/O
 finocchiona/Q
 finora
-finta/Q
-fintamente
 fintando/D
 fintanto
 fintantoché
 fintare/AI
 fintato/F
+finto/oY
 finzione/S
 fio/n
 fiocaggine
@@ -34963,7 +34941,6 @@ fotogenico/p
 fotogeno
 fotogeologia
 fotogiornale/S
-fotografa/Q
 fotografabile/S
 fotografando/D
 fotografare/AI
@@ -34971,6 +34948,7 @@ fotografato/F
 fotografia/Q
 fotografico/pY
 fotografismo
+fotografo/Of
 fotogramma/R
 fotogrammetria/Q
 fotogrammetrico/p
@@ -35112,7 +35090,6 @@ franamento/O
 franando/D
 franare/AI
 franato/F
-franca/Q
 francamente
 francare/AI
 francato/F
@@ -35135,6 +35112,7 @@ franchising
 franchismo/O
 franchista/R
 francio
+franco/o
 francobollando/D
 francobollare/AI
 francobollato/F
@@ -35770,6 +35748,7 @@ furoreggiato/o
 furtado
 furtivo/oY
 furto/O
+fusa
 fusaggine/S
 fusaio
 fusaiola/Q
@@ -35794,7 +35773,7 @@ fusione/S
 fusionismo
 fusionista/R
 fusionistico/p
-fuso/mJ
+fuso/OmJ
 fusoliera/Q
 fusorio/o
 fustagno/O
@@ -38965,7 +38944,7 @@ ignominioso/OY
 ignorabile/S
 ignorando/D
 ignorantaggine/S
-ignorante/W
+ignorante/SW
 ignoranza/Q
 ignorare/AI
 ignorato/F
@@ -40212,12 +40191,11 @@ impiegatizio/O
 impiegatizzazione/S
 impiegato/F
 impiegatume/S
-impietosa/Q
 impietosendo/D
 impietosente
 impietosire/tvI
 impietosirsi/M
-impietoso/OYW
+impietoso/oYW
 impietramento
 impietrendo/D
 impietrente
@@ -42105,7 +42083,7 @@ indicato/F
 indicatore/S
 indicatrice/S
 indicazione/S
-indice/ed
+indice/Sed
 indicemmo/ed
 indicente/S
 indicesse/ed
@@ -42121,7 +42099,6 @@ indicevate/ed
 indicevi/ed
 indicevo/ed
 indicherrebbe
-indici/edb
 indiciamo/bed
 indiciate/ed
 indicibile/SY
@@ -42556,9 +42533,8 @@ inestinta/Q
 inestinto/O
 inestirpabile/SY
 inestricabile/SY
-inetta/Q
 inettitudine/S
-inetto/O
+inetto/o
 inevasa/Q
 inevaso/O
 inevitabile/SY
@@ -42622,9 +42598,8 @@ infausta/Q
 infausto/OY
 infavata/Q
 infavato/O
-infeconda/Q
 infecondità
-infecondo/O
+infecondo/o
 infedele/SYW
 infedeltà
 infelice/SYW
@@ -43878,15 +43853,14 @@ insediando/D
 insediante
 insediare/AI
 insediato/F
-insegna
+insegna/Q
 insegnabile/S
 insegnamento/O
 insegnando/D
-insegnante
+insegnante/S
 insegnare/AI
 insegnativo/O
 insegnato/F
-insegne
 inseguendo/D
 inseguente
 inseguimento/O
@@ -44678,7 +44652,6 @@ intermodale/S
 intermolecolare/S
 intermontana/Q
 intermontano/O
-interna/Q
 internal
 internalizzazione/S
 internamente
@@ -44705,6 +44678,7 @@ internet
 internista/QR
 internistica/Q
 internistico/O
+interno/o
 internodio/O
 internografando/D
 internografare/AI
@@ -47153,7 +47127,6 @@ laccio/O
 lacciolo/O
 laccolite/S
 lacedemone/S
-lacera/Q
 lacerabile/S
 lacerabilità
 laceramento/O
@@ -47164,6 +47137,7 @@ laceratore/S
 laceratrice/S
 lacerazione/S
 lacerna/Q
+lacero/o
 lacerto/O
 lacinia/Q
 laciniato/o
@@ -47970,7 +47944,7 @@ lettiga/Q
 lettighiere/S
 lettino/O
 lettisternio/O
-letto/mJ
+letto/OmJ
 lettone/S
 lettorato/O
 lettore/S
@@ -48079,7 +48053,6 @@ libeccio
 libellista/QR
 libello/O
 libellula/Q
-libera/Q
 liberabile/S
 liberal
 liberale/YW
@@ -48110,6 +48083,7 @@ liberismo/O
 liberissimo/o
 liberista/QR
 liberistico/p
+libero/o
 liberoscambismo/O
 liberoscambista/QR
 libertario/o
@@ -50057,7 +50031,7 @@ marcapunto/O
 marcare/AI
 marcasite/S
 marcatempo
-marcato/FYW
+marcato/oYW
 marcatore/S
 marcatrice/S
 marcatura/Q
@@ -51083,7 +51057,6 @@ mestare/AI
 mestato/F
 mestatore/S
 mestatrice/S
-meste
 mesticando/D
 mesticare/AI
 mesticato/F
@@ -51093,7 +51066,7 @@ mestichino/O
 mestierante/S
 mestiere/S
 mestizia/Q
-mesto/OYW
+mesto/oYW
 mestolaccia/n
 mestolata/Q
 mestolo/o
@@ -52311,7 +52284,6 @@ modanare/AI
 modanato/F
 modanatura/Q
 model
-modella/Q
 modellabile/S
 modellamento/O
 modellando/D
@@ -52325,6 +52297,7 @@ modellino/O
 modellismo/O
 modellista/QR
 modellistico/p
+modello/Of
 modem
 modenese/S
 moderabile/S
@@ -52979,7 +52952,7 @@ morsicchiando/D
 morsicchiare/AI
 morsicchiato/F
 morsicchiatura/Q
-morso/mJ
+morso/OmJ
 morsura/Q
 mortadella/Q
 mortagli
@@ -53072,17 +53045,18 @@ mostriciattolo/o
 mostrina/QR
 mostruosità
 mostruoso/oY
+mota/Q
 motel
 motiglio
 motilità
 motivabile/S
 motivando/D
 motivare/AI
-motivato/FYW
+motivato/oYW
 motivazionale/S
 motivazione/S
 motivetto/O
-moto/o
+moto/O
 motoaliante/S
 motoaratore/S
 motoaratrice/S
@@ -53460,7 +53434,6 @@ mustang
 mustelide/S
 musulmanesimo/O
 musulmano/o
-muta/Q
 mutabile/SYW
 mutabilità
 mutagenesi
@@ -53495,6 +53468,7 @@ mutilatrice/S
 mutilazione/S
 mutile
 mutismo/O
+muto/o
 mutolo/o
 mutone
 mutria/Q
@@ -53619,7 +53593,6 @@ nascose/S
 nascosero
 nascostisi
 nascosto/oYW
-nascostogli
 nasello/O
 nasetto/O
 nasiera/Q
@@ -55240,7 +55213,6 @@ occorsati
 occorsero
 occorso/O
 occorsomi
-occulta/Q
 occultabile/S
 occultamente
 occultamento/O
@@ -55255,6 +55227,7 @@ occultismo/O
 occultista/QR
 occultistica/QR
 occultistico
+occulto/o
 occupabile/S
 occupando/D
 occupante
@@ -55317,7 +55290,7 @@ oda
 odalisca/Q
 odano
 oddio
-ode
+ode/S
 odeon
 odiabile/S
 odiando/D
@@ -55412,9 +55385,8 @@ offerto/O
 offertoci
 offertogli
 offertorio/O
-offesa/Q
 offesero
-offeso/OW
+offeso/oW
 office
 officiando/D
 officiante
@@ -55476,7 +55448,6 @@ oftalmoterapia/Q
 oftalmotropo/O
 oggettino/O
 oggettistica
-oggettiva/Q
 oggettivabile/S
 oggettivando/D
 oggettivare/AI
@@ -55487,7 +55458,7 @@ oggettivista/QR
 oggettivistica/Q
 oggettivistico/nY
 oggettività
-oggettivo/OY
+oggettivo/oY
 oggetto/O
 oggettuale/S
 oggettualità
@@ -56536,7 +56507,6 @@ organaro/O
 organdi
 organello/O
 organetto/O
-organica/Q
 organicando/D
 organicante
 organicare/AI
@@ -56546,7 +56516,7 @@ organicismo/O
 organicista/R
 organicistico/p
 organicità
-organico/nY
+organico/pY
 organigramma/R
 organigrammica/QR
 organigrammico
@@ -60095,7 +60065,7 @@ permeanza/Q
 permeare/AI
 permeato/F
 permeatore/S
-permesso/o
+permesso/O
 permettendo/D
 permettere/BI
 permiano/o
@@ -68456,10 +68426,10 @@ ricollegato/F
 ricollocabile/S
 ricollocamenti
 ricollocazione/S
-ricolma/Q
 ricolmando/D
 ricolmare/AI
 ricolmato/F
+ricolmo/o
 ricombinazione/S
 ricominciamento/O
 ricominciando/D
@@ -68641,7 +68611,7 @@ ricorsero
 ricorsione/S
 ricorsività
 ricorsivo/oY
-ricorso/o
+ricorso/O
 ricostituendo/D
 ricostituire/tvI
 ricostituirsi/M
@@ -70154,12 +70124,12 @@ rinvigorendo/D
 rinvigorimento/O
 rinvigorire/tvI
 rinvigorirsi/M
-rinvii
 rinviino
 rinvilendo/D
 rinvilisce
 rinviliscono
 rinvilito/H
+rinvio/O
 rinvitando/D
 rinvitare/AI
 rinvitato/F
@@ -70649,7 +70619,7 @@ risistemare/AI
 risistemato/F
 risistemazione/S
 risma/Q
-riso/o
+riso/O
 risocializzando/D
 risocializzare/AI
 risocializzato/F
@@ -71358,7 +71328,7 @@ rodigino/o
 rodilegno
 rodilio
 rodimento/O
-rodio/o
+rodio
 rodiota/QR
 rodite/S
 roditore/S
@@ -76330,19 +76300,19 @@ sgoggiolo
 sgolando/D
 sgolare/AI
 sgolato/F
-sgombera/Q
 sgomberando/D
 sgomberare/AI
 sgomberato/F
+sgombero/o
 sgombrando/D
 sgombraneve
 sgombrare/AI
 sgombrato/F
-sgombre
-sgomenta/Q
+sgombro/o
 sgomentando/D
 sgomentare/AI
 sgomentato/F
+sgomento/o
 sgominando/D
 sgominare/AI
 sgominato/F
@@ -76813,13 +76783,13 @@ sinartrosi
 sincarpico/p
 sincarpio
 sincarpo/o
-sincera/Q
 sinceramente
 sincerando/D
 sincerare/AI
 sincerato/F
 sincerissimo/o
 sincerità
+sincero/o
 sinché
 sinciziale/S
 sincizio/O
@@ -77829,7 +77799,7 @@ soldato/O
 soldino/O
 soldo/O
 soldone/S
-sole
+sole/S
 soleare/S
 solecchio
 solecismo/O
@@ -77855,10 +77825,10 @@ solere
 solerte/SYW
 solerzia/Q
 solettando/D
+soletta/Q
 solettare/AI
 solettato/F
 solettatura/Q
-solette
 solfando/D
 solfara
 solfare/AI
@@ -79637,10 +79607,10 @@ spersonalizzazione/S
 sperticando/D
 sperticare/AI
 sperticato/FY
+spesa/Q
 spesando/D
 spesare/AI
 spesato/F
-spese
 spesero
 spessezza/Q
 spessimetro/O
@@ -80689,9 +80659,8 @@ stancabile/S
 stancando/D
 stancare/AI
 stancato/F
-stanche
 stanchezza/Q
-stanco/YW
+stanco/oYW
 stand
 standage
 standard
@@ -81767,10 +81736,8 @@ stressare/AI
 stressato/F
 stresses
 stretching
-strettala
-strettami
 strettezza/Q
-stretto/mJYW
+stretto/oJYW
 strettoia/Q
 strettura/Q
 striando/D
@@ -81983,7 +81950,7 @@ strusciato/F
 struscii
 strusciona/QR
 struttivo/o
-strutto/o
+strutto
 strutturabile/S
 strutturalismo/O
 strutturalista/QR
@@ -82285,7 +82252,7 @@ successibile/S
 successibilità
 successione/S
 successivo/oY
-successo/o
+successo/O
 successone/S
 successore
 successorio/o
@@ -84870,6 +84837,7 @@ terzomondistico/p
 terzone
 terzultimo/o
 terzuolo/O
+tesa/Q
 tesafili
 tesaggio/O
 tesando/D
@@ -84884,7 +84852,6 @@ tesaurizzatrice/S
 tesaurizzazione/S
 tesauro/O
 teschio/O
-tese
 tesero
 tesina/Q
 tesissimo/o
@@ -85525,6 +85492,7 @@ tondezza
 tondinaro/o
 tondini
 tonditura
+tondo/o
 tondone/S
 toneatto
 tonelli
@@ -87303,7 +87271,6 @@ tristezza/Q
 tristissimo/o
 tristo/o
 trisulco/o
-trita/Q
 tritabile/S
 tritacarne
 tritaghiaccio
@@ -87326,6 +87293,7 @@ tritemimera/Q
 tritico
 tritio
 tritionico/p
+trito/o
 tritolo/O
 tritone/S
 trittici
@@ -87942,7 +87910,6 @@ ubiquitaria/Q
 ubiquitario/O
 ubiquitina/Q
 ubiquità
-ubriaca/Q
 ubriacamento/O
 ubriacando/D
 ubriacante
@@ -87951,8 +87918,8 @@ ubriacato/F
 ubriacatura/Q
 ubriache
 ubriachezza/Q
-ubriacona
-ubriacone/S
+ubriaco/o
+ubriacone/Sf
 uccel
 uccellaccio/O
 uccellagione/S
@@ -88119,7 +88086,6 @@ ulna/Q
 ulnare/S
 ulotrico
 ulteriore/SY
-ultima/Q
 ultimabile/S
 ultimamente
 ultimando/D
@@ -88133,6 +88099,7 @@ ultimazione/S
 ultimissima/Q
 ultimissimo/O
 ultimizia/Q
+ultimo/o
 ultimogenita/Q
 ultimogenito/O
 ultra
@@ -89940,10 +89907,10 @@ vibrometro/O
 vibroscopio/O
 vibroterapia/Q
 viburno
-vicaria/Q
 vicarianza
 vicariare/AI
 vicariato/F
+vicario/Of
 vice
 viceammiraglio/O
 vicebrigadiere/S

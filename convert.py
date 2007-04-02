@@ -12,6 +12,9 @@ __version__ = "$Revision$"[11:-2]
 
 import re
 import locale
+from operator import itemgetter
+
+import psycopg2
 
 def getRevision(filename):
     from subprocess import Popen, PIPE
@@ -169,6 +172,138 @@ class RimuoviFemminileInPp(Operation):
             and 'F' in (dictionary.get(w[:-1]+'o') or ''):
                 del dictionary[w]
 
+class RimuoviVerbi(Operation):
+    """Rimuovi i verbi dal vocabolario!!!
+    """
+    # Eccezioni: da non rimuovere anche se appaiono coniugazioni. La chiave
+    # è il flag che le 'tiene in vita'.
+    keep = {
+        'N': ['stufa', 'pipa', 'anima', 'visita', 'idea', 'domanda', 'cucina',
+            'tonda'],
+        'O': ['abbacchio', 'abbaglio', 'abbaino', 'abbandono', 'abbozzo',
+            'abbraccio', 'abbuono', 'abitino', 'abito', 'abortivo', 'abuso',
+            'accento', 'acchito', 'acciacco', 'acciaino', 'acciaio', 'acconcio',
+            'accordo', 'accumulo', 'aceto', 'acidulo', 'acquarello', 'acquerello',
+            'acquisito', 'acquisto', 'adagio', 'adatto', 'addebito', 'addobbo',
+            'adito', 'adultero', 'aerotraino', 'alberghino', 'arreso',
+            'assassino', 'bacino', 'baracchino', 'becchino', 'bilancino',
+            'biscottino', 'bordo', 'brando', 'buchino', 'calcio', 'cappottino',
+            'carato', 'cardano', 'carrozzino', 'codicillo', 'compatto',
+            'compitino', 'concorso', 'contentino', 'contratto', 'corredino',
+            'cortocircuito', 'cricco', 'cucinino', 'discorso', 'disegnino',
+            'disormeggio', 'divano', 'divello', 'esatto', 'esperimento',
+            'esplicito', 'estivo', 'fato', 'fatto', 'forno', 'fotografo',
+            'gommino', 'grugno', 'imbrago', 'imbuto', 'impietoso', 'incolto',
+            'indulto', 'infisso', 'infuso', 'intervallo', 'letto', 'listino',
+            'lumino', 'mesto', 'mobilino', 'morso', 'modellino', 'modello',
+            'oggettivo', 'oracolo', 'padellino', 'parlamento', 'passeggino',
+            'pendolino', 'pisolino', 'pompino', 'profumino', 'provino',
+            'regolamento', 'reimpianto', 'rinvio', 'riposino', 'riso',
+            'ritocchino', 'ruttino', 'scheletro', 'scherno', 'sedano', 'slittino',
+            'soluto', 'sorriso', 'stato', 'stoppino', 'successo', 'tamburino',
+            'tango', 'transatto', 'unto', 'vallo', 'vicario'],
+        'Q': ['abiura', 'accetta', 'accusa', 'adultera', 'amnistia', 'ancora',
+            'angoscia', 'anima', 'ara', 'area', 'arma', 'asfissia', 'aureola',
+            'avventura', 'balestra', 'balletta', 'barzelletta', 'branda',
+            'bulletta', 'cadenza', 'calamita', 'cantilena', 'capotta',
+            'carambola', 'carpa', 'carrozza', 'carrucola', 'catapulta',
+            'chiacchiera', 'coccola', 'cola', 'congrega', 'consegna', 'consocia',
+            'controfirma', 'controreplica', 'convalida', 'cricca', 'cripta',
+            'cucina', 'delibera', 'deroga', 'disputa', 'divisa', 'domanda',
+            'droga', 'era', 'esca', 'fata', 'fatica', 'federa', 'fionda',
+            'fodera', 'frana', 'gomma', 'idea', 'idrata', 'imposta', 'impronta',
+            'inchiesta', 'insegna', 'intervista', 'isola', 'libra', 'linea',
+            'maschera', 'meraviglia', 'mira', 'mitraglia', 'ombra', 'opera',
+            'orbita', 'orchestra', 'padella', 'pattuglia', 'pausa', 'permesso',
+            'pesca', 'pipa', 'procura', 'propaganda', 'prova', 'quadrella',
+            'ratifica', 'recita', 'recluta', 'ricompensa', 'riconferma',
+            'ricorso', 'riforma', 'rima', 'scadenza', 'schiera', 'scorza',
+            'seghetta', 'setola', 'sfera', 'sfida', 'sgombera', 'sia', 'soletta',
+            'sonda', 'spesa', 'spira', 'statua', 'stia', 'stoppa', 'stufa',
+            'tempera', 'tesa', 'tonda', 'ulcera', 'urgenza', 'urina', 'valuta',
+            'vena', 'vendemmia', 'visita', 'voglia'],
+        'R': [],
+        'S': ['abbagliante', 'abbondante', 'abbracciante', 'abbronzante',
+            'aberrante', 'abitante', 'accattivante',  'accogliente',
+            'accomodante', 'accondiscendente', 'acconsenziente', 'acetificante',
+            'acidificante', 'addensante', 'aderente', 'affluente', 'agente',
+            'amante', 'avvincente', 'compare', 'contundente', 'corrispondente',
+            'defoliante', 'dipendente', 'dirompente', 'disobbediente',
+            'disubbidiente', 'divertente', 'ente', 'esponente', 'estenuante',
+            'favore', 'garante', 'ignorante', 'imbarazzante', 'incivile',
+            'indice', 'inerente', 'infertile', 'insegnante', 'insigne',
+            'negligente', 'obbediente', 'ode', 'sapiente', 'sapore', 'senziente',
+            'sfavore', 'sofferente', 'sole', 'tangente', 'ubbidiente'],
+        'n': ['angoscia', 'interfaccia', 'pronuncia'],
+        'o': ['abortivo', 'acconcio', 'acidulo', 'adatto', 'antico', 'attento',
+            'attivo', 'azzurro', 'buffo', 'calmo', 'carino', 'complesso',
+            'contento', 'contrario', 'corso', 'decimo', 'degno', 'deluso',
+            'diverso', 'divo', 'duro', 'edito', 'esatto', 'esterno', 'estivo',
+            'eterno', 'falso', 'finto', 'foggiano', 'franco', 'freddino',
+            'freddo', 'funesto', 'interno', 'lacero', 'libero', 'mesto', 'misero',
+            'montano', 'muto', 'oggettivo', 'parso', 'pugnato', 'ricolmo',
+            'scaltro', 'scomparso', 'scosceso', 'sgombero', 'sgombro', 'sgomento',
+            'sincero', 'sollecito', 'stanco', 'stretto', 'stufo', 'stupendo',
+            'successo', 'tacito', 'tondo', 'torto', 'trito', 'ubriaco', 'ultimo',
+            'valgo', 'vario'],
+        'p': ['amico', 'astrologo', 'autentico', 'estrinseco', 'organico'],
+        None: ['abbasso', 'addosso', 'azoto', 'cromo', 'dai', 'eclissi', 'paia',
+            'paio', 'sei', 'strutto', 'tanga'],
+    }
+    
+    def _run(self, dictionary):
+        vflags = set('ABCztjÀPVZ')  # flag che indicano verbi
+        aflags = set('IvsagDEFGHmb')  # attributi che vanno solo sui verbi
+        pflags = set('Jde')  # flag che indicano prefissi
+        kflags = set('WY')  # flag che vanno su aggettivi, ecc, quindi
+                            # sono da mantenere
+
+        ecc = {}
+        for w, f in list(dictionary.iteritems()):
+            if not (f and set(f) & (aflags | vflags)):
+                continue
+
+            f1 = set(f) - (aflags | vflags)
+            if f1:
+                dictionary[w] = ''.join(f1)
+            else:
+                del dictionary[w]
+
+            #for c in f:
+                #if c not in (aflags | vflags):
+                    #ecc.setdefault(c, []).append(w)
+
+        cnn = psycopg2.connect(database='tstest')
+        cur = cnn.cursor()
+        cur.execute(
+            "SELECT coniugazione"
+            " FROM coniugazione JOIN attributo_mydict USING (infinito)"
+            " WHERE attributo = 'presente'"
+            #" UNION"
+            #" SELECT infinito FROM attributo_mydict"
+            #" WHERE attributo = 'presente'"
+            ";")
+
+        cons = set(map(itemgetter(0), cur))
+        cur.close()
+        cnn.close()
+
+        for w, f in list(dictionary.iteritems()):
+            if w not in cons:
+                continue
+
+            if f is None: f = ''
+            f = set(f) - pflags
+            if f:
+                for c in f:
+                    ecc.setdefault(c, []).append(w)
+            else:
+                ecc.setdefault(None, []).append(w)
+
+        import pdb; pdb.set_trace()
+        #print '\n'.join("%s: %d" % (k, len(v)) for k, v in sorted(ecc.iteritems()))
+        #print >> open("flag_Q", "w"),'\n'.join(sorted(ecc['Q']))
+
 #: The list of operation to perform.
 #: The first item is the revision number after which the operation is not to
 #: be performed. Other parameters are the callable to run and the positional
@@ -198,7 +333,9 @@ processes = [
                                        " (sconfiggere -> sconfissi)",
         flag='s')),
     (24, RimuoviFemminileInPp(label="Rimuovi sostantivi femminili se c'è un"
-                                    "participio passato che li include."))
+                                    "participio passato che li include.")),
+    (28, RimuoviVerbi(label="Togli tutti i verbi!!!",
+        )),
 ]
 
 if __name__ == '__main__':
@@ -215,5 +352,5 @@ if __name__ == '__main__':
         if p_rev >= d_rev:
             proc.run(dct)
 
-    print "saving"
-    dct.save(d_name)
+    #print "saving"
+    #dct.save(d_name)
