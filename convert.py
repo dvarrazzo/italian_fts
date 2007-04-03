@@ -347,8 +347,8 @@ processes = [
         flag='s')),
     (24, RimuoviFemminileInPp(label="Rimuovi sostantivi femminili se c'è un"
                                     "participio passato che li include.")),
-    (32, RimuoviFemminileParticipioPassato()),
-    #(32, UnisciMaschileFemminile()),
+    (33, RimuoviFemminileParticipioPassato()),
+    (33, UnisciAggettiviMaschileFemminile()),
 #    (xx, RimuoviVerbi(label="Togli tutti i verbi!!!",)),
 ]
 
