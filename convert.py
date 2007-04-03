@@ -89,7 +89,7 @@ class Operation(object):
     """A textual representation of the operation."""
 
     def __init__(self, label=None):
-        if label is not None: self.label = label
+        self.label = label or self.__class__.__name__
         
     def run(self, dictionary):
         print self.label
@@ -171,6 +171,35 @@ class RimuoviFemminileInPp(Operation):
             if w.endswith('a') and f and 'Q' in f \
             and 'F' in (dictionary.get(w[:-1]+'o') or ''):
                 del dictionary[w]
+
+class UnisciAggettiviMaschileFemminile(Operation):
+    """Unisci aggettivi presenti in doppia forma."""
+    def _run(self, dictionary):
+        keep = RimuoviVerbi.keep
+        for w, f in list(dictionary.iteritems()):
+            if not f or 'O' not in f:
+                continue
+
+            fw = w[:-1] + 'a'
+            if 'Q' in (dictionary.get(fw) or ''):
+                if w in keep['O'] or fw in keep['Q']: continue
+
+                del dictionary[fw]
+                dictionary[w] = f.replace('O', 'o')
+
+class RimuoviFemminileParticipioPassato(Operation):
+    """Non serve: si ottiene per produzione."""
+    def _run(self, dictionary):
+        keep = RimuoviVerbi.keep
+        for w, f in list(dictionary.iteritems()):
+            if not f or 'm' not in f:
+                continue
+
+            fw = w[:-1] + 'a'
+            if 'Q' in (dictionary.get(fw) or ''):
+                if fw in keep['Q']: continue
+
+                del dictionary[fw]
 
 class RimuoviVerbi(Operation):
     """Rimuovi i verbi dal vocabolario!!!
@@ -318,7 +347,9 @@ processes = [
         flag='s')),
     (24, RimuoviFemminileInPp(label="Rimuovi sostantivi femminili se c'è un"
                                     "participio passato che li include.")),
-    (31, RimuoviVerbi(label="Togli tutti i verbi!!!",)),
+    (32, RimuoviFemminileParticipioPassato()),
+    #(32, UnisciMaschileFemminile()),
+#    (xx, RimuoviVerbi(label="Togli tutti i verbi!!!",)),
 ]
 
 if __name__ == '__main__':
