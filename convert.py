@@ -200,8 +200,8 @@ class RimuoviVerbi(Operation):
             'pendolino', 'pisolino', 'pompino', 'profumino', 'provino',
             'regolamento', 'reimpianto', 'rinvio', 'riposino', 'riso',
             'ritocchino', 'ruttino', 'scheletro', 'scherno', 'sedano', 'slittino',
-            'soluto', 'sorriso', 'stato', 'stoppino', 'successo', 'tamburino',
-            'tango', 'transatto', 'unto', 'vallo', 'vicario'],
+            'soluto', 'sorriso', 'stato', 'stoppino', 'successo', 'tagliando',
+            'tamburino', 'tango', 'transatto', 'unto', 'vallo', 'vicario'],
         'Q': ['abiura', 'accetta', 'accusa', 'adultera', 'amnistia', 'ancora',
             'angoscia', 'anima', 'ara', 'area', 'arma', 'asfissia', 'aureola',
             'avventura', 'balestra', 'balletta', 'barzelletta', 'branda',
@@ -282,6 +282,7 @@ class RimuoviVerbi(Operation):
             else:
                 for l in f:
                     if w in self.keep[l]:
+                        dictionary[w] = ''.join(f)
                         break
                 else:
                     del dictionary[w]
@@ -317,7 +318,7 @@ processes = [
         flag='s')),
     (24, RimuoviFemminileInPp(label="Rimuovi sostantivi femminili se c'è un"
                                     "participio passato che li include.")),
-    (29, RimuoviVerbi(label="Togli tutti i verbi!!!",)),
+    (31, RimuoviVerbi(label="Togli tutti i verbi!!!",)),
 ]
 
 if __name__ == '__main__':
