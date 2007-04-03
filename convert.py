@@ -201,6 +201,22 @@ class RimuoviFemminileParticipioPassato(Operation):
 
                 del dictionary[fw]
 
+class UnisciAggettivoInCio(Operation):
+    """Non serve: si ottiene per produzione. Richiede modifica di /o"""
+    def _run(self, dictionary):
+        keep = RimuoviVerbi.keep
+        for w, f in list(dictionary.iteritems()):
+            if not f or 'n' not in f or not w.endswith('a'):
+                continue
+
+            mw = w[:-1] + 'o'
+            mf = dictionary.get(mw) or ''
+            if 'O' in mf:
+                if mw in keep['O']: continue
+
+                del dictionary[w]
+                dictionary[mw] = mf.replace('O', 'o')
+
 class RimuoviVerbi(Operation):
     """Rimuovi i verbi dal vocabolario!!!
     """
@@ -349,6 +365,7 @@ processes = [
                                     "participio passato che li include.")),
     (33, RimuoviFemminileParticipioPassato()),
     (33, UnisciAggettiviMaschileFemminile()),
+    (34, UnisciAggettivoInCio()),
 #    (xx, RimuoviVerbi(label="Togli tutti i verbi!!!",)),
 ]
 

@@ -1645,7 +1645,9 @@ flag *o:
    [GC]O    > -O,HI
    IO    > -O,
    O    > -O,A
-   [^GC]O    > -O,E
+   [^GCI]O    > -O,E
+   [^GC]IO    > -O,E
+   [GC]IO    > -IO,E
    [GC]O    > -O,HE
 
 flag *p:
