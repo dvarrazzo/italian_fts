@@ -217,6 +217,22 @@ class UnisciAggettivoInCio(Operation):
                 del dictionary[w]
                 dictionary[mw] = mf.replace('O', 'o')
 
+class UnisciMestieri(Operation):
+    """Femminile in ..trice unito al maschile in ..tore"""
+    def _run(self, dictionary):
+        keep = RimuoviVerbi.keep
+        for w, f in list(dictionary.iteritems()):
+            if not f or 'S' not in f or not w.endswith('tore'):
+                continue
+
+            fw = w[:-3] + 'rice'
+            if fw not in dictionary: continue
+            mf = dictionary[fw] or ''
+            assert mf == 'S', w
+            if 'S' in mf:
+                del dictionary[fw]
+                dictionary[w] = f + 'f'
+
 class RimuoviVerbi(Operation):
     """Rimuovi i verbi dal vocabolario!!!
     """
@@ -367,6 +383,7 @@ processes = [
     (33, UnisciAggettiviMaschileFemminile()),
     (34, UnisciAggettivoInCio()),
 #    (xx, RimuoviVerbi(label="Togli tutti i verbi!!!",)),
+    (37, UnisciMestieri()),
 ]
 
 if __name__ == '__main__':
