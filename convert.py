@@ -248,7 +248,7 @@ class RimuoviVerbi(Operation):
             'valgo', 'vario'],
         'p': ['amico', 'astrologo', 'autentico', 'estrinseco', 'organico'],
         None: ['abbasso', 'addosso', 'azoto', 'cromo', 'dai', 'eclissi', 'paia',
-            'paio', 'sei', 'strutto', 'tanga'],
+            'paio', 'rimpetto', 'sei', 'strutto', 'tanga'],
     }
     
     def _run(self, dictionary):
@@ -258,51 +258,34 @@ class RimuoviVerbi(Operation):
         kflags = set('WY')  # flag che vanno su aggettivi, ecc, quindi
                             # sono da mantenere
 
-        ecc = {}
-        for w, f in list(dictionary.iteritems()):
-            if not (f and set(f) & (aflags | vflags)):
-                continue
-
-            f1 = set(f) - (aflags | vflags)
-            if f1:
-                dictionary[w] = ''.join(f1)
-            else:
-                del dictionary[w]
-
-            #for c in f:
-                #if c not in (aflags | vflags):
-                    #ecc.setdefault(c, []).append(w)
-
         cnn = psycopg2.connect(database='tstest')
         cur = cnn.cursor()
         cur.execute(
             "SELECT coniugazione"
             " FROM coniugazione JOIN attributo_mydict USING (infinito)"
             " WHERE attributo = 'presente'"
-            #" UNION"
-            #" SELECT infinito FROM attributo_mydict"
-            #" WHERE attributo = 'presente'"
             ";")
 
         cons = set(map(itemgetter(0), cur))
         cur.close()
         cnn.close()
 
+        dflags = vflags | aflags | pflags | kflags
         for w, f in list(dictionary.iteritems()):
             if w not in cons:
                 continue
-
-            if f is None: f = ''
-            f = set(f) - pflags
-            if f:
-                for c in f:
-                    ecc.setdefault(c, []).append(w)
+            f = (f and set(f) or set()) - dflags
+            
+            if not f:
+                if w not in self.keep[None]:
+                    del dictionary[w]
             else:
-                ecc.setdefault(None, []).append(w)
-
-        import pdb; pdb.set_trace()
-        #print '\n'.join("%s: %d" % (k, len(v)) for k, v in sorted(ecc.iteritems()))
-        #print >> open("flag_Q", "w"),'\n'.join(sorted(ecc['Q']))
+                for l in f:
+                    if w in self.keep[l]:
+                        break
+                else:
+                    del dictionary[w]
+                
 
 #: The list of operation to perform.
 #: The first item is the revision number after which the operation is not to
@@ -334,8 +317,7 @@ processes = [
         flag='s')),
     (24, RimuoviFemminileInPp(label="Rimuovi sostantivi femminili se c'è un"
                                     "participio passato che li include.")),
-    (28, RimuoviVerbi(label="Togli tutti i verbi!!!",
-        )),
+    (29, RimuoviVerbi(label="Togli tutti i verbi!!!",)),
 ]
 
 if __name__ == '__main__':
@@ -352,5 +334,5 @@ if __name__ == '__main__':
         if p_rev >= d_rev:
             proc.run(dct)
 
-    #print "saving"
-    #dct.save(d_name)
+    print "saving"
+    dct.save(d_name)
