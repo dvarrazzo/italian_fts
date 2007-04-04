@@ -233,6 +233,28 @@ class UnisciMestieri(Operation):
                 del dictionary[fw]
                 dictionary[w] = f + 'f'
 
+class EliminaQuErre(Operation):
+    """La combinazione /Q /R è usata a volte al posto di /u sul maschile."""
+    def _run(self, dictionary):
+        keep = RimuoviVerbi.keep
+        for w, f in list(dictionary.iteritems()):
+            if not f or 'Q' not in f or 'R' not in f:
+                continue
+            mw = w[:-1] + 'o'
+            if mw not in dictionary:
+                continue
+
+            mf = dictionary[mw] or ""
+            assert f in ('QR', 'RQ'), w
+
+            del dictionary[w]
+
+            fnew = 'p'
+            if fnew not in mf:
+                dictionary[mw] = mf + fnew
+            else:
+                print mw
+
 class RimuoviVerbi(Operation):
     """Rimuovi i verbi dal vocabolario!!!
     """
@@ -307,7 +329,13 @@ class RimuoviVerbi(Operation):
             'sincero', 'sollecito', 'stanco', 'stretto', 'stufo', 'stupendo',
             'successo', 'tacito', 'tondo', 'torto', 'trito', 'ubriaco', 'ultimo',
             'valgo', 'vario'],
-        'p': ['amico', 'astrologo', 'autentico', 'estrinseco', 'organico'],
+        'p': ['affiliando', 'amico', 'astrologo', 'autentico', 'battezzando',
+            'commiserando', 'comunicando', 'congedando', 'costituendo',
+            'cresimando', 'educando', 'ereditando', 'erigendo', 'esaminando',
+            'esecrando', 'estrinseco', 'istituendo', 'laureando', 'licenziando',
+            'maturando', 'mirando', 'monacando', 'onorando', 'operando',
+            'ordinando', 'organico', 'premiando', 'riabilitando',
+            'specializzando', 'venerando']
         None: ['abbasso', 'addosso', 'azoto', 'cromo', 'dai', 'eclissi', 'paia',
             'paio', 'rimpetto', 'sei', 'strutto', 'tanga'],
     }
@@ -384,6 +412,7 @@ processes = [
     (34, UnisciAggettivoInCio()),
 #    (xx, RimuoviVerbi(label="Togli tutti i verbi!!!",)),
     (37, UnisciMestieri()),
+    (39, EliminaQuErre()),
 ]
 
 if __name__ == '__main__':

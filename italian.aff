@@ -1655,9 +1655,10 @@ flag *o:
    [GC]O    > -O,HE
 
 flag *p:
-   O    > -O,I
-   O    > -O,A
-   O    > -O,HE
+   O      > -O,I
+   O      > -O,A
+   [^CG]O > -O,E
+   [CG]O  > -O,HE
 
 flag *t:
    IRE    > -RE,SCO
