@@ -93,7 +93,7 @@ class Dictionary(dict):
                 continue
 
             if f:
-                self[w] = ''.join(set((self[w] or '') + f))
+                self[w] = ''.join(sorted(set((self[w] or '') + f)))
 
 class Operation(object):
     """An operation to perform on a dictionary.
@@ -269,6 +269,63 @@ class EliminaQuErre(Operation):
             else:
                 print mw
 
+class UnisciParoleConiugazioni(Operation):
+    def _run(self, dictionary):
+        keep = Dictionary(); keep.load("non-verbi.dict")
+        dictionary.update(keep)
+
+        # Ora pensiamo ai plurali in e, che tipicamente sono a parte perché
+        # spesso non corrisponde a nessuna coniugazione.
+        for w, f in keep.iteritems():
+            if not f: continue
+
+            print w,
+            if 'Q' in f:
+                if w[-2] in 'cg':
+                    pl = w[:-1] + 'he'
+                else:
+                    pl = w[:-1] + 'e'
+
+            elif 'o' in f:
+                #[^GCI]O    > -O,E
+                #[^GC]IO    > -O,E
+                #[GC]IO    > -IO,E
+                #[GC]O    > -O,HE
+                if w[-2] not in ('cgi'):
+                    pl = w[:-1] + 'e'
+                elif w[-2] == 'i' and w[-3] not in ('cg'):
+                    pl = w[:-1] + 'e'
+                elif w[-2] == 'i':
+                    pl = w[:-2] + 'e'
+                else:
+                    pl = w[:-1] + 'he'
+
+            elif 'p' in f:
+                if w[-2] in 'cg':
+                    pl = w[:-1] + 'he'
+                else:
+                    pl = w[:-1] + 'e'
+
+            elif 'n' in f:
+                pl = w[:-2] + 'e'
+
+            elif 'O' in f or 'S' in f or 'N' in f:
+                continue
+
+            else:
+                assert False, "%s/%s" % (w, f)
+
+            print pl
+
+            if pl not in dictionary:
+                continue
+
+            if pl in ('sole','molle'): continue
+            
+            pf = dictionary[pl]
+            assert not pf or 'B' in pf, "%s/%s" % (pl, pf)
+            del dictionary[pl]
+
 class RimuoviVerbi(Operation):
     """Rimuovi i verbi dal vocabolario!!!
     """
@@ -351,6 +408,7 @@ processes = [
 #    (xx, RimuoviVerbi(label="Togli tutti i verbi!!!",)),
     (37, UnisciMestieri()),
     (39, EliminaQuErre()),
+    (45, UnisciParoleConiugazioni()),
 ]
 
 if __name__ == '__main__':
