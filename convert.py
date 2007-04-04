@@ -326,6 +326,17 @@ class UnisciParoleConiugazioni(Operation):
             assert not pf or 'B' in pf, "%s/%s" % (pl, pf)
             del dictionary[pl]
 
+class UnisciIoIi(Operation):
+    def _run(self, dictionary):
+        for w, f in list(dictionary.iteritems()):
+            if not w.endswith('io'): continue
+            pl = w[:-2] + 'ii'
+            if not pl in dictionary: continue
+
+            assert not dictionary[pl]
+            dictionary[w] = (f or '') + 'n'
+            del dictionary[pl]
+
 class RimuoviVerbi(Operation):
     """Rimuovi i verbi dal vocabolario!!!
     """
@@ -409,6 +420,7 @@ processes = [
     (37, UnisciMestieri()),
     (39, EliminaQuErre()),
     (45, UnisciParoleConiugazioni()),
+    (46, UnisciIoIi()),
 ]
 
 if __name__ == '__main__':
