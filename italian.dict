@@ -6775,7 +6775,7 @@ afoso/o
 afragolese/S
 africanismo/O
 africanista/QR
-africanistica/QR
+africanistico/p
 africano/o
 africo
 afro/o
@@ -6974,7 +6974,6 @@ aggraziato/FY
 aggredendo/D
 aggredente
 aggredire/CI
-aggredisca/R
 aggrediscano
 aggredisce
 aggredisco
@@ -7060,7 +7059,6 @@ agiologico/p
 agiologo/p
 agionimo/O
 agire/CI
-agisca/R
 agiscano
 agisce
 agisco
@@ -7483,7 +7481,7 @@ allarmando/D
 allarmante
 allarmare/AI
 allarmato/F
-allarme
+allarme/S
 allarmismo/O
 allarmista/QR
 allarmistico/Yp
@@ -7508,7 +7506,6 @@ alleggerendo/D
 alleggerente
 alleggerimento/O
 alleggerire/CI
-alleggerisca/R
 alleggeriscano
 alleggerisce
 alleggerisco
@@ -7597,7 +7594,6 @@ alleviatore/Sf
 allibendo/D
 allibente
 allibire/CI
-allibisca/R
 allibiscano
 allibisce
 allibisco
@@ -7964,7 +7960,6 @@ ambigenere/S
 ambiguità
 ambiguo/oYW
 ambire/CI
-ambisca/R
 ambiscano
 ambisce
 ambisco
@@ -8094,7 +8089,6 @@ ammaliziato/F
 ammalizzendo/D
 ammalizzente
 ammalizzire/CI
-ammalizzisca/R
 ammalizziscano
 ammalizzisce
 ammalizzisco
@@ -8118,7 +8112,6 @@ ammanigliato/F
 ammannendo/D
 ammannente
 ammannire/CI
-ammannisca/R
 ammanniscano
 ammannisce
 ammannisco
@@ -8127,7 +8120,6 @@ ammannito/H
 ammansendo/D
 ammansente
 ammansire/CI
-ammansisca/R
 ammansiscano
 ammansisce
 ammansisco
@@ -8161,7 +8153,6 @@ ammattendo/D
 ammattente
 ammattimento/O
 ammattire/CI
-ammattisca/R
 ammattiscano
 ammattisce
 ammattisco
@@ -8268,7 +8259,6 @@ ammonico/p
 ammonimento/O
 ammonio
 ammonire/CI
-ammonisca/R
 ammoniscano
 ammonisce
 ammonisco
@@ -8298,7 +8288,6 @@ ammorbidendo/D
 ammorbidente
 ammorbidimento/O
 ammorbidire/CI
-ammorbidisca/R
 ammorbidiscano
 ammorbidisce
 ammorbidisco
@@ -8329,7 +8318,6 @@ ammosciando/D
 ammosciare/AI
 ammosciato/F
 ammoscire/CI
-ammoscisca/R
 ammosciscano
 ammoscisce
 ammoscisco
@@ -8351,7 +8339,6 @@ ammuffendo/D
 ammuffente
 ammuffimento/O
 ammuffire/CI
-ammuffisca/R
 ammuffiscano
 ammuffisce
 ammuffisco
@@ -8369,7 +8356,6 @@ ammutinato/F
 ammutolendo/D
 ammutolente
 ammutolire/CI
-ammutolisca/R
 ammutoliscano
 ammutolisce
 ammutolisco
@@ -8472,7 +8458,7 @@ anafora/Q
 anaforesi
 anaforico/o
 anaglifo/O
-anaglittica/QR
+anaglittico/p
 anagogia/Q
 anagogico/p
 anagrafe/S
@@ -8486,8 +8472,7 @@ anagrammato/F
 anagrammista/QR
 analcolico/p
 anale/S
-analettica/R
-analettico
+analettico/p
 analfabeta/QR
 analfabetico/p
 analfabetismo/O
@@ -8577,7 +8562,7 @@ ancoraggio/O
 ancorando/D
 ancorante
 ancorare/AI
-ancoratica/QR
+ancoratico/p
 ancorato/F
 ancorché
 ancoretta/Q
@@ -8931,7 +8916,6 @@ annuario/O
 annuendo/D
 annuente
 annuire/CI
-annuisca/R
 annuiscano
 annuisce
 annuisco
@@ -9540,8 +9524,8 @@ apostrofante
 apostrofare/AI
 apostrofato/F
 apostrofe
-apoteca/QR
-apotecio
+apoteca/Q
+apotecio/O
 apotema/R
 apoteosi
 apotropaico/p
@@ -9608,11 +9592,12 @@ apparigliare/AI
 apparigliato/F
 apparimento/O
 apparire/JCI
-apparisca/R
+apparisca
 appariscano
 apparisce
 appariscente/S
 appariscenza/Q
+apparisci
 apparisco
 appariscono
 apparitore/S
@@ -9707,7 +9692,6 @@ appesantendo/D
 appesantente
 appesantimento/O
 appesantire/CI
-appesantisca/R
 appesantiscano
 appesantisce
 appesantisco
@@ -9761,7 +9745,6 @@ appiattendo/D
 appiattente
 appiattimento/O
 appiattire/CI
-appiattisca/R
 appiattiscano
 appiattisce
 appiattisco
@@ -9812,9 +9795,10 @@ appisolato/JF
 applaudendo/D
 applaudente
 applaudire/CI
-applaudisca/R
+applaudisca
 applaudiscano
 applaudisce
+applaudisci
 applaudisco
 applaudiscono
 applaudito/H
@@ -9935,7 +9919,6 @@ approfondendo/D
 approfondente
 approfondimento/O
 approfondire/CI
-approfondisca/R
 approfondiscano
 approfondisce
 approfondisco
@@ -9997,7 +9980,6 @@ appuntellatura/Q
 appuntendo/D
 appuntente
 appuntire/CI
-appuntisca/R
 appuntiscano
 appuntisce
 appuntisco
@@ -10307,7 +10289,6 @@ ardimento/O
 ardimentoso/oY
 ardine
 ardire/CI
-ardisca/R
 ardiscano
 ardisce
 ardisco
@@ -10420,7 +10401,6 @@ arguente
 argueso
 arguibile/S
 arguire/CI
-arguisca/R
 arguiscano
 arguisce
 arguisco
@@ -10661,7 +10641,6 @@ arriba
 arricchendo/D
 arricchimento/O
 arricchire/CI
-arricchisca/R
 arricchiscano
 arricchisce
 arricchisco
@@ -10754,7 +10733,6 @@ arrossendo/D
 arrossente
 arrossimento/O
 arrossire/CI
-arrossisca/R
 arrossiscano
 arrossisce
 arrossisco
@@ -10768,7 +10746,6 @@ arrostendo/D
 arrostente
 arrostimento/O
 arrostire/CI
-arrostisca/R
 arrostiscano
 arrostisce
 arrostisco
@@ -10834,7 +10811,6 @@ arrugginendo/D
 arrugginente
 arrugginimento/O
 arrugginire/CI
-arrugginisca/R
 arrugginiscano
 arrugginisce
 arrugginisco
@@ -11203,9 +11179,10 @@ assalgano
 assalgo
 assalgono
 assalire/CI
-assalisca/R
+assalisca
 assaliscano
 assalisce
+assalisci
 assalisco
 assaliscono
 assalito/H
@@ -11291,7 +11268,6 @@ asserendo/D
 asserente
 asserimento/O
 asserire/CI
-asserisca/R
 asseriscano
 asserisce
 asserisco
@@ -11313,7 +11289,6 @@ asservendo/D
 asservente
 asservimento/O
 asservire/CI
-asservisca/R
 asserviscano
 asservisce
 asservisco
@@ -11507,7 +11482,6 @@ assopendo/D
 assopente
 assopimento/O
 assopire/CI
-assopisca/R
 assopiscano
 assopisce
 assopisco
@@ -11519,9 +11493,10 @@ assorbenza/Q
 assorbimento/O
 assorbimetro/O
 assorbire/CI
-assorbisca/R
+assorbisca
 assorbiscano
 assorbisce
+assorbisci
 assorbisco
 assorbiscono
 assorbito/H
@@ -11542,7 +11517,6 @@ assortendo/D
 assortente
 assortimento/O
 assortire/CI
-assortisca/R
 assortiscano
 assortisce
 assortisco
@@ -11949,7 +11923,6 @@ atterreste/S
 atterrete
 atterrimento/O
 atterrire/CI
-atterrisca/R
 atterriscano
 atterrisce
 atterrisco
@@ -12117,7 +12090,6 @@ attribuendo/D
 attribuente
 attribuibile/S
 attribuire/CI
-attribuisca/R
 attribuiscano
 attribuisce
 attribuisco
@@ -12137,7 +12109,6 @@ attristato/F
 attristendo/D
 attristente
 attristire/CI
-attristisca/R
 attristiscano
 attristisce
 attristisco
@@ -12675,7 +12646,7 @@ autorio/O
 autoriparazione/S
 autoritario/oY
 autoritarismo/O
-autoritaristica/R
+autoritaristico/p
 autoritativo/oY
 autoritratto/O
 autorità
@@ -13051,7 +13022,6 @@ avvilendo/D
 avvilente
 avvilimento/O
 avvilire/CI
-avvilisca/R
 avviliscano
 avvilisce
 avvilisco
@@ -13152,7 +13122,6 @@ avvizzendo/D
 avvizzente
 avvizzimento/O
 avvizzire/CI
-avvizzisca/R
 avvizziscano
 avvizzisce
 avvizzisco
@@ -13264,7 +13233,6 @@ azzoppendo/D
 azzoppente
 azzoppimento/O
 azzoppire/CI
-azzoppisca/R
 azzoppiscano
 azzoppisce
 azzoppisco
@@ -13754,7 +13722,6 @@ bandierale/S
 bandierina/Q
 bandinella/Q
 bandire/CI
-bandisca/R
 bandiscano
 bandisce
 bandisco
@@ -14478,7 +14445,8 @@ belando/D
 belare/AI
 belato/F
 belemnita/R
-belga/QR
+belga/Q
+belgi
 belgradese/S
 belizeano/o
 belladonna
@@ -14878,7 +14846,6 @@ bianchezza/Q
 bianchiccio/oYW
 bianchimento/O
 bianchire/CI
-bianchisca/R
 bianchiscano
 bianchisce
 bianchisco
@@ -14929,7 +14896,7 @@ biblioteconomista/QR
 biblista/QR
 biblistica/Q
 bibulo/o
-bica/QR
+bica/Q
 bicamerale/S
 bicameralismo/O
 bicamere
@@ -14948,6 +14915,7 @@ bicciandosi
 bicefalo/o
 bicentenario/O
 bichini
+bici
 bicicletta/Q
 biciclo/O
 bicilindrico/p
@@ -15392,7 +15360,7 @@ bisbocciando/D
 bisbocciare/AI
 bisbocciato/F
 bisbocciona/QR
-bisca/QR
+bisca/Q
 biscaglia
 biscaglino/o
 biscaiolo/o
@@ -15404,6 +15372,7 @@ biscegliese/S
 bischerata/Q
 bischero/o
 bischetto/O
+bisci
 biscia/n
 biscio
 bisciolo/o
@@ -15566,7 +15535,6 @@ blackout
 blandamente
 blandendo/D
 blandire/CI
-blandisca/R
 blandiscano
 blandisce
 blandisco
@@ -17767,7 +17735,6 @@ capireparto
 capirosso/O
 capisala
 capisaldi
-capisca/R
 capiscano
 capiscariche
 capiscarichi
@@ -18386,9 +18353,9 @@ cartulario/O
 carucci
 caruccio
 caruncola/Q
-casacca/QR
+casacca/Q
 casaccia/n
-casaccio
+casaccio/o
 casale/S
 casalese/S
 casalingo/o
@@ -19306,7 +19273,6 @@ chiarificazione/S
 chiarimento/O
 chiarino/o
 chiarire/CI
-chiarisca/R
 chiariscano
 chiarisce
 chiarisco
@@ -19971,8 +19937,8 @@ cittadino/o
 cittaduzza
 città
 city
-ciucca/QR
-ciuccio
+ciucca/Q
+ciuccio/O
 ciuchesco/o
 ciuco/O
 ciuffetelli
@@ -20692,7 +20658,6 @@ colpevolizzare/AI
 colpevolizzato/F
 colpibile/S
 colpire/CI
-colpisca/R
 colpiscano
 colpisce
 colpiscilo/o
@@ -20930,8 +20895,9 @@ comparazione/S
 compare/S
 comparendo/JD
 comparire/JCI
-comparisca/R
+comparisca
 comparisce
+comparisci
 comparisco
 compariscono
 comparizione/S
@@ -21436,7 +21402,6 @@ condicio
 condimento/O
 condire/CI
 condirettore/Sf
-condisca/R
 condiscano
 condisce
 condiscendenza/Q
@@ -21516,7 +21481,6 @@ conferenza/Q
 conferenziera/QR
 conferimento/O
 conferire/CI
-conferisca/R
 conferiscano
 conferisce
 conferisco
@@ -21598,7 +21562,6 @@ conflittualità
 confluendo/D
 confluenza/Q
 confluire/CI
-confluisca/R
 confluiscano
 confluisce
 confluisco
@@ -22283,7 +22246,6 @@ contravvenzione/S
 contrazione/S
 contribuendo/D
 contribuire/CI
-contribuisca/R
 contribuiscano
 contribuisce
 contribuisco
@@ -22963,14 +22925,14 @@ corvino/o
 corvisieri
 corvo/O
 cosacco/o
-cosca/QR
+cosca/Q
 coscia/n
 cosciale/S
 cosciente/SY
 coscienza/Q
 coscienziosità
 coscienzioso/oY
-coscio
+coscio/O
 cosciotto/O
 coscrisse
 coscrissero
@@ -24877,7 +24839,6 @@ deperibile/SYW
 deperibilità
 deperimento/O
 deperire/CI
-deperisca/R
 deperiscano
 deperisce
 deperisco
@@ -27722,12 +27683,13 @@ dubitare/AI
 dubitativo/o
 dubitato/F
 dubnio
-duca/R
+duca
 ducale/S
 ducato/o
 duce
 duchessa/Q
 duchi
+duci
 due
 duecentesco/o
 duecentista/QR
@@ -31866,8 +31828,9 @@ fievolezza/Q
 fifa
 fifona/QR
 fifty
-figa/QR
+figa/Q
 figaro/O
+figi
 figiano/o
 figini
 figliare/AI
@@ -32405,7 +32368,6 @@ fluidità
 fluido/oYW
 fluidodinamica/Q
 fluire/CI
-fluisca/R
 fluiscano
 fluisce
 fluisco
@@ -32442,7 +32404,7 @@ fluttuazione/S
 fluviale/S
 fobia/Q
 fobico/p
-foca/QR
+foca/Q
 focaccia/n
 focaia/Q
 focale/S
@@ -32452,7 +32414,7 @@ focalizzato/FJ
 focalizzazione/S
 focatici
 focatico
-foce
+foce/S
 focena/Q
 fochista/QR
 focolaio/O
@@ -34046,7 +34008,7 @@ gandura
 ganellone
 ganelo
 gang
-ganga/QR
+ganga/Q
 gangava
 gangetico/O
 gangheggiare
@@ -34861,7 +34823,7 @@ giberna/Q
 gibigiana/Q
 gibilterriano/o
 gibutiano/o
-giga/QR
+giga/Q
 gigante/S
 giganteggiando/D
 giganteggiare/AI
@@ -34875,6 +34837,7 @@ gigantografico/p
 gigantomachia
 gigantopiteco
 gigaro/O
+gigi
 gigiona/QR
 gigionesco/o
 gigionismo/O
@@ -34985,7 +34948,6 @@ gioiello/O
 gioiosità
 gioioso/oY
 gioire/CI
-gioisca/R
 gioiscano
 gioisce
 gioisco
@@ -35108,7 +35070,7 @@ girocollo/O
 giroconto
 girodirezionale/S
 girolamino/o
-giromagnetica/QR
+giromagnetico/p
 giromanica
 gironda
 girondino/o
@@ -37679,7 +37641,6 @@ impazzendo/D
 impazzente
 impazzimento/O
 impazzire/CI
-impazzisca/R
 impazziscano
 impazzisce
 impazzisco
@@ -38466,7 +38427,6 @@ inascoltato/o
 inasinendo/D
 inasinente
 inasinire/CI
-inasinisca/R
 inasiniscano
 inasinisce
 inasinisco
@@ -38657,9 +38617,10 @@ incaponendo/D
 incaponente
 incaponimento/O
 incaponire/CI
-incaponisca/R
+incaponisca
 incaponiscano
 incaponisce
+incaponisci
 incaponisco
 incaponiscono
 incaponito/H
@@ -40297,7 +40258,6 @@ influenzato/F
 influenze
 influenzia/Q
 influire/CI
-influisca/R
 influiscano
 influisce
 influiscono
@@ -41610,7 +41570,6 @@ intenzione/S
 interagendo/D
 interagente
 interagire/CI
-interagisca/R
 interagiscano
 interagisce
 interagisco
@@ -41749,7 +41708,6 @@ interdiresti/ed
 interdirete/ed
 interdirà/ed
 interdirò/ed
-interdisca/R
 interdisce
 interdisciplinare/S
 interdisciplinarità
@@ -42568,7 +42526,6 @@ invedibile/S
 inveendo/D
 inveente
 inveire/CI
-inveisca/R
 inveiscano
 inveisce
 inveiscono
@@ -43798,11 +43755,11 @@ istruzione/S
 istupidente
 istupidimento/O
 istupidire/tvI
-itaca/R
+itaca
 itacese/S
 itacismo
 itacistico/p
-itaco
+itaco/n
 italese/S
 italianeggiando/D
 italianeggiante
@@ -44195,7 +44152,6 @@ languendo/D
 languidezza/Q
 languido/oY
 languire/CI
-languisca/R
 languiscano
 languisce
 languisco
@@ -46330,7 +46286,8 @@ maledirete/edJ
 maledirono
 maledirà/edJ
 maledirò/edJ
-maledisca/R
+maledisca
+maledisci
 maledisse/edJ
 maledissero/edJ
 maledissi/edJ
@@ -47623,9 +47580,10 @@ mentecatto/o
 mentendo/D
 mentina/Q
 mentire/CI
-mentisca/R
+mentisca
 mentiscano
 mentisce
+mentisci
 mentiscicelo/o
 mentiscicene
 mentiscici
@@ -48221,7 +48179,7 @@ miasmatico/p
 miastenia/Q
 miastenico/p
 miatrofia/Q
-mica/R
+mica/Q
 micaceo/o
 micascisto/O
 miccia/n
@@ -48236,9 +48194,8 @@ micetto/o
 michelaccio/O
 michelangiolesco/oY
 michetta/Q
-micia/Q
 micidiale/S
-micio
+micio/Of
 micocellulosa
 micoderma/R
 micofita/Q
@@ -51652,9 +51609,10 @@ nutriciglia
 nutriente/S
 nutrimento/O
 nutrire/CI
-nutrisca/R
+nutrisca
 nutriscano
 nutrisce
+nutrisci
 nutriscicelo/o
 nutriscicene
 nutriscici
@@ -51699,7 +51657,6 @@ obbedendo/D
 obbediente/S
 obbedienza/Q
 obbedire/CI
-obbedisca/R
 obbediscano
 obbedisce
 obbedisco
@@ -52522,8 +52479,7 @@ omousia
 omousiano/o
 omozigosi
 omozigote
-omozigotica/R
-omozigotico
+omozigotico/p
 omozigoto/O
 omuncolo/O
 on
@@ -63119,7 +63075,6 @@ regole
 regolina/Q
 regredendo/D
 regredire/CI
-regredisca/R
 regrediscano
 regredisce
 regredisco
@@ -64588,8 +64543,9 @@ ricopiato/F
 ricopiatura/Q
 ricopribile/S
 ricoprimento/O
-ricoprisca/R
+ricoprisca
 ricoprisce
+ricoprisci
 ricoprisco
 ricopritore/Sf
 ricorcando/D
@@ -64914,7 +64870,6 @@ riesame/S
 riesaminando/D
 riesaminare/AI
 riesaminato/F
-riesca/R
 riescano
 riesce
 riesco
@@ -65865,7 +65820,6 @@ ringiallire/tvI
 ringiovanendo/D
 ringiovanimento/O
 ringiovanire/CI
-ringiovanisca/R
 ringiovaniscano
 ringiovanisce
 ringiovanisco
@@ -66158,9 +66112,10 @@ ripartenza
 ripartibile/S
 ripartimentale/S
 ripartire/CI
-ripartisca/R
+ripartisca
 ripartiscano
 ripartisce
+ripartisci
 ripartisco
 ripartiscono
 ripartito/H
@@ -68173,7 +68128,7 @@ sanguine
 sanguinella/Q
 sanguinolento/o
 sanguinoso/oYW
-sanguisuga/QR
+sanguisugo/p
 sanificando/D
 sanificare/AI
 sanificato/F
@@ -68649,7 +68604,6 @@ sbizzarrireste/S
 sbizzarrirete
 sbizzarrirono
 sbizzarrirò
-sbizzarrisca/R
 sbizzarriscano
 sbizzarrisce
 sbizzarrisco
@@ -69062,7 +69016,6 @@ scaltrirete
 scaltrirono
 scaltrirà
 scaltrirò
-scaltrisca/R
 scaltriscano
 scaltrisce
 scaltrisco
@@ -69491,7 +69444,7 @@ scenografia/Q
 scenograficità
 scenografico/pY
 scenografo/o
-scenotecnica/QR
+scenotecnico/p
 scentrando/D
 scentrare/AI
 scentrato/F
@@ -70963,9 +70916,9 @@ semaforo/O
 semantema/R
 semanticità
 semantico/pY
-semasiologa/QR
 semasiologia/Q
 semasiologico/p
+semasiologo/p
 sembiante/S
 sembianza/Q
 sembrando/D
@@ -71831,7 +71784,6 @@ sfiorato/F
 sfioratore/S
 sfiorendo/D
 sfiorire/CI
-sfiorisca/R
 sfioriscano
 sfiorisce
 sfiorisco
@@ -71925,7 +71877,7 @@ sfottuto/G
 sfracellando/D
 sfracellare/AI
 sfracellato/F
-sfragistica/QR
+sfragistico/p
 sfrangiando/D
 sfrangiare/AI
 sfrangiato/F
@@ -72832,7 +72784,7 @@ slavatura/Q
 slavina/QR
 slavismo/O
 slavista/QR
-slavistica/QR
+slavistico/p
 slavo/o
 slavofilia
 slavofilo/o
@@ -72954,7 +72906,6 @@ smarrendo/D
 smarribile/S
 smarrimento/O
 smarrire/CI
-smarrisca/R
 smarriscano
 smarrisce
 smarrisco
@@ -72988,7 +72939,6 @@ smemorino
 smentendo/D
 smentibile/S
 smentire/CI
-smentisca/R
 smentiscano
 smentisce
 smentisciti
@@ -73187,7 +73137,6 @@ snellendo/D
 snellezza/Q
 snellimento/O
 snellire/CI
-snellisca/R
 snelliscano
 snellisce
 snellisco
@@ -73832,7 +73781,6 @@ soperchiato/F
 soperchie
 soperchieria/Q
 sopire/CI
-sopisca/R
 sopiscano
 sopisce
 sopisco
@@ -74100,15 +74048,14 @@ sorbendo/D
 sorbettiera/QR
 sorbetto/O
 sorbire/CI
-sorbisca/R
 sorbiscano
 sorbisce
 sorbisco
 sorbiscono
 sorbito/H
 sorbola/Q
-sorca/QR
-sorcio
+sorca/Q
+sorcio/O
 sorcotto/O
 sordaggine
 sordastro/o
@@ -74927,7 +74874,6 @@ sparigliando/D
 sparigliare/AI
 sparigliato/F
 sparire/CI
-sparisca/R
 spariscano
 sparisce
 sparisco
@@ -74958,7 +74904,6 @@ spartifuoco
 spartigrano
 spartineve
 spartire/CI
-spartisca/R
 spartiscano
 spartisce
 spartisco
@@ -75007,7 +74952,6 @@ spatolato/F
 spauracchio/O
 spaurendo/D
 spaurire/CI
-spaurisca/R
 spauriscano
 spaurisce
 spaurisco
@@ -75040,7 +74984,6 @@ spazieggiato/F
 spazieggiatura/Q
 spazientendo/D
 spazientire/CI
-spazientisca/R
 spazientiscano
 spazientisce
 spazientisco
@@ -75131,7 +75074,6 @@ spedalizzare/AI
 spedalizzato/F
 spedendo/D
 spedire/CI
-spedisca/R
 spediscano
 spedisce
 spedisci/b
@@ -75511,7 +75453,6 @@ spigonardo/O
 spigone/S
 spigrendo/D
 spigrire/CI
-spigrisca/R
 spigriscano
 spigrisce
 spigrisco
@@ -76145,7 +76086,6 @@ stabiese/S
 stabilendo/D
 stabilimento/O
 stabilire/CI
-stabilisca/R
 stabiliscano
 stabilisce
 stabilisco
@@ -76405,7 +76345,6 @@ starnutamento/O
 starnutatorio/o
 starnutendo/D
 starnutire/CI
-starnutisca/R
 starnutiscano
 starnutisce
 starnutisco
@@ -76964,7 +76903,6 @@ storcimento/O
 stordendo/D
 stordimento/O
 stordire/CI
-stordisca/R
 stordiscano
 stordisce
 stordisco
@@ -76995,7 +76933,6 @@ storiografo/o
 storione/S
 stormendo/D
 stormire/CI
-stormisca/R
 stormiscano
 stormisce
 stormisco
@@ -77495,7 +77432,7 @@ strofio
 strofonando/D
 strolaga/Q
 stroma/R
-stromatica/QR
+stromatico/p
 strombando/D
 strombare/AI
 strombato/F
@@ -77670,7 +77607,6 @@ stupidito/H
 stupidità
 stupido/oYW
 stupire/CI
-stupisca/R
 stupiscano
 stupisce
 stupisco
@@ -77795,7 +77731,6 @@ subinfeudato/F
 subingresso/O
 subire/CI
 subirrigazione/S
-subisca/R
 subiscano
 subisce
 subisco
@@ -78026,7 +77961,6 @@ suggellazione/S
 suggerendo/D
 suggerimento/O
 suggerire/CI
-suggerisca/R
 suggeriscano
 suggerisce
 suggerisco
@@ -78278,7 +78212,6 @@ supplice/S
 suppliche
 supplichevole/SY
 supplire/CI
-supplisca/R
 suppliscano
 supplisce
 supplisco
@@ -78468,7 +78401,6 @@ svalutazione/S
 svampito/H
 svanendo/D
 svanire/CI
-svanisca/R
 svaniscano
 svanisce
 svanisco
@@ -78533,7 +78465,6 @@ sveltezza/Q
 sveltimento
 sveltina/Q
 sveltire/CI
-sveltisca/R
 sveltiscano
 sveltisce
 sveltisco
@@ -81256,7 +81187,6 @@ tornese/S
 tornimento/O
 tornio
 tornire/CI
-tornisca/R
 torniscano
 tornisce
 tornisco
@@ -81414,7 +81344,6 @@ tossinfettivo/o
 tossinfezione/S
 tossio
 tossire/CI
-tossisca/R
 tossiscano
 tossisce
 tossisco
@@ -81730,7 +81659,6 @@ tramontato/F
 tramortendo/D
 tramortimento/O
 tramortire/CI
-tramortisca/R
 tramortiscano
 tramortisce
 tramortisco
@@ -81950,9 +81878,10 @@ trarre/VJjI
 trasalendo/D
 trasalimento/O
 trasalire/CI
-trasalisca/R
+trasalisca
 trasaliscano
 trasalisce
+trasalisci
 trasalisco
 trasaliscono
 trasalito/H
@@ -82081,7 +82010,6 @@ trasfusione/S
 trasfuso/m
 trasgredendo/D
 trasgredire/CI
-trasgredisca/R
 trasgrediscano
 trasgredisce
 trasgredisco
@@ -83034,7 +82962,7 @@ troviero/O
 trozkismo/O
 trozkista/QR
 trozzo/O
-truca/QR
+truca/Q
 truccabile/S
 truccando/D
 truccare/AI
@@ -83043,7 +82971,7 @@ truccatore/Sf
 truccatura/Q
 trucchetto/O
 truccona/QR
-truce/Y
+truce/SY
 trucidando/D
 trucidare/AI
 trucidase/S
@@ -83823,7 +83751,6 @@ uniovulare/S
 uniparo/o
 unipolare/S
 unire/CI
-unisca/R
 uniscano
 unisce
 unisciti
@@ -84086,7 +84013,6 @@ usufruendo/D
 usufruente
 usufruibile/S
 usufruire/CI
-usufruisca/R
 usufruiscano
 usufruisce
 usufruisco
@@ -84170,7 +84096,7 @@ vacare/AI
 vacatio
 vacato/o
 vacazione/S
-vacca/QR
+vacca/Q
 vaccaio/o
 vaccamente
 vaccarino
@@ -84252,7 +84178,6 @@ vaginale/S
 vaginalite
 vaginite/S
 vagire/CI
-vagisca/R
 vagiscano
 vagisce
 vagisco
@@ -85158,8 +85083,9 @@ vestigio/O
 vestimento/O
 vestina/Q
 vestire/CI
-vestisca/R
+vestisca
 vestisce
+vestisci
 vestisco
 vestiscono
 vestitino/O

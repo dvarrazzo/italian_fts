@@ -944,7 +944,8 @@ flag Q:
    [GC]A    > -A,HE
 
 flag R:
-   A    > -A,I
+   [^CG]A    > -A,I
+   [CG]A    > -A,HI
 
 flag S:
    E    > -E,I
