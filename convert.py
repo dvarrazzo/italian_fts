@@ -56,7 +56,8 @@ class Dictionary(dict):
 
     def save(self, filename):
         f = file(filename, 'w')
-        f.write(self.header)
+        if self.header:
+            f.write(self.header)
 
         ws = list(self.iterkeys())
         # Sort in correct order... but the original file is sorted in ASCII
@@ -80,6 +81,19 @@ class Dictionary(dict):
         o.sort()
         f.write("\n".join(o))
         f.write('\n')
+
+    def update(self, other):
+        """Add a dictionary to this dictionary.
+
+        Add new words, merge existing flags.
+        """
+        for w, f in other.iteritems():
+            if w not in self:
+                self[w] = f
+                continue
+
+            if f:
+                self[w] = ''.join(set((self[w] or '') + f))
 
 class Operation(object):
     """An operation to perform on a dictionary.
@@ -261,85 +275,9 @@ class RimuoviVerbi(Operation):
     # Eccezioni: da non rimuovere anche se appaiono coniugazioni. La chiave
     # Ë il flag che le 'tiene in vita'.
     keep = {
-        'N': ['stufa', 'pipa', 'anima', 'visita', 'idea', 'domanda', 'cucina',
-            'tonda'],
-        'O': ['abbacchio', 'abbaglio', 'abbaino', 'abbandono', 'abbozzo',
-            'abbraccio', 'abbuono', 'abitino', 'abito', 'abortivo', 'abuso',
-            'accento', 'acchito', 'acciacco', 'acciaino', 'acciaio', 'acconcio',
-            'accordo', 'accumulo', 'aceto', 'acidulo', 'acquarello', 'acquerello',
-            'acquisito', 'acquisto', 'adagio', 'adatto', 'addebito', 'addobbo',
-            'adito', 'adultero', 'aerotraino', 'alberghino', 'arreso',
-            'assassino', 'bacino', 'baracchino', 'becchino', 'bilancino',
-            'biscottino', 'bordo', 'brando', 'buchino', 'calcio', 'cappottino',
-            'carato', 'cardano', 'carrozzino', 'codicillo', 'compatto',
-            'compitino', 'concorso', 'contentino', 'contratto', 'corredino',
-            'cortocircuito', 'cricco', 'cucinino', 'discorso', 'disegnino',
-            'disormeggio', 'divano', 'divello', 'esatto', 'esperimento',
-            'esplicito', 'estivo', 'fato', 'fatto', 'forno', 'fotografo',
-            'gommino', 'grugno', 'imbrago', 'imbuto', 'impietoso', 'incolto',
-            'indulto', 'infisso', 'infuso', 'intervallo', 'letto', 'listino',
-            'lumino', 'mesto', 'mobilino', 'morso', 'modellino', 'modello',
-            'oggettivo', 'oracolo', 'padellino', 'parlamento', 'passeggino',
-            'pendolino', 'pisolino', 'pompino', 'profumino', 'provino',
-            'regolamento', 'reimpianto', 'rinvio', 'riposino', 'riso',
-            'ritocchino', 'ruttino', 'scheletro', 'scherno', 'sedano', 'slittino',
-            'soluto', 'sorriso', 'stato', 'stoppino', 'successo', 'tagliando',
-            'tamburino', 'tango', 'transatto', 'unto', 'vallo', 'vicario'],
-        'Q': ['abiura', 'accetta', 'accusa', 'adultera', 'amnistia', 'ancora',
-            'angoscia', 'anima', 'ara', 'area', 'arma', 'asfissia', 'aureola',
-            'avventura', 'balestra', 'balletta', 'barzelletta', 'branda',
-            'bulletta', 'cadenza', 'calamita', 'cantilena', 'capotta',
-            'carambola', 'carpa', 'carrozza', 'carrucola', 'catapulta',
-            'chiacchiera', 'coccola', 'cola', 'congrega', 'consegna', 'consocia',
-            'controfirma', 'controreplica', 'convalida', 'cricca', 'cripta',
-            'cucina', 'delibera', 'deroga', 'disputa', 'divisa', 'domanda',
-            'droga', 'era', 'esca', 'fata', 'fatica', 'federa', 'fionda',
-            'fodera', 'frana', 'gomma', 'idea', 'idrata', 'imposta', 'impronta',
-            'inchiesta', 'insegna', 'intervista', 'isola', 'libra', 'linea',
-            'maschera', 'meraviglia', 'mira', 'mitraglia', 'ombra', 'opera',
-            'orbita', 'orchestra', 'padella', 'pattuglia', 'pausa', 'permesso',
-            'pesca', 'pipa', 'procura', 'propaganda', 'prova', 'quadrella',
-            'ratifica', 'recita', 'recluta', 'ricompensa', 'riconferma',
-            'ricorso', 'riforma', 'rima', 'scadenza', 'schiera', 'scorza',
-            'seghetta', 'setola', 'sfera', 'sfida', 'sgombera', 'sia', 'soletta',
-            'sonda', 'spesa', 'spira', 'statua', 'stia', 'stoppa', 'stufa',
-            'tempera', 'tesa', 'tonda', 'ulcera', 'urgenza', 'urina', 'valuta',
-            'vena', 'vendemmia', 'visita', 'voglia'],
-        'R': [],
-        'S': ['abbagliante', 'abbondante', 'abbracciante', 'abbronzante',
-            'aberrante', 'abitante', 'accattivante',  'accogliente',
-            'accomodante', 'accondiscendente', 'acconsenziente', 'acetificante',
-            'acidificante', 'addensante', 'aderente', 'affluente', 'agente',
-            'amante', 'avvincente', 'compare', 'contundente', 'corrispondente',
-            'defoliante', 'dipendente', 'dirompente', 'disobbediente',
-            'disubbidiente', 'divertente', 'ente', 'esponente', 'estenuante',
-            'favore', 'garante', 'ignorante', 'imbarazzante', 'incivile',
-            'indice', 'inerente', 'infertile', 'insegnante', 'insigne',
-            'negligente', 'obbediente', 'ode', 'sapiente', 'sapore', 'senziente',
-            'sfavore', 'sofferente', 'sole', 'tangente', 'ubbidiente'],
-        'n': ['angoscia', 'interfaccia', 'pronuncia'],
-        'o': ['abortivo', 'acconcio', 'acidulo', 'adatto', 'antico', 'attento',
-            'attivo', 'azzurro', 'buffo', 'calmo', 'carino', 'complesso',
-            'contento', 'contrario', 'corso', 'decimo', 'degno', 'deluso',
-            'diverso', 'divo', 'duro', 'edito', 'esatto', 'esterno', 'estivo',
-            'eterno', 'falso', 'finto', 'foggiano', 'franco', 'freddino',
-            'freddo', 'funesto', 'interno', 'lacero', 'libero', 'mesto', 'misero',
-            'montano', 'muto', 'oggettivo', 'parso', 'pugnato', 'ricolmo',
-            'scaltro', 'scomparso', 'scosceso', 'sgombero', 'sgombro', 'sgomento',
-            'sincero', 'sollecito', 'stanco', 'stretto', 'stufo', 'stupendo',
-            'successo', 'tacito', 'tondo', 'torto', 'trito', 'ubriaco', 'ultimo',
-            'valgo', 'vario'],
-        'p': ['affiliando', 'amico', 'astrologo', 'autentico', 'battezzando',
-            'commiserando', 'comunicando', 'congedando', 'costituendo',
-            'cresimando', 'educando', 'ereditando', 'erigendo', 'esaminando',
-            'esecrando', 'estrinseco', 'istituendo', 'laureando', 'licenziando',
-            'maturando', 'mirando', 'monacando', 'onorando', 'operando',
-            'ordinando', 'organico', 'premiando', 'riabilitando',
-            'specializzando', 'venerando'],
-        None: ['abbasso', 'addosso', 'azoto', 'cromo', 'dai', 'eclissi', 'paia',
-            'paio', 'rimpetto', 'sei', 'strutto', 'tanga'],
+        # rimosso: usare il dizionario ``non-verbi.dict`` per questo compito.
     }
-    
+
     def _run(self, dictionary):
         vflags = set('ABCztj¿PVZ')  # flag che indicano verbi
         aflags = set('IvsagDEFGHmb')  # attributi che vanno solo sui verbi
