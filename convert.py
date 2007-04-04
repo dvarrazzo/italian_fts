@@ -335,7 +335,7 @@ class RimuoviVerbi(Operation):
             'esecrando', 'estrinseco', 'istituendo', 'laureando', 'licenziando',
             'maturando', 'mirando', 'monacando', 'onorando', 'operando',
             'ordinando', 'organico', 'premiando', 'riabilitando',
-            'specializzando', 'venerando']
+            'specializzando', 'venerando'],
         None: ['abbasso', 'addosso', 'azoto', 'cromo', 'dai', 'eclissi', 'paia',
             'paio', 'rimpetto', 'sei', 'strutto', 'tanga'],
     }
