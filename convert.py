@@ -382,6 +382,29 @@ class RimuoviVerbi(Operation):
                 else:
                     del dictionary[w]
                 
+class UnisciMestieri2(Operation):
+    """Femminile in ..trice unito al maschile in ..tore
+
+    Su molti mestrieri maschili manca la 'S': questa operazione corregge anche
+    quelli.
+    """
+    def _run(self, dictionary):
+        keep = RimuoviVerbi.keep
+        for w, f in list(dictionary.iteritems()):
+            if not w.endswith('tore'):
+                continue
+
+            fw = w[:-3] + 'rice'
+            if fw not in dictionary: continue
+            ff = dictionary[fw] or ''
+            assert ff == 'S', w
+
+            f = f or ''
+            if 'S' not in f:
+                f += 'S'
+
+            del dictionary[fw]
+            dictionary[w] = f + 'f'
 
 #: The list of operation to perform.
 #: The first item is the revision number after which the operation is not to
@@ -421,6 +444,7 @@ processes = [
     (39, EliminaQuErre()),
     (45, UnisciParoleConiugazioni()),
     (46, UnisciIoIi()),
+    (47, UnisciMestieri2()),
 ]
 
 if __name__ == '__main__':
