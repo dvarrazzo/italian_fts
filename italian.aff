@@ -962,11 +962,7 @@ flag f:
    [CG]O     > -O,HE
 
 flag Y:
-   [LU]ENTO    > -O,EMENTE
-   [^T]O    > -O,AMENTE
-   [^N]TO    > -O,AMENTE
-   [^E]NTO    > -O,AMENTE
-   [^LU]ENTO    > -O,AMENTE
+   O        > -O,AMENTE
    [^RL]E    > MENTE
    [AEIOU]RE    > -E,MENTE
    [^AEIOU]RE    > MENTE
@@ -976,6 +972,9 @@ flag Y:
    [^I]O    > -O,ISSIMAMENTE
    IE    > -E,SSIMAMENTE
    IO    > -O,SSIMAMENTE
+
+flag y:
+   O        >   -O,EMENTE
 
 flag *W:
    [^IGC]O    > -O,ISSIMO
