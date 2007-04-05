@@ -57,6 +57,7 @@ affetto/O
 affiliando/p
 affluente/S
 agente/S
+aggettivo/O
 aguzzo/o
 alberghino/O
 alieno/O
@@ -275,6 +276,7 @@ commissione/S
 compare/S
 compatto/Oo
 compera/Q
+competente/SYW
 compitino/O
 compito/O
 complesso/o
@@ -306,7 +308,9 @@ congrega/Q
 coniuge/S
 conquista/Q
 consegna/Q
+conseguente/SY
 conserva/Q
+consistente/SY
 consocio/o
 console/S
 consulta/Q
@@ -329,12 +333,14 @@ copula/Q
 corazza/Q
 corona/Q
 corredino/O
+corrente/SY
 corrispondente/S
 corrusco/o
 corsa/Q
 corso/O
 cortocircuito/O
 costa/Q
+costante/SY
 costituendo/p
 costo/O
 costume/S
@@ -369,6 +375,7 @@ decimo/o
 decongestione/S
 dedica/Q
 defezione/S
+definito/oY
 deflazione/S
 defoliante/S
 deforme/S
@@ -386,6 +393,7 @@ desto/o
 deteriore/S
 diagnostico/p
 diamante/S
+differente/SY
 diffida/Q
 digiuno/O
 dilazione/S
@@ -885,6 +893,7 @@ peregrino/o
 perenne/S
 perfezione/S
 perizia/Q
+permanente/SY
 permesso/O
 permuto/o
 perpetuo/o
@@ -933,12 +942,14 @@ postilla/Q
 posto/O
 pralina/Q
 pratico/p
+precedente/SY
 preciso/o
 predica/Q
 prefazione/S
 premiando/p
 premura/Q
 presella/Q
+presente/SY
 pressa/Q
 preteste/S
 preventivo/o
@@ -1058,6 +1069,7 @@ riso/O
 risono
 rissa/Q
 ristampa/Q
+ristretto/oWYw
 risvolto/O
 ritocchino/O
 ritratto/O
@@ -1076,6 +1088,7 @@ russo/o
 ruttino/O
 sabbia/Q
 saetta/Q
+saggio/oY
 sagoma/Q
 salamoia/Q
 saldo/o
@@ -1092,6 +1105,7 @@ sano/o
 sanzione/S
 sapiente/S
 sapore/S
+saporito/oY
 sartia/Q
 satollo/o
 saturo/o
@@ -1201,6 +1215,7 @@ sodo/o
 sofferente/S
 soffitta/Q
 soffitto/O
+sofistico/oY
 soggettivo/o
 sole/S
 soletta/Q
@@ -1210,6 +1225,7 @@ solo/o
 soluto/O
 soluzione/S
 somma/Q
+sommo/oY
 sonda/Q
 sopratassa/Q
 sorriso/O
@@ -1217,11 +1233,13 @@ sospetto/o
 sosta/Q
 sostantivo/o
 sottostima/Q
+soverchio/oY
 sovraccarico/o
 sovrastampa/Q
 sovvenzione/S
 spalla/Q
 spanna/Q
+spartano/oY
 spazzola/Q
 specializzando/p
 specifico/p
@@ -1279,6 +1297,7 @@ stoppino/O
 stornello/o
 storpio/o
 strambo/o
+strano/sY
 strattone/S
 stregaQ
 stretto/o
@@ -1304,6 +1323,7 @@ supplica/Q
 supplice/S
 sutura/Q
 sveglio/o
+svelto/oY
 sventola/Q
 svolta/Q
 tacito/o
@@ -1437,6 +1457,7 @@ vista/Q
 visto/O
 vitalizio/O
 vivisezione/S
+vivo/oWYw
 voga/Q
 voglia/Q
 volantino/O

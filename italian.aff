@@ -962,16 +962,13 @@ flag f:
    [CG]O     > -O,HE
 
 flag Y:
+   A        > MENTE
    O        > -O,AMENTE
    [^RL]E    > MENTE
    [AEIOU]RE    > -E,MENTE
    [^AEIOU]RE    > MENTE
    [^L]LE    > -E,MENTE
    LLE    > MENTE
-   [^I]E    > -E,ISSIMAMENTE
-   [^I]O    > -O,ISSIMAMENTE
-   IE    > -E,SSIMAMENTE
-   IO    > -O,SSIMAMENTE
 
 flag y:
    O        >   -O,EMENTE
@@ -979,10 +976,10 @@ flag y:
 flag *W:
    [^IGC]O    > -O,ISSIMO
    [^IGC]O    > -O,ISSIMI
-   [^R]E    > -E,ISSIMO
-   [^R]E    > -E,ISSIMI
    [^IGC]O    > -O,ISSIMA
    [^IGC]O    > -O,ISSIME
+   [^R]E    > -E,ISSIMO
+   [^R]E    > -E,ISSIMI
    [^R]E    > -E,ISSIMA
    [^R]E    > -E,ISSIME
    IO    > -O,SSIMO
@@ -997,6 +994,15 @@ flag *W:
    [CG]O    > -O,HISSIMA
    [CG]O    > -O,HISSIME
    [CG]O    > -O,HISSIMI
+
+# Avverbio sul superlativo. Questo flag dovrebbe essere applicato a tutti
+# Gli aggettivi che hanno i flag (y | Y) & W
+flag *w:
+   [^IGC]O    > -O,ISSIMAMENTE
+   [CG]O    > -O,HISSIMAMENTE
+   IO    > -O,SSIMAMENTE
+   [^R]E    > -E,ISSIMAMENTE
+   RE    > -RE,ERRIMAMENTE
 
 flag *N:
    [^ICG]A    > -A,INA

@@ -406,6 +406,31 @@ class UnisciMestieri2(Operation):
             del dictionary[fw]
             dictionary[w] = f + 'f'
 
+class UnisciAvverbi(Operation):
+    def _run(self, dictionary):
+        already_flagged = 0
+        for w, f in list(dictionary.iteritems()):
+            if w.endswith('amente'):
+                flag = 'Y'
+                aggs = [w[:-6] + 'o', w[:-5] + 'o']
+            elif w.endswith('emente') or w.endswith('lmente'):
+                flag = w.endswith("e") and 'Y' or 'y'
+                aggs = [w[:-6] + 'o', w[:-5] + 'o', w[:-5] + 'e', w[:-5]]
+            else:
+                continue
+
+            for agg in aggs:
+                if agg in dictionary and agg[-1] in 'aeiou':
+                    print agg, "->", w
+                    if flag not in (dictionary[agg] or ''):
+                        dictionary[agg] = (dictionary[agg] or '') + flag
+                    else:
+                        already_flagged += 1
+                    del dictionary[w]
+                    break
+
+        print "already_flagged", already_flagged
+
 #: The list of operation to perform.
 #: The first item is the revision number after which the operation is not to
 #: be performed. Other parameters are the callable to run and the positional
@@ -445,6 +470,7 @@ processes = [
     (45, UnisciParoleConiugazioni()),
     (46, UnisciIoIi()),
     (47, UnisciMestieri2()),
+    (49, UnisciAvverbi()),
 ]
 
 if __name__ == '__main__':
