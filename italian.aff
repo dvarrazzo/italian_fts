@@ -111,28 +111,54 @@ flag *o:
    [GC]O    > -O,HE
 
 # Superlativo assoluto
+# Non deve andare sulle parole col flag /p, ma solo su /o e /S
 
 flag *W:
    [^IGC]O    > -O,ISSIMO
    [^IGC]O    > -O,ISSIMI
    [^IGC]O    > -O,ISSIMA
    [^IGC]O    > -O,ISSIME
-   [^R]E    > -E,ISSIMO
-   [^R]E    > -E,ISSIMI
-   [^R]E    > -E,ISSIMA
-   [^R]E    > -E,ISSIME
+   E    > -E,ISSIMO
+   E    > -E,ISSIMI
+   E    > -E,ISSIMA
+   E    > -E,ISSIME
    IO    > -O,SSIMO
    IO    > -O,SSIMI
    IO    > -O,SSIMA
    IO    > -O,SSIME
-   RE    > -RE,ERRIMO
-   RE    > -RE,ERRIMI
-   RE    > -RE,ERRIMA
-   RE    > -RE,ERRIME
    [CG]O    > -O,HISSIMO
    [CG]O    > -O,HISSIMA
    [CG]O    > -O,HISSIME
    [CG]O    > -O,HISSIMI
+
+# Superlativo su aggettivi in forma -co -> -ci (es. amico, amici)
+# Queste parole sono caratterizzate dal flag /p
+
+flag *U:
+   O       > -O,ISSIMO
+   O       > -O,ISSIMA
+   O       > -O,ISSIME
+   O       > -O,ISSIMI
+
+# Superlativo in -errimo
+
+flag *T:
+   [^E]RE    > -RE,ERRIMO
+   [^E]RE    > -RE,ERRIMI
+   [^E]RE    > -RE,ERRIMA
+   [^E]RE    > -RE,ERRIME
+   ERE    > -E,RIMO
+   ERE    > -E,RIMI
+   ERE    > -E,RIMA
+   ERE    > -E,RIME
+   [^E]RO    > -RO,ERRIMO
+   [^E]RO    > -RO,ERRIMI
+   [^E]RO    > -RO,ERRIMA
+   [^E]RO    > -RO,ERRIME
+   ERO    > -O,RIMO
+   ERO    > -O,RIMI
+   ERO    > -O,RIMA
+   ERO    > -O,RIME
 
 # Avverbi
 
