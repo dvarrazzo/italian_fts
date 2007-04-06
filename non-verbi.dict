@@ -489,6 +489,7 @@ falco/O
 falda/Q
 falso/o
 fantastico/p
+fascino/O
 fata/Q
 fatica/Q
 fato/O
@@ -507,6 +508,7 @@ fibrilla/Q
 fido/o
 figlio/o
 figura/Q
+figurino/O
 figuro/O
 fila/Q
 filare/S
@@ -527,6 +529,7 @@ foglio/O
 fogna/Q
 folgore/S
 folla/Q
+fondino/O
 forma/Q
 formula/Q
 forno/O
@@ -573,6 +576,7 @@ ghiaia/Q
 ghigliottina/Q
 ghirlanda/Q
 giostra/Q
+girandolino/O
 girella/Q
 girello/O
 girovago/o
@@ -615,6 +619,7 @@ griglia/Q
 gronda/Q
 grugno/O
 guado/O
+guardino/o
 guasto/o
 guazza/Q
 guida/Q
@@ -626,6 +631,7 @@ ignifugo/o
 ignorante/S
 illustre/S
 imbarazzante/S
+imbianchino/o
 imbraco/O
 imbrago/O
 imbuto/O
@@ -680,6 +686,7 @@ interno/o
 interprete/S
 intervallo/O
 intervista/Q
+intestino/o
 intimo/o
 intrinseco/p
 invalido/o
@@ -690,6 +697,7 @@ ipoteca/Q
 iride/S
 iscrivendo/O
 isola/Q
+isolano/o
 ispezione/S
 istituendo/p
 lacca/Q
@@ -749,12 +757,14 @@ manifesto/o
 manovra/Q
 mappa/Q
 marca/Q
+marchiano/o
 marco/O
 margine/S
 margotta/Q
 marino/o
 marna/Q
 maschera/Q
+mascherino/o
 maschietto/o
 massimo/o
 mastice/S
@@ -766,6 +776,7 @@ matto/o
 mattone/S
 maturando/p
 maturo/o
+mediano/o
 medico/p
 medio/o
 mendico/p
@@ -803,6 +814,7 @@ moltiplica/Q
 moltiplicando/O
 monacando/p
 monaco/p
+mondano/o
 mondo/o
 moneta/Q
 monitore/S
@@ -834,6 +846,7 @@ nota/Q
 notifica/Q
 notificando/o
 novella/Q
+novellino/o
 obbediente/S
 obbiettivo/o
 obiettivo/o
@@ -884,6 +897,7 @@ palese/S
 paletta/Q
 paletto/O
 palina/Q
+pallino/O
 palo/O
 palude/S
 pane/S
@@ -932,6 +946,7 @@ peso/O
 peste/S
 pettegolo/o
 pettine/S
+pettinino/O
 piacere/S
 piaga/Q
 pialla/Q
@@ -943,8 +958,10 @@ piccone/S
 piega/Q
 pila/Q
 pilota/RQ
+pilotino/O
 pinza/Q
 pioviggine/S
+piovano/o
 pipa/QN
 piroetta/Q
 pirogeno/o
@@ -962,6 +979,8 @@ poeta/Rf
 pompa/Q
 pompino/O
 ponte/S
+pontino/o
+popolano/o
 poppa/Q
 porcellana/Q
 porta/Q
@@ -969,6 +988,7 @@ porto/O
 posizione/S
 posta/Q
 postilla/Q
+postino/o
 posto/O
 pralina/Q
 pratica/Q
@@ -1007,6 +1027,7 @@ protesta/Q
 protocollare/S
 prova/Q
 provino/O
+pubblicano/o
 pubblico/p
 pugnato/o
 pugno/O
@@ -1152,6 +1173,8 @@ sartia/Q
 satollo/o
 saturo/o
 sazio/o
+sbarazzino/o
+sbarbino/o
 sbarra/Q
 sbornia/Q
 scadenza/Q
@@ -1162,6 +1185,7 @@ scala/Q
 scalare/S
 scaletta/Q
 scalo/O
+scalpello/O
 scaltro/o
 scalzo/o
 scamozzo/o
@@ -1206,6 +1230,7 @@ scorta/Q
 scorza/Q
 scosceso/o
 scotto/o
+scribacchino/o
 scrittura/Q
 scuffina/Q
 scusa/Q
@@ -1285,14 +1310,17 @@ sovraccarico/o
 sovrastampa/Q
 sovvenzione/S
 spalla/Q
+spallino/O
 spanna/Q
 spartano/oY
+spazzino/o
 spazzola/Q
 specializzando/p
 specifico/p
 sperone/S
 spesa/Q
 spezia/Q
+spezzino/o
 spezzone/S
 spia/Q
 spiccia/n
@@ -1306,6 +1334,7 @@ spira/Q
 spoglio/o
 spoletta/Q
 sporco/o
+sposine/o
 sposo/Of
 spranga/Q
 spuma/Q
@@ -1319,6 +1348,7 @@ squillo/O
 staffa/Q
 staffile/S
 stagione/S
+stagnino/o
 stagno/o
 stalla/Q
 stampa/Q
@@ -1353,12 +1383,14 @@ striglia/Q
 stringa/Q
 stronco/o
 stronzo/o
+strozzino/o
 strozzo/o
 strutto/O
 struttura/Q
 stufa/QN
 stufo/o
 stupendo/o
+stuzzichino/o
 sublime/S
 subordine/S
 successo/O
@@ -1374,7 +1406,8 @@ sveglio/o
 svelto/oY
 sventola/Q
 svolta/Q
-tacito/o
+tabacchino/o
+stacito/o
 taglia/Q
 tagliando/O
 tallone/S
@@ -1403,11 +1436,13 @@ tempra/Q
 tenebra/Q
 tenzone/S
 termine/S
+ternano/o
 terno/O
 terrazzo/o
 terrifico/o
 tesa/Q
 tessera/Q
+tesserino/o
 testa/Q
 testo/O
 tetta/Q
@@ -1428,6 +1463,7 @@ tossico/o
 tosto/o
 traccia/n
 tracolla/Q
+traffichino/o
 trafila/Q
 traino/O
 trama/Q
@@ -1464,6 +1500,7 @@ turbine/S
 tutela/Q
 ubbidiente/S
 ubriaco/o
+uccellino/o
 ulcera/Q
 ultimo/o
 uniforme/S
@@ -1511,6 +1548,7 @@ visto/O
 vitalizio/O
 vivisezione/S
 vivo/oWYw
+volpino/o
 voga/Q
 voglia/Q
 volantino/O
@@ -1528,3 +1566,4 @@ zappetta/Q
 zavorra/Q
 zebra/Q
 zolfara/Q
+zuccherino/o
