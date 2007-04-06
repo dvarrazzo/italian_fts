@@ -65,6 +65,8 @@ flag Q:
    [^GC]A    > -A,E
    [GC]A    > -A,HE
 
+# Sostantivi femminili con equivalente maschile, prodotti dal maschile
+
 # Maschile e femminile
 
 flag *p:
@@ -73,13 +75,11 @@ flag *p:
    [^CG]O > -O,E
    [CG]O  > -O,HE
 
-# Sostantivi femminili con equivalente maschile, prodotti dal maschile
-
 flag *u:
    E    > -E,A # femminile
    E    > -E,I # plurale maschile
 
-flag f:
+flag *f:
    TORE      > -ORE,RICE
    TORE      > -ORE,RICI
    [^CG]A    > -A,ESSA
@@ -90,6 +90,10 @@ flag f:
    E         > SSE
    O         > -O,ESSA
    O         > -O,ESSE
+
+# Senza plurale
+flag *r:
+    O       >   -O,A
 
 # Aggettivi
 
@@ -167,7 +171,12 @@ flag *N:
    A    > -A,ONA
    A    > -A,ONE
 
+# Troncamento
 
+flag *x:
+    A       >   -A
+    E       >   -E
+    O       >   -O
 
 
 
