@@ -48,7 +48,7 @@ class Dictionary(dict):
 
             p = row.rstrip().split('/')
             if len(p) == 1:
-                self[p[0]] = None
+                self[p[0]] = ''
             else:
                 self[p[0]] = p[1]
 
@@ -431,6 +431,34 @@ class UnisciAvverbi(Operation):
 
         print "already_flagged", already_flagged
 
+class UnisciPlurali(Operation):
+    """Unisci il plurale al suo singolare."""
+    def _run(self, dictionary):
+        for w, f in list(dictionary.iteritems()):
+            if w.endswith('o'):
+                flag = 'O'
+                pll = [ w[:-1] + 'i', w[:-1] + 'hi']
+            elif w.endswith('e'):
+                flag = 'S'
+                pll = [ w[:-1] + 'i', w[:-1] + 'hi']
+            elif w.endswith('a'):
+                flag = 'Q'
+                pll = [ w[:-1] + 'e', w[:-1] + 'he']
+            else:
+                continue
+
+            # può essere stato già rimosso
+            if w not in dictionary:
+                continue
+
+            for pl in pll:
+                if pl in dictionary:
+                    print pl, '->', w
+                    del dictionary[pl]
+                    if flag not in f:
+                        dictionary[w] += flag
+                    break
+
 #: The list of operation to perform.
 #: The first item is the revision number after which the operation is not to
 #: be performed. Other parameters are the callable to run and the positional
@@ -471,6 +499,7 @@ processes = [
     (46, UnisciIoIi()),
     (47, UnisciMestieri2()),
     (49, UnisciAvverbi()),
+    (50, UnisciPlurali()),
 ]
 
 if __name__ == '__main__':

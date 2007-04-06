@@ -73,6 +73,7 @@ ammenda/Q
 amnistia/Q
 ancora/Q
 angoscia/nQ
+angolare/SY
 angustia/Q
 anima/QN
 ansa/Q
@@ -255,6 +256,7 @@ cicala/Q
 ciclostile/S
 cifra/Q
 cima/Q
+circolare/YIS
 civetta/Q
 classifica/Q
 clone/S
@@ -312,6 +314,7 @@ conseguente/SY
 conserva/Q
 consistente/SY
 consocio/o
+consolare/S
 console/S
 consulta/Q
 conta/Q
@@ -350,6 +353,7 @@ cozzo/O
 crapulo/o
 crema/Q
 crepa/Q
+crescendo/O
 cresima/Q
 cresimando/p
 cricca/Q
@@ -400,6 +404,7 @@ dilazione/S
 diletto/O
 dimensione/S
 dimentico/o
+diminuendo/O
 dimissione/S
 dimora/Q
 dipendente/S
@@ -455,7 +460,7 @@ emulo/O
 emulsione/S
 ente/S
 epitome/S
-equivoco/n
+equivoco/pY
 era/Q
 ereditando/p
 erigendo/p
@@ -469,6 +474,7 @@ esperimento/O
 espianto/O
 esplicito/O
 esponente/S
+essere/S
 estenuante/S
 esterno/o
 estivo/o
@@ -481,7 +487,7 @@ faccetta/Q
 falco/O
 falda/Q
 falso/o
-fantastico/o
+fantastico/p
 fata/Q
 fatica/Q
 fato/O
@@ -502,6 +508,7 @@ figlio/o
 figura/Q
 figuro/O
 fila/Q
+filare/S
 filo/O
 filosofo/Of
 finto/o
@@ -514,6 +521,7 @@ flotta/Q
 fodera/Q
 foggiano/o
 foglia/Q
+fogliare/S
 foglio/O
 fogna/Q
 folgore/S
@@ -554,6 +562,7 @@ gallo/O
 garante/S
 garza/Q
 gattone/S
+gemellare/S
 gemello/o
 gemma/Q
 genere/S
@@ -566,6 +575,7 @@ giostra/Q
 girella/Q
 girello/O
 girovago/o
+giubilare/S
 giudice/S
 giulebba/Q
 giunta/Q
@@ -574,6 +584,8 @@ giustifica/Q
 giustizia/Q
 glassa/Q
 glissa/Q
+glissando/O
+globulare/S
 gloria/Q
 glossa/Q
 gocciola/Q
@@ -590,6 +602,7 @@ grana/Q
 granaglia/Q
 grandine/S
 grano/O
+granulare/S
 graticola/Q
 gratifica/Q
 grattugia/Q
@@ -654,10 +667,14 @@ insidia/Q
 insigne/S
 integro/o
 intento/o
+intercalare/S
 intercetta/Q
 interesse/S
+interiora
+interiore/S
 interfaccia/n
 interlinea/Q
+interlineare/S
 interno/o
 interprete/S
 intervallo/O
@@ -670,6 +687,7 @@ invente/S
 invidia/Q
 ipoteca/Q
 iride/S
+iscrivendo/O
 isola/Q
 ispezione/S
 istituendo/p
@@ -677,6 +695,7 @@ lacca/Q
 lacero/o
 lacrima/Q
 lamina/Q
+laminare/S
 lapide/S
 laude/S
 laurea/Q
@@ -694,6 +713,7 @@ libero/o
 libra/Q
 licenziando/p
 lima/Q
+limitare/S
 limite/S
 limo/O
 linea/Q
@@ -739,6 +759,7 @@ massimo/o
 mastice/S
 materia/Q
 matricola/Q
+matricolare/S
 mattino/o
 matto/o
 mattone/S
@@ -758,14 +779,17 @@ mina/Q
 minchione/S
 ministro/Of
 minore/S
+minuendo/O
 mira/Q
 mirando/p
 miscela/Q
 mischia/Q
+mise
 misero/o
 mistura/Q
 misura/Q
 mitraglia/Q
+mobiliare/S
 mobilino/O
 mobilio/o
 modellino/O
@@ -775,6 +799,7 @@ mole/S
 molesto/o
 molla/Q
 moltiplica/Q
+moltiplicando/O
 monacando/p
 monaco/p
 mondo/o
@@ -806,6 +831,7 @@ nomina/Q
 norma/Q
 nota/Q
 notifica/Q
+notificando/o
 novella/Q
 obbediente/S
 obbiettivo/o
@@ -905,6 +931,7 @@ peso/O
 peste/S
 pettegolo/o
 pettine/S
+piacere/S
 piaga/Q
 pialla/Q
 pianta/Q
@@ -925,6 +952,7 @@ pispola/Q
 pitocco/o
 pittura/Q
 placca/Q
+planare/S
 plastico/p
 platino/O
 policromo/o
@@ -941,6 +969,7 @@ posta/Q
 postilla/Q
 posto/O
 pralina/Q
+pratica/Q
 pratico/p
 precedente/SY
 preciso/o
@@ -972,6 +1001,7 @@ proporzione/S
 proroga/Q
 prospero/o
 protesta/Q
+protocollare/S
 prova/Q
 provino/O
 pubblico/p
@@ -994,6 +1024,7 @@ quietanza/Q
 quieto/o
 quintuplice/S
 quota/Q
+radicando/O
 radice/S
 radioguida/Q
 raffa/Q
@@ -1018,18 +1049,23 @@ reciproco/p
 recita/Q
 recluta/Q
 redazza/Q
+referendo/o
 regale/S
 regalo/O
 regime/S
 regola/Q
+regolamentare/S
 regolamento/O
+regolare/SY
 regolo/O
 reimpianto/O
 relazione/S
 replica/Q
 residuo/o
 resina/Q
+resistendo/o
 resto/O
+reticolare/S
 retina/Q
 retino/O
 retrogrado/o
@@ -1092,11 +1128,14 @@ saggio/oY
 sagoma/Q
 salamoia/Q
 saldo/o
+salinare/S
 saliva/Q
+salivare/S
 salmodia/Q
 salmone/S
 salpa/Q
 saltabecco/o
+salutare/S
 salute/S
 saluto/O
 salvo/o
@@ -1117,6 +1156,7 @@ scaffale/S
 scaglia/Q
 scaglione/S
 scala/Q
+scalare/S
 scaletta/Q
 scalo/O
 scaltro/o
@@ -1150,6 +1190,7 @@ sciocco/o
 sciolina/Q
 scocca/Q
 scodella/Q
+scolaro/Of
 scomodo/o
 scompagne/S
 scomparso/o
@@ -1220,6 +1261,8 @@ soggettivo/o
 sole/S
 soletta/Q
 solfa/Q
+solfara/Q
+solfatara/Q
 sollecito/o
 solo/o
 soluto/O
@@ -1233,6 +1276,7 @@ sospetto/o
 sosta/Q
 sostantivo/o
 sottostima/Q
+sottraendo/o
 soverchio/oY
 sovraccarico/o
 sovrastampa/Q
@@ -1370,6 +1414,7 @@ tombola/Q
 tonda/N
 tondo/o
 tonsura/Q
+tonsurando/o
 tormenta/Q
 torta/Q
 torto/O
@@ -1394,6 +1439,7 @@ trebbia/Q
 tremolo/o
 trepido/o
 tresca/Q
+triangolare/S
 trifola/Q
 trinella/Q
 trino/o
@@ -1408,6 +1454,7 @@ trucido/o
 truffa/Q
 tuba/Q
 tubo/O
+tubolare/S
 turba/Q
 turbine/S
 tutela/Q
@@ -1434,6 +1481,7 @@ vanga/Q
 vario/o
 vegeto/o
 veglia/Q
+veicolare/S
 vela/Q
 velina/Q
 vena/Q
@@ -1447,6 +1495,7 @@ vetrino/O
 vettovaglia/Q
 vicario/O
 vigile/S
+vincolare/S
 viola/Q
 violento/o
 virgola/Q
@@ -1461,6 +1510,7 @@ vivo/oWYw
 voga/Q
 voglia/Q
 volantino/O
+volpara/Q
 volpe/S
 volta/Q
 volto/O
@@ -1473,3 +1523,4 @@ zappa/Q
 zappetta/Q
 zavorra/Q
 zebra/Q
+zolfara/Q
