@@ -459,6 +459,24 @@ class UnisciPlurali(Operation):
                         dictionary[w] += flag
                     break
 
+class UnisciMaschileFemminile(Operation):
+    """Unisci i maschili con /n ai femminili nel flag /p"""
+    def _run(self, dictionary):
+        for w, f in list(dictionary.iteritems()):
+            if not (w.endswith('o') and len(w) > 1 and w[-2] != 'i'
+                    and 'n' in f):
+                continue
+            fw = w[:-1] + 'a'
+            if fw not in dictionary:
+                continue
+
+            ff = dictionary[fw]
+            assert ff in ('', 'Q')
+
+            del dictionary[fw]
+            dictionary[w] = f.replace('n', 'p')
+
+
 #: The list of operation to perform.
 #: The first item is the revision number after which the operation is not to
 #: be performed. Other parameters are the callable to run and the positional
@@ -500,6 +518,7 @@ processes = [
     (47, UnisciMestieri2()),
     (49, UnisciAvverbi()),
     (50, UnisciPlurali()),
+    (61, UnisciMaschileFemminile()),
 ]
 
 if __name__ == '__main__':
