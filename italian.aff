@@ -40,6 +40,137 @@ MAP uùUÙ
 
 suffixes
 
+# Sostantivi maschili
+
+flag O:
+   [^IGC]O    > -O,I
+   [GC]O    > -O,HI
+   IO    > -O,
+
+flag R:
+   [^CG]A    > -A,I
+   [CG]A    > -A,HI
+
+flag S:
+   E    > -E,I
+
+flag n:
+   IA    > -IA,E
+   O    > -O,I
+
+
+# Sostantivi femminili
+
+flag Q:
+   [^GC]A    > -A,E
+   [GC]A    > -A,HE
+
+# Maschile e femminile
+
+flag *p:
+   O      > -O,I
+   O      > -O,A
+   [^CG]O > -O,E
+   [CG]O  > -O,HE
+
+# Sostantivi femminili con equivalente maschile, prodotti dal maschile
+
+flag *u:
+   E    > -E,A # femminile
+   E    > -E,I # plurale maschile
+
+flag f:
+   TORE      > -ORE,RICE
+   TORE      > -ORE,RICI
+   [^CG]A    > -A,ESSA
+   [^CG]A    > -A,ESSE
+   [CG]A     > -A,HESSA
+   [CG]A     > -A,HESSE
+   E         > SSA
+   E         > SSE
+   O         > -O,ESSA
+   O         > -O,ESSE
+
+# Aggettivi
+
+flag *o:
+   [^IGC]O    > -O,I
+   [GC]O    > -O,HI
+   IO    > -O,
+   O    > -O,A
+   [^GCI]O    > -O,E
+   [^GC]IO    > -O,E
+   [GC]IO    > -IO,E
+   [GC]O    > -O,HE
+
+# Superlativo assoluto
+
+flag *W:
+   [^IGC]O    > -O,ISSIMO
+   [^IGC]O    > -O,ISSIMI
+   [^IGC]O    > -O,ISSIMA
+   [^IGC]O    > -O,ISSIME
+   [^R]E    > -E,ISSIMO
+   [^R]E    > -E,ISSIMI
+   [^R]E    > -E,ISSIMA
+   [^R]E    > -E,ISSIME
+   IO    > -O,SSIMO
+   IO    > -O,SSIMI
+   IO    > -O,SSIMA
+   IO    > -O,SSIME
+   RE    > -RE,ERRIMO
+   RE    > -RE,ERRIMI
+   RE    > -RE,ERRIMA
+   RE    > -RE,ERRIME
+   [CG]O    > -O,HISSIMO
+   [CG]O    > -O,HISSIMA
+   [CG]O    > -O,HISSIME
+   [CG]O    > -O,HISSIMI
+
+# Avverbi
+
+flag Y:
+   A        > MENTE
+   O        > -O,AMENTE
+   [^RL]E    > MENTE
+   [AEIOU]RE    > -E,MENTE
+   [^AEIOU]RE    > MENTE
+   [^L]LE    > -E,MENTE
+   LLE    > MENTE
+
+flag y:
+   O        >   -O,EMENTE
+
+# Avverbio sul superlativo. Questo flag dovrebbe essere applicato a tutti
+# Gli aggettivi che hanno i flag (y | Y) & W
+flag *w:
+   [^IGC]O    > -O,ISSIMAMENTE
+   [CG]O    > -O,HISSIMAMENTE
+   IO    > -O,SSIMAMENTE
+   [^R]E    > -E,ISSIMAMENTE
+   RE    > -RE,ERRIMAMENTE
+
+
+# Diminutivi, vezzeggiativi, accrescitivi...
+
+flag *N:
+   [^ICG]A    > -A,INA
+   [^ICG]A    > -A,INE
+   [CG]A    > -A,HINA
+   [CG]A    > -A,HINE
+   [CG]A    > -A,HETTA
+   [CG]A    > -A,HETTE
+   [^CG]A    > -A,ETTA
+   [^CG]A    > -A,ETTE
+   IA    > -A,NA
+   IA    > -A,NE
+   A    > -A,ONA
+   A    > -A,ONE
+
+
+
+
+
 flag *A:
    ARE    > -ARE,O
    [^ICG]ARE    > -ARE,I
@@ -934,92 +1065,6 @@ flag *P:
    ARE    > -RE,TEVI
    ARE    > -RE,TETI
 
-flag O:
-   [^IGC]O    > -O,I
-   [GC]O    > -O,HI
-   IO    > -O,
-
-flag Q:
-   [^GC]A    > -A,E
-   [GC]A    > -A,HE
-
-flag R:
-   [^CG]A    > -A,I
-   [CG]A    > -A,HI
-
-flag S:
-   E    > -E,I
-
- Sostantivi femminili con equivalente maschile, prodotti dal maschile
-flag f:
-   TORE      > -ORE,RICE
-   TORE      > -ORE,RICI
-   [^CG]A    > -A,ESSA
-   [^CG]A    > -A,ESSE
-   [CG]A     > -A,HESSA
-   [CG]A     > -A,HESSE
-   E         > SSA
-   E         > SSE
-   O         > -O,ESSA
-   O         > -O,ESSE
-
-flag Y:
-   A        > MENTE
-   O        > -O,AMENTE
-   [^RL]E    > MENTE
-   [AEIOU]RE    > -E,MENTE
-   [^AEIOU]RE    > MENTE
-   [^L]LE    > -E,MENTE
-   LLE    > MENTE
-
-flag y:
-   O        >   -O,EMENTE
-
-flag *W:
-   [^IGC]O    > -O,ISSIMO
-   [^IGC]O    > -O,ISSIMI
-   [^IGC]O    > -O,ISSIMA
-   [^IGC]O    > -O,ISSIME
-   [^R]E    > -E,ISSIMO
-   [^R]E    > -E,ISSIMI
-   [^R]E    > -E,ISSIMA
-   [^R]E    > -E,ISSIME
-   IO    > -O,SSIMO
-   IO    > -O,SSIMI
-   IO    > -O,SSIMA
-   IO    > -O,SSIME
-   RE    > -RE,ERRIMO
-   RE    > -RE,ERRIMI
-   RE    > -RE,ERRIMA
-   RE    > -RE,ERRIME
-   [CG]O    > -O,HISSIMO
-   [CG]O    > -O,HISSIMA
-   [CG]O    > -O,HISSIME
-   [CG]O    > -O,HISSIMI
-
-# Avverbio sul superlativo. Questo flag dovrebbe essere applicato a tutti
-# Gli aggettivi che hanno i flag (y | Y) & W
-flag *w:
-   [^IGC]O    > -O,ISSIMAMENTE
-   [CG]O    > -O,HISSIMAMENTE
-   IO    > -O,SSIMAMENTE
-   [^R]E    > -E,ISSIMAMENTE
-   RE    > -RE,ERRIMAMENTE
-
-flag *N:
-   [^ICG]A    > -A,INA
-   [^ICG]A    > -A,INE
-   [CG]A    > -A,HINA
-   [CG]A    > -A,HINE
-   [CG]A    > -A,HETTA
-   [CG]A    > -A,HETTE
-   [^CG]A    > -A,ETTA
-   [^CG]A    > -A,ETTE
-   IA    > -A,NA
-   IA    > -A,NE
-   A    > -A,ONA
-   A    > -A,ONE
-
 flag *V:
    URRE    > -RRE,CA
    URRE    > -RRE,CANO
@@ -1648,26 +1693,6 @@ flag *m:
    O    > VENE
    O    > MI
 
-flag n:
-   IA    > -IA,E
-   O    > -O,I
-
-flag *o:
-   [^IGC]O    > -O,I
-   [GC]O    > -O,HI
-   IO    > -O,
-   O    > -O,A
-   [^GCI]O    > -O,E
-   [^GC]IO    > -O,E
-   [GC]IO    > -IO,E
-   [GC]O    > -O,HE
-
-flag *p:
-   O      > -O,I
-   O      > -O,A
-   [^CG]O > -O,E
-   [CG]O  > -O,HE
-
 flag *t:
    IRE    > -RE,SCO
    IRE    > -RE,SCI
@@ -1711,10 +1736,6 @@ flag *t:
    IRE    > -RE,TE
    IRE    > -RE,TI
    IRE    > -RE,TA
-
-flag *u:
-   E    > -E,A # femminile
-   E    > -E,I # plurale maschile
 
 flag v:
    IRE    > -IRE,ENTISI
