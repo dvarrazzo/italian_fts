@@ -45,160 +45,160 @@ suffixes
 
 # Sostantivi maschili
 
-flag O:
-   [^IGC]O    > -O,I
-   [GC]O    > -O,HI
-   IO    > -O,
-
-flag R:
-   [^CG]A    > -A,I
-   [CG]A    > -A,HI
-
-flag S:
-   E    > -E,I
-
-flag n:
-   IA    > -IA,E
-   O    > -O,I
-
+flag *O:
+    [^IGC]  O   >   -O,I
+    [GC]    O   >   -O,HI
+    I       O   >   -O,
+    [^CG]   A   >   -A,I
+    [CG]    A   >   -A,HI
+            E   >   -E,I
 
 # Sostantivi femminili
 
-flag Q:
-   [^GC]A    > -A,E
-   [GC]A    > -A,HE
+flag *Q:
+    [^GC]   A   >   -A,E
+    [GC]    A   >   -A,HE
 
-# Sostantivi femminili con equivalente maschile, prodotti dal maschile
+# Forme alternativa di costruzione del plurale maschile (manico -> manici)
+# e femminile (freccia -> frecce)
 
-# Maschile e femminile
+flag *n:
+    I       A   >   -IA,E
+            O   >   -O,I
 
-flag *p:
-   O      > -O,I
-   O      > -O,A
-   [^CG]O > -O,E
-   [CG]O  > -O,HE
-
-flag *u:
-   E    > -E,A # femminile
-   E    > -E,I # plurale maschile
-
-flag *f:
-   TORE      > -ORE,RICE
-   TORE      > -ORE,RICI
-   [^CG]A    > -A,ESSA
-   [^CG]A    > -A,ESSE
-   [CG]A     > -A,HESSA
-   [CG]A     > -A,HESSE
-   E         > SSA
-   E         > SSE
-   O         > -O,ESSA
-   O         > -O,ESSE
-
-# Senza plurale
-flag *r:
-    O       >   -O,A
-
-# Aggettivi
+# Aggettivi e sostantivi sia maschili che femminili
 
 flag *o:
-   [^IGC]O    > -O,I
-   [GC]O    > -O,HI
-   IO    > -O,
-   O    > -O,A
-   [^GCI]O    > -O,E
-   [^GC]IO    > -O,E
-   [GC]IO    > -IO,E
-   [GC]O    > -O,HE
+            [^IGC]  O   >   -O,I
+            [GC]    O   >   -O,HI
+            I       O   >   -O,
+                    E   >   -E,I
+
+                    O   >   -O,A
+                    E   >   -E,A
+
+            [^GCI]  O   >   -O,E
+    [^GC]   I       O   >   -O,E
+    [GC]    I       O   >   -IO,E
+            [GC]    O   >   -O,HE
+
+# Forma alternativa di plurale maschile (amico -> amici, amica, amiche)
+
+flag *p:
+                    O   >   -O,I
+                    O   >   -O,A
+            [^CG]   O   >   -O,E
+            [CG]    O   >   -O,HE
+
+# Forme alternative di femminili
+
+flag *f:
+    T   O   R   E   >   -ORE,RICE
+    T   O   R   E   >   -ORE,RICI
+
+        [^CG]   A   >   -A,ESSA
+        [^CG]   A   >   -A,ESSE
+
+        [CG]    A   >   -A,HESSA
+        [CG]    A   >   -A,HESSE
+                E   >   SSA
+                E   >   SSE
+                O   >   -O,ESSA
+                O   >   -O,ESSE
 
 # Superlativo assoluto
 # Non deve andare sulle parole col flag /p, ma solo su /o e /S
 
 flag *W:
-   [^IGC]O    > -O,ISSIMO
-   [^IGC]O    > -O,ISSIMI
-   [^IGC]O    > -O,ISSIMA
-   [^IGC]O    > -O,ISSIME
-   E    > -E,ISSIMO
-   E    > -E,ISSIMI
-   E    > -E,ISSIMA
-   E    > -E,ISSIME
-   IO    > -O,SSIMO
-   IO    > -O,SSIMI
-   IO    > -O,SSIMA
-   IO    > -O,SSIME
-   [CG]O    > -O,HISSIMO
-   [CG]O    > -O,HISSIMA
-   [CG]O    > -O,HISSIME
-   [CG]O    > -O,HISSIMI
+    [^IGC]  O   >   -O,ISSIMO
+    [^IGC]  O   >   -O,ISSIMI
+    [^IGC]  O   >   -O,ISSIMA
+    [^IGC]  O   >   -O,ISSIME
+
+            E   >   -E,ISSIMO
+            E   >   -E,ISSIMI
+            E   >   -E,ISSIMA
+            E   >   -E,ISSIME
+    I       O   >   -O,SSIMO
+    I       O   >   -O,SSIMI
+    I       O   >   -O,SSIMA
+    I       O   >   -O,SSIME
+   [CG]     O   >   -O,HISSIMO
+   [CG]     O   >   -O,HISSIMA
+   [CG]     O   >   -O,HISSIME
+   [CG]     O   >   -O,HISSIMI
 
 # Superlativo su aggettivi in forma -co -> -ci (es. amico, amici)
 # Queste parole sono caratterizzate dal flag /p
 
 flag *U:
-   O       > -O,ISSIMO
-   O       > -O,ISSIMA
-   O       > -O,ISSIME
-   O       > -O,ISSIMI
+            O   >   -O,ISSIMO
+            O   >   -O,ISSIMA
+            O   >   -O,ISSIME
+            O   >   -O,ISSIMI
 
 # Superlativo in -errimo
 
 flag *T:
-   [^E]RE    > -RE,ERRIMO
-   [^E]RE    > -RE,ERRIMI
-   [^E]RE    > -RE,ERRIMA
-   [^E]RE    > -RE,ERRIME
-   ERE    > -E,RIMO
-   ERE    > -E,RIMI
-   ERE    > -E,RIMA
-   ERE    > -E,RIME
-   [^E]RO    > -RO,ERRIMO
-   [^E]RO    > -RO,ERRIMI
-   [^E]RO    > -RO,ERRIMA
-   [^E]RO    > -RO,ERRIME
-   ERO    > -O,RIMO
-   ERO    > -O,RIMI
-   ERO    > -O,RIMA
-   ERO    > -O,RIME
+    [^E]    R   E   >   -RE,ERRIMO
+    [^E]    R   E   >   -RE,ERRIMI
+    [^E]    R   E   >   -RE,ERRIMA
+    [^E]    R   E   >   -RE,ERRIME
+
+    E       R   E   >   -E,RIMO
+    E       R   E   >   -E,RIMI
+    E       R   E   >   -E,RIMA
+    E       R   E   >   -E,RIME
+
+   [^E]     R   O   >   -RO,ERRIMO
+   [^E]     R   O   >   -RO,ERRIMI
+   [^E]     R   O   >   -RO,ERRIMA
+   [^E]     R   O   >   -RO,ERRIME
+
+   E        R   O   >   -O,RIMO
+   E        R   O   >   -O,RIMI
+   E        R   O   >   -O,RIMA
+   E        R   O   >   -O,RIME
 
 # Avverbi
 
 flag Y:
-   A        > MENTE
-   O        > -O,AMENTE
-   [^RL]E    > MENTE
-   [AEIOU]RE    > -E,MENTE
-   [^AEIOU]RE    > MENTE
-   [^L]LE    > -E,MENTE
-   LLE    > MENTE
+                    A   >   MENTE
+                    O   >   -O,AMENTE
+            [^RL]   E   >   MENTE
+   [AEIOU]  R       E   >   -E,MENTE
+   [^AEIOU] R       E   >   MENTE
+   [^L]     L       E   >   -E,MENTE
+   L        L       E   >   MENTE
 
 flag y:
-   O        >   -O,EMENTE
+                    O   >   -O,EMENTE
 
 # Avverbio sul superlativo. Questo flag dovrebbe essere applicato a tutti
 # Gli aggettivi che hanno i flag (y | Y) & W
 flag *w:
-   [^IGC]O    > -O,ISSIMAMENTE
-   [CG]O    > -O,HISSIMAMENTE
-   IO    > -O,SSIMAMENTE
-   [^R]E    > -E,ISSIMAMENTE
-   RE    > -RE,ERRIMAMENTE
+    [^IGC]  O   >   -O,ISSIMAMENTE
+    [CG]    O   >   -O,HISSIMAMENTE
+    I       O   >   -O,SSIMAMENTE
+    [^R]    E   >   -E,ISSIMAMENTE
+    R       E   >   -RE,ERRIMAMENTE
 
 
 # Diminutivi, vezzeggiativi, accrescitivi...
 
 flag *N:
-   [^ICG]A    > -A,INA
-   [^ICG]A    > -A,INE
-   [CG]A    > -A,HINA
-   [CG]A    > -A,HINE
-   [CG]A    > -A,HETTA
-   [CG]A    > -A,HETTE
-   [^CG]A    > -A,ETTA
-   [^CG]A    > -A,ETTE
-   IA    > -A,NA
-   IA    > -A,NE
-   A    > -A,ONA
-   A    > -A,ONE
+   [^ICG]   A   >   -A,INA
+   [^ICG]   A   >   -A,INE
+   [CG]     A   >   -A,HINA
+   [CG]     A   >   -A,HINE
+   [CG]     A   >   -A,HETTA
+   [CG]     A   >   -A,HETTE
+   [^CG]    A   >   -A,ETTA
+   [^CG]    A   >   -A,ETTE
+   I        A   >   -A,NA
+   I        A   >   -A,NE
+            A   > -A,ONA
+            A   > -A,ONE
 
 # Troncamento
 
@@ -207,6 +207,10 @@ flag *x:
     E       >   -E
     O       >   -O
 
+# Pronomi indefiniti (qualcuno, nessuno...)
+
+flag *r:
+    O       >   -O,A
 
 
 flag *A:
