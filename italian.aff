@@ -952,14 +952,16 @@ flag S:
 
  Sostantivi femminili con equivalente maschile, prodotti dal maschile
 flag f:
-   [^R]E     > -E,A
-   [^O]RE    > -E,A
-   [^T]ORE   > -E,A
    TORE      > -ORE,RICE
    TORE      > -ORE,RICI
-   O         > -O,A
-   [^CG]O    > -O,E
-   [CG]O     > -O,HE
+   [^CG]A    > -A,ESSA
+   [^CG]A    > -A,ESSE
+   [CG]A     > -A,HESSA
+   [CG]A     > -A,HESSE
+   E         > SSA
+   E         > SSE
+   O         > -O,ESSA
+   O         > -O,ESSE
 
 flag Y:
    A        > MENTE
