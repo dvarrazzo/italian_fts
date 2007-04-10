@@ -42,15 +42,22 @@ def main():
     infs = dbRun(getInfiniti)
     flags = []
 
-    for var in ('t', 'p', 'r', 'rp'):
-        flag = affix.Flag(fls.pop(0))
-        flag.comment = getLabel('inf', variazione=var)
-        flags.append(flag)
-        for mtp in ('inf1', 'inf2'):
-            exp = getattr(espansioni, "%s_%s" % (mtp, var))
-            flag.productions.extend(exp)
+    flag = affix.Flag(fls.pop(0))
+    flag.comment = getLabel('inf', variazione='t')
+    flags.append(flag)
+    for mtp in ('inf1', 'inf2'):
+        exp = getattr(espansioni, "%s_%s" % (mtp, 't'))
+        flag.productions.extend(exp)
 
-    forms = dbRun(getForms1, infs)
+    flag = affix.Flag(fls.pop(0))
+    flag.comment = getLabel('inf', variazione='p')
+    flags.append(flag)
+    for mtp in ('inf1', 'inf2'):
+        exp = sum((getattr(espansioni, "%s_%s" % (mtp, var))
+                    for var in ('p', 'r', 'rp')), [])
+        flag.productions.extend(exp)
+
+    forms = dbRun(getFormsAsTuple, infs, '<= 8')
     fdata = calcFlags(forms)
     flags1 = toFlags(fdata, fls, forms)
     flags.extend(flags1)
@@ -66,45 +73,46 @@ def main():
             prod.line_comment = getLabel(modotempo=mps[i][0], persona=mps[i][1])
             i += 1
 
-    forms = dbRun(getForms3, infs)
+    forms = dbRun(getFormsAsTuple, infs, '= 8')
     fdata = calcFlags(forms)
     flags1 = toFlags(fdata, fls[:], forms)
 
-    for var in ('p', 'r', 'rp'):
-        for flag_o in flags1:
-            flag = affix.Flag(fls.pop(0))
-            flag.comment = getLabel("imperativo", variazione=var)
+    for flag_o in flags1:
+        flag = affix.Flag(fls.pop(0))
+        flag.comment = getLabel("imperativo", variazione='p')
 
-            flags.append(flag)
-            assert len(flag_o.productions) % 5 == 0
-            for i in range(0, len(flag_o.productions), 5):
-                for prod, mtp in zip(flag_o.productions[i:i+5],
-                    cycle(('imp2s','imp3s','imp1p','imp2p','imp3p'))):
-                    exp = getattr(espansioni, "%s_%s" % (mtp, var), None)
-                    if not exp or isinstance(prod, affix.Difettivo):
-                        flag.productions.append(prod)
-                    else:
-                        flag.productions.extend(prod + p2 for p2 in exp)
-                        flag.productions[-len(exp)].comment = (
-                            prod.comment and prod.comment.replace(
-                                "*" + flag_o.letter, "*" + flag.letter))
+        flags.append(flag)
+        assert len(flag_o.productions) % 5 == 0
+        for i in range(0, len(flag_o.productions), 5):
+            for prod, mtp in zip(flag_o.productions[i:i+5],
+                cycle(('imp2s','imp3s','imp1p','imp2p','imp3p'))):
+                exp = sum((getattr(espansioni, "%s_%s" % (mtp, var), [])
+                            for var in ('p', 'r', 'rp')), [])
+                if not exp or isinstance(prod, affix.Difettivo):
+                    flag.productions.append(prod)
+                else:
+                    flag.productions.extend(prod + p2 for p2 in exp)
+                    flag.productions[-len(exp)].comment = (
+                        prod.comment and prod.comment.replace(
+                            "*" + flag_o.letter, "*" + flag.letter))
 
-    forms = dbRun(getForms2, infs)
-    fdata = calcFlags(forms)
-    flags1 = toFlags(fdata, fls[:], forms)
+    for mtp, modotempo in (('ppr',9), ('ppa', 10), ('ger', 11)):
+        forms = dbRun(getFormsAsTuple, infs, '= %d' % modotempo)
+        fdata = calcFlags(forms)
+        flags1 = toFlags(fdata, fls[:], forms)
 
-    for var in ('n', 'p', 'r', 'rp'):
-        for flag_o in flags1:
-            flag = affix.Flag(fls.pop(0))
-            flag.comment = getLabel("participio, gerundio",
-                variazione=var)
+        for var in 'np':
+            for flag_o in flags1:
+                flag = affix.Flag(fls.pop(0))
+                flag.comment = getLabel(mtp, variazione=var)
 
-            flags.append(flag)
-            assert len(flag_o.productions) % 3 == 0
-            for i in range(0, len(flag_o.productions), 3):
-                for prod, mtp in zip(flag_o.productions[i:i+3],
-                    cycle(('ppr','ppa','ger'))):
-                    exp = getattr(espansioni, "%s_%s" % (mtp, var), None)
+                flags.append(flag)
+                if var == 'n':
+                    exp = getattr(espansioni, "%s_%s" % (mtp, 'n'), None)
+                else:
+                    exp = sum((getattr(espansioni, "%s_%s" % (mtp, _), [])
+                        for _ in ('p', 'r', 'rp')), [])
+                for prod in flag_o.productions:
                     if not exp or isinstance(prod, affix.Difettivo):
                         flag.productions.append(prod)
                     else:
@@ -175,37 +183,17 @@ def calcProd(inf, term):
         if term.startswith(inf[:i]):
             return inf[i:], term[i:]
 
-def getForms1(cur, infs):
+def getFormsAsTuple(cur, infs, modotempo):
 
     forms = {}
     for inf in infs:
-        print >>sys.stderr, inf
+        #print >>sys.stderr, inf
 
         # Lista in ordine fisso
         cur.execute("SELECT coniugazione FROM coniugazione"
-                    " WHERE infinito = %s"
-                    " AND modotempo <= 8"
-                    " ORDER BY modotempo, persona;", (inf,))
-
-        cons = map(itemgetter(0), cur)
-        if not cons: continue
-        prod = tuple(calcProd(inf, _) for _ in cons)
-
-        forms.setdefault(prod, []).append(inf)
-
-    return forms
-
-def getForms3(cur, infs):
-
-    forms = {}
-    for inf in infs:
-        print >>sys.stderr, inf
-
-        # Lista in ordine fisso
-        cur.execute("SELECT coniugazione FROM coniugazione"
-                    " WHERE infinito = %s"
-                    " AND modotempo = 8"
-                    " ORDER BY modotempo, persona;", (inf,))
+                    " WHERE infinito = %%s"
+                    " AND modotempo %s"
+                    " ORDER BY modotempo, persona;" % modotempo, (inf,))
 
         cons = map(itemgetter(0), cur)
         if not cons: continue
