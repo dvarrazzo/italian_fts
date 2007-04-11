@@ -72,3 +72,5 @@ ger_rp = [ compose(p1, p2)
 superlativo = [ Production('o', remove='o', append='issimo')
                 + Production('o', remove='o', append=_)
                 for _ in 'oaie' ]
+
+avverbio = [ Production('o', remove='o', append='amente') ]

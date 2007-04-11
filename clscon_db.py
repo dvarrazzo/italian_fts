@@ -110,7 +110,7 @@ def main():
                 if var == 'n':
                     exp = getattr(espansioni, "%s_%s" % (mtp, 'n'), None)
                     if mtp == 'ppa':
-                        exp = exp + espansioni.superlativo
+                        exp = exp + espansioni.superlativo + espansioni.avverbio
                 else:
                     exp = sum((getattr(espansioni, "%s_%s" % (mtp, _), [])
                         for _ in ('p', 'r', 'rp')), [])
