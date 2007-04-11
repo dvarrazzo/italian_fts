@@ -215,7 +215,7 @@ flag *x:                        #   o
     E       >   -E
     O       >   -O
 
-flag *A:
+flag *A:                        #   A
    ARE    > -ARE,O
    [^ICG]ARE    > -ARE,I
    IARE    > -ARE,
@@ -396,7 +396,7 @@ flag *A:
    ARE    > -RE,GLIELE
    ARE    > -RE,GLIENE
 
-flag *B:
+flag *B:                        #   B
    ERE    > -ERE,O                # pres. 1° pers. sn. (-o)
    [^I]ERE    > -ERE,I            # \ pres. 2° pers. sn. (-i)
    IERE    > -IERE,I              # / 
@@ -566,7 +566,7 @@ flag *B:
 
 # Verbi col passato remoto irregolare es. piangere, sconfiggere
 
-flag *s:
+flag *s:                        #   C
   [^G]GERE     > -GERE,SI           # p.r. 1° pers. sn.
   GGERE        > -GGERE,SSI         # p.r. 1° pers. sn.
   [^G]GERE     > -GERE,SE           # p.r. 3° pers. sn.
@@ -574,7 +574,7 @@ flag *s:
   [^G]GERE     > -GERE,SERO         # p.r. 3° pers. pl.
   GGERE        > -GGERE,SSERO       # p.r. 3° pers. pl.
 
-flag *C:
+flag *C:                        #   D
    IRE    > -IRE,O
    IRE    > -RE,
    IRE    > -IRE,E
@@ -667,7 +667,7 @@ flag *C:
    IRE    > -RE,AMOVENE
    IRE    > -RE,AMOVI
 
-flag *D:
+flag *D:                        #   E
    [AE]NDO    > SI
    [AE]NDO    > MI
    [AE]NDO    > TI
@@ -716,7 +716,7 @@ flag *D:
    [AE]NDO    > CISI
    [AE]NDO    > -NDO,SI
 
-flag *F:
+flag *F:                        #   F
    ATO    > -O,E
    ATO    > -O,A
    ATO    > -O,ISSIMO
@@ -768,7 +768,7 @@ flag *F:
    ATO    > -O,ISELI
    ATO    > SENE
 
-flag *G:
+flag *G:                        #   G
    UTO    > -O,E
    UTO    > -O,I
    UTO    > -O,A
@@ -810,7 +810,7 @@ flag *G:
    UTO    > -O,IVENE
    UTO    > VENE
 
-flag *H:
+flag *H:                        #   H
    ITO    > -O,E
    ITO    > -O,I
    ITO    > -O,A
@@ -854,7 +854,7 @@ flag *H:
    ITO    > -O,IVENE
    ITO    > VENE
 
-flag *I:
+flag *I:                        #   I
    [AEI]RE    > -RE,R             # troncamento
    [AEI]RE    > -E,MI             # mi pron. 1° pr. sn.
    [AEI]RE    > -E,TI             # ti pron. 2° pr. sn.
@@ -962,7 +962,7 @@ flag *I:
    RRE    > -RE,CISI              # ci + si
    RRE    > -RE,VISI              # vi + si
 
-flag *M:
+flag *M:                        #   J
    IRSI    > -RSI,MI
    IRSI    > -RSI,TI
    IRSI    > -RSI,CI
@@ -993,7 +993,7 @@ flag *M:
    IRSI    > -RSI,GLIELE
    IRSI    > -RSI,GLIENE
 
-flag *P:
+flag *P:                        #   K
    ARE    > -RE,
    ARE    > -RE,CCIA
    ARE    > -RE,CCIAMO
@@ -1109,7 +1109,7 @@ flag *P:
    ARE    > -RE,TEVI
    ARE    > -RE,TETI
 
-flag *V:
+flag *V:                        #   L
    URRE    > -RRE,CA
    URRE    > -RRE,CANO
    URRE    > -RRE,CE
@@ -1228,7 +1228,7 @@ flag *V:
    ARRE    > -RRE,SSERO
    ARRE    > -RRE,SSI
 
-flag *Z:
+flag *Z:                        #   M
    ENIRE    > -IRE,GO             # pres. 1° pers. sn. (vengo)
    ENIRE    > -ENIRE,IENI         # pres. 2° pers. sn. (vieni)
    ENIRE    > -ENIRE,IENE         # pres. 3° pers. sn. (viene)
@@ -1349,7 +1349,7 @@ flag *Z:
 # v.: pres. 2° pers. pl.       # impr. 2° pers. pl. (venite)
 # v.: cg.p. 3° pers. pl.       # impr. 3° pers. pl. (vengano)
 
-flag *\À:
+flag *\À:                        #   N
    UCIRE    > -RE,O               # pres. 1° pers. sn. (ucio)
    UCIRE    > -IRE,I              # pres. 2° pers. sn. (uci)
    UCIRE    > -IRE,E              # pres. 3° pers. sn. (uce)
@@ -1397,7 +1397,7 @@ flag *\À:
 # v.: pres. 2° pers. pl.       # impr. 2° pers. pl. (ucite)
 # v.: cg.p. 3° pers. pl.       # impr. 3° pers. pl. (uciano)
 
-flag *a:
+flag *a:                        #   O
    O    > -O,A
    O    > -O,E
    O    > -O,I
@@ -1430,7 +1430,7 @@ flag *a:
    O    > TI
    O    > VI
 
-flag *b:
+flag *b:                        #   P
    [EIO]    > CI
    [EIO]    > LA
    [EIO]    > LE
@@ -1462,7 +1462,7 @@ flag *b:
    [EO]    > VELI
    [EO]    > VENE
 
-flag c:
+flag c:                        #   Q
    IMMI    > -I,ELO
    IMMI    > -I,ELA
    IMMI    > -I,ELE
@@ -1474,13 +1474,13 @@ flag c:
    IGLI    > ELI
    IGLI    > ENE
 
-flag g:
+flag g:                        #   R
    O    > -O,A
    O    > -O,E
    O    > -O,I
    LO    > -LO,NE
 
-flag *j:
+flag *j:                        #   S
    ARRE    > -RRE,IMI             # -arre pres. 2° pers. sn. + mi (i + mi)
    ARRE    > -RRE,ITI             # -arre pres. 2° pers. sn. + ti (i + ti)
    ARRE    > -RRE,ICI             # -arre pres. 2° pers. sn. + ci (i + ci)
@@ -1701,7 +1701,7 @@ flag *j:
    URRE    > -RRE,CENTESI         # -urre p.pres. sn. + si (cente + si)
    URRE    > -RRE,CENTISI         # -urre p.pres. pl. + si (centi + si)
 
-flag *m:
+flag *m:                        #   T
    O    > CI
    O    > GLI
    O    > TI
@@ -1737,7 +1737,7 @@ flag *m:
    O    > VENE
    O    > MI
 
-flag *t:
+flag *t:                        #   U
    IRE    > -RE,SCO
    IRE    > -RE,SCI
    IRE    > -RE,SCE
@@ -1781,7 +1781,7 @@ flag *t:
    IRE    > -RE,TI
    IRE    > -RE,TA
 
-flag v:
+flag v:                        #   V
    IRE    > -IRE,ENTISI
    IRE    > -IRE,ENTESI
    IRE    > -RE,VASI
@@ -1907,7 +1907,7 @@ flag v:
    IRE    > -RE,TISSIME
    IRE    > -RE,TISSIMI
 
-flag *z:
+flag *z:                        #   W
    ARE    > -ARE,O
    [^ICG]ARE    > -ARE,I
    IARE    > -ARE,
@@ -2007,7 +2007,7 @@ flag *z:
    ARE    > -RE,TI
    ARE    > -RE,TIVI
 
-flag *\|:                       #   0
+flag *\|:
    TI    > -I,UNO
    TA    > -A,UNO
    [^T][AI]    > UNO
@@ -2029,7 +2029,7 @@ flag *\|:                       #   0
    O    > TTO #gestione del non raddoppio della 'o' davanti a ott...
    .    > NOVE
 
-flag *\!:                       #   1
+flag *\!:
    .    > DIECI
    .    > UNDICI
    .    > DODICI
@@ -2140,7 +2140,7 @@ flag *\!:                       #   1
    .    > NOVANTOTTO
    .    > NOVANTANOVE
 
-flag *\£:                       #   2
+flag *\£:
    [IVXLCDM]    > I
    [IVXLCDM]    > II
    [VXLCDM]    > III
@@ -2152,7 +2152,7 @@ flag *\£:                       #   2
    [XLCDM]    > IX
    I    > X
 
-flag \@:                        #   3
+flag \@:
    I    > -I,ESIMO
    I    > -I,ESIMA
    I    > -I,ESIMI
@@ -2170,7 +2170,7 @@ flag \@:                        #   3
    A    > -A,ESIMI
    A    > -A,ESIME
 
-flag \&:                        #   4
+flag \&:
    I    > -I,UNESIMO
    I    > -I,UNESIMA
    I    > -I,UNESIMI
@@ -2228,7 +2228,7 @@ flag \&:                        #   4
    .    > NOVESIMI
    .    > NOVESIME
 
-flag \(:                        #   5
+flag \(:
    .    > DECIMO
    .    > DECIMI
    .    > DECIMA
@@ -2630,13 +2630,13 @@ flag \(:                        #   5
    .    > NOVANTANOVESIMA
    .    > NOVANTANOVESIME
 
-flag \):                        #   6
+flag \):
    I    > -I,ENNE
    I    > -I,ENNI
    [EOA]    > NNE
    [EOA]    > NNI
 
-flag \=:                        #   7
+flag \=:
    I    > -I,UNENNE
    I    > -I,UNENNI
    A    > -A,UNENNE
@@ -2674,7 +2674,7 @@ flag d:                         #   y
 flag e:                         #   x
    .    > PRE
 
-flag ":                         #   8
+flag ":
    .    > MILLE
    .    > DUEMILA
    .    > TREMILA
@@ -2775,7 +2775,7 @@ flag ":                         #   8
    .    > NOVANTOTTOMILA
    .    > NOVANTANOVEMILA
 
-flag $:                         #   9
+flag $:
    [CL]    > X
    X    > L
    [XLCDM]    > C
