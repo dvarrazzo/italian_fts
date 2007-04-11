@@ -476,6 +476,40 @@ class UnisciMaschileFemminile(Operation):
             del dictionary[fw]
             dictionary[w] = f.replace('n', 'p')
 
+class RenameAffFlags(Operation):
+    """Rename all the flags in an .aff file.
+
+    New names must be provided as comment after the ``flag`` instruction.
+    """
+    def __init__(self, aff_file, label=None):
+        super(RenameAffFlags, self).__init__(label=label)
+        self.aff_file = aff_file
+
+    def _run(self, dictionary):
+        flags_map = {}
+        rex = re.compile(r'^flag\s+([*]?)\\?(.):\s*#\s*(.)\s*$')
+        
+        rows = open(self.aff_file).readlines()
+        for row in rows:
+            m = rex.match(row)
+            if m is not None:
+                flags_map[m.group(2)] =m.group(3)
+
+        assert flags_map
+        oflags = set(flags_map)
+
+        for w, f in list(dictionary.iteritems()):
+            if not (set(f) & oflags):
+                continue
+
+            dictionary[w] = ''.join(sorted(flags_map.get(_, _) for _ in f))
+
+        of = open(self.aff_file, 'w')
+        for row in rows:
+            m = rex.match(row)
+            if m is not None:
+                row = "flag %s%s:\n" % (m.group(1), m.group(3))
+            of.write(row)
 
 #: The list of operation to perform.
 #: The first item is the revision number after which the operation is not to
@@ -519,6 +553,7 @@ processes = [
     (49, UnisciAvverbi()),
     (50, UnisciPlurali()),
     (61, UnisciMaschileFemminile()),
+    (69, RenameAffFlags("italian.aff")),
 ]
 
 if __name__ == '__main__':

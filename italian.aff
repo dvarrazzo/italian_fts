@@ -45,7 +45,7 @@ suffixes
 
 # Sostantivi maschili
 
-flag *O:                        #   a
+flag *a:
     [^IGC]  O   >   -O,I
     [GC]    O   >   -O,HI
     I       O   >   -O,
@@ -55,20 +55,20 @@ flag *O:                        #   a
 
 # Sostantivi femminili
 
-flag *Q:                        #   b
+flag *b:
     [^GC]   A   >   -A,E
     [GC]    A   >   -A,HE
 
 # Forme alternativa di costruzione del plurale maschile (manico -> manici)
 # e femminile (freccia -> frecce)
 
-flag *n:                        #   c
+flag *c:
     I       A   >   -IA,E
             O   >   -O,I
 
 # Forme alternative di femminili
 
-flag *f:                        #   d
+flag *d:
     T   O   R   E   >   -ORE,RICE
     T   O   R   E   >   -ORE,RICI
 
@@ -86,12 +86,12 @@ flag *f:                        #   d
 
 # Pronomi indefiniti (qualcuno, nessuno...)
 
-flag *r:                        #   e
+flag *e:
     O       >   -O,A
 
 # Aggettivi e sostantivi sia maschili che femminili
 
-flag *o:                        #   f
+flag *f:
         [^IGC]  O   >   -O,I
         [GC]    O   >   -O,HI
         I       O   >   -O,
@@ -105,7 +105,7 @@ flag *o:                        #   f
 
 # Forma alternativa di plurale maschile (amico -> amici, amica, amiche)
 
-flag *p:                        #   g
+flag *g:
                 O   >   -O,I
                 O   >   -O,A
         [^CG]   O   >   -O,E
@@ -114,7 +114,7 @@ flag *p:                        #   g
 # Superlativo assoluto
 # Non deve andare sulle parole col flag /p, ma solo su /o e /S
 
-flag *W:                        #   h
+flag *h:
         [^IGC]  O   >   -O,ISSIMO
         [^IGC]  O   >   -O,ISSIMI
         [^IGC]  O   >   -O,ISSIMA
@@ -138,7 +138,7 @@ flag *W:                        #   h
 # Superlativo su aggettivi in forma -co -> -ci (es. amico, amici)
 # Queste parole sono caratterizzate dal flag /p
 
-flag *U:                        #   i
+flag *i:
                 O   >   -O,ISSIMO
                 O   >   -O,ISSIMA
                 O   >   -O,ISSIME
@@ -146,7 +146,7 @@ flag *U:                        #   i
 
 # Superlativo in -errimo
 
-flag *T:                        #   j
+flag *j:
     [^E]    R   E   >   -RE,ERRIMO
     [^E]    R   E   >   -RE,ERRIMI
     [^E]    R   E   >   -RE,ERRIMA
@@ -169,7 +169,7 @@ flag *T:                        #   j
 
 # Avverbi
 
-flag Y:                         #   k
+flag k:
                 A   >   MENTE
                 O   >   -O,AMENTE
           [^RL] E   >   MENTE
@@ -178,13 +178,13 @@ flag Y:                         #   k
    [^L]     L   E   >   -E,MENTE
    L        L   E   >   MENTE
 
-flag y:                         #   l
+flag l:
                 O   >   -O,EMENTE
 
 # Avverbio sul superlativo. Questo flag dovrebbe essere applicato a tutti
 # Gli aggettivi che hanno i flag (y | Y) & W
 
-flag *w:                        #   m
+flag *m:
     [^IGC]  O   >   -O,ISSIMAMENTE
     [CG]    O   >   -O,HISSIMAMENTE
     I       O   >   -O,SSIMAMENTE
@@ -194,7 +194,7 @@ flag *w:                        #   m
 
 # Diminutivi, vezzeggiativi, accrescitivi...
 
-flag *N:                        #   n
+flag *n:
    [^ICG]   A   >   -A,INA
    [^ICG]   A   >   -A,INE
    [CG]     A   >   -A,HINA
@@ -210,12 +210,12 @@ flag *N:                        #   n
 
 # Troncamento
 
-flag *x:                        #   o
+flag *o:
     A       >   -A
     E       >   -E
     O       >   -O
 
-flag *A:                        #   A
+flag *A:
    ARE    > -ARE,O
    [^ICG]ARE    > -ARE,I
    IARE    > -ARE,
@@ -396,7 +396,7 @@ flag *A:                        #   A
    ARE    > -RE,GLIELE
    ARE    > -RE,GLIENE
 
-flag *B:                        #   B
+flag *B:
    ERE    > -ERE,O                # pres. 1° pers. sn. (-o)
    [^I]ERE    > -ERE,I            # \ pres. 2° pers. sn. (-i)
    IERE    > -IERE,I              # / 
@@ -566,7 +566,7 @@ flag *B:                        #   B
 
 # Verbi col passato remoto irregolare es. piangere, sconfiggere
 
-flag *s:                        #   C
+flag *C:
   [^G]GERE     > -GERE,SI           # p.r. 1° pers. sn.
   GGERE        > -GGERE,SSI         # p.r. 1° pers. sn.
   [^G]GERE     > -GERE,SE           # p.r. 3° pers. sn.
@@ -574,7 +574,7 @@ flag *s:                        #   C
   [^G]GERE     > -GERE,SERO         # p.r. 3° pers. pl.
   GGERE        > -GGERE,SSERO       # p.r. 3° pers. pl.
 
-flag *C:                        #   D
+flag *D:
    IRE    > -IRE,O
    IRE    > -RE,
    IRE    > -IRE,E
@@ -667,7 +667,7 @@ flag *C:                        #   D
    IRE    > -RE,AMOVENE
    IRE    > -RE,AMOVI
 
-flag *D:                        #   E
+flag *E:
    [AE]NDO    > SI
    [AE]NDO    > MI
    [AE]NDO    > TI
@@ -716,7 +716,7 @@ flag *D:                        #   E
    [AE]NDO    > CISI
    [AE]NDO    > -NDO,SI
 
-flag *F:                        #   F
+flag *F:
    ATO    > -O,E
    ATO    > -O,A
    ATO    > -O,ISSIMO
@@ -768,7 +768,7 @@ flag *F:                        #   F
    ATO    > -O,ISELI
    ATO    > SENE
 
-flag *G:                        #   G
+flag *G:
    UTO    > -O,E
    UTO    > -O,I
    UTO    > -O,A
@@ -810,7 +810,7 @@ flag *G:                        #   G
    UTO    > -O,IVENE
    UTO    > VENE
 
-flag *H:                        #   H
+flag *H:
    ITO    > -O,E
    ITO    > -O,I
    ITO    > -O,A
@@ -854,7 +854,7 @@ flag *H:                        #   H
    ITO    > -O,IVENE
    ITO    > VENE
 
-flag *I:                        #   I
+flag *I:
    [AEI]RE    > -RE,R             # troncamento
    [AEI]RE    > -E,MI             # mi pron. 1° pr. sn.
    [AEI]RE    > -E,TI             # ti pron. 2° pr. sn.
@@ -962,7 +962,7 @@ flag *I:                        #   I
    RRE    > -RE,CISI              # ci + si
    RRE    > -RE,VISI              # vi + si
 
-flag *M:                        #   J
+flag *J:
    IRSI    > -RSI,MI
    IRSI    > -RSI,TI
    IRSI    > -RSI,CI
@@ -993,7 +993,7 @@ flag *M:                        #   J
    IRSI    > -RSI,GLIELE
    IRSI    > -RSI,GLIENE
 
-flag *P:                        #   K
+flag *K:
    ARE    > -RE,
    ARE    > -RE,CCIA
    ARE    > -RE,CCIAMO
@@ -1109,7 +1109,7 @@ flag *P:                        #   K
    ARE    > -RE,TEVI
    ARE    > -RE,TETI
 
-flag *V:                        #   L
+flag *L:
    URRE    > -RRE,CA
    URRE    > -RRE,CANO
    URRE    > -RRE,CE
@@ -1228,7 +1228,7 @@ flag *V:                        #   L
    ARRE    > -RRE,SSERO
    ARRE    > -RRE,SSI
 
-flag *Z:                        #   M
+flag *M:
    ENIRE    > -IRE,GO             # pres. 1° pers. sn. (vengo)
    ENIRE    > -ENIRE,IENI         # pres. 2° pers. sn. (vieni)
    ENIRE    > -ENIRE,IENE         # pres. 3° pers. sn. (viene)
@@ -1349,7 +1349,7 @@ flag *Z:                        #   M
 # v.: pres. 2° pers. pl.       # impr. 2° pers. pl. (venite)
 # v.: cg.p. 3° pers. pl.       # impr. 3° pers. pl. (vengano)
 
-flag *\À:                        #   N
+flag *N:
    UCIRE    > -RE,O               # pres. 1° pers. sn. (ucio)
    UCIRE    > -IRE,I              # pres. 2° pers. sn. (uci)
    UCIRE    > -IRE,E              # pres. 3° pers. sn. (uce)
@@ -1397,7 +1397,7 @@ flag *\À:                        #   N
 # v.: pres. 2° pers. pl.       # impr. 2° pers. pl. (ucite)
 # v.: cg.p. 3° pers. pl.       # impr. 3° pers. pl. (uciano)
 
-flag *a:                        #   O
+flag *O:
    O    > -O,A
    O    > -O,E
    O    > -O,I
@@ -1430,7 +1430,7 @@ flag *a:                        #   O
    O    > TI
    O    > VI
 
-flag *b:                        #   P
+flag *P:
    [EIO]    > CI
    [EIO]    > LA
    [EIO]    > LE
@@ -1462,7 +1462,7 @@ flag *b:                        #   P
    [EO]    > VELI
    [EO]    > VENE
 
-flag c:                        #   Q
+flag Q:
    IMMI    > -I,ELO
    IMMI    > -I,ELA
    IMMI    > -I,ELE
@@ -1474,13 +1474,13 @@ flag c:                        #   Q
    IGLI    > ELI
    IGLI    > ENE
 
-flag g:                        #   R
+flag R:
    O    > -O,A
    O    > -O,E
    O    > -O,I
    LO    > -LO,NE
 
-flag *j:                        #   S
+flag *S:
    ARRE    > -RRE,IMI             # -arre pres. 2° pers. sn. + mi (i + mi)
    ARRE    > -RRE,ITI             # -arre pres. 2° pers. sn. + ti (i + ti)
    ARRE    > -RRE,ICI             # -arre pres. 2° pers. sn. + ci (i + ci)
@@ -1701,7 +1701,7 @@ flag *j:                        #   S
    URRE    > -RRE,CENTESI         # -urre p.pres. sn. + si (cente + si)
    URRE    > -RRE,CENTISI         # -urre p.pres. pl. + si (centi + si)
 
-flag *m:                        #   T
+flag *T:
    O    > CI
    O    > GLI
    O    > TI
@@ -1737,7 +1737,7 @@ flag *m:                        #   T
    O    > VENE
    O    > MI
 
-flag *t:                        #   U
+flag *U:
    IRE    > -RE,SCO
    IRE    > -RE,SCI
    IRE    > -RE,SCE
@@ -1781,7 +1781,7 @@ flag *t:                        #   U
    IRE    > -RE,TI
    IRE    > -RE,TA
 
-flag v:                        #   V
+flag V:
    IRE    > -IRE,ENTISI
    IRE    > -IRE,ENTESI
    IRE    > -RE,VASI
@@ -1907,7 +1907,7 @@ flag v:                        #   V
    IRE    > -RE,TISSIME
    IRE    > -RE,TISSIMI
 
-flag *z:                        #   W
+flag *W:
    ARE    > -ARE,O
    [^ICG]ARE    > -ARE,I
    IARE    > -ARE,
@@ -2665,13 +2665,13 @@ flag \=:
 
 prefixes
 
-flag J:                         #   z
+flag z:
    .    > RI
 
-flag d:                         #   y
+flag y:
    .    > STRA
 
-flag e:                         #   x
+flag x:
    .    > PRE
 
 flag ":
