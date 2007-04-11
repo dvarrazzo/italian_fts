@@ -109,6 +109,8 @@ def main():
                 flags.append(flag)
                 if var == 'n':
                     exp = getattr(espansioni, "%s_%s" % (mtp, 'n'), None)
+                    if mtp == 'ppa':
+                        exp = exp + espansioni.superlativo
                 else:
                     exp = sum((getattr(espansioni, "%s_%s" % (mtp, _), [])
                         for _ in ('p', 'r', 'rp')), [])

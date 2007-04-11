@@ -68,3 +68,7 @@ ger_p = [ Production(append=_)
 ger_rp = [ compose(p1, p2)
         for p1 in ger_r for p2 in ger_p
         if not (p1.append == 'si' and p2.append == 'si') ]
+
+superlativo = [ Production('o', remove='o', append='issimo')
+                + Production('o', remove='o', append=_)
+                for _ in 'oaie' ]
