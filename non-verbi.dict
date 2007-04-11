@@ -51,6 +51,7 @@ addobbo/O
 addosso
 aderente/O
 adito/O
+adottando/Ef
 adultero/o
 aerotraino/O
 affetto/O
@@ -59,6 +60,7 @@ affluente/O
 agente/O
 aggettivo/O
 aguzzo/o
+alare/AIa
 alberghino/O
 alieno/O
 alito/O
@@ -93,6 +95,7 @@ arpione/O
 arreso/O
 arringa/Q
 arroge/O
+articolare/AIa
 asfissia/Q
 assassino/O
 assente/O
@@ -104,8 +107,10 @@ augure/O
 aureola/Q
 auspice/O
 autentico/p
+autocomando/Ea
 autografo/O
 avario/o
+avere/BIa
 avventura/Q
 avvezzo/o
 avvincente/O
@@ -208,6 +213,7 @@ campione/O
 candido/o
 cantilena/Q
 canzone/O
+capitolare/AIa
 capitozza/Q
 capotta/Q
 cappottino/O
@@ -233,6 +239,7 @@ catrame/O
 cattura/Q
 causa/Q
 cautela/Q
+cautelare/AIa
 cauzione/O
 cava/Q
 cavo/O
@@ -288,6 +295,7 @@ complice/O
 compra/Q
 comprova/Q
 comunicando/p
+conciliare/AIa
 concime/O
 concorso/O
 concreto/o
@@ -417,6 +425,8 @@ disamina/Q
 disamore/O
 disavvezzo/o
 disciplina/Q
+disciplinare/AIak
+disciplinato/fk
 discolpa/Q
 discorde/O
 discorso/O
@@ -442,10 +452,12 @@ divo/o
 doga/Q
 doge/O
 domanda/QN
+domiciliare/AIa
 domo/o
 doppio/o
 dose/O
 dote/O
+dovere/BIa
 draga/Q
 drago/O
 drizza/Q
@@ -558,6 +570,7 @@ fulmine/O
 fumo/O
 funesto/o
 funzione/O
+fuso/Taz
 fustella/Q
 fustello/O
 gabella/Q
@@ -788,6 +801,7 @@ mesto/o
 metafisico/p
 metile/O
 migliore/O
+militare/AIak
 milite/O
 mina/Q
 minchione/O
@@ -809,6 +823,7 @@ mobilio/o
 modellino/O
 modello/O
 modifica/Q
+molare/AIa
 mole/O
 molesto/o
 molla/Q
@@ -849,6 +864,7 @@ notifica/Q
 notificando/o
 novella/Q
 novellino/o
+nubendo/Eg
 obbediente/O
 obbiettivo/o
 obiettivo/o
@@ -908,6 +924,8 @@ pappa/Q
 paragone/O
 parassita/Q
 parco/o
+parere/BIa
+parlamentare/AIa
 parlamento/O
 parodia/Q
 parso/o
@@ -929,6 +947,7 @@ pecca/Q
 pedale/O
 pedina/Q
 peggiore/O
+pendolare/AIa
 pendolino/O
 pene/O
 pensione/O
@@ -960,6 +979,7 @@ piazza/Q
 piccone/O
 piega/Q
 pila/Q
+pilare/AIa
 pilota/OQ
 pilotino/O
 pinza/Q
@@ -994,6 +1014,7 @@ posta/Q
 postilla/Q
 postino/o
 posto/O
+potere/BIa
 pralina/Q
 pratica/Q
 pratico/p
@@ -1003,6 +1024,7 @@ predica/Q
 prefazione/O
 premiando/p
 premura/Q
+prepotere/BIa
 presella/Q
 presente/OY
 pressa/Q
@@ -1173,6 +1195,7 @@ salvo/o
 sanguine/O
 sano/o
 sanzione/O
+sapere/BIa
 sapiente/O
 sapore/O
 saporito/oY
@@ -1199,6 +1222,7 @@ scalzo/o
 scamozzo/o
 scansione/O
 scapola/Q
+scapolare/AIak
 scapolo/O
 scarica/Q
 scarico/O
@@ -1246,6 +1270,7 @@ sdraio/o
 sdrucciolo/o
 secco/o
 sedano/O
+sedere/BIa
 sega/Q
 seghetta/Q
 segreto/o
@@ -1325,6 +1350,7 @@ spazzino/o
 spazzola/Q
 specializzando/p
 specifico/p
+speculare/AIak
 sperone/O
 spesa/Q
 spezia/Q
@@ -1371,6 +1397,7 @@ stazione/O
 stazza/Q
 steccone/O
 stella/Q
+stellare/AIa
 stenografo/Of
 stereotipo/O
 stia/Q
@@ -1416,6 +1443,7 @@ svelto/oY
 sventola/Q
 svolta/Q
 tabacchino/o
+tabulare/AIa
 taglia/Q
 tagliando/O
 tallone/O
@@ -1435,6 +1463,7 @@ tarma/Q
 tassa/Q
 tasso/O
 tasto/O
+tavolare/AIa
 tavolo/o
 teleguida/Q
 telemisura/Q
@@ -1456,6 +1485,7 @@ testa/Q
 testo/O
 tetta/Q
 tetto/O
+titolare/AIa
 tocco/o
 tomba/Q
 tombola/Q
@@ -1500,6 +1530,7 @@ trombetta/Q
 tronfio/o
 trottola/Q
 trucido/o
+truciolare/AIa
 truffa/Q
 tuba/Q
 tubo/O
@@ -1507,8 +1538,10 @@ tubolare/O
 turba/Q
 turbine/O
 tutela/Q
+tutelare/AIa
 ubbidiente/O
 ubriaco/o
+uccellare/AIa
 uccellino/o
 ulcera/Q
 ultimo/o
@@ -1560,6 +1593,7 @@ vivo/oWYw
 voga/Q
 voglia/Q
 volantino/O
+volere/BIa
 volpara/Q
 volpe/O
 volpino/o
