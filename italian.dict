@@ -24537,7 +24537,6 @@ demotivando/E
 demotivare/AI
 demotivato/F
 demotivazione/a
-demotizzando/E
 demulcente/a
 demuscazione/a
 denaro/a
@@ -25109,8 +25108,6 @@ devitalizzare/AI
 devitalizzato/F
 devitalizzazione/a
 devitaminizzare/AI
-devitamizzando/E
-devitamizzato/F
 devo
 devolgo
 devolse
@@ -25262,8 +25259,6 @@ dicace/a
 dicano/xz
 dicasio/a
 dicastero/a
-diccelo/R
-dicci/xz
 dicco/a
 dice/xyz
 dicembre/a
@@ -25591,8 +25586,6 @@ dimissionare/AI
 dimissionario/f
 dimissionato/F
 dimissione/a
-dimmelo/R
-dimmi/z
 dimora/b
 dimorando/E
 dimorare/AI
@@ -25922,7 +25915,6 @@ disavvedutezza/b
 disavveduto/fk
 disavventura/b
 disavvertenza/b
-disavvessato/F
 disavvezzando/E
 disavvezzare/AI
 disavvezzo/f
@@ -30793,7 +30785,6 @@ fanatismo/a
 fanatizzando/E
 fanatizzare/AI
 fanatizzato/F
-fanattizando/E
 fanciullaggine/a
 fanciullesco/fk
 fanciulletto/f
@@ -39094,7 +39085,7 @@ incusse
 incussero
 incussi
 incusso
-incustodito/H
+incustodito/f
 incutendo/E
 incutente
 incutere/BI
@@ -41344,7 +41335,6 @@ interdisse/xy
 interdissero/xy
 interdissi/xy
 interdite/Pxy
-interdito/H
 interdizione/a
 interdì/xy
 interessamento/a
@@ -41567,7 +41557,6 @@ interrompere/BI
 interrompererei
 interrompibile/a
 interrompimento/a
-interropendo/E
 interrotto/fk
 interruppe/a
 interruppero
@@ -58432,7 +58421,6 @@ predicato/F
 predicatore/ad
 predicatorio/f
 predicazione/a
-prediccelo/R
 predicendo/E
 predicente/a
 predicibile/a
@@ -58441,7 +58429,6 @@ predicozzo/a
 predigeribile/a
 predigerire/IUV
 predigestione
-predigli/Q
 predilesse/a
 prediletto/f
 predilezione/a
@@ -59018,7 +59005,7 @@ preveduto/G
 preveggente/a
 preveggenza/b
 prevendita/b
-prevenduto/G
+prevenduto/f
 prevenendo/E
 prevenibile/a
 prevenire/IM
@@ -59043,7 +59030,7 @@ previo/fk
 previsa
 previsionale/a
 previsione/a
-previssuto/G
+previssuto/f
 previsto/f
 prevocalico/g
 prevosto/a
@@ -62847,7 +62834,6 @@ resocontando/E
 resocontare/AI
 resocontato/F
 resocontista/ab
-resolvendo/E
 resorcina
 respettiva
 respettivo
@@ -63534,7 +63520,6 @@ ribellione/a
 ribellismo/a
 ribellista/a
 ribellistico/g
-ribenedendo/E
 ribeneficando/E
 ribeneficare/AI
 ribeneficato/F
@@ -64058,7 +64043,6 @@ ridettato/F
 ridevole/a
 ridia
 ridiano
-ridiccelo/R
 ridicente/a
 ridicibile/a
 ridicolaggine/a
@@ -64080,7 +64064,6 @@ ridimensionamento/a
 ridimensionando/E
 ridimensionare/AI
 ridimensionato/F
-ridimmelo/R
 ridipingendo/E
 ridipingere/BCI
 ridirezione/a
@@ -65253,7 +65236,6 @@ rinorrea/b
 rinoscleroma/a
 rinosclerosi
 rinoscopio/f
-rinovando/E
 rinovellare/AI
 rinovellato/F
 rinovirus
@@ -69476,7 +69458,7 @@ sconclusionatezza
 sconclusionato/fhk
 sconcordanza/b
 sconcorde/a
-scondito/H
+scondito/fh
 scondizionando/E
 scondizionare/AI
 scondizionato/F
@@ -73136,7 +73118,7 @@ sopraclavicolare/a
 sopracornice/a
 sopracqueo/f
 sopraddazio/a
-sopraddetto/T
+sopraddetto/f
 sopraddominante/a
 sopraddotando/E
 sopraddotare/AI
@@ -73147,12 +73129,12 @@ sopraeccitando/E
 sopraeccitare/AI
 sopraeccitato/F
 sopraeccitazione/a
-sopraelencato/T
+sopraelencato/f
 sopraelevamento/a
 sopraelevando/E
 sopraelevare/AI
 sopraelevato/F
-sopraesposto/T
+sopraesposto/f
 sopraffacelo/f
 sopraffacendo/E
 sopraffacene
@@ -73946,7 +73928,7 @@ sovrimponendo/E
 sovrimporre/ILS
 sovrimposto/T
 sovrimpressione/a
-sovrimpresso/T
+sovrimpresso/f
 sovrintendendo/E
 sovrintendenza/b
 sovrintendere/BI
@@ -76410,7 +76392,7 @@ stranire/DI
 stranisce
 straniscono
 stranito/H
-strano/Chk
+strano/fhk
 stranoto/a
 straordinariato/a
 straordinarietà
@@ -83331,14 +83313,6 @@ vacillamento/a
 vacillando/E
 vacillare/AI
 vacillato/F
-vacinai
-vacinammo
-vacinando/E
-vacinano
-vacinaste/a
-vaciniamo
-vaciniate
-vacinino
 vacondio
 vacuista/a
 vacuità
