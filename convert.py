@@ -12,6 +12,7 @@ __version__ = "$Revision$"[11:-2]
 
 import re
 import locale
+import string
 from operator import itemgetter
 
 import psycopg2
@@ -337,6 +338,17 @@ class UnisciIoIi(Operation):
             dictionary[w] = (f or '') + 'n'
             del dictionary[pl]
 
+def dbRun(f, *args, **kwargs):
+    cnn = psycopg2.connect(database='tstest')
+    try:
+        cur = cnn.cursor()
+        try:
+            return f(cur, *args, **kwargs)
+        finally:
+            cur.close()
+    finally:
+        cnn.close()
+
 class RimuoviVerbi(Operation):
     """Rimuovi i verbi dal vocabolario!!!
     """
@@ -353,17 +365,16 @@ class RimuoviVerbi(Operation):
         kflags = set('WY')  # flag che vanno su aggettivi, ecc, quindi
                             # sono da mantenere
 
-        cnn = psycopg2.connect(database='tstest')
-        cur = cnn.cursor()
-        cur.execute(
-            "SELECT coniugazione"
-            " FROM coniugazione JOIN attributo_mydict USING (infinito)"
-            " WHERE attributo = 'presente'"
-            ";")
+        def f(cur):
+            cur.execute(
+                "SELECT coniugazione"
+                " FROM coniugazione JOIN attributo_mydict USING (infinito)"
+                " WHERE attributo = 'presente'"
+                ";")
 
-        cons = set(map(itemgetter(0), cur))
-        cur.close()
-        cnn.close()
+            return set(map(itemgetter(0), cur))
+
+        cons = dbRun(f)
 
         dflags = vflags | aflags | pflags | kflags
         for w, f in list(dictionary.iteritems()):
@@ -511,6 +522,41 @@ class RenameAffFlags(Operation):
                 row = "flag %s%s:\n" % (m.group(1), m.group(3))
             of.write(row)
 
+class RimuoviConiugazioni(Operation):
+    def _run(self, dictionary):
+        nv = Dictionary(); nv.load("non-verbi.dict")
+
+        def getConiugazioni(cur):
+            cur.execute("""
+SELECT infinito FROM verbo
+    UNION
+SELECT DISTINCT (coniugazione) FROM coniugazione
+    UNION
+SELECT substring(attributo FROM 10) || infinito
+FROM attributo_mydict
+WHERE attributo LIKE 'prefisso\_%'
+    UNION
+SELECT DISTINCT (substring (attributo FROM 10) || coniugazione)
+FROM attributo_mydict JOIN coniugazione USING (infinito)
+WHERE attributo LIKE 'prefisso\_%'
+;""")
+            return set(map(itemgetter(0), cur))
+
+        cons = dbRun(getConiugazioni)
+
+        lower = set(string.lowercase)
+        upper = set(string.uppercase)
+        
+        for w, f in sorted(dictionary.iteritems()):
+            if w not in cons:
+                continue
+
+            if w in nv:
+                dictionary[w] = ''.join(sorted(_ for _ in f if _ not in upper))
+                continue
+
+            del dictionary[w]
+    
 #: The list of operation to perform.
 #: The first item is the revision number after which the operation is not to
 #: be performed. Other parameters are the callable to run and the positional
@@ -554,7 +600,18 @@ processes = [
     (50, UnisciPlurali()),
     (61, UnisciMaschileFemminile()),
     (69, RenameAffFlags("italian.aff")),
+    (76, RimuoviConiugazioni()),
 ]
+
+        #def getVerbWithAttr(cur, attr):
+            #cur.execute("SELECT infinito FROM attributo_mydict "
+                        #" WHERE attributo = %s;", (attr,))
+            #return set(map(itemgetter(0), cur))
+
+        #prefixed = {}
+        #prefixed['x'] = dbRun(getVerbWithAttr('prefisso_pre'))
+        #prefixed['y'] = dbRun(getVerbWithAttr('prefisso_stra'))
+        #prefixed['z'] = dbRun(getVerbWithAttr('prefisso_ri'))
 
 if __name__ == '__main__':
     d_name = 'italian.dict'
