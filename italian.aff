@@ -2666,7 +2666,8 @@ flag \=:
 prefixes
 
 flag z:
-   .    > RI
+   [^I] > RI
+   I    > R
 
 flag y:
    .    > STRA
