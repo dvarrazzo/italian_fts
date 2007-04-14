@@ -556,7 +556,35 @@ WHERE attributo LIKE 'prefisso\_%'
                 continue
 
             del dictionary[w]
-    
+
+class UnisciVerbi(Operation):
+    """Unisci i verbi dal file ``verbi.dict``.
+
+    Il file ``verbi.aff`` va unito a mano.
+    """
+    def _run(self, dictionary):
+        vdict = Dictionary(); vdict.load("verbi.dict")
+        dictionary.update(vdict)
+
+        # aggiungi i prefissi
+        def fetchPrefissi(cur):
+            cur.execute(
+                "SELECT infinito, substring(attributo FROM 10) "
+                "FROM attributo_mydict "
+                "WHERE attributo LIKE 'prefisso\_%';")
+
+            return cur.fetchall()
+
+        pre2flag = {
+            'ri': 'z',
+            'stra': 'y',
+            'pre': 'x',
+            're': 'w',
+        }
+
+        for v, pre in dbRun(fetchPrefissi):
+            dictionary[v] += pre2flag[pre]
+
 #: The list of operation to perform.
 #: The first item is the revision number after which the operation is not to
 #: be performed. Other parameters are the callable to run and the positional
@@ -600,7 +628,8 @@ processes = [
     (50, UnisciPlurali()),
     (61, UnisciMaschileFemminile()),
     (69, RenameAffFlags("italian.aff")),
-    (76, RimuoviConiugazioni()),
+    (78, RimuoviConiugazioni()),
+    (78, UnisciVerbi()),
 ]
 
         #def getVerbWithAttr(cur, attr):

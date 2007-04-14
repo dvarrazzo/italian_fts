@@ -65,7 +65,9 @@ class Production(object):
         return self._addComment(o)
 
     def _addComment(self, string):
-        if self.line_comment:
+        # bug in the tsearch2 parser: if there is no string to append,
+        # an inline comment causes a parse error.
+        if self.line_comment and (self.append or not self.enabled):
             string = "%s%*s# %s" % (
                 string, len(string)-40, "", self.line_comment)
         if self.comment is None:

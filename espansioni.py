@@ -62,11 +62,11 @@ inf2_rp = [ Production('rre', remove='re')
             if (s1, s2) != ('si', 'si')]
 
 ger_r = [ Production(append=_)
-            for _ in ('', 'mi', 'ti', 'gli', 'ci', 'vi', 'si') ]
+            for _ in ('mi', 'ti', 'gli', 'ci', 'vi', 'si') ]
 ger_p = [ Production(append=_)
-            for _ in ('', 'lo', 'la', 'li', 'le', 'ne', 'si') ]
+            for _ in ('lo', 'la', 'li', 'le', 'ne') ]
 ger_rp = [ compose(p1, p2)
-        for p1 in ger_r for p2 in ger_p
+        for p1 in ger_r for p2 in (ger_p + [Production(append="si")])
         if not (p1.append == 'si' and p2.append == 'si') ]
 
 superlativo = [ Production('o', remove='o', append='issimo')
