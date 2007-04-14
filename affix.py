@@ -99,6 +99,7 @@ class Flag(object):
         self.letter = letter
         self.productions = []
         self.comment = None
+        self.verbs = []
 
     def __repr__(self):
         return ("<%s '%s' (%s prod.) at 0x%08X>"

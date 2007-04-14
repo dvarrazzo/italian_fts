@@ -41,6 +41,7 @@ def main():
 
     infs = dbRun(getInfiniti)
     flags = []
+    oflags = dict.fromkeys((v for v in infs if not v[-1].isdigit()), 'AB')
 
     flag = affix.Flag(fls.pop(0))
     flag.comment = getLabel('inf', variazione='t')
@@ -73,12 +74,16 @@ def main():
             prod.line_comment = getLabel(modotempo=mps[i][0], persona=mps[i][1])
             i += 1
 
+        for v in flag.verbs: oflags[v] += flag.letter
+
     forms = dbRun(getFormsAsTuple, infs, '= 8')
     fdata = calcFlags(forms)
     flags1 = toFlags(fdata, fls[:], forms)
 
     for flag_o in flags1:
         flag = affix.Flag(fls.pop(0))
+        for v in flag_o.verbs: oflags[v] += flag.letter
+
         flag.comment = getLabel("imperativo", variazione='p')
 
         flags.append(flag)
@@ -105,6 +110,7 @@ def main():
             for flag_o in flags1:
                 flag = affix.Flag(fls.pop(0))
                 flag.comment = getLabel(mtp, variazione=var)
+                for v in flag_o.verbs: oflags[v] += flag.letter
 
                 flags.append(flag)
                 if var == 'n':
@@ -123,10 +129,13 @@ def main():
                             prod.comment and prod.comment.replace(
                                 "*" + flag_o.letter, "*" + flag.letter))
 
-    # Stampa
+    # Output
     # ------
 
-    print "\n\n".join(map(str, flags))
+    print >> open('verbi.aff', 'w'), "\n\n".join(map(str, flags))
+
+    print >> open('verbi.dict', 'w'), \
+        '\n'.join("%s/%s" % t for t in sorted(oflags.iteritems()))
 
     def suffKey(s):
         if ']' in s:
@@ -136,10 +145,10 @@ def main():
         return ''.join(reversed(s))
 
     for i, flag in enumerate(fdata):
-        print >>sys.stderr, "\nflag", i
+        print "\nflag", i
         for k, v in sorted(flag.iteritems(),key=lambda _: suffKey(_[1])):
-            print >>sys.stderr, "   ", v, ":", k
-            print >>sys.stderr, "              #", len(forms[k]), forms[k][:3]
+            print "   ", v, ":", k
+            print "              #", len(forms[k]), forms[k][:3]
 
 # Risultati: sono necessari
 
@@ -199,6 +208,10 @@ def getFormsAsTuple(cur, infs, modotempo):
 
         cons = map(itemgetter(0), cur)
         if not cons: continue
+
+        # Rimuovi suffisso dall'infinito per i verbi con forme multiple
+        if inf[-1].isdigit(): inf = inf[:-1]
+
         prod = tuple(calcProd(inf, _) for _ in cons)
 
         forms.setdefault(prod, []).append(inf)

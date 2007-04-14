@@ -157,6 +157,8 @@ def toFlags(fin, avail, examples={}):
                 if not (first_prod and verbs): continue
 
                 verbs.sort()
+                fo.verbs.extend(verbs)
+
                 i = 1
                 while i <= len(verbs):
                     i += 1
