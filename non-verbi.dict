@@ -281,6 +281,7 @@ ciclostile/O
 cifra/Q
 cima/Q
 circolare/YIO
+circuitale
 civetta/Q
 classifica/Q
 clone/O
@@ -354,6 +355,7 @@ contesto/O
 continuo/o
 conto/O
 contrario/o
+contrattile
 contratto/O
 controfirma/Q
 controprova/Q
@@ -502,6 +504,7 @@ epitome/O
 equivoco/pY
 era/Q
 ereditando/p
+erettile
 erigendo/p
 erpice/O
 esaminando/p
@@ -560,6 +563,7 @@ fiocina/Q
 fionda/Q
 firma/Q
 fisso/o
+flessile
 flotta/Q
 fodera/Q
 foggiano/o
@@ -853,6 +857,7 @@ medio/o
 mendico/p
 menzione/O
 meraviglia/Q
+messale
 mesto/o
 metafisico/p
 metile/O
@@ -896,6 +901,7 @@ monta/Q
 montano/o
 mormora/Q
 morso/O
+mortale
 mortasa/Q
 mostra/Q
 mostro/O
@@ -935,6 +941,7 @@ ode/O
 odore/O
 oggettivo/o
 ombra/Q
+ombratile
 omologo/o
 onere/O
 onorando/p
@@ -1025,6 +1032,7 @@ pepe/O
 peregrino/o
 perenne/O
 perfezione/O
+peritale
 perizia/Q
 permanente/OY
 permesso/O
@@ -1078,6 +1086,7 @@ popolare/OWY
 poppa/Q
 porcellana/Q
 porta/Q
+portatile
 porto/O
 posizione/O
 posta/Q
@@ -1124,12 +1133,14 @@ proroga/Q
 prospero/o
 protesta/Q
 protocollare/O
+protrattile
 prova/Q
 provino/O
 pubblicano/o
 pubblico/p
 pugnato/o
 pugno/O
+pulsatile
 punta/Q
 punto/O
 puntone
@@ -1198,8 +1209,11 @@ resto/O
 reticolare/O
 retina/Q
 retino/O
+retrattile
 retrogrado/o
+rettale
 rettifica/Q
+rettile
 reverendo/oW
 revisione/O
 revoca/Q
@@ -1246,6 +1260,7 @@ rivoluzione/O
 romanza/Q
 romanzo/O
 rombo/O
+rosale
 rosone
 rottame/O
 rovina/Q
@@ -1329,6 +1344,7 @@ sciatto/o
 scintilla/Q
 sciocco/o
 sciolina/Q
+scissile
 scocca/Q
 scodella/Q
 scolaro/Of
@@ -1576,6 +1592,7 @@ teso/oW
 tessera/Q
 tesserino/o
 tessile
+tessutale
 testa/Q
 testo/O
 tetta/Q
@@ -1591,6 +1608,7 @@ tonsura/Q
 tonsurando/o
 tormenta/Q
 torta/Q
+tortile
 torto/O
 tortola
 tortura/Q
@@ -1674,9 +1692,11 @@ venerando/p
 venere
 verga/Q
 verifica/Q
+versatile
 vetrina/Q
 vetrino/O
 vettovaglia/Q
+vibratile
 vicario/O
 vigile/O
 vincolare/O
@@ -1694,6 +1714,7 @@ vivo/oWYw
 voga/Q
 voglia/Q
 volantino/O
+volatile
 volere/BIa
 volpara/Q
 volpe/O
