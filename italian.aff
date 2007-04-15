@@ -59,12 +59,13 @@ flag *b:
     [^GC]   A   >   -A,E
     [GC]    A   >   -A,HE
 
-# Forme alternativa di costruzione del plurale maschile (manico -> manici)
-# e femminile (freccia -> frecce)
+# Forme alternativa di costruzione del plurale maschile (manico -> manici,
+# uomo -> uomini) e femminile (freccia -> frecce)
 
 flag *c:
     I       A   >   -IA,E
-            O   >   -O,I
+    [^M]    O   >   -O,I
+    [M]     O   >   -O,INI
 
 # Forme alternative di femminili
 
