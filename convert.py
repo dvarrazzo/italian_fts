@@ -35,10 +35,12 @@ class Dictionary(dict):
     header = None
     """The dictionary comment, on the file head."""
 
-    def load(self, filename):
+    def load(self, f):
+        if isinstance(f, basestring):
+            f = open(f)
         self.clear()
         h = []
-        for row in open(filename):
+        for row in f:
             if row.startswith('/'):
                 h.append(row)
                 continue
@@ -55,8 +57,9 @@ class Dictionary(dict):
 
         self.header = ''.join(h)
 
-    def save(self, filename):
-        f = file(filename, 'w')
+    def save(self, f):
+        if isinstance(f, basestring):
+            f = open(f, 'w')
         if self.header:
             f.write(self.header)
 
