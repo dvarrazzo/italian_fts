@@ -44,4 +44,9 @@ $(LANGUAGE).aff: $(ZIPFILE).aff
 clean:
 	rm -rf $(ZIPFILE).aff $(ZIPFILE).dic $(LANGUAGE).dict $(LANGUAGE).aff 
 
+split:
+	python ./split_dict.py
+
+merge:
+	python merge_dicts.py verbi.dict italian-other.dict italian-numbers.dict > italian.dict
 
