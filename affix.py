@@ -3,13 +3,13 @@ import re
 class Production(object):
     def __init__(self, pattern="", remove="", append=""):
         pt = ''.join(pattern.split()).lower()
-        if not pt.endswith(remove):
+        if not pt.endswith(remove.lower()):
             raise ValueError("can't remove '%s' from a word matching '%s'"
                 % (remove, pt))
         self._regexp = re.compile(pattern+'$', re.VERBOSE | re.IGNORECASE)
         self.pattern = pt
-        self.remove = remove
-        self.append = append
+        self.remove = remove.lower()
+        self.append = append.lower()
 
         self.comment = None
         self.line_comment = None
@@ -97,8 +97,9 @@ class Difettivo(Production):
         return self._addComment("# difettivo")
 
 class Flag(object):
-    def __init__(self, letter):
+    def __init__(self, letter, allow_prefix=True):
         self.letter = letter
+        self.allow_prefix = allow_prefix
         self.productions = []
         self.comment = None
         self.verbs = []
@@ -112,9 +113,44 @@ class Flag(object):
 
     def __str__(self):
         o = map(str, self.productions)
-        o.insert(0, "flag *%s:" % self.letter)
+        o.insert(0, "flag %s%s:" % (self.allow_prefix and '*' or '',
+                                    self.letter))
 
         if self.comment:
             o[:0] = [ "# %s" % r for r in self.comment.split('\n') ]
 
         return '\n'.join(o)
+
+    def apply(self, word):
+        return [ p.apply(word) for p in self.productions if p.matches(word) ]
+
+def parseMyDict(f):
+    flags = []
+
+    re_flag = re.compile(r'\s*flag\s+([*]?)\\?(.)\:')
+    re_prod = re.compile(r"([^>]+)>\s+(?:-\s*([^,]*)\s*)?\s*[,]?\s*([^,]*)")
+
+    flag = None
+    for i, row in enumerate(f):
+        f = row.split('#', 1)[0].rstrip()
+        if not f: continue
+
+        m = re_flag.match(f)
+        if m is not None:
+            flag = Flag(letter=m.group(2), allow_prefix=bool(m.group(1)))
+            flags.append(flag)
+            continue
+
+        m =  re_prod.match(f)
+        if m is None:
+            continue
+
+        if flag is None:
+            raise Exception("production w/o flag at line %d" % (i+1))
+
+        ptrn, pre, suf = m.groups()
+        pre = pre and pre.rstrip() or ''
+        suf = suf and suf.rstrip() or ''
+        flag.productions.append(Production(ptrn, remove=pre, append=suf))
+
+    return dict((flag.letter, flag) for flag in flags)
