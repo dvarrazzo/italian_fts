@@ -205,8 +205,8 @@ flag *n:
    [^CG]    A   >   -A,ETTE
    I        A   >   -A,NA
    I        A   >   -A,NE
-            A   > -A,ONA
-            A   > -A,ONE
+            A   >   -A,ONA
+            A   >   -A,ONE
 
 # Troncamento
 
