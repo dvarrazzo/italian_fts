@@ -592,8 +592,15 @@ class RimuoviProduzioni(Operation):
     """Rimuovi le produzioni che partono dai verbi."""
     def _run(self, dictionary):
         import affix
-        import pdb; pdb.set_trace()
         aff = affix.parseMyDict(open("italian.aff"))
+        nv = Dictionary(); nv.load("non-verbi.dict")
+
+        for w, f in sorted(dictionary.iteritems()):
+            if 'A' in f: # e' un verbo
+                prods = aff.apply(w, f)
+                for prod in prods:
+                    if prod in dictionary and prod not in nv:
+                        del dictionary[prod]
 
 
 #: The list of operation to perform.

@@ -78,6 +78,28 @@ class Production(object):
                 lo.append("\n    # %s" % row)
             return "%s\n%s" % ("".join(lo), string)
 
+class Prefix(Production):
+    def __init__(self, pattern="", remove="", append=""):
+        pt = ''.join(pattern.split()).lower()
+        if not pt.startswith(remove.lower()):
+            raise ValueError("can't remove '%s' from a word matching '%s'"
+                % (remove, pt))
+        self._regexp = re.compile('^'+pattern, re.VERBOSE | re.IGNORECASE)
+        self.pattern = pt
+        self.remove = remove.lower()
+        self.append = append.lower()
+
+        self.comment = None
+        self.line_comment = None
+        self.enabled = True
+
+    def apply(self, word):
+        if self.matches(word):
+            return self.append + word[len(self.remove):]
+        else:
+            raise ValueError("the word '%s' doesn't match the pattern '%s'"
+                % (word, self.pattern))
+
 def compose(p1, p2):
     a = None
     if (p1.append in ('mi', 'ti', 'ci', 'vi', 'si')
@@ -124,8 +146,37 @@ class Flag(object):
     def apply(self, word):
         return [ p.apply(word) for p in self.productions if p.matches(word) ]
 
+
+class Affixes(dict):
+    def apply(self, word, flags):
+        pres = []
+        sufs = []
+
+        for f in flags:
+            prod = self[f]
+            if not prod.productions:
+                continue
+            if isinstance(prod.productions[0], Prefix):
+                pres.append(prod)
+            else:
+                sufs.append(prod)
+
+        o = []
+        for suf in sufs:
+            nwords = suf.apply(word)
+            o += nwords
+
+            if suf.allow_prefix:
+                for pre in pres:
+                    for w in nwords:
+                        o += pre.apply(w)
+
+        return o
+
 def parseMyDict(f):
     flags = []
+
+    prod_class = Production
 
     re_flag = re.compile(r'\s*flag\s+([*]?)\\?(.)\:')
     re_prod = re.compile(r"([^>]+)>\s+(?:-\s*([^,]*)\s*)?\s*[,]?\s*([^,]*)")
@@ -142,15 +193,17 @@ def parseMyDict(f):
             continue
 
         m =  re_prod.match(f)
-        if m is None:
-            continue
+        if m is not None:
+            if flag is None:
+                raise Exception("production w/o flag at line %d" % (i+1))
 
-        if flag is None:
-            raise Exception("production w/o flag at line %d" % (i+1))
+            ptrn, pre, suf = m.groups()
+            if ptrn == '.': ptrn = ''
+            pre = pre and pre.rstrip() or ''
+            suf = suf and suf.rstrip() or ''
+            flag.productions.append(prod_class(ptrn, remove=pre, append=suf))
 
-        ptrn, pre, suf = m.groups()
-        pre = pre and pre.rstrip() or ''
-        suf = suf and suf.rstrip() or ''
-        flag.productions.append(Production(ptrn, remove=pre, append=suf))
+        if f == 'prefixes':
+            prod_class = Prefix
 
-    return dict((flag.letter, flag) for flag in flags)
+    return Affixes((flag.letter, flag) for flag in flags)
