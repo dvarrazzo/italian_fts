@@ -33,7 +33,9 @@ ppa_n = [Production()] + [Production("o", remove="o", append=_) for _ in 'aie']
 ppa_r = [ compose(p1, Production(append=_))
             for p1 in ppa_n for _ in ('mi', 'ti', 'gli', 'ci', 'vi', 'si') ]
 ppa_p = [ compose(p1, Production(append=_))
-            for p1 in ppa_n for _ in ('lo', 'la', 'li', 'le', 'ne') ]
+            for p1 in ppa_n for _ in ('lo', 'la', 'li', 'le', 'ne')
+            if not p1.remove
+            or (_ not in ('lo', 'la', 'li', 'le') or p1.append == _[-1]) ]
 ppa_rp = [ p1 + compose(Production(append='vi'), Production(append='ne'))
             for p1 in ppa_n ]
 

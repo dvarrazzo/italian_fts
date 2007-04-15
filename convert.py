@@ -588,6 +588,14 @@ class UnisciVerbi(Operation):
         for v, pre in dbRun(fetchPrefissi):
             dictionary[v] += pre2flag[pre]
 
+class RimuoviProduzioni(Operation):
+    """Rimuovi le produzioni che partono dai verbi."""
+    def _run(self, dictionary):
+        import affix
+        import pdb; pdb.set_trace()
+        aff = affix.parseMyDict(open("italian.aff"))
+
+
 #: The list of operation to perform.
 #: The first item is the revision number after which the operation is not to
 #: be performed. Other parameters are the callable to run and the positional
@@ -633,6 +641,7 @@ processes = [
     (69, RenameAffFlags("italian.aff")),
     (78, RimuoviConiugazioni()),
     (78, UnisciVerbi()),
+    (80, RimuoviProduzioni()),
 ]
 
         #def getVerbWithAttr(cur, attr):

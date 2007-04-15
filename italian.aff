@@ -4162,7 +4162,7 @@ flag *E:
     d i r e         >    mmo            # cond. 1a p. pl.
     d i r e         >    ste            # cond. 2a p. pl.
     d i r e         >    bbero          # cond. 3a p. pl.
-    d i r e         >    -ire,ì         # imp. 2a p. sn.
+#     d i r e         >    -re,ci       # imp. 2a p. sn.
 #     d i r e         >    -re,ca       # imp. 3a p. sn.
 #     d i r e         >    -re,ciamo    # imp. 1a p. pl.
 #     d i r e         >    -re,te       # imp. 2a p. pl.
@@ -6461,86 +6461,6 @@ flag *H:
 flag *I:
 
     # flag *I:
-    # riempire
-    p i r e         >    -re,lo
-    p i r e         >    -re,la
-    p i r e         >    -re,li
-    p i r e         >    -re,le
-    p i r e         >    -re,ne
-    p i r e         >    -re,mi
-    p i r e         >    -re,gli
-    p i r e         >    -re,ti
-    p i r e         >    -re,ci
-    p i r e         >    -re,melo
-    p i r e         >    -re,mela
-    p i r e         >    -re,meli
-    p i r e         >    -re,mele
-    p i r e         >    -re,mene
-    p i r e         >    -re,glielo
-    p i r e         >    -re,gliela
-    p i r e         >    -re,glieli
-    p i r e         >    -re,gliele
-    p i r e         >    -re,gliene
-    p i r e         >    -re,telo
-    p i r e         >    -re,tela
-    p i r e         >    -re,teli
-    p i r e         >    -re,tele
-    p i r e         >    -re,tene
-    p i r e         >    -re,celo
-    p i r e         >    -re,cela
-    p i r e         >    -re,celi
-    p i r e         >    -re,cele
-    p i r e         >    -re,cene
-    p i r e         >    -ire,a
-    p i r e         >    -re,amolo
-    p i r e         >    -re,amola
-    p i r e         >    -re,amoli
-    p i r e         >    -re,amole
-    p i r e         >    -re,amone
-    p i r e         >    -re,amogli
-    p i r e         >    -re,amoci
-    p i r e         >    -re,amoglielo
-    p i r e         >    -re,amogliela
-    p i r e         >    -re,amoglieli
-    p i r e         >    -re,amogliele
-    p i r e         >    -re,amogliene
-    p i r e         >    -re,amocelo
-    p i r e         >    -re,amocela
-    p i r e         >    -re,amoceli
-    p i r e         >    -re,amocele
-    p i r e         >    -re,amocene
-    p i r e         >    -re,telo
-    p i r e         >    -re,tela
-    p i r e         >    -re,teli
-    p i r e         >    -re,tele
-    p i r e         >    -re,tene
-    p i r e         >    -re,temi
-    p i r e         >    -re,tegli
-    p i r e         >    -re,teci
-    p i r e         >    -re,tevi
-    p i r e         >    -re,temelo
-    p i r e         >    -re,temela
-    p i r e         >    -re,temeli
-    p i r e         >    -re,temele
-    p i r e         >    -re,temene
-    p i r e         >    -re,teglielo
-    p i r e         >    -re,tegliela
-    p i r e         >    -re,teglieli
-    p i r e         >    -re,tegliele
-    p i r e         >    -re,tegliene
-    p i r e         >    -re,tecelo
-    p i r e         >    -re,tecela
-    p i r e         >    -re,teceli
-    p i r e         >    -re,tecele
-    p i r e         >    -re,tecene
-    p i r e         >    -re,tevelo
-    p i r e         >    -re,tevela
-    p i r e         >    -re,teveli
-    p i r e         >    -re,tevele
-    p i r e         >    -re,tevene
-    p i r e         >    -re,ano
-
-    # flag *I:
     # andare
     a n d a r e     >    -andare,vailo
     a n d a r e     >    -andare,vaila
@@ -6619,6 +6539,86 @@ flag *I:
     a n d a r e     >    -re,tevele
     a n d a r e     >    -re,tevene
     a n d a r e     >    -andare,vadano
+
+    # flag *I:
+    # riempire
+    p i r e         >    -re,lo
+    p i r e         >    -re,la
+    p i r e         >    -re,li
+    p i r e         >    -re,le
+    p i r e         >    -re,ne
+    p i r e         >    -re,mi
+    p i r e         >    -re,gli
+    p i r e         >    -re,ti
+    p i r e         >    -re,ci
+    p i r e         >    -re,melo
+    p i r e         >    -re,mela
+    p i r e         >    -re,meli
+    p i r e         >    -re,mele
+    p i r e         >    -re,mene
+    p i r e         >    -re,glielo
+    p i r e         >    -re,gliela
+    p i r e         >    -re,glieli
+    p i r e         >    -re,gliele
+    p i r e         >    -re,gliene
+    p i r e         >    -re,telo
+    p i r e         >    -re,tela
+    p i r e         >    -re,teli
+    p i r e         >    -re,tele
+    p i r e         >    -re,tene
+    p i r e         >    -re,celo
+    p i r e         >    -re,cela
+    p i r e         >    -re,celi
+    p i r e         >    -re,cele
+    p i r e         >    -re,cene
+    p i r e         >    -ire,a
+    p i r e         >    -re,amolo
+    p i r e         >    -re,amola
+    p i r e         >    -re,amoli
+    p i r e         >    -re,amole
+    p i r e         >    -re,amone
+    p i r e         >    -re,amogli
+    p i r e         >    -re,amoci
+    p i r e         >    -re,amoglielo
+    p i r e         >    -re,amogliela
+    p i r e         >    -re,amoglieli
+    p i r e         >    -re,amogliele
+    p i r e         >    -re,amogliene
+    p i r e         >    -re,amocelo
+    p i r e         >    -re,amocela
+    p i r e         >    -re,amoceli
+    p i r e         >    -re,amocele
+    p i r e         >    -re,amocene
+    p i r e         >    -re,telo
+    p i r e         >    -re,tela
+    p i r e         >    -re,teli
+    p i r e         >    -re,tele
+    p i r e         >    -re,tene
+    p i r e         >    -re,temi
+    p i r e         >    -re,tegli
+    p i r e         >    -re,teci
+    p i r e         >    -re,tevi
+    p i r e         >    -re,temelo
+    p i r e         >    -re,temela
+    p i r e         >    -re,temeli
+    p i r e         >    -re,temele
+    p i r e         >    -re,temene
+    p i r e         >    -re,teglielo
+    p i r e         >    -re,tegliela
+    p i r e         >    -re,teglieli
+    p i r e         >    -re,tegliele
+    p i r e         >    -re,tegliene
+    p i r e         >    -re,tecelo
+    p i r e         >    -re,tecela
+    p i r e         >    -re,teceli
+    p i r e         >    -re,tecele
+    p i r e         >    -re,tecene
+    p i r e         >    -re,tevelo
+    p i r e         >    -re,tevela
+    p i r e         >    -re,teveli
+    p i r e         >    -re,tevele
+    p i r e         >    -re,tevene
+    p i r e         >    -re,ano
 
     # flag *I:
     # morire, premorire
@@ -7022,35 +7022,35 @@ flag *I:
 
     # flag *I:
     # benedire, contraddire, dire, disdire, indire, interdire, maledire...
-    d i r e         >    -ire,ìlo
-    d i r e         >    -ire,ìla
-    d i r e         >    -ire,ìli
-    d i r e         >    -ire,ìle
-    d i r e         >    -ire,ìne
-    d i r e         >    -ire,ìmi
-    d i r e         >    -ire,ìgli
-    d i r e         >    -ire,ìti
-    d i r e         >    -ire,ìci
-    d i r e         >    -ire,ìmelo
-    d i r e         >    -ire,ìmela
-    d i r e         >    -ire,ìmeli
-    d i r e         >    -ire,ìmele
-    d i r e         >    -ire,ìmene
-    d i r e         >    -ire,ìglielo
-    d i r e         >    -ire,ìgliela
-    d i r e         >    -ire,ìglieli
-    d i r e         >    -ire,ìgliele
-    d i r e         >    -ire,ìgliene
-    d i r e         >    -ire,ìtelo
-    d i r e         >    -ire,ìtela
-    d i r e         >    -ire,ìteli
-    d i r e         >    -ire,ìtele
-    d i r e         >    -ire,ìtene
-    d i r e         >    -ire,ìcelo
-    d i r e         >    -ire,ìcela
-    d i r e         >    -ire,ìceli
-    d i r e         >    -ire,ìcele
-    d i r e         >    -ire,ìcene
+    d i r e         >    -re,cilo
+    d i r e         >    -re,cila
+    d i r e         >    -re,cili
+    d i r e         >    -re,cile
+    d i r e         >    -re,cine
+    d i r e         >    -re,cimi
+    d i r e         >    -re,cigli
+    d i r e         >    -re,citi
+    d i r e         >    -re,cici
+    d i r e         >    -re,cimelo
+    d i r e         >    -re,cimela
+    d i r e         >    -re,cimeli
+    d i r e         >    -re,cimele
+    d i r e         >    -re,cimene
+    d i r e         >    -re,ciglielo
+    d i r e         >    -re,cigliela
+    d i r e         >    -re,ciglieli
+    d i r e         >    -re,cigliele
+    d i r e         >    -re,cigliene
+    d i r e         >    -re,citelo
+    d i r e         >    -re,citela
+    d i r e         >    -re,citeli
+    d i r e         >    -re,citele
+    d i r e         >    -re,citene
+    d i r e         >    -re,cicelo
+    d i r e         >    -re,cicela
+    d i r e         >    -re,ciceli
+    d i r e         >    -re,cicele
+    d i r e         >    -re,cicene
     d i r e         >    -re,ca
     d i r e         >    -re,ciamolo
     d i r e         >    -re,ciamola
@@ -8132,19 +8132,10 @@ flag *V:
     n u o c e r e   >    -uocere,ociutoli
     n u o c e r e   >    -uocere,ociutole
     n u o c e r e   >    -uocere,ociutone
-    n u o c e r e   >    -uocere,ociutalo
     n u o c e r e   >    -uocere,ociutala
-    n u o c e r e   >    -uocere,ociutali
-    n u o c e r e   >    -uocere,ociutale
     n u o c e r e   >    -uocere,ociutane
-    n u o c e r e   >    -uocere,ociutilo
-    n u o c e r e   >    -uocere,ociutila
     n u o c e r e   >    -uocere,ociutili
-    n u o c e r e   >    -uocere,ociutile
     n u o c e r e   >    -uocere,ociutine
-    n u o c e r e   >    -uocere,ociutelo
-    n u o c e r e   >    -uocere,ociutela
-    n u o c e r e   >    -uocere,ociuteli
     n u o c e r e   >    -uocere,ociutele
     n u o c e r e   >    -uocere,ociutene
     n u o c e r e   >    -uocere,ociutomi
@@ -8183,19 +8174,10 @@ flag *V:
     [ds] i g e r e  >    -igere,attoli
     [ds] i g e r e  >    -igere,attole
     [ds] i g e r e  >    -igere,attone
-    [ds] i g e r e  >    -igere,attalo
     [ds] i g e r e  >    -igere,attala
-    [ds] i g e r e  >    -igere,attali
-    [ds] i g e r e  >    -igere,attale
     [ds] i g e r e  >    -igere,attane
-    [ds] i g e r e  >    -igere,attilo
-    [ds] i g e r e  >    -igere,attila
     [ds] i g e r e  >    -igere,attili
-    [ds] i g e r e  >    -igere,attile
     [ds] i g e r e  >    -igere,attine
-    [ds] i g e r e  >    -igere,attelo
-    [ds] i g e r e  >    -igere,attela
-    [ds] i g e r e  >    -igere,atteli
     [ds] i g e r e  >    -igere,attele
     [ds] i g e r e  >    -igere,attene
     [ds] i g e r e  >    -igere,attomi
@@ -8234,19 +8216,10 @@ flag *V:
     r i g e r e     >    -igere,ettoli
     r i g e r e     >    -igere,ettole
     r i g e r e     >    -igere,ettone
-    r i g e r e     >    -igere,ettalo
     r i g e r e     >    -igere,ettala
-    r i g e r e     >    -igere,ettali
-    r i g e r e     >    -igere,ettale
     r i g e r e     >    -igere,ettane
-    r i g e r e     >    -igere,ettilo
-    r i g e r e     >    -igere,ettila
     r i g e r e     >    -igere,ettili
-    r i g e r e     >    -igere,ettile
     r i g e r e     >    -igere,ettine
-    r i g e r e     >    -igere,ettelo
-    r i g e r e     >    -igere,ettela
-    r i g e r e     >    -igere,etteli
     r i g e r e     >    -igere,ettele
     r i g e r e     >    -igere,ettene
     r i g e r e     >    -igere,ettomi
@@ -8285,19 +8258,10 @@ flag *V:
     s c e r e       >    -scere,toli
     s c e r e       >    -scere,tole
     s c e r e       >    -scere,tone
-    s c e r e       >    -scere,talo
     s c e r e       >    -scere,tala
-    s c e r e       >    -scere,tali
-    s c e r e       >    -scere,tale
     s c e r e       >    -scere,tane
-    s c e r e       >    -scere,tilo
-    s c e r e       >    -scere,tila
     s c e r e       >    -scere,tili
-    s c e r e       >    -scere,tile
     s c e r e       >    -scere,tine
-    s c e r e       >    -scere,telo
-    s c e r e       >    -scere,tela
-    s c e r e       >    -scere,teli
     s c e r e       >    -scere,tele
     s c e r e       >    -scere,tene
     s c e r e       >    -scere,tomi
@@ -8336,19 +8300,10 @@ flag *V:
     c u o c e r e   >    -uocere,ottoli
     c u o c e r e   >    -uocere,ottole
     c u o c e r e   >    -uocere,ottone
-    c u o c e r e   >    -uocere,ottalo
     c u o c e r e   >    -uocere,ottala
-    c u o c e r e   >    -uocere,ottali
-    c u o c e r e   >    -uocere,ottale
     c u o c e r e   >    -uocere,ottane
-    c u o c e r e   >    -uocere,ottilo
-    c u o c e r e   >    -uocere,ottila
     c u o c e r e   >    -uocere,ottili
-    c u o c e r e   >    -uocere,ottile
     c u o c e r e   >    -uocere,ottine
-    c u o c e r e   >    -uocere,ottelo
-    c u o c e r e   >    -uocere,ottela
-    c u o c e r e   >    -uocere,otteli
     c u o c e r e   >    -uocere,ottele
     c u o c e r e   >    -uocere,ottene
     c u o c e r e   >    -uocere,ottomi
@@ -8387,19 +8342,10 @@ flag *V:
     a r r e         >    -rre,ttoli
     a r r e         >    -rre,ttole
     a r r e         >    -rre,ttone
-    a r r e         >    -rre,ttalo
     a r r e         >    -rre,ttala
-    a r r e         >    -rre,ttali
-    a r r e         >    -rre,ttale
     a r r e         >    -rre,ttane
-    a r r e         >    -rre,ttilo
-    a r r e         >    -rre,ttila
     a r r e         >    -rre,ttili
-    a r r e         >    -rre,ttile
     a r r e         >    -rre,ttine
-    a r r e         >    -rre,ttelo
-    a r r e         >    -rre,ttela
-    a r r e         >    -rre,tteli
     a r r e         >    -rre,ttele
     a r r e         >    -rre,ttene
     a r r e         >    -rre,ttomi
@@ -8438,19 +8384,10 @@ flag *V:
     [nr] c e r e    >    -cere,toli
     [nr] c e r e    >    -cere,tole
     [nr] c e r e    >    -cere,tone
-    [nr] c e r e    >    -cere,talo
     [nr] c e r e    >    -cere,tala
-    [nr] c e r e    >    -cere,tali
-    [nr] c e r e    >    -cere,tale
     [nr] c e r e    >    -cere,tane
-    [nr] c e r e    >    -cere,tilo
-    [nr] c e r e    >    -cere,tila
     [nr] c e r e    >    -cere,tili
-    [nr] c e r e    >    -cere,tile
     [nr] c e r e    >    -cere,tine
-    [nr] c e r e    >    -cere,telo
-    [nr] c e r e    >    -cere,tela
-    [nr] c e r e    >    -cere,teli
     [nr] c e r e    >    -cere,tele
     [nr] c e r e    >    -cere,tene
     [nr] c e r e    >    -cere,tomi
@@ -8489,19 +8426,10 @@ flag *V:
     u r r e         >    -urre,ottoli
     u r r e         >    -urre,ottole
     u r r e         >    -urre,ottone
-    u r r e         >    -urre,ottalo
     u r r e         >    -urre,ottala
-    u r r e         >    -urre,ottali
-    u r r e         >    -urre,ottale
     u r r e         >    -urre,ottane
-    u r r e         >    -urre,ottilo
-    u r r e         >    -urre,ottila
     u r r e         >    -urre,ottili
-    u r r e         >    -urre,ottile
     u r r e         >    -urre,ottine
-    u r r e         >    -urre,ottelo
-    u r r e         >    -urre,ottela
-    u r r e         >    -urre,otteli
     u r r e         >    -urre,ottele
     u r r e         >    -urre,ottene
     u r r e         >    -urre,ottomi
@@ -8540,19 +8468,10 @@ flag *V:
     g g e r e       >    -ggere,ttoli
     g g e r e       >    -ggere,ttole
     g g e r e       >    -ggere,ttone
-    g g e r e       >    -ggere,ttalo
     g g e r e       >    -ggere,ttala
-    g g e r e       >    -ggere,ttali
-    g g e r e       >    -ggere,ttale
     g g e r e       >    -ggere,ttane
-    g g e r e       >    -ggere,ttilo
-    g g e r e       >    -ggere,ttila
     g g e r e       >    -ggere,ttili
-    g g e r e       >    -ggere,ttile
     g g e r e       >    -ggere,ttine
-    g g e r e       >    -ggere,ttelo
-    g g e r e       >    -ggere,ttela
-    g g e r e       >    -ggere,tteli
     g g e r e       >    -ggere,ttele
     g g e r e       >    -ggere,ttene
     g g e r e       >    -ggere,ttomi
@@ -8591,19 +8510,10 @@ flag *V:
     r e r e         >    -rere,soli
     r e r e         >    -rere,sole
     r e r e         >    -rere,sone
-    r e r e         >    -rere,salo
     r e r e         >    -rere,sala
-    r e r e         >    -rere,sali
-    r e r e         >    -rere,sale
     r e r e         >    -rere,sane
-    r e r e         >    -rere,silo
-    r e r e         >    -rere,sila
     r e r e         >    -rere,sili
-    r e r e         >    -rere,sile
     r e r e         >    -rere,sine
-    r e r e         >    -rere,selo
-    r e r e         >    -rere,sela
-    r e r e         >    -rere,seli
     r e r e         >    -rere,sele
     r e r e         >    -rere,sene
     r e r e         >    -rere,somi
@@ -8642,19 +8552,10 @@ flag *V:
     o r r e         >    -rre,stoli
     o r r e         >    -rre,stole
     o r r e         >    -rre,stone
-    o r r e         >    -rre,stalo
     o r r e         >    -rre,stala
-    o r r e         >    -rre,stali
-    o r r e         >    -rre,stale
     o r r e         >    -rre,stane
-    o r r e         >    -rre,stilo
-    o r r e         >    -rre,stila
     o r r e         >    -rre,stili
-    o r r e         >    -rre,stile
     o r r e         >    -rre,stine
-    o r r e         >    -rre,stelo
-    o r r e         >    -rre,stela
-    o r r e         >    -rre,steli
     o r r e         >    -rre,stele
     o r r e         >    -rre,stene
     o r r e         >    -rre,stomi
@@ -8693,19 +8594,10 @@ flag *V:
     [lnr] g e r e   >    -gere,toli
     [lnr] g e r e   >    -gere,tole
     [lnr] g e r e   >    -gere,tone
-    [lnr] g e r e   >    -gere,talo
     [lnr] g e r e   >    -gere,tala
-    [lnr] g e r e   >    -gere,tali
-    [lnr] g e r e   >    -gere,tale
     [lnr] g e r e   >    -gere,tane
-    [lnr] g e r e   >    -gere,tilo
-    [lnr] g e r e   >    -gere,tila
     [lnr] g e r e   >    -gere,tili
-    [lnr] g e r e   >    -gere,tile
     [lnr] g e r e   >    -gere,tine
-    [lnr] g e r e   >    -gere,telo
-    [lnr] g e r e   >    -gere,tela
-    [lnr] g e r e   >    -gere,teli
     [lnr] g e r e   >    -gere,tele
     [lnr] g e r e   >    -gere,tene
     [lnr] g e r e   >    -gere,tomi
@@ -8744,19 +8636,10 @@ flag *V:
     [^cgr] e r e    >    -ere,utoli
     [^cgr] e r e    >    -ere,utole
     [^cgr] e r e    >    -ere,utone
-    [^cgr] e r e    >    -ere,utalo
     [^cgr] e r e    >    -ere,utala
-    [^cgr] e r e    >    -ere,utali
-    [^cgr] e r e    >    -ere,utale
     [^cgr] e r e    >    -ere,utane
-    [^cgr] e r e    >    -ere,utilo
-    [^cgr] e r e    >    -ere,utila
     [^cgr] e r e    >    -ere,utili
-    [^cgr] e r e    >    -ere,utile
     [^cgr] e r e    >    -ere,utine
-    [^cgr] e r e    >    -ere,utelo
-    [^cgr] e r e    >    -ere,utela
-    [^cgr] e r e    >    -ere,uteli
     [^cgr] e r e    >    -ere,utele
     [^cgr] e r e    >    -ere,utene
     [^cgr] e r e    >    -ere,utomi
@@ -8795,19 +8678,10 @@ flag *V:
     [ai] r e        >    -re,toli
     [ai] r e        >    -re,tole
     [ai] r e        >    -re,tone
-    [ai] r e        >    -re,talo
     [ai] r e        >    -re,tala
-    [ai] r e        >    -re,tali
-    [ai] r e        >    -re,tale
     [ai] r e        >    -re,tane
-    [ai] r e        >    -re,tilo
-    [ai] r e        >    -re,tila
     [ai] r e        >    -re,tili
-    [ai] r e        >    -re,tile
     [ai] r e        >    -re,tine
-    [ai] r e        >    -re,telo
-    [ai] r e        >    -re,tela
-    [ai] r e        >    -re,teli
     [ai] r e        >    -re,tele
     [ai] r e        >    -re,tene
     [ai] r e        >    -re,tomi
@@ -8849,19 +8723,10 @@ flag *W:
     g n e r e       >    -gnere,ntoli
     g n e r e       >    -gnere,ntole
     g n e r e       >    -gnere,ntone
-    g n e r e       >    -gnere,ntalo
     g n e r e       >    -gnere,ntala
-    g n e r e       >    -gnere,ntali
-    g n e r e       >    -gnere,ntale
     g n e r e       >    -gnere,ntane
-    g n e r e       >    -gnere,ntilo
-    g n e r e       >    -gnere,ntila
     g n e r e       >    -gnere,ntili
-    g n e r e       >    -gnere,ntile
     g n e r e       >    -gnere,ntine
-    g n e r e       >    -gnere,ntelo
-    g n e r e       >    -gnere,ntela
-    g n e r e       >    -gnere,nteli
     g n e r e       >    -gnere,ntele
     g n e r e       >    -gnere,ntene
     g n e r e       >    -gnere,ntomi
@@ -8900,19 +8765,10 @@ flag *W:
     d i m e r e     >    -imere,entoli
     d i m e r e     >    -imere,entole
     d i m e r e     >    -imere,entone
-    d i m e r e     >    -imere,entalo
     d i m e r e     >    -imere,entala
-    d i m e r e     >    -imere,entali
-    d i m e r e     >    -imere,entale
     d i m e r e     >    -imere,entane
-    d i m e r e     >    -imere,entilo
-    d i m e r e     >    -imere,entila
     d i m e r e     >    -imere,entili
-    d i m e r e     >    -imere,entile
     d i m e r e     >    -imere,entine
-    d i m e r e     >    -imere,entelo
-    d i m e r e     >    -imere,entela
-    d i m e r e     >    -imere,enteli
     d i m e r e     >    -imere,entele
     d i m e r e     >    -imere,entene
     d i m e r e     >    -imere,entomi
@@ -8951,19 +8807,10 @@ flag *W:
     e s s e r e     >    -essere,statoli
     e s s e r e     >    -essere,statole
     e s s e r e     >    -essere,statone
-    e s s e r e     >    -essere,statalo
     e s s e r e     >    -essere,statala
-    e s s e r e     >    -essere,statali
-    e s s e r e     >    -essere,statale
     e s s e r e     >    -essere,statane
-    e s s e r e     >    -essere,statilo
-    e s s e r e     >    -essere,statila
     e s s e r e     >    -essere,statili
-    e s s e r e     >    -essere,statile
     e s s e r e     >    -essere,statine
-    e s s e r e     >    -essere,statelo
-    e s s e r e     >    -essere,statela
-    e s s e r e     >    -essere,stateli
     e s s e r e     >    -essere,statele
     e s s e r e     >    -essere,statene
     e s s e r e     >    -essere,statomi
@@ -9002,19 +8849,10 @@ flag *W:
     b e r e         >    -re,vutoli
     b e r e         >    -re,vutole
     b e r e         >    -re,vutone
-    b e r e         >    -re,vutalo
     b e r e         >    -re,vutala
-    b e r e         >    -re,vutali
-    b e r e         >    -re,vutale
     b e r e         >    -re,vutane
-    b e r e         >    -re,vutilo
-    b e r e         >    -re,vutila
     b e r e         >    -re,vutili
-    b e r e         >    -re,vutile
     b e r e         >    -re,vutine
-    b e r e         >    -re,vutelo
-    b e r e         >    -re,vutela
-    b e r e         >    -re,vuteli
     b e r e         >    -re,vutele
     b e r e         >    -re,vutene
     b e r e         >    -re,vutomi
@@ -9053,19 +8891,10 @@ flag *W:
     a n e r e       >    -nere,stoli
     a n e r e       >    -nere,stole
     a n e r e       >    -nere,stone
-    a n e r e       >    -nere,stalo
     a n e r e       >    -nere,stala
-    a n e r e       >    -nere,stali
-    a n e r e       >    -nere,stale
     a n e r e       >    -nere,stane
-    a n e r e       >    -nere,stilo
-    a n e r e       >    -nere,stila
     a n e r e       >    -nere,stili
-    a n e r e       >    -nere,stile
     a n e r e       >    -nere,stine
-    a n e r e       >    -nere,stelo
-    a n e r e       >    -nere,stela
-    a n e r e       >    -nere,steli
     a n e r e       >    -nere,stele
     a n e r e       >    -nere,stene
     a n e r e       >    -nere,stomi
@@ -9104,19 +8933,10 @@ flag *W:
     p e l l i r e   >    -pellire,oltoli
     p e l l i r e   >    -pellire,oltole
     p e l l i r e   >    -pellire,oltone
-    p e l l i r e   >    -pellire,oltalo
     p e l l i r e   >    -pellire,oltala
-    p e l l i r e   >    -pellire,oltali
-    p e l l i r e   >    -pellire,oltale
     p e l l i r e   >    -pellire,oltane
-    p e l l i r e   >    -pellire,oltilo
-    p e l l i r e   >    -pellire,oltila
     p e l l i r e   >    -pellire,oltili
-    p e l l i r e   >    -pellire,oltile
     p e l l i r e   >    -pellire,oltine
-    p e l l i r e   >    -pellire,oltelo
-    p e l l i r e   >    -pellire,oltela
-    p e l l i r e   >    -pellire,olteli
     p e l l i r e   >    -pellire,oltele
     p e l l i r e   >    -pellire,oltene
     p e l l i r e   >    -pellire,oltomi
@@ -9155,19 +8975,10 @@ flag *W:
     v o l v e r e   >    -vere,utoli
     v o l v e r e   >    -vere,utole
     v o l v e r e   >    -vere,utone
-    v o l v e r e   >    -vere,utalo
     v o l v e r e   >    -vere,utala
-    v o l v e r e   >    -vere,utali
-    v o l v e r e   >    -vere,utale
     v o l v e r e   >    -vere,utane
-    v o l v e r e   >    -vere,utilo
-    v o l v e r e   >    -vere,utila
     v o l v e r e   >    -vere,utili
-    v o l v e r e   >    -vere,utile
     v o l v e r e   >    -vere,utine
-    v o l v e r e   >    -vere,utelo
-    v o l v e r e   >    -vere,utela
-    v o l v e r e   >    -vere,uteli
     v o l v e r e   >    -vere,utele
     v o l v e r e   >    -vere,utene
     v o l v e r e   >    -vere,utomi
@@ -9206,19 +9017,10 @@ flag *W:
     u t e r e       >    -tere,ssoli
     u t e r e       >    -tere,ssole
     u t e r e       >    -tere,ssone
-    u t e r e       >    -tere,ssalo
     u t e r e       >    -tere,ssala
-    u t e r e       >    -tere,ssali
-    u t e r e       >    -tere,ssale
     u t e r e       >    -tere,ssane
-    u t e r e       >    -tere,ssilo
-    u t e r e       >    -tere,ssila
     u t e r e       >    -tere,ssili
-    u t e r e       >    -tere,ssile
     u t e r e       >    -tere,ssine
-    u t e r e       >    -tere,sselo
-    u t e r e       >    -tere,ssela
-    u t e r e       >    -tere,sseli
     u t e r e       >    -tere,ssele
     u t e r e       >    -tere,ssene
     u t e r e       >    -tere,ssomi
@@ -9257,19 +9059,10 @@ flag *W:
     [eo] r i r e    >    -ire,toli
     [eo] r i r e    >    -ire,tole
     [eo] r i r e    >    -ire,tone
-    [eo] r i r e    >    -ire,talo
     [eo] r i r e    >    -ire,tala
-    [eo] r i r e    >    -ire,tali
-    [eo] r i r e    >    -ire,tale
     [eo] r i r e    >    -ire,tane
-    [eo] r i r e    >    -ire,tilo
-    [eo] r i r e    >    -ire,tila
     [eo] r i r e    >    -ire,tili
-    [eo] r i r e    >    -ire,tile
     [eo] r i r e    >    -ire,tine
-    [eo] r i r e    >    -ire,telo
-    [eo] r i r e    >    -ire,tela
-    [eo] r i r e    >    -ire,teli
     [eo] r i r e    >    -ire,tele
     [eo] r i r e    >    -ire,tene
     [eo] r i r e    >    -ire,tomi
@@ -9308,19 +9101,10 @@ flag *W:
     s o l v e r e   >    -vere,toli
     s o l v e r e   >    -vere,tole
     s o l v e r e   >    -vere,tone
-    s o l v e r e   >    -vere,talo
     s o l v e r e   >    -vere,tala
-    s o l v e r e   >    -vere,tali
-    s o l v e r e   >    -vere,tale
     s o l v e r e   >    -vere,tane
-    s o l v e r e   >    -vere,tilo
-    s o l v e r e   >    -vere,tila
     s o l v e r e   >    -vere,tili
-    s o l v e r e   >    -vere,tile
     s o l v e r e   >    -vere,tine
-    s o l v e r e   >    -vere,telo
-    s o l v e r e   >    -vere,tela
-    s o l v e r e   >    -vere,teli
     s o l v e r e   >    -vere,tele
     s o l v e r e   >    -vere,tene
     s o l v e r e   >    -vere,tomi
@@ -9359,19 +9143,10 @@ flag *W:
     u m e r e       >    -mere,ntoli
     u m e r e       >    -mere,ntole
     u m e r e       >    -mere,ntone
-    u m e r e       >    -mere,ntalo
     u m e r e       >    -mere,ntala
-    u m e r e       >    -mere,ntali
-    u m e r e       >    -mere,ntale
     u m e r e       >    -mere,ntane
-    u m e r e       >    -mere,ntilo
-    u m e r e       >    -mere,ntila
     u m e r e       >    -mere,ntili
-    u m e r e       >    -mere,ntile
     u m e r e       >    -mere,ntine
-    u m e r e       >    -mere,ntelo
-    u m e r e       >    -mere,ntela
-    u m e r e       >    -mere,nteli
     u m e r e       >    -mere,ntele
     u m e r e       >    -mere,ntene
     u m e r e       >    -mere,ntomi
@@ -9410,19 +9185,10 @@ flag *W:
     u o t e r e     >    -uotere,ossoli
     u o t e r e     >    -uotere,ossole
     u o t e r e     >    -uotere,ossone
-    u o t e r e     >    -uotere,ossalo
     u o t e r e     >    -uotere,ossala
-    u o t e r e     >    -uotere,ossali
-    u o t e r e     >    -uotere,ossale
     u o t e r e     >    -uotere,ossane
-    u o t e r e     >    -uotere,ossilo
-    u o t e r e     >    -uotere,ossila
     u o t e r e     >    -uotere,ossili
-    u o t e r e     >    -uotere,ossile
     u o t e r e     >    -uotere,ossine
-    u o t e r e     >    -uotere,osselo
-    u o t e r e     >    -uotere,ossela
-    u o t e r e     >    -uotere,osseli
     u o t e r e     >    -uotere,ossele
     u o t e r e     >    -uotere,ossene
     u o t e r e     >    -uotere,ossomi
@@ -9461,19 +9227,10 @@ flag *W:
     g u e r e       >    -guere,toli
     g u e r e       >    -guere,tole
     g u e r e       >    -guere,tone
-    g u e r e       >    -guere,talo
     g u e r e       >    -guere,tala
-    g u e r e       >    -guere,tali
-    g u e r e       >    -guere,tale
     g u e r e       >    -guere,tane
-    g u e r e       >    -guere,tilo
-    g u e r e       >    -guere,tila
     g u e r e       >    -guere,tili
-    g u e r e       >    -guere,tile
     g u e r e       >    -guere,tine
-    g u e r e       >    -guere,telo
-    g u e r e       >    -guere,tela
-    g u e r e       >    -guere,teli
     g u e r e       >    -guere,tele
     g u e r e       >    -guere,tene
     g u e r e       >    -guere,tomi
@@ -9512,19 +9269,10 @@ flag *W:
     a r i r e       >    -ire,soli
     a r i r e       >    -ire,sole
     a r i r e       >    -ire,sone
-    a r i r e       >    -ire,salo
     a r i r e       >    -ire,sala
-    a r i r e       >    -ire,sali
-    a r i r e       >    -ire,sale
     a r i r e       >    -ire,sane
-    a r i r e       >    -ire,silo
-    a r i r e       >    -ire,sila
     a r i r e       >    -ire,sili
-    a r i r e       >    -ire,sile
     a r i r e       >    -ire,sine
-    a r i r e       >    -ire,selo
-    a r i r e       >    -ire,sela
-    a r i r e       >    -ire,seli
     a r i r e       >    -ire,sele
     a r i r e       >    -ire,sene
     a r i r e       >    -ire,somi
@@ -9563,19 +9311,10 @@ flag *W:
     v i v e r e     >    -vere,ssutoli
     v i v e r e     >    -vere,ssutole
     v i v e r e     >    -vere,ssutone
-    v i v e r e     >    -vere,ssutalo
     v i v e r e     >    -vere,ssutala
-    v i v e r e     >    -vere,ssutali
-    v i v e r e     >    -vere,ssutale
     v i v e r e     >    -vere,ssutane
-    v i v e r e     >    -vere,ssutilo
-    v i v e r e     >    -vere,ssutila
     v i v e r e     >    -vere,ssutili
-    v i v e r e     >    -vere,ssutile
     v i v e r e     >    -vere,ssutine
-    v i v e r e     >    -vere,ssutelo
-    v i v e r e     >    -vere,ssutela
-    v i v e r e     >    -vere,ssuteli
     v i v e r e     >    -vere,ssutele
     v i v e r e     >    -vere,ssutene
     v i v e r e     >    -vere,ssutomi
@@ -9614,19 +9353,10 @@ flag *W:
     u o v e r e     >    -uovere,ossoli
     u o v e r e     >    -uovere,ossole
     u o v e r e     >    -uovere,ossone
-    u o v e r e     >    -uovere,ossalo
     u o v e r e     >    -uovere,ossala
-    u o v e r e     >    -uovere,ossali
-    u o v e r e     >    -uovere,ossale
     u o v e r e     >    -uovere,ossane
-    u o v e r e     >    -uovere,ossilo
-    u o v e r e     >    -uovere,ossila
     u o v e r e     >    -uovere,ossili
-    u o v e r e     >    -uovere,ossile
     u o v e r e     >    -uovere,ossine
-    u o v e r e     >    -uovere,osselo
-    u o v e r e     >    -uovere,ossela
-    u o v e r e     >    -uovere,osseli
     u o v e r e     >    -uovere,ossele
     u o v e r e     >    -uovere,ossene
     u o v e r e     >    -uovere,ossomi
@@ -9665,19 +9395,10 @@ flag *W:
     [lr] e r e      >    -ere,soli
     [lr] e r e      >    -ere,sole
     [lr] e r e      >    -ere,sone
-    [lr] e r e      >    -ere,salo
     [lr] e r e      >    -ere,sala
-    [lr] e r e      >    -ere,sali
-    [lr] e r e      >    -ere,sale
     [lr] e r e      >    -ere,sane
-    [lr] e r e      >    -ere,silo
-    [lr] e r e      >    -ere,sila
     [lr] e r e      >    -ere,sili
-    [lr] e r e      >    -ere,sile
     [lr] e r e      >    -ere,sine
-    [lr] e r e      >    -ere,selo
-    [lr] e r e      >    -ere,sela
-    [lr] e r e      >    -ere,seli
     [lr] e r e      >    -ere,sele
     [lr] e r e      >    -ere,sene
     [lr] e r e      >    -ere,somi
@@ -9716,19 +9437,10 @@ flag *W:
     m p e r e       >    -mpere,ttoli
     m p e r e       >    -mpere,ttole
     m p e r e       >    -mpere,ttone
-    m p e r e       >    -mpere,ttalo
     m p e r e       >    -mpere,ttala
-    m p e r e       >    -mpere,ttali
-    m p e r e       >    -mpere,ttale
     m p e r e       >    -mpere,ttane
-    m p e r e       >    -mpere,ttilo
-    m p e r e       >    -mpere,ttila
     m p e r e       >    -mpere,ttili
-    m p e r e       >    -mpere,ttile
     m p e r e       >    -mpere,ttine
-    m p e r e       >    -mpere,ttelo
-    m p e r e       >    -mpere,ttela
-    m p e r e       >    -mpere,tteli
     m p e r e       >    -mpere,ttele
     m p e r e       >    -mpere,ttene
     m p e r e       >    -mpere,ttomi
@@ -9767,19 +9479,10 @@ flag *W:
     [fp] r i r e    >    -rire,ertoli
     [fp] r i r e    >    -rire,ertole
     [fp] r i r e    >    -rire,ertone
-    [fp] r i r e    >    -rire,ertalo
     [fp] r i r e    >    -rire,ertala
-    [fp] r i r e    >    -rire,ertali
-    [fp] r i r e    >    -rire,ertale
     [fp] r i r e    >    -rire,ertane
-    [fp] r i r e    >    -rire,ertilo
-    [fp] r i r e    >    -rire,ertila
     [fp] r i r e    >    -rire,ertili
-    [fp] r i r e    >    -rire,ertile
     [fp] r i r e    >    -rire,ertine
-    [fp] r i r e    >    -rire,ertelo
-    [fp] r i r e    >    -rire,ertela
-    [fp] r i r e    >    -rire,erteli
     [fp] r i r e    >    -rire,ertele
     [fp] r i r e    >    -rire,ertene
     [fp] r i r e    >    -rire,ertomi
@@ -9818,19 +9521,10 @@ flag *W:
     r i m e r e     >    -imere,essoli
     r i m e r e     >    -imere,essole
     r i m e r e     >    -imere,essone
-    r i m e r e     >    -imere,essalo
     r i m e r e     >    -imere,essala
-    r i m e r e     >    -imere,essali
-    r i m e r e     >    -imere,essale
     r i m e r e     >    -imere,essane
-    r i m e r e     >    -imere,essilo
-    r i m e r e     >    -imere,essila
     r i m e r e     >    -imere,essili
-    r i m e r e     >    -imere,essile
     r i m e r e     >    -imere,essine
-    r i m e r e     >    -imere,esselo
-    r i m e r e     >    -imere,essela
-    r i m e r e     >    -imere,esseli
     r i m e r e     >    -imere,essele
     r i m e r e     >    -imere,essene
     r i m e r e     >    -imere,essomi
@@ -9869,19 +9563,10 @@ flag *W:
     d i r e         >    -ire,ettoli
     d i r e         >    -ire,ettole
     d i r e         >    -ire,ettone
-    d i r e         >    -ire,ettalo
     d i r e         >    -ire,ettala
-    d i r e         >    -ire,ettali
-    d i r e         >    -ire,ettale
     d i r e         >    -ire,ettane
-    d i r e         >    -ire,ettilo
-    d i r e         >    -ire,ettila
     d i r e         >    -ire,ettili
-    d i r e         >    -ire,ettile
     d i r e         >    -ire,ettine
-    d i r e         >    -ire,ettelo
-    d i r e         >    -ire,ettela
-    d i r e         >    -ire,etteli
     d i r e         >    -ire,ettele
     d i r e         >    -ire,ettene
     d i r e         >    -ire,ettomi
@@ -9920,19 +9605,10 @@ flag *W:
     [rs] t e r e    >    -ere,itoli
     [rs] t e r e    >    -ere,itole
     [rs] t e r e    >    -ere,itone
-    [rs] t e r e    >    -ere,italo
     [rs] t e r e    >    -ere,itala
-    [rs] t e r e    >    -ere,itali
-    [rs] t e r e    >    -ere,itale
     [rs] t e r e    >    -ere,itane
-    [rs] t e r e    >    -ere,itilo
-    [rs] t e r e    >    -ere,itila
     [rs] t e r e    >    -ere,itili
-    [rs] t e r e    >    -ere,itile
     [rs] t e r e    >    -ere,itine
-    [rs] t e r e    >    -ere,itelo
-    [rs] t e r e    >    -ere,itela
-    [rs] t e r e    >    -ere,iteli
     [rs] t e r e    >    -ere,itele
     [rs] t e r e    >    -ere,itene
     [rs] t e r e    >    -ere,itomi
@@ -9971,19 +9647,10 @@ flag *W:
     r i v e r e     >    -vere,ttoli
     r i v e r e     >    -vere,ttole
     r i v e r e     >    -vere,ttone
-    r i v e r e     >    -vere,ttalo
     r i v e r e     >    -vere,ttala
-    r i v e r e     >    -vere,ttali
-    r i v e r e     >    -vere,ttale
     r i v e r e     >    -vere,ttane
-    r i v e r e     >    -vere,ttilo
-    r i v e r e     >    -vere,ttila
     r i v e r e     >    -vere,ttili
-    r i v e r e     >    -vere,ttile
     r i v e r e     >    -vere,ttine
-    r i v e r e     >    -vere,ttelo
-    r i v e r e     >    -vere,ttela
-    r i v e r e     >    -vere,tteli
     r i v e r e     >    -vere,ttele
     r i v e r e     >    -vere,ttene
     r i v e r e     >    -vere,ttomi
@@ -10022,19 +9689,10 @@ flag *W:
     a r e           >    -re,ttoli
     a r e           >    -re,ttole
     a r e           >    -re,ttone
-    a r e           >    -re,ttalo
     a r e           >    -re,ttala
-    a r e           >    -re,ttali
-    a r e           >    -re,ttale
     a r e           >    -re,ttane
-    a r e           >    -re,ttilo
-    a r e           >    -re,ttila
     a r e           >    -re,ttili
-    a r e           >    -re,ttile
     a r e           >    -re,ttine
-    a r e           >    -re,ttelo
-    a r e           >    -re,ttela
-    a r e           >    -re,tteli
     a r e           >    -re,ttele
     a r e           >    -re,ttene
     a r e           >    -re,ttomi
@@ -10073,19 +9731,10 @@ flag *W:
     g l i e r e     >    -gliere,ltoli
     g l i e r e     >    -gliere,ltole
     g l i e r e     >    -gliere,ltone
-    g l i e r e     >    -gliere,ltalo
     g l i e r e     >    -gliere,ltala
-    g l i e r e     >    -gliere,ltali
-    g l i e r e     >    -gliere,ltale
     g l i e r e     >    -gliere,ltane
-    g l i e r e     >    -gliere,ltilo
-    g l i e r e     >    -gliere,ltila
     g l i e r e     >    -gliere,ltili
-    g l i e r e     >    -gliere,ltile
     g l i e r e     >    -gliere,ltine
-    g l i e r e     >    -gliere,ltelo
-    g l i e r e     >    -gliere,ltela
-    g l i e r e     >    -gliere,lteli
     g l i e r e     >    -gliere,ltele
     g l i e r e     >    -gliere,ltene
     g l i e r e     >    -gliere,ltomi
@@ -10124,19 +9773,10 @@ flag *W:
     n i r e         >    -ire,utoli
     n i r e         >    -ire,utole
     n i r e         >    -ire,utone
-    n i r e         >    -ire,utalo
     n i r e         >    -ire,utala
-    n i r e         >    -ire,utali
-    n i r e         >    -ire,utale
     n i r e         >    -ire,utane
-    n i r e         >    -ire,utilo
-    n i r e         >    -ire,utila
     n i r e         >    -ire,utili
-    n i r e         >    -ire,utile
     n i r e         >    -ire,utine
-    n i r e         >    -ire,utelo
-    n i r e         >    -ire,utela
-    n i r e         >    -ire,uteli
     n i r e         >    -ire,utele
     n i r e         >    -ire,utene
     n i r e         >    -ire,utomi
@@ -10175,19 +9815,10 @@ flag *W:
     t t e r e       >    -ttere,ssoli
     t t e r e       >    -ttere,ssole
     t t e r e       >    -ttere,ssone
-    t t e r e       >    -ttere,ssalo
     t t e r e       >    -ttere,ssala
-    t t e r e       >    -ttere,ssali
-    t t e r e       >    -ttere,ssale
     t t e r e       >    -ttere,ssane
-    t t e r e       >    -ttere,ssilo
-    t t e r e       >    -ttere,ssila
     t t e r e       >    -ttere,ssili
-    t t e r e       >    -ttere,ssile
     t t e r e       >    -ttere,ssine
-    t t e r e       >    -ttere,sselo
-    t t e r e       >    -ttere,ssela
-    t t e r e       >    -ttere,sseli
     t t e r e       >    -ttere,ssele
     t t e r e       >    -ttere,ssene
     t t e r e       >    -ttere,ssomi
@@ -10226,19 +9857,10 @@ flag *W:
     [cg] e r e      >    -ere,iutoli
     [cg] e r e      >    -ere,iutole
     [cg] e r e      >    -ere,iutone
-    [cg] e r e      >    -ere,iutalo
     [cg] e r e      >    -ere,iutala
-    [cg] e r e      >    -ere,iutali
-    [cg] e r e      >    -ere,iutale
     [cg] e r e      >    -ere,iutane
-    [cg] e r e      >    -ere,iutilo
-    [cg] e r e      >    -ere,iutila
     [cg] e r e      >    -ere,iutili
-    [cg] e r e      >    -ere,iutile
     [cg] e r e      >    -ere,iutine
-    [cg] e r e      >    -ere,iutelo
-    [cg] e r e      >    -ere,iutela
-    [cg] e r e      >    -ere,iuteli
     [cg] e r e      >    -ere,iutele
     [cg] e r e      >    -ere,iutene
     [cg] e r e      >    -ere,iutomi
@@ -10277,19 +9899,10 @@ flag *W:
     d e r e         >    -dere,soli
     d e r e         >    -dere,sole
     d e r e         >    -dere,sone
-    d e r e         >    -dere,salo
     d e r e         >    -dere,sala
-    d e r e         >    -dere,sali
-    d e r e         >    -dere,sale
     d e r e         >    -dere,sane
-    d e r e         >    -dere,silo
-    d e r e         >    -dere,sila
     d e r e         >    -dere,sili
-    d e r e         >    -dere,sile
     d e r e         >    -dere,sine
-    d e r e         >    -dere,selo
-    d e r e         >    -dere,sela
-    d e r e         >    -dere,seli
     d e r e         >    -dere,sele
     d e r e         >    -dere,sene
     d e r e         >    -dere,somi
@@ -10331,19 +9944,10 @@ flag *X:
     c e l l e r e   >    -lere,soli
     c e l l e r e   >    -lere,sole
     c e l l e r e   >    -lere,sone
-    c e l l e r e   >    -lere,salo
     c e l l e r e   >    -lere,sala
-    c e l l e r e   >    -lere,sali
-    c e l l e r e   >    -lere,sale
     c e l l e r e   >    -lere,sane
-    c e l l e r e   >    -lere,silo
-    c e l l e r e   >    -lere,sila
     c e l l e r e   >    -lere,sili
-    c e l l e r e   >    -lere,sile
     c e l l e r e   >    -lere,sine
-    c e l l e r e   >    -lere,selo
-    c e l l e r e   >    -lere,sela
-    c e l l e r e   >    -lere,seli
     c e l l e r e   >    -lere,sele
     c e l l e r e   >    -lere,sene
     c e l l e r e   >    -lere,somi
@@ -10382,19 +9986,10 @@ flag *X:
     u d e r e       >    -dere,ritoli
     u d e r e       >    -dere,ritole
     u d e r e       >    -dere,ritone
-    u d e r e       >    -dere,ritalo
     u d e r e       >    -dere,ritala
-    u d e r e       >    -dere,ritali
-    u d e r e       >    -dere,ritale
     u d e r e       >    -dere,ritane
-    u d e r e       >    -dere,ritilo
-    u d e r e       >    -dere,ritila
     u d e r e       >    -dere,ritili
-    u d e r e       >    -dere,ritile
     u d e r e       >    -dere,ritine
-    u d e r e       >    -dere,ritelo
-    u d e r e       >    -dere,ritela
-    u d e r e       >    -dere,riteli
     u d e r e       >    -dere,ritele
     u d e r e       >    -dere,ritene
     u d e r e       >    -dere,ritomi
@@ -10433,19 +10028,10 @@ flag *X:
     a n g e r e     >    -ngere,ttoli
     a n g e r e     >    -ngere,ttole
     a n g e r e     >    -ngere,ttone
-    a n g e r e     >    -ngere,ttalo
     a n g e r e     >    -ngere,ttala
-    a n g e r e     >    -ngere,ttali
-    a n g e r e     >    -ngere,ttale
     a n g e r e     >    -ngere,ttane
-    a n g e r e     >    -ngere,ttilo
-    a n g e r e     >    -ngere,ttila
     a n g e r e     >    -ngere,ttili
-    a n g e r e     >    -ngere,ttile
     a n g e r e     >    -ngere,ttine
-    a n g e r e     >    -ngere,ttelo
-    a n g e r e     >    -ngere,ttela
-    a n g e r e     >    -ngere,tteli
     a n g e r e     >    -ngere,ttele
     a n g e r e     >    -ngere,ttene
     a n g e r e     >    -ngere,ttomi
@@ -10484,19 +10070,10 @@ flag *X:
     v e l l e r e   >    -lere,toli
     v e l l e r e   >    -lere,tole
     v e l l e r e   >    -lere,tone
-    v e l l e r e   >    -lere,talo
     v e l l e r e   >    -lere,tala
-    v e l l e r e   >    -lere,tali
-    v e l l e r e   >    -lere,tale
     v e l l e r e   >    -lere,tane
-    v e l l e r e   >    -lere,tilo
-    v e l l e r e   >    -lere,tila
     v e l l e r e   >    -lere,tili
-    v e l l e r e   >    -lere,tile
     v e l l e r e   >    -lere,tine
-    v e l l e r e   >    -lere,telo
-    v e l l e r e   >    -lere,tela
-    v e l l e r e   >    -lere,teli
     v e l l e r e   >    -lere,tele
     v e l l e r e   >    -lere,tene
     v e l l e r e   >    -lere,tomi
@@ -10535,19 +10112,10 @@ flag *X:
     i e d e r e     >    -dere,stoli
     i e d e r e     >    -dere,stole
     i e d e r e     >    -dere,stone
-    i e d e r e     >    -dere,stalo
     i e d e r e     >    -dere,stala
-    i e d e r e     >    -dere,stali
-    i e d e r e     >    -dere,stale
     i e d e r e     >    -dere,stane
-    i e d e r e     >    -dere,stilo
-    i e d e r e     >    -dere,stila
     i e d e r e     >    -dere,stili
-    i e d e r e     >    -dere,stile
     i e d e r e     >    -dere,stine
-    i e d e r e     >    -dere,stelo
-    i e d e r e     >    -dere,stela
-    i e d e r e     >    -dere,steli
     i e d e r e     >    -dere,stele
     i e d e r e     >    -dere,stene
     i e d e r e     >    -dere,stomi
@@ -10586,19 +10154,10 @@ flag *X:
     [cp] o n d e r e  >    -ndere,stoli
     [cp] o n d e r e  >    -ndere,stole
     [cp] o n d e r e  >    -ndere,stone
-    [cp] o n d e r e  >    -ndere,stalo
     [cp] o n d e r e  >    -ndere,stala
-    [cp] o n d e r e  >    -ndere,stali
-    [cp] o n d e r e  >    -ndere,stale
     [cp] o n d e r e  >    -ndere,stane
-    [cp] o n d e r e  >    -ndere,stilo
-    [cp] o n d e r e  >    -ndere,stila
     [cp] o n d e r e  >    -ndere,stili
-    [cp] o n d e r e  >    -ndere,stile
     [cp] o n d e r e  >    -ndere,stine
-    [cp] o n d e r e  >    -ndere,stelo
-    [cp] o n d e r e  >    -ndere,stela
-    [cp] o n d e r e  >    -ndere,steli
     [cp] o n d e r e  >    -ndere,stele
     [cp] o n d e r e  >    -ndere,stene
     [cp] o n d e r e  >    -ndere,stomi
@@ -10637,19 +10196,10 @@ flag *X:
     p e l l e r e   >    -ellere,ulsoli
     p e l l e r e   >    -ellere,ulsole
     p e l l e r e   >    -ellere,ulsone
-    p e l l e r e   >    -ellere,ulsalo
     p e l l e r e   >    -ellere,ulsala
-    p e l l e r e   >    -ellere,ulsali
-    p e l l e r e   >    -ellere,ulsale
     p e l l e r e   >    -ellere,ulsane
-    p e l l e r e   >    -ellere,ulsilo
-    p e l l e r e   >    -ellere,ulsila
     p e l l e r e   >    -ellere,ulsili
-    p e l l e r e   >    -ellere,ulsile
     p e l l e r e   >    -ellere,ulsine
-    p e l l e r e   >    -ellere,ulselo
-    p e l l e r e   >    -ellere,ulsela
-    p e l l e r e   >    -ellere,ulseli
     p e l l e r e   >    -ellere,ulsele
     p e l l e r e   >    -ellere,ulsene
     p e l l e r e   >    -ellere,ulsomi
@@ -10688,19 +10238,10 @@ flag *X:
     c e d e r e     >    -dere,ssoli
     c e d e r e     >    -dere,ssole
     c e d e r e     >    -dere,ssone
-    c e d e r e     >    -dere,ssalo
     c e d e r e     >    -dere,ssala
-    c e d e r e     >    -dere,ssali
-    c e d e r e     >    -dere,ssale
     c e d e r e     >    -dere,ssane
-    c e d e r e     >    -dere,ssilo
-    c e d e r e     >    -dere,ssila
     c e d e r e     >    -dere,ssili
-    c e d e r e     >    -dere,ssile
     c e d e r e     >    -dere,ssine
-    c e d e r e     >    -dere,sselo
-    c e d e r e     >    -dere,ssela
-    c e d e r e     >    -dere,sseli
     c e d e r e     >    -dere,ssele
     c e d e r e     >    -dere,ssene
     c e d e r e     >    -dere,ssomi
@@ -10739,19 +10280,10 @@ flag *X:
     i n d e r e     >    -ndere,ssoli
     i n d e r e     >    -ndere,ssole
     i n d e r e     >    -ndere,ssone
-    i n d e r e     >    -ndere,ssalo
     i n d e r e     >    -ndere,ssala
-    i n d e r e     >    -ndere,ssali
-    i n d e r e     >    -ndere,ssale
     i n d e r e     >    -ndere,ssane
-    i n d e r e     >    -ndere,ssilo
-    i n d e r e     >    -ndere,ssila
     i n d e r e     >    -ndere,ssili
-    i n d e r e     >    -ndere,ssile
     i n d e r e     >    -ndere,ssine
-    i n d e r e     >    -ndere,sselo
-    i n d e r e     >    -ndere,ssela
-    i n d e r e     >    -ndere,sseli
     i n d e r e     >    -ndere,ssele
     i n d e r e     >    -ndere,ssene
     i n d e r e     >    -ndere,ssomi
@@ -10790,19 +10322,10 @@ flag *X:
     v e d e r e     >    -edere,istoli
     v e d e r e     >    -edere,istole
     v e d e r e     >    -edere,istone
-    v e d e r e     >    -edere,istalo
     v e d e r e     >    -edere,istala
-    v e d e r e     >    -edere,istali
-    v e d e r e     >    -edere,istale
     v e d e r e     >    -edere,istane
-    v e d e r e     >    -edere,istilo
-    v e d e r e     >    -edere,istila
     v e d e r e     >    -edere,istili
-    v e d e r e     >    -edere,istile
     v e d e r e     >    -edere,istine
-    v e d e r e     >    -edere,istelo
-    v e d e r e     >    -edere,istela
-    v e d e r e     >    -edere,isteli
     v e d e r e     >    -edere,istele
     v e d e r e     >    -edere,istene
     v e d e r e     >    -edere,istomi
@@ -10841,19 +10364,10 @@ flag *X:
     i n g e r e     >    -ingere,ettoli
     i n g e r e     >    -ingere,ettole
     i n g e r e     >    -ingere,ettone
-    i n g e r e     >    -ingere,ettalo
     i n g e r e     >    -ingere,ettala
-    i n g e r e     >    -ingere,ettali
-    i n g e r e     >    -ingere,ettale
     i n g e r e     >    -ingere,ettane
-    i n g e r e     >    -ingere,ettilo
-    i n g e r e     >    -ingere,ettila
     i n g e r e     >    -ingere,ettili
-    i n g e r e     >    -ingere,ettile
     i n g e r e     >    -ingere,ettine
-    i n g e r e     >    -ingere,ettelo
-    i n g e r e     >    -ingere,ettela
-    i n g e r e     >    -ingere,etteli
     i n g e r e     >    -ingere,ettele
     i n g e r e     >    -ingere,ettene
     i n g e r e     >    -ingere,ettomi
@@ -10892,19 +10406,10 @@ flag *X:
     g g e r e       >    -ggere,ssoli
     g g e r e       >    -ggere,ssole
     g g e r e       >    -ggere,ssone
-    g g e r e       >    -ggere,ssalo
     g g e r e       >    -ggere,ssala
-    g g e r e       >    -ggere,ssali
-    g g e r e       >    -ggere,ssale
     g g e r e       >    -ggere,ssane
-    g g e r e       >    -ggere,ssilo
-    g g e r e       >    -ggere,ssila
     g g e r e       >    -ggere,ssili
-    g g e r e       >    -ggere,ssile
     g g e r e       >    -ggere,ssine
-    g g e r e       >    -ggere,sselo
-    g g e r e       >    -ggere,ssela
-    g g e r e       >    -ggere,sseli
     g g e r e       >    -ggere,ssele
     g g e r e       >    -ggere,ssene
     g g e r e       >    -ggere,ssomi
@@ -10943,19 +10448,10 @@ flag *X:
     r g e r e       >    -gere,soli
     r g e r e       >    -gere,sole
     r g e r e       >    -gere,sone
-    r g e r e       >    -gere,salo
     r g e r e       >    -gere,sala
-    r g e r e       >    -gere,sali
-    r g e r e       >    -gere,sale
     r g e r e       >    -gere,sane
-    r g e r e       >    -gere,silo
-    r g e r e       >    -gere,sila
     r g e r e       >    -gere,sili
-    r g e r e       >    -gere,sile
     r g e r e       >    -gere,sine
-    r g e r e       >    -gere,selo
-    r g e r e       >    -gere,sela
-    r g e r e       >    -gere,seli
     r g e r e       >    -gere,sele
     r g e r e       >    -gere,sene
     r g e r e       >    -gere,somi
@@ -10994,19 +10490,10 @@ flag *X:
     f o n d e r e   >    -ondere,usoli
     f o n d e r e   >    -ondere,usole
     f o n d e r e   >    -ondere,usone
-    f o n d e r e   >    -ondere,usalo
     f o n d e r e   >    -ondere,usala
-    f o n d e r e   >    -ondere,usali
-    f o n d e r e   >    -ondere,usale
     f o n d e r e   >    -ondere,usane
-    f o n d e r e   >    -ondere,usilo
-    f o n d e r e   >    -ondere,usila
     f o n d e r e   >    -ondere,usili
-    f o n d e r e   >    -ondere,usile
     f o n d e r e   >    -ondere,usine
-    f o n d e r e   >    -ondere,uselo
-    f o n d e r e   >    -ondere,usela
-    f o n d e r e   >    -ondere,useli
     f o n d e r e   >    -ondere,usele
     f o n d e r e   >    -ondere,usene
     f o n d e r e   >    -ondere,usomi
@@ -11045,19 +10532,10 @@ flag *X:
     [eu] n d e r e  >    -ndere,soli
     [eu] n d e r e  >    -ndere,sole
     [eu] n d e r e  >    -ndere,sone
-    [eu] n d e r e  >    -ndere,salo
     [eu] n d e r e  >    -ndere,sala
-    [eu] n d e r e  >    -ndere,sali
-    [eu] n d e r e  >    -ndere,sale
     [eu] n d e r e  >    -ndere,sane
-    [eu] n d e r e  >    -ndere,silo
-    [eu] n d e r e  >    -ndere,sila
     [eu] n d e r e  >    -ndere,sili
-    [eu] n d e r e  >    -ndere,sile
     [eu] n d e r e  >    -ndere,sine
-    [eu] n d e r e  >    -ndere,selo
-    [eu] n d e r e  >    -ndere,sela
-    [eu] n d e r e  >    -ndere,seli
     [eu] n d e r e  >    -ndere,sele
     [eu] n d e r e  >    -ndere,sene
     [eu] n d e r e  >    -ndere,somi
