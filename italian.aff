@@ -11116,10 +11116,6 @@ flag *Y:
 flag *Z:
 
     # flag *Z:
-    # potere
-    t e r e         >    -tere,ssendo
-
-    # flag *Z:
     # nuocere
     u o c e r e     >    -uocere,ocendo
 
@@ -11388,55 +11384,6 @@ flag *1:
 
 # particelle pronominali su ger.
 flag *2:
-
-    # flag *2:
-    # potere
-    t e r e         >    -tere,ssendolo
-    t e r e         >    -tere,ssendola
-    t e r e         >    -tere,ssendoli
-    t e r e         >    -tere,ssendole
-    t e r e         >    -tere,ssendone
-    t e r e         >    -tere,ssendomi
-    t e r e         >    -tere,ssendoti
-    t e r e         >    -tere,ssendogli
-    t e r e         >    -tere,ssendoci
-    t e r e         >    -tere,ssendovi
-    t e r e         >    -tere,ssendosi
-    t e r e         >    -tere,ssendomelo
-    t e r e         >    -tere,ssendomela
-    t e r e         >    -tere,ssendomeli
-    t e r e         >    -tere,ssendomele
-    t e r e         >    -tere,ssendomene
-    t e r e         >    -tere,ssendomisi
-    t e r e         >    -tere,ssendotelo
-    t e r e         >    -tere,ssendotela
-    t e r e         >    -tere,ssendoteli
-    t e r e         >    -tere,ssendotele
-    t e r e         >    -tere,ssendotene
-    t e r e         >    -tere,ssendotisi
-    t e r e         >    -tere,ssendoglielo
-    t e r e         >    -tere,ssendogliela
-    t e r e         >    -tere,ssendoglieli
-    t e r e         >    -tere,ssendogliele
-    t e r e         >    -tere,ssendogliene
-    t e r e         >    -tere,ssendoglisi
-    t e r e         >    -tere,ssendocelo
-    t e r e         >    -tere,ssendocela
-    t e r e         >    -tere,ssendoceli
-    t e r e         >    -tere,ssendocele
-    t e r e         >    -tere,ssendocene
-    t e r e         >    -tere,ssendocisi
-    t e r e         >    -tere,ssendovelo
-    t e r e         >    -tere,ssendovela
-    t e r e         >    -tere,ssendoveli
-    t e r e         >    -tere,ssendovele
-    t e r e         >    -tere,ssendovene
-    t e r e         >    -tere,ssendovisi
-    t e r e         >    -tere,ssendoselo
-    t e r e         >    -tere,ssendosela
-    t e r e         >    -tere,ssendoseli
-    t e r e         >    -tere,ssendosele
-    t e r e         >    -tere,ssendosene
 
     # flag *2:
     # nuocere
