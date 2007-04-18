@@ -1917,56 +1917,6 @@ flag *D:
 #     u t e r e       >    -ere,ano     # imp. 3a p. pl.
 
     # flag *D:
-    # distinguere, estinguere, suddistinguere
-    g u e r e       >    -ere,o         # ind.  pres. 1a p. sn.
-    g u e r e       >    -ere,i         # ind.  pres. 2a p. sn.
-    g u e r e       >    -re,
-    g u e r e       >    -ere,iamo      # ind.  pres. 1a p. pl.
-    g u e r e       >    -re,te         # ind.  pres. 2a p. pl.
-    g u e r e       >    -ere,ono       # ind.  pres. 3a p. pl.
-    g u e r e       >    -re,vo         # ind.  imp.  1a p. sn.
-    g u e r e       >    -re,vi         # ind.  imp.  2a p. sn.
-    g u e r e       >    -re,va         # ind.  imp.  3a p. sn.
-    g u e r e       >    -re,vamo       # ind.  imp.  1a p. pl.
-    g u e r e       >    -re,vate       # ind.  imp.  2a p. pl.
-    g u e r e       >    -re,vano       # ind.  imp.  3a p. pl.
-    g u e r e       >    -guere,si      # ind.  pass. 1a p. sn.
-    g u e r e       >    -re,sti        # ind.  pass. 2a p. sn.
-    g u e r e       >    -guere,se      # ind.  pass. 3a p. sn.
-    g u e r e       >    -re,mmo        # ind.  pass. 1a p. pl.
-    g u e r e       >    -re,ste        # ind.  pass. 2a p. pl.
-    g u e r e       >    -guere,sero    # ind.  pass. 3a p. pl.
-    g u e r e       >    -e,ò           # ind.  fut.  1a p. sn.
-    g u e r e       >    -e,ai          # ind.  fut.  2a p. sn.
-    g u e r e       >    -e,à           # ind.  fut.  3a p. sn.
-    g u e r e       >    mo             # ind.  fut.  1a p. pl.
-    g u e r e       >    te             # ind.  fut.  2a p. pl.
-    g u e r e       >    -e,anno        # ind.  fut.  3a p. pl.
-    g u e r e       >    -ere,a         # cong. pres. 1a p. sn.
-#     g u e r e       >    -ere,a       # cong. pres. 2a p. sn.
-#     g u e r e       >    -ere,a       # cong. pres. 3a p. sn.
-#     g u e r e       >    -ere,iamo    # cong. pres. 1a p. pl.
-    g u e r e       >    -ere,iate      # cong. pres. 2a p. pl.
-    g u e r e       >    -ere,ano       # cong. pres. 3a p. pl.
-    g u e r e       >    -re,ssi        # cong. pass. 1a p. sn.
-#     g u e r e       >    -re,ssi      # cong. pass. 2a p. sn.
-    g u e r e       >    -re,sse        # cong. pass. 3a p. sn.
-    g u e r e       >    -re,ssimo      # cong. pass. 1a p. pl.
-#     g u e r e       >    -re,ste      # cong. pass. 2a p. pl.
-    g u e r e       >    -re,ssero      # cong. pass. 3a p. pl.
-    g u e r e       >    i              # cond. 1a p. sn.
-    g u e r e       >    sti            # cond. 2a p. sn.
-    g u e r e       >    bbe            # cond. 3a p. sn.
-    g u e r e       >    mmo            # cond. 1a p. pl.
-    g u e r e       >    ste            # cond. 2a p. pl.
-    g u e r e       >    bbero          # cond. 3a p. pl.
-#     g u e r e       >    -ere,i       # imp. 2a p. sn.
-#     g u e r e       >    -ere,a       # imp. 3a p. sn.
-#     g u e r e       >    -ere,iamo    # imp. 1a p. pl.
-#     g u e r e       >    -re,te       # imp. 2a p. pl.
-#     g u e r e       >    -ere,ano     # imp. 3a p. pl.
-
-    # flag *D:
     # dispiacere, piacere, spiacere
     p i a c e r e   >    -ere,cio       # ind.  pres. 1a p. sn.
     p i a c e r e   >    -ere,i         # ind.  pres. 2a p. sn.
@@ -2415,6 +2365,56 @@ flag *D:
 #     u s c i r e     >    -re,amo      # imp. 1a p. pl.
 #     u s c i r e     >    -re,te       # imp. 2a p. pl.
 #     u s c i r e     >    -uscire,escano # imp. 3a p. pl.
+
+    # flag *D:
+    # contraddistinguere, distinguere, estinguere, suddistinguere
+    g u e r e       >    -ere,o         # ind.  pres. 1a p. sn.
+    g u e r e       >    -ere,i         # ind.  pres. 2a p. sn.
+    g u e r e       >    -re,
+    g u e r e       >    -ere,iamo      # ind.  pres. 1a p. pl.
+    g u e r e       >    -re,te         # ind.  pres. 2a p. pl.
+    g u e r e       >    -ere,ono       # ind.  pres. 3a p. pl.
+    g u e r e       >    -re,vo         # ind.  imp.  1a p. sn.
+    g u e r e       >    -re,vi         # ind.  imp.  2a p. sn.
+    g u e r e       >    -re,va         # ind.  imp.  3a p. sn.
+    g u e r e       >    -re,vamo       # ind.  imp.  1a p. pl.
+    g u e r e       >    -re,vate       # ind.  imp.  2a p. pl.
+    g u e r e       >    -re,vano       # ind.  imp.  3a p. pl.
+    g u e r e       >    -guere,si      # ind.  pass. 1a p. sn.
+    g u e r e       >    -re,sti        # ind.  pass. 2a p. sn.
+    g u e r e       >    -guere,se      # ind.  pass. 3a p. sn.
+    g u e r e       >    -re,mmo        # ind.  pass. 1a p. pl.
+    g u e r e       >    -re,ste        # ind.  pass. 2a p. pl.
+    g u e r e       >    -guere,sero    # ind.  pass. 3a p. pl.
+    g u e r e       >    -e,ò           # ind.  fut.  1a p. sn.
+    g u e r e       >    -e,ai          # ind.  fut.  2a p. sn.
+    g u e r e       >    -e,à           # ind.  fut.  3a p. sn.
+    g u e r e       >    mo             # ind.  fut.  1a p. pl.
+    g u e r e       >    te             # ind.  fut.  2a p. pl.
+    g u e r e       >    -e,anno        # ind.  fut.  3a p. pl.
+    g u e r e       >    -ere,a         # cong. pres. 1a p. sn.
+#     g u e r e       >    -ere,a       # cong. pres. 2a p. sn.
+#     g u e r e       >    -ere,a       # cong. pres. 3a p. sn.
+#     g u e r e       >    -ere,iamo    # cong. pres. 1a p. pl.
+    g u e r e       >    -ere,iate      # cong. pres. 2a p. pl.
+    g u e r e       >    -ere,ano       # cong. pres. 3a p. pl.
+    g u e r e       >    -re,ssi        # cong. pass. 1a p. sn.
+#     g u e r e       >    -re,ssi      # cong. pass. 2a p. sn.
+    g u e r e       >    -re,sse        # cong. pass. 3a p. sn.
+    g u e r e       >    -re,ssimo      # cong. pass. 1a p. pl.
+#     g u e r e       >    -re,ste      # cong. pass. 2a p. pl.
+    g u e r e       >    -re,ssero      # cong. pass. 3a p. pl.
+    g u e r e       >    i              # cond. 1a p. sn.
+    g u e r e       >    sti            # cond. 2a p. sn.
+    g u e r e       >    bbe            # cond. 3a p. sn.
+    g u e r e       >    mmo            # cond. 1a p. pl.
+    g u e r e       >    ste            # cond. 2a p. pl.
+    g u e r e       >    bbero          # cond. 3a p. pl.
+#     g u e r e       >    -ere,i       # imp. 2a p. sn.
+#     g u e r e       >    -ere,a       # imp. 3a p. sn.
+#     g u e r e       >    -ere,iamo    # imp. 1a p. pl.
+#     g u e r e       >    -re,te       # imp. 2a p. pl.
+#     g u e r e       >    -ere,ano     # imp. 3a p. pl.
 
     # flag *D:
     # convivere, rivivere, sopravvivere, vivere
