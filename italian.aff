@@ -324,6 +324,106 @@ flag *B:
 flag *C:
 
     # flag *C:
+    # risapere, sapere
+    a p e r e       >    -apere,o       # ind.  pres. 1a p. sn.
+    a p e r e       >    -pere,i        # ind.  pres. 2a p. sn.
+    a p e r e       >    -pere,
+    a p e r e       >    -ere,piamo     # ind.  pres. 1a p. pl.
+    a p e r e       >    -re,te         # ind.  pres. 2a p. pl.
+    a p e r e       >    -pere,nno      # ind.  pres. 3a p. pl.
+    a p e r e       >    -re,vo         # ind.  imp.  1a p. sn.
+    a p e r e       >    -re,vi         # ind.  imp.  2a p. sn.
+    a p e r e       >    -re,va         # ind.  imp.  3a p. sn.
+    a p e r e       >    -re,vamo       # ind.  imp.  1a p. pl.
+    a p e r e       >    -re,vate       # ind.  imp.  2a p. pl.
+    a p e r e       >    -re,vano       # ind.  imp.  3a p. pl.
+    a p e r e       >    -apere,eppi    # ind.  pass. 1a p. sn.
+    a p e r e       >    -re,sti        # ind.  pass. 2a p. sn.
+    a p e r e       >    -apere,eppe    # ind.  pass. 3a p. sn.
+    a p e r e       >    -re,mmo        # ind.  pass. 1a p. pl.
+    a p e r e       >    -re,ste        # ind.  pass. 2a p. pl.
+    a p e r e       >    -apere,eppero  # ind.  pass. 3a p. pl.
+    a p e r e       >    -ere,rò        # ind.  fut.  1a p. sn.
+    a p e r e       >    -ere,rai       # ind.  fut.  2a p. sn.
+    a p e r e       >    -ere,rà        # ind.  fut.  3a p. sn.
+    a p e r e       >    -ere,remo      # ind.  fut.  1a p. pl.
+    a p e r e       >    -ere,rete      # ind.  fut.  2a p. pl.
+    a p e r e       >    -ere,ranno     # ind.  fut.  3a p. pl.
+    a p e r e       >    -ere,pia       # cong. pres. 1a p. sn.
+#     a p e r e       >    -ere,pia     # cong. pres. 2a p. sn.
+#     a p e r e       >    -ere,pia     # cong. pres. 3a p. sn.
+#     a p e r e       >    -ere,piamo   # cong. pres. 1a p. pl.
+    a p e r e       >    -ere,piate     # cong. pres. 2a p. pl.
+    a p e r e       >    -ere,piano     # cong. pres. 3a p. pl.
+    a p e r e       >    -re,ssi        # cong. pass. 1a p. sn.
+#     a p e r e       >    -re,ssi      # cong. pass. 2a p. sn.
+    a p e r e       >    -re,sse        # cong. pass. 3a p. sn.
+    a p e r e       >    -re,ssimo      # cong. pass. 1a p. pl.
+#     a p e r e       >    -re,ste      # cong. pass. 2a p. pl.
+    a p e r e       >    -re,ssero      # cong. pass. 3a p. pl.
+    a p e r e       >    -ere,rei       # cond. 1a p. sn.
+    a p e r e       >    -ere,resti     # cond. 2a p. sn.
+    a p e r e       >    -ere,rebbe     # cond. 3a p. sn.
+    a p e r e       >    -ere,remmo     # cond. 1a p. pl.
+    a p e r e       >    -ere,reste     # cond. 2a p. pl.
+    a p e r e       >    -ere,rebbero   # cond. 3a p. pl.
+    a p e r e       >    -ere,pi        # imp. 2a p. sn.
+#     a p e r e       >    -ere,pia     # imp. 3a p. sn.
+#     a p e r e       >    -ere,piamo   # imp. 1a p. pl.
+#     a p e r e       >    -ere,piate   # imp. 2a p. pl.
+#     a p e r e       >    -ere,piano   # imp. 3a p. pl.
+
+    # flag *C:
+    # corrompere, dirompere, erompere, interrompere, irrompere, prorompere...
+    o m p e r e     >    -ere,o         # ind.  pres. 1a p. sn.
+    o m p e r e     >    -ere,i         # ind.  pres. 2a p. sn.
+    o m p e r e     >    -re,
+    o m p e r e     >    -ere,iamo      # ind.  pres. 1a p. pl.
+    o m p e r e     >    -re,te         # ind.  pres. 2a p. pl.
+    o m p e r e     >    -ere,ono       # ind.  pres. 3a p. pl.
+    o m p e r e     >    -re,vo         # ind.  imp.  1a p. sn.
+    o m p e r e     >    -re,vi         # ind.  imp.  2a p. sn.
+    o m p e r e     >    -re,va         # ind.  imp.  3a p. sn.
+    o m p e r e     >    -re,vamo       # ind.  imp.  1a p. pl.
+    o m p e r e     >    -re,vate       # ind.  imp.  2a p. pl.
+    o m p e r e     >    -re,vano       # ind.  imp.  3a p. pl.
+    o m p e r e     >    -ompere,uppi   # ind.  pass. 1a p. sn.
+    o m p e r e     >    -re,sti        # ind.  pass. 2a p. sn.
+    o m p e r e     >    -ompere,uppe   # ind.  pass. 3a p. sn.
+    o m p e r e     >    -re,mmo        # ind.  pass. 1a p. pl.
+    o m p e r e     >    -re,ste        # ind.  pass. 2a p. pl.
+    o m p e r e     >    -ompere,uppero # ind.  pass. 3a p. pl.
+    o m p e r e     >    -e,ò           # ind.  fut.  1a p. sn.
+    o m p e r e     >    -e,ai          # ind.  fut.  2a p. sn.
+    o m p e r e     >    -e,à           # ind.  fut.  3a p. sn.
+    o m p e r e     >    mo             # ind.  fut.  1a p. pl.
+    o m p e r e     >    te             # ind.  fut.  2a p. pl.
+    o m p e r e     >    -e,anno        # ind.  fut.  3a p. pl.
+    o m p e r e     >    -ere,a         # cong. pres. 1a p. sn.
+#     o m p e r e     >    -ere,a       # cong. pres. 2a p. sn.
+#     o m p e r e     >    -ere,a       # cong. pres. 3a p. sn.
+#     o m p e r e     >    -ere,iamo    # cong. pres. 1a p. pl.
+    o m p e r e     >    -ere,iate      # cong. pres. 2a p. pl.
+    o m p e r e     >    -ere,ano       # cong. pres. 3a p. pl.
+    o m p e r e     >    -re,ssi        # cong. pass. 1a p. sn.
+#     o m p e r e     >    -re,ssi      # cong. pass. 2a p. sn.
+    o m p e r e     >    -re,sse        # cong. pass. 3a p. sn.
+    o m p e r e     >    -re,ssimo      # cong. pass. 1a p. pl.
+#     o m p e r e     >    -re,ste      # cong. pass. 2a p. pl.
+    o m p e r e     >    -re,ssero      # cong. pass. 3a p. pl.
+    o m p e r e     >    i              # cond. 1a p. sn.
+    o m p e r e     >    sti            # cond. 2a p. sn.
+    o m p e r e     >    bbe            # cond. 3a p. sn.
+    o m p e r e     >    mmo            # cond. 1a p. pl.
+    o m p e r e     >    ste            # cond. 2a p. pl.
+    o m p e r e     >    bbero          # cond. 3a p. pl.
+#     o m p e r e     >    -ere,i       # imp. 2a p. sn.
+#     o m p e r e     >    -ere,a       # imp. 3a p. sn.
+#     o m p e r e     >    -ere,iamo    # imp. 1a p. pl.
+#     o m p e r e     >    -re,te       # imp. 2a p. pl.
+#     o m p e r e     >    -ere,ano     # imp. 3a p. pl.
+
+    # flag *C:
     # addurre, circondurre, condurre, dedurre, indurre, introdurre, produrre...
     u r r e         >    -rre,co        # ind.  pres. 1a p. sn.
     u r r e         >    -rre,ci        # ind.  pres. 2a p. sn.
@@ -525,53 +625,53 @@ flag *C:
 
     # flag *C:
     # abradere, accedere, adempiere, ascendere, asciolvere, aspergere...
-    [^t] e r e      >    -ere,o         # ind.  pres. 1a p. sn.
-    [^t] e r e      >    -ere,i         # ind.  pres. 2a p. sn.
-    [^t] e r e      >    -re,
-    [^t] e r e      >    -ere,iamo      # ind.  pres. 1a p. pl.
-    [^t] e r e      >    -re,te         # ind.  pres. 2a p. pl.
-    [^t] e r e      >    -ere,ono       # ind.  pres. 3a p. pl.
-    [^t] e r e      >    -re,vo         # ind.  imp.  1a p. sn.
-    [^t] e r e      >    -re,vi         # ind.  imp.  2a p. sn.
-    [^t] e r e      >    -re,va         # ind.  imp.  3a p. sn.
-    [^t] e r e      >    -re,vamo       # ind.  imp.  1a p. pl.
-    [^t] e r e      >    -re,vate       # ind.  imp.  2a p. pl.
-    [^t] e r e      >    -re,vano       # ind.  imp.  3a p. pl.
-    [^t] e r e      >    -re,tti        # ind.  pass. 1a p. sn.
-    [^t] e r e      >    -re,sti        # ind.  pass. 2a p. sn.
-    [^t] e r e      >    -re,tte        # ind.  pass. 3a p. sn.
-    [^t] e r e      >    -re,mmo        # ind.  pass. 1a p. pl.
-    [^t] e r e      >    -re,ste        # ind.  pass. 2a p. pl.
-    [^t] e r e      >    -re,ttero      # ind.  pass. 3a p. pl.
-    [^t] e r e      >    -e,ò           # ind.  fut.  1a p. sn.
-    [^t] e r e      >    -e,ai          # ind.  fut.  2a p. sn.
-    [^t] e r e      >    -e,à           # ind.  fut.  3a p. sn.
-    [^t] e r e      >    mo             # ind.  fut.  1a p. pl.
-    [^t] e r e      >    te             # ind.  fut.  2a p. pl.
-    [^t] e r e      >    -e,anno        # ind.  fut.  3a p. pl.
-    [^t] e r e      >    -ere,a         # cong. pres. 1a p. sn.
-#     [^t] e r e      >    -ere,a       # cong. pres. 2a p. sn.
-#     [^t] e r e      >    -ere,a       # cong. pres. 3a p. sn.
-#     [^t] e r e      >    -ere,iamo    # cong. pres. 1a p. pl.
-    [^t] e r e      >    -ere,iate      # cong. pres. 2a p. pl.
-    [^t] e r e      >    -ere,ano       # cong. pres. 3a p. pl.
-    [^t] e r e      >    -re,ssi        # cong. pass. 1a p. sn.
-#     [^t] e r e      >    -re,ssi      # cong. pass. 2a p. sn.
-    [^t] e r e      >    -re,sse        # cong. pass. 3a p. sn.
-    [^t] e r e      >    -re,ssimo      # cong. pass. 1a p. pl.
-#     [^t] e r e      >    -re,ste      # cong. pass. 2a p. pl.
-    [^t] e r e      >    -re,ssero      # cong. pass. 3a p. pl.
-    [^t] e r e      >    i              # cond. 1a p. sn.
-    [^t] e r e      >    sti            # cond. 2a p. sn.
-    [^t] e r e      >    bbe            # cond. 3a p. sn.
-    [^t] e r e      >    mmo            # cond. 1a p. pl.
-    [^t] e r e      >    ste            # cond. 2a p. pl.
-    [^t] e r e      >    bbero          # cond. 3a p. pl.
-#     [^t] e r e      >    -ere,i       # imp. 2a p. sn.
-#     [^t] e r e      >    -ere,a       # imp. 3a p. sn.
-#     [^t] e r e      >    -ere,iamo    # imp. 1a p. pl.
-#     [^t] e r e      >    -re,te       # imp. 2a p. pl.
-#     [^t] e r e      >    -ere,ano     # imp. 3a p. pl.
+    [^pt] e r e     >    -ere,o         # ind.  pres. 1a p. sn.
+    [^pt] e r e     >    -ere,i         # ind.  pres. 2a p. sn.
+    [^pt] e r e     >    -re,
+    [^pt] e r e     >    -ere,iamo      # ind.  pres. 1a p. pl.
+    [^pt] e r e     >    -re,te         # ind.  pres. 2a p. pl.
+    [^pt] e r e     >    -ere,ono       # ind.  pres. 3a p. pl.
+    [^pt] e r e     >    -re,vo         # ind.  imp.  1a p. sn.
+    [^pt] e r e     >    -re,vi         # ind.  imp.  2a p. sn.
+    [^pt] e r e     >    -re,va         # ind.  imp.  3a p. sn.
+    [^pt] e r e     >    -re,vamo       # ind.  imp.  1a p. pl.
+    [^pt] e r e     >    -re,vate       # ind.  imp.  2a p. pl.
+    [^pt] e r e     >    -re,vano       # ind.  imp.  3a p. pl.
+    [^pt] e r e     >    -re,tti        # ind.  pass. 1a p. sn.
+    [^pt] e r e     >    -re,sti        # ind.  pass. 2a p. sn.
+    [^pt] e r e     >    -re,tte        # ind.  pass. 3a p. sn.
+    [^pt] e r e     >    -re,mmo        # ind.  pass. 1a p. pl.
+    [^pt] e r e     >    -re,ste        # ind.  pass. 2a p. pl.
+    [^pt] e r e     >    -re,ttero      # ind.  pass. 3a p. pl.
+    [^pt] e r e     >    -e,ò           # ind.  fut.  1a p. sn.
+    [^pt] e r e     >    -e,ai          # ind.  fut.  2a p. sn.
+    [^pt] e r e     >    -e,à           # ind.  fut.  3a p. sn.
+    [^pt] e r e     >    mo             # ind.  fut.  1a p. pl.
+    [^pt] e r e     >    te             # ind.  fut.  2a p. pl.
+    [^pt] e r e     >    -e,anno        # ind.  fut.  3a p. pl.
+    [^pt] e r e     >    -ere,a         # cong. pres. 1a p. sn.
+#     [^pt] e r e     >    -ere,a       # cong. pres. 2a p. sn.
+#     [^pt] e r e     >    -ere,a       # cong. pres. 3a p. sn.
+#     [^pt] e r e     >    -ere,iamo    # cong. pres. 1a p. pl.
+    [^pt] e r e     >    -ere,iate      # cong. pres. 2a p. pl.
+    [^pt] e r e     >    -ere,ano       # cong. pres. 3a p. pl.
+    [^pt] e r e     >    -re,ssi        # cong. pass. 1a p. sn.
+#     [^pt] e r e     >    -re,ssi      # cong. pass. 2a p. sn.
+    [^pt] e r e     >    -re,sse        # cong. pass. 3a p. sn.
+    [^pt] e r e     >    -re,ssimo      # cong. pass. 1a p. pl.
+#     [^pt] e r e     >    -re,ste      # cong. pass. 2a p. pl.
+    [^pt] e r e     >    -re,ssero      # cong. pass. 3a p. pl.
+    [^pt] e r e     >    i              # cond. 1a p. sn.
+    [^pt] e r e     >    sti            # cond. 2a p. sn.
+    [^pt] e r e     >    bbe            # cond. 3a p. sn.
+    [^pt] e r e     >    mmo            # cond. 1a p. pl.
+    [^pt] e r e     >    ste            # cond. 2a p. pl.
+    [^pt] e r e     >    bbero          # cond. 3a p. pl.
+#     [^pt] e r e     >    -ere,i       # imp. 2a p. sn.
+#     [^pt] e r e     >    -ere,a       # imp. 3a p. sn.
+#     [^pt] e r e     >    -ere,iamo    # imp. 1a p. pl.
+#     [^pt] e r e     >    -re,te       # imp. 2a p. pl.
+#     [^pt] e r e     >    -ere,ano     # imp. 3a p. pl.
 
     # flag *C:
     # abbiosciare, abbisciare, abbonacciare, abborracciare, abbracciare...
@@ -1465,56 +1565,6 @@ flag *D:
 #     a n e r e       >    -ere,iamo    # imp. 1a p. pl.
 #     a n e r e       >    -re,te       # imp. 2a p. pl.
 #     a n e r e       >    -ere,gano    # imp. 3a p. pl.
-
-    # flag *D:
-    # risapere, sapere
-    a p e r e       >    -apere,o       # ind.  pres. 1a p. sn.
-    a p e r e       >    -pere,i        # ind.  pres. 2a p. sn.
-    a p e r e       >    -pere,
-    a p e r e       >    -ere,piamo     # ind.  pres. 1a p. pl.
-    a p e r e       >    -re,te         # ind.  pres. 2a p. pl.
-    a p e r e       >    -pere,nno      # ind.  pres. 3a p. pl.
-    a p e r e       >    -re,vo         # ind.  imp.  1a p. sn.
-    a p e r e       >    -re,vi         # ind.  imp.  2a p. sn.
-    a p e r e       >    -re,va         # ind.  imp.  3a p. sn.
-    a p e r e       >    -re,vamo       # ind.  imp.  1a p. pl.
-    a p e r e       >    -re,vate       # ind.  imp.  2a p. pl.
-    a p e r e       >    -re,vano       # ind.  imp.  3a p. pl.
-    a p e r e       >    -apere,eppi    # ind.  pass. 1a p. sn.
-    a p e r e       >    -re,sti        # ind.  pass. 2a p. sn.
-    a p e r e       >    -apere,eppe    # ind.  pass. 3a p. sn.
-    a p e r e       >    -re,mmo        # ind.  pass. 1a p. pl.
-    a p e r e       >    -re,ste        # ind.  pass. 2a p. pl.
-    a p e r e       >    -apere,eppero  # ind.  pass. 3a p. pl.
-    a p e r e       >    -ere,rò        # ind.  fut.  1a p. sn.
-    a p e r e       >    -ere,rai       # ind.  fut.  2a p. sn.
-    a p e r e       >    -ere,rà        # ind.  fut.  3a p. sn.
-    a p e r e       >    -ere,remo      # ind.  fut.  1a p. pl.
-    a p e r e       >    -ere,rete      # ind.  fut.  2a p. pl.
-    a p e r e       >    -ere,ranno     # ind.  fut.  3a p. pl.
-    a p e r e       >    -ere,pia       # cong. pres. 1a p. sn.
-#     a p e r e       >    -ere,pia     # cong. pres. 2a p. sn.
-#     a p e r e       >    -ere,pia     # cong. pres. 3a p. sn.
-#     a p e r e       >    -ere,piamo   # cong. pres. 1a p. pl.
-    a p e r e       >    -ere,piate     # cong. pres. 2a p. pl.
-    a p e r e       >    -ere,piano     # cong. pres. 3a p. pl.
-    a p e r e       >    -re,ssi        # cong. pass. 1a p. sn.
-#     a p e r e       >    -re,ssi      # cong. pass. 2a p. sn.
-    a p e r e       >    -re,sse        # cong. pass. 3a p. sn.
-    a p e r e       >    -re,ssimo      # cong. pass. 1a p. pl.
-#     a p e r e       >    -re,ste      # cong. pass. 2a p. pl.
-    a p e r e       >    -re,ssero      # cong. pass. 3a p. pl.
-    a p e r e       >    -ere,rei       # cond. 1a p. sn.
-    a p e r e       >    -ere,resti     # cond. 2a p. sn.
-    a p e r e       >    -ere,rebbe     # cond. 3a p. sn.
-    a p e r e       >    -ere,remmo     # cond. 1a p. pl.
-    a p e r e       >    -ere,reste     # cond. 2a p. pl.
-    a p e r e       >    -ere,rebbero   # cond. 3a p. pl.
-    a p e r e       >    -ere,pi        # imp. 2a p. sn.
-#     a p e r e       >    -ere,pia     # imp. 3a p. sn.
-#     a p e r e       >    -ere,piamo   # imp. 1a p. pl.
-#     a p e r e       >    -ere,piate   # imp. 2a p. pl.
-#     a p e r e       >    -ere,piano   # imp. 3a p. pl.
 
     # flag *D:
     # condolere, dolere
@@ -2617,56 +2667,6 @@ flag *D:
 #     r r e           >    -rre,cano    # imp. 3a p. pl.
 
     # flag *D:
-    # corrompere, dirompere, erompere, interrompere, prorompere, rompere
-    o m p e r e     >    -ere,o         # ind.  pres. 1a p. sn.
-    o m p e r e     >    -ere,i         # ind.  pres. 2a p. sn.
-    o m p e r e     >    -re,
-    o m p e r e     >    -ere,iamo      # ind.  pres. 1a p. pl.
-    o m p e r e     >    -re,te         # ind.  pres. 2a p. pl.
-    o m p e r e     >    -ere,ono       # ind.  pres. 3a p. pl.
-    o m p e r e     >    -re,vo         # ind.  imp.  1a p. sn.
-    o m p e r e     >    -re,vi         # ind.  imp.  2a p. sn.
-    o m p e r e     >    -re,va         # ind.  imp.  3a p. sn.
-    o m p e r e     >    -re,vamo       # ind.  imp.  1a p. pl.
-    o m p e r e     >    -re,vate       # ind.  imp.  2a p. pl.
-    o m p e r e     >    -re,vano       # ind.  imp.  3a p. pl.
-    o m p e r e     >    -ompere,uppi   # ind.  pass. 1a p. sn.
-    o m p e r e     >    -re,sti        # ind.  pass. 2a p. sn.
-    o m p e r e     >    -ompere,uppe   # ind.  pass. 3a p. sn.
-    o m p e r e     >    -re,mmo        # ind.  pass. 1a p. pl.
-    o m p e r e     >    -re,ste        # ind.  pass. 2a p. pl.
-    o m p e r e     >    -ompere,uppero # ind.  pass. 3a p. pl.
-    o m p e r e     >    -e,ò           # ind.  fut.  1a p. sn.
-    o m p e r e     >    -e,ai          # ind.  fut.  2a p. sn.
-    o m p e r e     >    -e,à           # ind.  fut.  3a p. sn.
-    o m p e r e     >    mo             # ind.  fut.  1a p. pl.
-    o m p e r e     >    te             # ind.  fut.  2a p. pl.
-    o m p e r e     >    -e,anno        # ind.  fut.  3a p. pl.
-    o m p e r e     >    -ere,a         # cong. pres. 1a p. sn.
-#     o m p e r e     >    -ere,a       # cong. pres. 2a p. sn.
-#     o m p e r e     >    -ere,a       # cong. pres. 3a p. sn.
-#     o m p e r e     >    -ere,iamo    # cong. pres. 1a p. pl.
-    o m p e r e     >    -ere,iate      # cong. pres. 2a p. pl.
-    o m p e r e     >    -ere,ano       # cong. pres. 3a p. pl.
-    o m p e r e     >    -re,ssi        # cong. pass. 1a p. sn.
-#     o m p e r e     >    -re,ssi      # cong. pass. 2a p. sn.
-    o m p e r e     >    -re,sse        # cong. pass. 3a p. sn.
-    o m p e r e     >    -re,ssimo      # cong. pass. 1a p. pl.
-#     o m p e r e     >    -re,ste      # cong. pass. 2a p. pl.
-    o m p e r e     >    -re,ssero      # cong. pass. 3a p. pl.
-    o m p e r e     >    i              # cond. 1a p. sn.
-    o m p e r e     >    sti            # cond. 2a p. sn.
-    o m p e r e     >    bbe            # cond. 3a p. sn.
-    o m p e r e     >    mmo            # cond. 1a p. pl.
-    o m p e r e     >    ste            # cond. 2a p. pl.
-    o m p e r e     >    bbero          # cond. 3a p. pl.
-#     o m p e r e     >    -ere,i       # imp. 2a p. sn.
-#     o m p e r e     >    -ere,a       # imp. 3a p. sn.
-#     o m p e r e     >    -ere,iamo    # imp. 1a p. pl.
-#     o m p e r e     >    -re,te       # imp. 2a p. pl.
-#     o m p e r e     >    -ere,ano     # imp. 3a p. pl.
-
-    # flag *D:
     # comprimere, deprimere, esprimere, imprimere, opprimere, reprimere...
     r i m e r e     >    -ere,o         # ind.  pres. 1a p. sn.
     r i m e r e     >    -ere,i         # ind.  pres. 2a p. sn.
@@ -2817,7 +2817,7 @@ flag *D:
 #     [eo] s c e r e  >    -ere,ano     # imp. 3a p. pl.
 
     # flag *D:
-    # avviare, deviare, espiare, inviare, obliare, ovviare, riavviare...
+    # avviare, deviare, espiare, fuorviare, inviare, obliare, ovviare...
     i a r e         >    -are,o         # ind.  pres. 1a p. sn.
     i a r e         >    -are,i         # ind.  pres. 2a p. sn.
     i a r e         >    -re,
@@ -3720,56 +3720,6 @@ flag *E:
 #     o r i r e       >    -orire,uoiano# imp. 3a p. pl.
 
     # flag *E:
-    # concedere, riconcedere, succedere
-    c e d e r e     >    -ere,o         # ind.  pres. 1a p. sn.
-    c e d e r e     >    -ere,i         # ind.  pres. 2a p. sn.
-    c e d e r e     >    -re,
-    c e d e r e     >    -ere,iamo      # ind.  pres. 1a p. pl.
-    c e d e r e     >    -re,te         # ind.  pres. 2a p. pl.
-    c e d e r e     >    -ere,ono       # ind.  pres. 3a p. pl.
-    c e d e r e     >    -re,vo         # ind.  imp.  1a p. sn.
-    c e d e r e     >    -re,vi         # ind.  imp.  2a p. sn.
-    c e d e r e     >    -re,va         # ind.  imp.  3a p. sn.
-    c e d e r e     >    -re,vamo       # ind.  imp.  1a p. pl.
-    c e d e r e     >    -re,vate       # ind.  imp.  2a p. pl.
-    c e d e r e     >    -re,vano       # ind.  imp.  3a p. pl.
-    c e d e r e     >    -dere,ssi      # ind.  pass. 1a p. sn.
-    c e d e r e     >    -re,sti        # ind.  pass. 2a p. sn.
-    c e d e r e     >    -dere,sse      # ind.  pass. 3a p. sn.
-    c e d e r e     >    -re,mmo        # ind.  pass. 1a p. pl.
-    c e d e r e     >    -re,ste        # ind.  pass. 2a p. pl.
-    c e d e r e     >    -dere,ssero    # ind.  pass. 3a p. pl.
-    c e d e r e     >    -e,ò           # ind.  fut.  1a p. sn.
-    c e d e r e     >    -e,ai          # ind.  fut.  2a p. sn.
-    c e d e r e     >    -e,à           # ind.  fut.  3a p. sn.
-    c e d e r e     >    mo             # ind.  fut.  1a p. pl.
-    c e d e r e     >    te             # ind.  fut.  2a p. pl.
-    c e d e r e     >    -e,anno        # ind.  fut.  3a p. pl.
-    c e d e r e     >    -ere,a         # cong. pres. 1a p. sn.
-#     c e d e r e     >    -ere,a       # cong. pres. 2a p. sn.
-#     c e d e r e     >    -ere,a       # cong. pres. 3a p. sn.
-#     c e d e r e     >    -ere,iamo    # cong. pres. 1a p. pl.
-    c e d e r e     >    -ere,iate      # cong. pres. 2a p. pl.
-    c e d e r e     >    -ere,ano       # cong. pres. 3a p. pl.
-    c e d e r e     >    -re,ssi        # cong. pass. 1a p. sn.
-#     c e d e r e     >    -re,ssi      # cong. pass. 2a p. sn.
-    c e d e r e     >    -re,sse        # cong. pass. 3a p. sn.
-    c e d e r e     >    -re,ssimo      # cong. pass. 1a p. pl.
-#     c e d e r e     >    -re,ste      # cong. pass. 2a p. pl.
-    c e d e r e     >    -re,ssero      # cong. pass. 3a p. pl.
-    c e d e r e     >    i              # cond. 1a p. sn.
-    c e d e r e     >    sti            # cond. 2a p. sn.
-    c e d e r e     >    bbe            # cond. 3a p. sn.
-    c e d e r e     >    mmo            # cond. 1a p. pl.
-    c e d e r e     >    ste            # cond. 2a p. pl.
-    c e d e r e     >    bbero          # cond. 3a p. pl.
-#     c e d e r e     >    -ere,i       # imp. 2a p. sn.
-#     c e d e r e     >    -ere,a       # imp. 3a p. sn.
-#     c e d e r e     >    -ere,iamo    # imp. 1a p. pl.
-#     c e d e r e     >    -re,te       # imp. 2a p. pl.
-#     c e d e r e     >    -ere,ano     # imp. 3a p. pl.
-
-    # flag *E:
     # prescindere, rescindere, scindere
     i n d e r e     >    -ere,o         # ind.  pres. 1a p. sn.
     i n d e r e     >    -ere,i         # ind.  pres. 2a p. sn.
@@ -3818,6 +3768,56 @@ flag *E:
 #     i n d e r e     >    -ere,iamo    # imp. 1a p. pl.
 #     i n d e r e     >    -re,te       # imp. 2a p. pl.
 #     i n d e r e     >    -ere,ano     # imp. 3a p. pl.
+
+    # flag *E:
+    # concedere, riconcedere, succedere
+    c e d e r e     >    -ere,o         # ind.  pres. 1a p. sn.
+    c e d e r e     >    -ere,i         # ind.  pres. 2a p. sn.
+    c e d e r e     >    -re,
+    c e d e r e     >    -ere,iamo      # ind.  pres. 1a p. pl.
+    c e d e r e     >    -re,te         # ind.  pres. 2a p. pl.
+    c e d e r e     >    -ere,ono       # ind.  pres. 3a p. pl.
+    c e d e r e     >    -re,vo         # ind.  imp.  1a p. sn.
+    c e d e r e     >    -re,vi         # ind.  imp.  2a p. sn.
+    c e d e r e     >    -re,va         # ind.  imp.  3a p. sn.
+    c e d e r e     >    -re,vamo       # ind.  imp.  1a p. pl.
+    c e d e r e     >    -re,vate       # ind.  imp.  2a p. pl.
+    c e d e r e     >    -re,vano       # ind.  imp.  3a p. pl.
+    c e d e r e     >    -dere,ssi      # ind.  pass. 1a p. sn.
+    c e d e r e     >    -re,sti        # ind.  pass. 2a p. sn.
+    c e d e r e     >    -dere,sse      # ind.  pass. 3a p. sn.
+    c e d e r e     >    -re,mmo        # ind.  pass. 1a p. pl.
+    c e d e r e     >    -re,ste        # ind.  pass. 2a p. pl.
+    c e d e r e     >    -dere,ssero    # ind.  pass. 3a p. pl.
+    c e d e r e     >    -e,ò           # ind.  fut.  1a p. sn.
+    c e d e r e     >    -e,ai          # ind.  fut.  2a p. sn.
+    c e d e r e     >    -e,à           # ind.  fut.  3a p. sn.
+    c e d e r e     >    mo             # ind.  fut.  1a p. pl.
+    c e d e r e     >    te             # ind.  fut.  2a p. pl.
+    c e d e r e     >    -e,anno        # ind.  fut.  3a p. pl.
+    c e d e r e     >    -ere,a         # cong. pres. 1a p. sn.
+#     c e d e r e     >    -ere,a       # cong. pres. 2a p. sn.
+#     c e d e r e     >    -ere,a       # cong. pres. 3a p. sn.
+#     c e d e r e     >    -ere,iamo    # cong. pres. 1a p. pl.
+    c e d e r e     >    -ere,iate      # cong. pres. 2a p. pl.
+    c e d e r e     >    -ere,ano       # cong. pres. 3a p. pl.
+    c e d e r e     >    -re,ssi        # cong. pass. 1a p. sn.
+#     c e d e r e     >    -re,ssi      # cong. pass. 2a p. sn.
+    c e d e r e     >    -re,sse        # cong. pass. 3a p. sn.
+    c e d e r e     >    -re,ssimo      # cong. pass. 1a p. pl.
+#     c e d e r e     >    -re,ste      # cong. pass. 2a p. pl.
+    c e d e r e     >    -re,ssero      # cong. pass. 3a p. pl.
+    c e d e r e     >    i              # cond. 1a p. sn.
+    c e d e r e     >    sti            # cond. 2a p. sn.
+    c e d e r e     >    bbe            # cond. 3a p. sn.
+    c e d e r e     >    mmo            # cond. 1a p. pl.
+    c e d e r e     >    ste            # cond. 2a p. pl.
+    c e d e r e     >    bbero          # cond. 3a p. pl.
+#     c e d e r e     >    -ere,i       # imp. 2a p. sn.
+#     c e d e r e     >    -ere,a       # imp. 3a p. sn.
+#     c e d e r e     >    -ere,iamo    # imp. 1a p. pl.
+#     c e d e r e     >    -re,te       # imp. 2a p. pl.
+#     c e d e r e     >    -ere,ano     # imp. 3a p. pl.
 
     # flag *E:
     # apparire, comparire, scomparire, trasparire
@@ -4127,12 +4127,12 @@ flag *E:
     d i r e         >    -re,ciamo      # ind.  pres. 1a p. pl.
     d i r e         >    -re,te         # ind.  pres. 2a p. pl.
     d i r e         >    -re,cono       # ind.  pres. 3a p. pl.
-    d i r e         >    -re,vo         # ind.  imp.  1a p. sn.
-    d i r e         >    -re,vi         # ind.  imp.  2a p. sn.
-    d i r e         >    -re,va         # ind.  imp.  3a p. sn.
-    d i r e         >    -re,vamo       # ind.  imp.  1a p. pl.
-    d i r e         >    -re,vate       # ind.  imp.  2a p. pl.
-    d i r e         >    -re,vano       # ind.  imp.  3a p. pl.
+    d i r e         >    -re,cevo       # ind.  imp.  1a p. sn.
+    d i r e         >    -re,cevi       # ind.  imp.  2a p. sn.
+    d i r e         >    -re,ceva       # ind.  imp.  3a p. sn.
+    d i r e         >    -re,cevamo     # ind.  imp.  1a p. pl.
+    d i r e         >    -re,cevate     # ind.  imp.  2a p. pl.
+    d i r e         >    -re,cevano     # ind.  imp.  3a p. pl.
     d i r e         >    -re,ssi        # ind.  pass. 1a p. sn.
     d i r e         >    -re,cesti      # ind.  pass. 2a p. sn.
     d i r e         >    -re,sse        # ind.  pass. 3a p. sn.
@@ -6059,7 +6059,7 @@ flag *H:
     [dt] a r e      >    -are,iano
 
     # flag *H:
-    # avviare, deviare, espiare, inviare, obliare, ovviare, riavviare...
+    # avviare, deviare, espiare, fuorviare, inviare, obliare, ovviare...
     i a r e         >    -re,lo
     i a r e         >    -re,la
     i a r e         >    -re,li
@@ -7022,7 +7022,7 @@ flag *I:
     [ln] e r e      >    -ere,gano
 
     # flag *I:
-    # benedire, contraddire, disdire, indire, interdire, maledire, predire...
+    # benedire, contraddire, disdire, indire, interdire, maledire, predire
     [^u] d i r e    >    -re,cilo
     [^u] d i r e    >    -re,cila
     [^u] d i r e    >    -re,cili
@@ -7957,7 +7957,7 @@ flag *T:
     [lr] e r e      >    -ere,samente
 
     # flag *T:
-    # corrompere, dirompere, erompere, interrompere, prorompere, rompere
+    # corrompere, dirompere, erompere, interrompere, irrompere, prorompere...
     m p e r e       >    -mpere,tto
     m p e r e       >    -mpere,tta
     m p e r e       >    -mpere,tti
@@ -7967,6 +7967,18 @@ flag *T:
     m p e r e       >    -mpere,ttissimi
     m p e r e       >    -mpere,ttissime
     m p e r e       >    -mpere,ttamente
+
+    # flag *T:
+    # benedire, contraddire, dire, disdire, indire, interdire, maledire...
+    d i r e         >    -ire,etto
+    d i r e         >    -ire,etta
+    d i r e         >    -ire,etti
+    d i r e         >    -ire,ette
+    d i r e         >    -ire,ettissimo
+    d i r e         >    -ire,ettissima
+    d i r e         >    -ire,ettissimi
+    d i r e         >    -ire,ettissime
+    d i r e         >    -ire,ettamente
 
     # flag *T:
     # aprire, coprire, discoprire, offrire, riaprire, riscoprire, scoprire...
@@ -7991,18 +8003,6 @@ flag *T:
     r i m e r e     >    -imere,essissimi
     r i m e r e     >    -imere,essissime
     r i m e r e     >    -imere,essamente
-
-    # flag *T:
-    # benedire, contraddire, dire, disdire, indire, interdire, maledire...
-    d i r e         >    -ire,etto
-    d i r e         >    -ire,etta
-    d i r e         >    -ire,etti
-    d i r e         >    -ire,ette
-    d i r e         >    -ire,ettissimo
-    d i r e         >    -ire,ettissima
-    d i r e         >    -ire,ettissimi
-    d i r e         >    -ire,ettissime
-    d i r e         >    -ire,ettamente
 
     # flag *T:
     # assistere, consistere, desistere, esistere, estrovertere, insistere...
@@ -9654,7 +9654,7 @@ flag *W:
     [lr] e r e      >    -ere,sevene
 
     # flag *W:
-    # corrompere, dirompere, erompere, interrompere, prorompere, rompere
+    # corrompere, dirompere, erompere, interrompere, irrompere, prorompere...
     m p e r e       >    -mpere,ttolo
     m p e r e       >    -mpere,ttola
     m p e r e       >    -mpere,ttoli
@@ -9696,6 +9696,50 @@ flag *W:
     m p e r e       >    -mpere,ttavene
     m p e r e       >    -mpere,ttivene
     m p e r e       >    -mpere,ttevene
+
+    # flag *W:
+    # benedire, contraddire, dire, disdire, indire, interdire, maledire...
+    d i r e         >    -ire,ettolo
+    d i r e         >    -ire,ettola
+    d i r e         >    -ire,ettoli
+    d i r e         >    -ire,ettole
+    d i r e         >    -ire,ettone
+    d i r e         >    -ire,ettala
+    d i r e         >    -ire,ettale
+    d i r e         >    -ire,ettane
+    d i r e         >    -ire,ettili
+    d i r e         >    -ire,ettile
+    d i r e         >    -ire,ettine
+    d i r e         >    -ire,ettele
+    d i r e         >    -ire,ettene
+    d i r e         >    -ire,ettomi
+    d i r e         >    -ire,ettoti
+    d i r e         >    -ire,ettogli
+    d i r e         >    -ire,ettoci
+    d i r e         >    -ire,ettovi
+    d i r e         >    -ire,ettosi
+    d i r e         >    -ire,ettami
+    d i r e         >    -ire,ettati
+    d i r e         >    -ire,ettagli
+    d i r e         >    -ire,ettaci
+    d i r e         >    -ire,ettavi
+    d i r e         >    -ire,ettasi
+    d i r e         >    -ire,ettimi
+    d i r e         >    -ire,ettiti
+    d i r e         >    -ire,ettigli
+    d i r e         >    -ire,ettici
+    d i r e         >    -ire,ettivi
+    d i r e         >    -ire,ettisi
+    d i r e         >    -ire,ettemi
+    d i r e         >    -ire,etteti
+    d i r e         >    -ire,ettegli
+    d i r e         >    -ire,etteci
+    d i r e         >    -ire,ettevi
+    d i r e         >    -ire,ettesi
+    d i r e         >    -ire,ettovene
+    d i r e         >    -ire,ettavene
+    d i r e         >    -ire,ettivene
+    d i r e         >    -ire,ettevene
 
     # flag *W:
     # aprire, coprire, discoprire, offrire, riaprire, riscoprire, scoprire...
@@ -9784,50 +9828,6 @@ flag *W:
     r i m e r e     >    -imere,essavene
     r i m e r e     >    -imere,essivene
     r i m e r e     >    -imere,essevene
-
-    # flag *W:
-    # benedire, contraddire, dire, disdire, indire, interdire, maledire...
-    d i r e         >    -ire,ettolo
-    d i r e         >    -ire,ettola
-    d i r e         >    -ire,ettoli
-    d i r e         >    -ire,ettole
-    d i r e         >    -ire,ettone
-    d i r e         >    -ire,ettala
-    d i r e         >    -ire,ettale
-    d i r e         >    -ire,ettane
-    d i r e         >    -ire,ettili
-    d i r e         >    -ire,ettile
-    d i r e         >    -ire,ettine
-    d i r e         >    -ire,ettele
-    d i r e         >    -ire,ettene
-    d i r e         >    -ire,ettomi
-    d i r e         >    -ire,ettoti
-    d i r e         >    -ire,ettogli
-    d i r e         >    -ire,ettoci
-    d i r e         >    -ire,ettovi
-    d i r e         >    -ire,ettosi
-    d i r e         >    -ire,ettami
-    d i r e         >    -ire,ettati
-    d i r e         >    -ire,ettagli
-    d i r e         >    -ire,ettaci
-    d i r e         >    -ire,ettavi
-    d i r e         >    -ire,ettasi
-    d i r e         >    -ire,ettimi
-    d i r e         >    -ire,ettiti
-    d i r e         >    -ire,ettigli
-    d i r e         >    -ire,ettici
-    d i r e         >    -ire,ettivi
-    d i r e         >    -ire,ettisi
-    d i r e         >    -ire,ettemi
-    d i r e         >    -ire,etteti
-    d i r e         >    -ire,ettegli
-    d i r e         >    -ire,etteci
-    d i r e         >    -ire,ettevi
-    d i r e         >    -ire,ettesi
-    d i r e         >    -ire,ettovene
-    d i r e         >    -ire,ettavene
-    d i r e         >    -ire,ettivene
-    d i r e         >    -ire,ettevene
 
     # flag *W:
     # assistere, consistere, desistere, esistere, estrovertere, insistere...
