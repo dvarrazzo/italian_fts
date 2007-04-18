@@ -595,8 +595,12 @@ class RimuoviProduzioni(Operation):
         aff = affix.parseMyDict(open("italian.aff"))
         nv = Dictionary(); nv.load("non-verbi.dict")
 
+        prev = None
         for w, f in sorted(dictionary.iteritems()):
             if 'A' in f: # e' un verbo
+                if not prev or prev[0] != w[0]:
+                    print w
+                    prev = w
                 prods = aff.apply(w, f)
                 for prod in prods:
                     if prod in dictionary and prod not in nv:
@@ -648,7 +652,7 @@ processes = [
     (69, RenameAffFlags("italian.aff")),
     (78, RimuoviConiugazioni()),
     (78, UnisciVerbi()),
-    (95, RimuoviProduzioni()),
+    (99, RimuoviProduzioni()),
 ]
 
         #def getVerbWithAttr(cur, attr):

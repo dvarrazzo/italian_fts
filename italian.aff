@@ -4406,7 +4406,7 @@ flag *G:
     a r r e         >    -rre,iceli
     a r r e         >    -rre,icele
     a r r e         >    -rre,icene
-    a r r e         >    -rre,gga
+    a r r e         >    -rre,ggasi
     a r r e         >    -rre,iamolo
     a r r e         >    -rre,iamola
     a r r e         >    -rre,iamoli
@@ -4453,7 +4453,7 @@ flag *G:
     a r r e         >    -rre,eteveli
     a r r e         >    -rre,etevele
     a r r e         >    -rre,etevene
-    a r r e         >    -rre,ggano
+    a r r e         >    -rre,ggansi
 
     # flag *G:
     # abdurre, addurre, autoridurre, circondurre, condurre, dedurre, indurre...
@@ -4486,7 +4486,7 @@ flag *G:
     u r r e         >    -rre,ciceli
     u r r e         >    -rre,cicele
     u r r e         >    -rre,cicene
-    u r r e         >    -rre,ca
+    u r r e         >    -rre,casi
     u r r e         >    -rre,ciamolo
     u r r e         >    -rre,ciamola
     u r r e         >    -rre,ciamoli
@@ -4533,7 +4533,7 @@ flag *G:
     u r r e         >    -rre,ceteveli
     u r r e         >    -rre,cetevele
     u r r e         >    -rre,cetevene
-    u r r e         >    -rre,cano
+    u r r e         >    -rre,cansi
 
     # flag *G:
     # anteporre, apporre, comporre, contrapporre, decomporre, deporre...
@@ -4566,7 +4566,7 @@ flag *G:
     o r r e         >    -rre,niceli
     o r r e         >    -rre,nicele
     o r r e         >    -rre,nicene
-    o r r e         >    -rre,nga
+    o r r e         >    -rre,ngasi
     o r r e         >    -rre,niamolo
     o r r e         >    -rre,niamola
     o r r e         >    -rre,niamoli
@@ -4613,7 +4613,7 @@ flag *G:
     o r r e         >    -rre,neteveli
     o r r e         >    -rre,netevele
     o r r e         >    -rre,netevene
-    o r r e         >    -rre,ngano
+    o r r e         >    -rre,ngansi
 
     # flag *G:
     # abbattere, abradere, accadere, accedere, accendere, accingere...
@@ -4646,7 +4646,7 @@ flag *G:
     e r e           >    -ere,iceli
     e r e           >    -ere,icele
     e r e           >    -ere,icene
-    e r e           >    -ere,a
+    e r e           >    -ere,asi
     e r e           >    -ere,iamolo
     e r e           >    -ere,iamola
     e r e           >    -ere,iamoli
@@ -4693,7 +4693,7 @@ flag *G:
     e r e           >    -re,teveli
     e r e           >    -re,tevele
     e r e           >    -re,tevene
-    e r e           >    -ere,ano
+    e r e           >    -ere,ansi
 
     # flag *G:
     # abbellire, abbonire, abbrustolire, abbrutire, abbruttire, abolire...
@@ -4726,7 +4726,7 @@ flag *G:
     i r e           >    -re,sciceli
     i r e           >    -re,scicele
     i r e           >    -re,scicene
-    i r e           >    -re,sca
+    i r e           >    -re,scasi
     i r e           >    -re,amolo
     i r e           >    -re,amola
     i r e           >    -re,amoli
@@ -4773,7 +4773,7 @@ flag *G:
     i r e           >    -re,teveli
     i r e           >    -re,tevele
     i r e           >    -re,tevene
-    i r e           >    -re,scano
+    i r e           >    -re,scansi
 
     # flag *G:
     # abbarbicare, abbarcare, abbicare, abboccare, abbrancare, abdicare...
@@ -4806,7 +4806,7 @@ flag *G:
     [cg] a r e      >    -re,celi
     [cg] a r e      >    -re,cele
     [cg] a r e      >    -re,cene
-    [cg] a r e      >    -are,hi
+    [cg] a r e      >    -are,hisi
     [cg] a r e      >    -are,hiamolo
     [cg] a r e      >    -are,hiamola
     [cg] a r e      >    -are,hiamoli
@@ -4853,7 +4853,7 @@ flag *G:
     [cg] a r e      >    -re,teveli
     [cg] a r e      >    -re,tevele
     [cg] a r e      >    -re,tevene
-    [cg] a r e      >    -are,hino
+    [cg] a r e      >    -are,hinsi
 
     # flag *G:
     # abbacchiare, abbagliare, abbaiare, abbarbagliare, abbigliare...
@@ -4886,7 +4886,7 @@ flag *G:
     i a r e         >    -re,celi
     i a r e         >    -re,cele
     i a r e         >    -re,cene
-    i a r e         >    -are,
+    i a r e         >    -are,si
     i a r e         >    -re,molo
     i a r e         >    -re,mola
     i a r e         >    -re,moli
@@ -4933,7 +4933,7 @@ flag *G:
     i a r e         >    -re,teveli
     i a r e         >    -re,tevele
     i a r e         >    -re,tevene
-    i a r e         >    -are,no
+    i a r e         >    -are,nsi
 
     # flag *G:
     # abbacinare, abballare, abbandonare, abbaruffare, abbassare, abbeverare...
@@ -4966,7 +4966,7 @@ flag *G:
     [^cgi] a r e    >    -re,celi
     [^cgi] a r e    >    -re,cele
     [^cgi] a r e    >    -re,cene
-    [^cgi] a r e    >    -are,i
+    [^cgi] a r e    >    -are,isi
     [^cgi] a r e    >    -are,iamolo
     [^cgi] a r e    >    -are,iamola
     [^cgi] a r e    >    -are,iamoli
@@ -5013,7 +5013,7 @@ flag *G:
     [^cgi] a r e    >    -re,teveli
     [^cgi] a r e    >    -re,tevele
     [^cgi] a r e    >    -re,tevene
-    [^cgi] a r e    >    -are,ino
+    [^cgi] a r e    >    -are,insi
 
 # particelle pronominali su imperativo
 flag *H:
@@ -5049,7 +5049,7 @@ flag *H:
     g n e r e       >    -ere,iceli
     g n e r e       >    -ere,icele
     g n e r e       >    -ere,icene
-    g n e r e       >    -gnere,nga
+    g n e r e       >    -gnere,ngasi
     g n e r e       >    -ere,iamolo
     g n e r e       >    -ere,iamola
     g n e r e       >    -ere,iamoli
@@ -5096,7 +5096,7 @@ flag *H:
     g n e r e       >    -re,teveli
     g n e r e       >    -re,tevele
     g n e r e       >    -re,tevene
-    g n e r e       >    -ere,ano
+    g n e r e       >    -ere,ansi
 
     # flag *H:
     # nuocere
@@ -5129,7 +5129,7 @@ flag *H:
     u o c e r e     >    -ere,iceli
     u o c e r e     >    -ere,icele
     u o c e r e     >    -ere,icene
-    u o c e r e     >    -uocere,occia
+    u o c e r e     >    -uocere,occiasi
     u o c e r e     >    -uocere,ociamolo
     u o c e r e     >    -uocere,ociamola
     u o c e r e     >    -uocere,ociamoli
@@ -5176,7 +5176,7 @@ flag *H:
     u o c e r e     >    -uocere,oceteveli
     u o c e r e     >    -uocere,ocetevele
     u o c e r e     >    -uocere,ocetevene
-    u o c e r e     >    -uocere,occiano
+    u o c e r e     >    -uocere,occiansi
 
     # flag *H:
     # essere, riessere
@@ -5209,7 +5209,7 @@ flag *H:
     e s s e r e     >    -essere,siiceli
     e s s e r e     >    -essere,siicele
     e s s e r e     >    -essere,siicene
-    e s s e r e     >    -essere,sia
+    e s s e r e     >    -essere,siasi
     e s s e r e     >    -essere,siamolo
     e s s e r e     >    -essere,siamola
     e s s e r e     >    -essere,siamoli
@@ -5256,7 +5256,7 @@ flag *H:
     e s s e r e     >    -essere,siateveli
     e s s e r e     >    -essere,siatevele
     e s s e r e     >    -essere,siatevene
-    e s s e r e     >    -essere,siano
+    e s s e r e     >    -essere,siansi
 
     # flag *H:
     # risapere, sapere
@@ -5289,7 +5289,7 @@ flag *H:
     p e r e         >    -ere,piceli
     p e r e         >    -ere,picele
     p e r e         >    -ere,picene
-    p e r e         >    -ere,pia
+    p e r e         >    -ere,piasi
     p e r e         >    -ere,piamolo
     p e r e         >    -ere,piamola
     p e r e         >    -ere,piamoli
@@ -5336,7 +5336,7 @@ flag *H:
     p e r e         >    -ere,piateveli
     p e r e         >    -ere,piatevele
     p e r e         >    -ere,piatevene
-    p e r e         >    -ere,piano
+    p e r e         >    -ere,piansi
 
     # flag *H:
     # condolere, dolere
@@ -5369,7 +5369,7 @@ flag *H:
     d o l e r e     >    -olere,uoliceli
     d o l e r e     >    -olere,uolicele
     d o l e r e     >    -olere,uolicene
-    d o l e r e     >    -ere,ga
+    d o l e r e     >    -ere,gasi
     d o l e r e     >    -lere,gliamolo
     d o l e r e     >    -lere,gliamola
     d o l e r e     >    -lere,gliamoli
@@ -5416,7 +5416,7 @@ flag *H:
     d o l e r e     >    -re,teveli
     d o l e r e     >    -re,tevele
     d o l e r e     >    -re,tevene
-    d o l e r e     >    -ere,gano
+    d o l e r e     >    -ere,gansi
 
     # flag *H:
     # rivolere, volere
@@ -5449,7 +5449,7 @@ flag *H:
     v o l e r e     >    -lere,gliaceli
     v o l e r e     >    -lere,gliacele
     v o l e r e     >    -lere,gliacene
-#     v o l e r e     >    -lere,glia
+    v o l e r e     >    -lere,gliasi
     v o l e r e     >    -lere,gliamolo
     v o l e r e     >    -lere,gliamola
     v o l e r e     >    -lere,gliamoli
@@ -5496,7 +5496,7 @@ flag *H:
     v o l e r e     >    -lere,gliateveli
     v o l e r e     >    -lere,gliatevele
     v o l e r e     >    -lere,gliatevene
-    v o l e r e     >    -lere,gliano
+    v o l e r e     >    -lere,gliansi
 
     # flag *H:
     # avere, riavere
@@ -5529,7 +5529,7 @@ flag *H:
     v e r e         >    -vere,bbiaceli
     v e r e         >    -vere,bbiacele
     v e r e         >    -vere,bbiacene
-#     v e r e         >    -vere,bbia
+    v e r e         >    -vere,bbiasi
     v e r e         >    -vere,bbiamolo
     v e r e         >    -vere,bbiamola
     v e r e         >    -vere,bbiamoli
@@ -5576,7 +5576,7 @@ flag *H:
     v e r e         >    -vere,bbiateveli
     v e r e         >    -vere,bbiatevele
     v e r e         >    -vere,bbiatevene
-    v e r e         >    -vere,bbiano
+    v e r e         >    -vere,bbiansi
 
     # flag *H:
     # bere, strabere
@@ -5609,7 +5609,7 @@ flag *H:
     b e r e         >    -re,viceli
     b e r e         >    -re,vicele
     b e r e         >    -re,vicene
-    b e r e         >    -re,va
+    b e r e         >    -re,vasi
     b e r e         >    -re,viamolo
     b e r e         >    -re,viamola
     b e r e         >    -re,viamoli
@@ -5656,7 +5656,7 @@ flag *H:
     b e r e         >    -re,veteveli
     b e r e         >    -re,vetevele
     b e r e         >    -re,vetevene
-    b e r e         >    -re,vano
+    b e r e         >    -re,vansi
 
     # flag *H:
     # cucire, ricucire, scucire
@@ -5689,7 +5689,7 @@ flag *H:
     u c i r e       >    -re,celi
     u c i r e       >    -re,cele
     u c i r e       >    -re,cene
-    u c i r e       >    -re,a
+    u c i r e       >    -re,asi
     u c i r e       >    -re,amolo
     u c i r e       >    -re,amola
     u c i r e       >    -re,amoli
@@ -5736,7 +5736,7 @@ flag *H:
     u c i r e       >    -re,teveli
     u c i r e       >    -re,tevele
     u c i r e       >    -re,tevene
-    u c i r e       >    -re,ano
+    u c i r e       >    -re,ansi
 
     # flag *H:
     # fuoriuscire, fuoruscire, riuscire, uscire
@@ -5769,7 +5769,7 @@ flag *H:
     u s c i r e     >    -uscire,esciceli
     u s c i r e     >    -uscire,escicele
     u s c i r e     >    -uscire,escicene
-    u s c i r e     >    -uscire,esca
+    u s c i r e     >    -uscire,escasi
     u s c i r e     >    -re,amolo
     u s c i r e     >    -re,amola
     u s c i r e     >    -re,amoli
@@ -5816,7 +5816,7 @@ flag *H:
     u s c i r e     >    -re,teveli
     u s c i r e     >    -re,tevele
     u s c i r e     >    -re,tevene
-    u s c i r e     >    -uscire,escano
+    u s c i r e     >    -uscire,escansi
 
     # flag *H:
     # giacere, soggiacere, sottacere, tacere
@@ -5849,7 +5849,7 @@ flag *H:
     a c e r e       >    -ere,iceli
     a c e r e       >    -ere,icele
     a c e r e       >    -ere,icene
-    a c e r e       >    -ere,cia
+    a c e r e       >    -ere,ciasi
     a c e r e       >    -ere,ciamolo
     a c e r e       >    -ere,ciamola
     a c e r e       >    -ere,ciamoli
@@ -5896,7 +5896,7 @@ flag *H:
     a c e r e       >    -re,teveli
     a c e r e       >    -re,tevele
     a c e r e       >    -re,tevene
-    a c e r e       >    -ere,ciano
+    a c e r e       >    -ere,ciansi
 
     # flag *H:
     # possedere, risedere, sedere, soprassedere
@@ -5929,7 +5929,7 @@ flag *H:
     e d e r e       >    -edere,iediceli
     e d e r e       >    -edere,iedicele
     e d e r e       >    -edere,iedicene
-    e d e r e       >    -edere,ieda
+    e d e r e       >    -edere,iedasi
     e d e r e       >    -ere,iamolo
     e d e r e       >    -ere,iamola
     e d e r e       >    -ere,iamoli
@@ -5976,7 +5976,7 @@ flag *H:
     e d e r e       >    -re,teveli
     e d e r e       >    -re,tevele
     e d e r e       >    -re,tevene
-    e d e r e       >    -edere,iedano
+    e d e r e       >    -edere,iedansi
 
     # flag *H:
     # constare, dare, ridare, ristare, sottostare, stare
@@ -6009,7 +6009,7 @@ flag *H:
     [dt] a r e      >    -re,iceli
     [dt] a r e      >    -re,icele
     [dt] a r e      >    -re,icene
-    [dt] a r e      >    -are,ia
+    [dt] a r e      >    -are,iasi
     [dt] a r e      >    -are,iamolo
     [dt] a r e      >    -are,iamola
     [dt] a r e      >    -are,iamoli
@@ -6056,7 +6056,7 @@ flag *H:
     [dt] a r e      >    -re,teveli
     [dt] a r e      >    -re,tevele
     [dt] a r e      >    -re,tevene
-    [dt] a r e      >    -are,iano
+    [dt] a r e      >    -are,iansi
 
     # flag *H:
     # avviare, deviare, espiare, fuorviare, inviare, obliare, ovviare...
@@ -6089,7 +6089,7 @@ flag *H:
     i a r e         >    -re,celi
     i a r e         >    -re,cele
     i a r e         >    -re,cene
-    i a r e         >    -are,i
+    i a r e         >    -are,isi
     i a r e         >    -re,molo
     i a r e         >    -re,mola
     i a r e         >    -re,moli
@@ -6136,7 +6136,7 @@ flag *H:
     i a r e         >    -re,teveli
     i a r e         >    -re,tevele
     i a r e         >    -re,tevene
-    i a r e         >    -are,ino
+    i a r e         >    -are,insi
 
     # flag *H:
     # appartenere, astenere, attenere, contenere, detenere, intrattenere...
@@ -6169,7 +6169,7 @@ flag *H:
     e n e r e       >    -enere,ieniceli
     e n e r e       >    -enere,ienicele
     e n e r e       >    -enere,ienicene
-    e n e r e       >    -ere,ga
+    e n e r e       >    -ere,gasi
     e n e r e       >    -ere,iamolo
     e n e r e       >    -ere,iamola
     e n e r e       >    -ere,iamoli
@@ -6216,7 +6216,7 @@ flag *H:
     e n e r e       >    -re,teveli
     e n e r e       >    -re,tevele
     e n e r e       >    -re,tevene
-    e n e r e       >    -ere,gano
+    e n e r e       >    -ere,gansi
 
     # flag *H:
     # disciogliere, distogliere, prescegliere, prosciogliere, ridisciogliere...
@@ -6249,7 +6249,7 @@ flag *H:
     g l i e r e     >    -ere,celi
     g l i e r e     >    -ere,cele
     g l i e r e     >    -ere,cene
-    g l i e r e     >    -gliere,lga
+    g l i e r e     >    -gliere,lgasi
     g l i e r e     >    -ere,amolo
     g l i e r e     >    -ere,amola
     g l i e r e     >    -ere,amoli
@@ -6296,7 +6296,7 @@ flag *H:
     g l i e r e     >    -re,teveli
     g l i e r e     >    -re,tevele
     g l i e r e     >    -re,tevene
-    g l i e r e     >    -gliere,lgano
+    g l i e r e     >    -gliere,lgansi
 
     # flag *H:
     # artefare, assuefare, confare, contraffare, liquefare, putrefare...
@@ -6329,7 +6329,7 @@ flag *H:
     f a r e         >    -re,iceli
     f a r e         >    -re,icele
     f a r e         >    -re,icene
-    f a r e         >    -re,ccia
+    f a r e         >    -re,cciasi
     f a r e         >    -re,cciamolo
     f a r e         >    -re,cciamola
     f a r e         >    -re,cciamoli
@@ -6376,7 +6376,7 @@ flag *H:
     f a r e         >    -re,teveli
     f a r e         >    -re,tevele
     f a r e         >    -re,tevene
-    f a r e         >    -re,cciano
+    f a r e         >    -re,cciansi
 
     # flag *H:
     # aborrire, acconsentire, acetire, adsorbire, affienire, applaudire...
@@ -6409,7 +6409,7 @@ flag *H:
     [^c] i r e      >    -re,celi
     [^c] i r e      >    -re,cele
     [^c] i r e      >    -re,cene
-    [^c] i r e      >    -ire,a
+    [^c] i r e      >    -ire,asi
     [^c] i r e      >    -re,amolo
     [^c] i r e      >    -re,amola
     [^c] i r e      >    -re,amoli
@@ -6456,7 +6456,7 @@ flag *H:
     [^c] i r e      >    -re,teveli
     [^c] i r e      >    -re,tevele
     [^c] i r e      >    -re,tevene
-    [^c] i r e      >    -ire,ano
+    [^c] i r e      >    -ire,ansi
 
 # particelle pronominali su imperativo
 flag *I:
@@ -6492,7 +6492,7 @@ flag *I:
     p i r e         >    -re,celi
     p i r e         >    -re,cele
     p i r e         >    -re,cene
-    p i r e         >    -ire,a
+    p i r e         >    -ire,asi
     p i r e         >    -re,amolo
     p i r e         >    -re,amola
     p i r e         >    -re,amoli
@@ -6539,7 +6539,7 @@ flag *I:
     p i r e         >    -re,teveli
     p i r e         >    -re,tevele
     p i r e         >    -re,tevene
-    p i r e         >    -re,ano
+    p i r e         >    -re,ansi
 
     # flag *I:
     # riudire, udire
@@ -6572,7 +6572,7 @@ flag *I:
     u d i r e       >    -udire,odiceli
     u d i r e       >    -udire,odicele
     u d i r e       >    -udire,odicene
-    u d i r e       >    -udire,oda
+    u d i r e       >    -udire,odasi
     u d i r e       >    -re,amolo
     u d i r e       >    -re,amola
     u d i r e       >    -re,amoli
@@ -6619,7 +6619,7 @@ flag *I:
     u d i r e       >    -re,teveli
     u d i r e       >    -re,tevele
     u d i r e       >    -re,tevene
-    u d i r e       >    -udire,odano
+    u d i r e       >    -udire,odansi
 
     # flag *I:
     # morire, premorire
@@ -6652,7 +6652,7 @@ flag *I:
     o r i r e       >    -orire,uoriceli
     o r i r e       >    -orire,uoricele
     o r i r e       >    -orire,uoricene
-    o r i r e       >    -orire,uoia
+    o r i r e       >    -orire,uoiasi
     o r i r e       >    -re,amolo
     o r i r e       >    -re,amola
     o r i r e       >    -re,amoli
@@ -6699,7 +6699,7 @@ flag *I:
     o r i r e       >    -re,teveli
     o r i r e       >    -re,tevele
     o r i r e       >    -re,tevene
-    o r i r e       >    -orire,uoiano
+    o r i r e       >    -orire,uoiansi
 
     # flag *I:
     # dispiacere, piacere, spiacere
@@ -6732,7 +6732,7 @@ flag *I:
     c e r e         >    -ere,iceli
     c e r e         >    -ere,icele
     c e r e         >    -ere,icene
-    c e r e         >    -ere,cia
+    c e r e         >    -ere,ciasi
     c e r e         >    -ere,ciamolo
     c e r e         >    -ere,ciamola
     c e r e         >    -ere,ciamoli
@@ -6779,7 +6779,7 @@ flag *I:
     c e r e         >    -re,teveli
     c e r e         >    -re,tevele
     c e r e         >    -re,tevene
-    c e r e         >    -ere,ciono
+    c e r e         >    -ere,cionsi
 
     # flag *I:
     # apparire, comparire, scomparire, trasparire
@@ -6812,7 +6812,7 @@ flag *I:
     a r i r e       >    -re,celi
     a r i r e       >    -re,cele
     a r i r e       >    -re,cene
-    a r i r e       >    -rire,ia
+    a r i r e       >    -rire,iasi
     a r i r e       >    -re,amolo
     a r i r e       >    -re,amola
     a r i r e       >    -re,amoli
@@ -6859,7 +6859,7 @@ flag *I:
     a r i r e       >    -re,teveli
     a r i r e       >    -re,tevele
     a r i r e       >    -re,tevene
-    a r i r e       >    -rire,iano
+    a r i r e       >    -rire,iansi
 
     # flag *I:
     # assalire, riassalire, risalire, salire, trasalire
@@ -6892,7 +6892,7 @@ flag *I:
     l i r e         >    -re,celi
     l i r e         >    -re,cele
     l i r e         >    -re,cene
-    l i r e         >    -ire,ga
+    l i r e         >    -ire,gasi
     l i r e         >    -re,amolo
     l i r e         >    -re,amola
     l i r e         >    -re,amoli
@@ -6939,7 +6939,7 @@ flag *I:
     l i r e         >    -re,teveli
     l i r e         >    -re,tevele
     l i r e         >    -re,tevene
-    l i r e         >    -ire,gano
+    l i r e         >    -ire,gansi
 
     # flag *I:
     # avvalere, equivalere, invalere, permanere, prevalere, rimanere, valere...
@@ -6972,7 +6972,7 @@ flag *I:
     [ln] e r e      >    -ere,iceli
     [ln] e r e      >    -ere,icele
     [ln] e r e      >    -ere,icene
-    [ln] e r e      >    -ere,ga
+    [ln] e r e      >    -ere,gasi
     [ln] e r e      >    -ere,iamolo
     [ln] e r e      >    -ere,iamola
     [ln] e r e      >    -ere,iamoli
@@ -7019,7 +7019,7 @@ flag *I:
     [ln] e r e      >    -re,teveli
     [ln] e r e      >    -re,tevele
     [ln] e r e      >    -re,tevene
-    [ln] e r e      >    -ere,gano
+    [ln] e r e      >    -ere,gansi
 
     # flag *I:
     # benedire, contraddire, disdire, indire, interdire, maledire, predire
@@ -7052,7 +7052,7 @@ flag *I:
     [^u] d i r e    >    -re,ciceli
     [^u] d i r e    >    -re,cicele
     [^u] d i r e    >    -re,cicene
-    [^u] d i r e    >    -re,ca
+    [^u] d i r e    >    -re,casi
     [^u] d i r e    >    -re,ciamolo
     [^u] d i r e    >    -re,ciamola
     [^u] d i r e    >    -re,ciamoli
@@ -7099,7 +7099,7 @@ flag *I:
     [^u] d i r e    >    -re,teveli
     [^u] d i r e    >    -re,tevele
     [^u] d i r e    >    -re,tevene
-    [^u] d i r e    >    -re,cano
+    [^u] d i r e    >    -re,cansi
 
     # flag *I:
     # addivenire, avvenire, circonvenire, contravvenire, convenire, divenire...
@@ -7132,7 +7132,7 @@ flag *I:
     e n i r e       >    -enire,ieniceli
     e n i r e       >    -enire,ienicele
     e n i r e       >    -enire,ienicene
-    e n i r e       >    -ire,ga
+    e n i r e       >    -ire,gasi
     e n i r e       >    -re,amolo
     e n i r e       >    -re,amola
     e n i r e       >    -re,amoli
@@ -7179,7 +7179,7 @@ flag *I:
     e n i r e       >    -re,teveli
     e n i r e       >    -re,tevele
     e n i r e       >    -re,tevene
-    e n i r e       >    -ire,gano
+    e n i r e       >    -ire,gansi
 
 # particelle pronominali su imperativo monosillabico
 flag *J:
@@ -7215,7 +7215,7 @@ flag *J:
     a n d a r e     >    -andare,vacceli
     a n d a r e     >    -andare,vaccele
     a n d a r e     >    -andare,vaccene
-    a n d a r e     >    -andare,vada
+    a n d a r e     >    -andare,vadasi
     a n d a r e     >    -are,iamolo
     a n d a r e     >    -are,iamola
     a n d a r e     >    -are,iamoli
@@ -7262,7 +7262,7 @@ flag *J:
     a n d a r e     >    -re,teveli
     a n d a r e     >    -re,tevele
     a n d a r e     >    -re,tevene
-    a n d a r e     >    -andare,vadano
+    a n d a r e     >    -andare,vadansi
 
     # flag *J:
     # dire
@@ -7295,7 +7295,7 @@ flag *J:
     i r e           >    -re,cceli
     i r e           >    -re,ccele
     i r e           >    -re,ccene
-    i r e           >    -re,ca
+    i r e           >    -re,casi
     i r e           >    -re,ciamolo
     i r e           >    -re,ciamola
     i r e           >    -re,ciamoli
@@ -7342,7 +7342,7 @@ flag *J:
     i r e           >    -re,teveli
     i r e           >    -re,tevele
     i r e           >    -re,tevene
-    i r e           >    -re,cano
+    i r e           >    -re,cansi
 
     # flag *J:
     # fare
@@ -7375,7 +7375,7 @@ flag *J:
     f a r e         >    -re,cceli
     f a r e         >    -re,ccele
     f a r e         >    -re,ccene
-    f a r e         >    -re,ccia
+    f a r e         >    -re,cciasi
     f a r e         >    -re,cciamolo
     f a r e         >    -re,cciamola
     f a r e         >    -re,cciamoli
@@ -7422,7 +7422,7 @@ flag *J:
     f a r e         >    -re,teveli
     f a r e         >    -re,tevele
     f a r e         >    -re,tevene
-    f a r e         >    -re,cciano
+    f a r e         >    -re,cciansi
 
 # part. pres.
 flag *K:

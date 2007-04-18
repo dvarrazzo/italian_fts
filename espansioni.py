@@ -26,6 +26,9 @@ imp2p_r = [ Production(append=_) for _ in ('mi', 'gli', 'ci', 'vi') ]
 imp2p_p = [ Production(append=_) for _ in ('lo', 'la', 'li', 'le', 'ne') ]
 imp2p_rp = [ compose(p1, p2) for p1 in imp2p_r for p2 in imp2p_p ]
 
+imp3s_r = [ Production(append='si') ]
+imp3p_r = [ Production('o', remove='o', append='si') ]
+
 ppr_n = [ Production(), Production("e", remove="e", append="i") ]
 ppr_r = [ compose(p1, Production(append='si')) for p1 in ppr_n ]
 
