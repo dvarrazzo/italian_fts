@@ -648,7 +648,7 @@ processes = [
     (69, RenameAffFlags("italian.aff")),
     (78, RimuoviConiugazioni()),
     (78, UnisciVerbi()),
-    (86, RimuoviProduzioni()),
+    (92, RimuoviProduzioni()),
 ]
 
         #def getVerbWithAttr(cur, attr):

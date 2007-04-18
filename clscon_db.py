@@ -77,6 +77,27 @@ def main():
         for v in flag.verbs: oflags[v] += flag.letter
 
     forms = dbRun(getFormsAsTuple, infs, '= 8')
+
+    # Metti da parte i verbi con imperativo monosillabico
+    funky_infs = dict.fromkeys(['dire', 'fare', 'andare'])
+    for form, verbs in list(forms.iteritems()):
+        for v in verbs[:]:
+            if v in funky_infs:
+                funky_infs[v] = form
+                verbs.remove(v)
+                if not verbs:
+                    del forms[form]
+
+        # Nessuno di questi verbi sembra molto sensato  in forma
+        # imperativa con particelle pronominali (es. torrefallo...),
+        # Ma se le dovessi fare, vedo almeno 2 forme diverse ('contraffalo',
+        # non 'contraffallo'). Quini non ne faccio nessuno...
+        # 'artefare', 'assuefare', 'confare', 'contraffare', 'liquefare',
+        # 'putrefare', 'rarefare', 'sfare', 'sopraffare', 'stupefare',
+        # 'torrefare', 'tumefare'
+        if 'fare' in forms:
+            del forms[f]
+
     fdata = calcFlags(forms)
     flags1 = toFlags(fdata, fls[:], forms)
 
@@ -97,6 +118,58 @@ def main():
                     flag.productions.append(prod)
                 else:
                     flag.productions.extend(prod + p2 for p2 in exp)
+                    flag.productions[-len(exp)].comment = (
+                        prod.comment and prod.comment.replace(
+                            "*" + flag_o.letter, "*" + flag.letter))
+
+    # Passa a lavorare sugli imperativi monosillabici
+    forms = {}
+    for v, form in funky_infs.iteritems():
+        forms.setdefault(form, []).append(v)
+    fdata = calcFlags(forms)
+    flags1 = toFlags(fdata, fls[:], forms)
+
+    def impms(prod, part):
+
+        adapters = []
+        # rimozione della parte aggiunta per creare la forma di base
+        # dell'infinito
+        if prod.append.endswith('ci'):
+            adapters.append(affix.Production("ci", remove="ci"))
+        else:
+            adapters.append(affix.Production("i", remove="i"))
+
+        # Raddoppiamento della consonante
+        if not part.append.startswith('g'):
+            adapters.append(affix.Production(append=part.append[0]))
+
+        # Applicazione delle trasformazioni
+        rv = prod
+        for ad in adapters: rv = rv + ad
+        rv = rv + part
+
+        return rv
+
+    for flag_o in flags1:
+        flag = affix.Flag(fls.pop(0))
+        for v in flag_o.verbs: oflags[v] += flag.letter
+
+        flag.comment = getLabel("imperativo monosillabico", variazione='p')
+
+        flags.append(flag)
+        assert len(flag_o.productions) % 5 == 0
+        for i in range(0, len(flag_o.productions), 5):
+            for prod, mtp in zip(flag_o.productions[i:i+5],
+                cycle(('imp2s','imp3s','imp1p','imp2p','imp3p'))):
+                exp = sum((getattr(espansioni, "%s_%s" % (mtp, var), [])
+                            for var in ('p', 'r', 'rp')), [])
+                if not exp or isinstance(prod, affix.Difettivo):
+                    flag.productions.append(prod)
+                else:
+                    if mtp == 'imp2s':
+                        flag.productions.extend(impms(prod, p2) for p2 in exp)
+                    else:
+                        flag.productions.extend(prod + p2 for p2 in exp)
                     flag.productions[-len(exp)].comment = (
                         prod.comment and prod.comment.replace(
                             "*" + flag_o.letter, "*" + flag.letter))

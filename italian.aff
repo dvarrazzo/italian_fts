@@ -2667,56 +2667,6 @@ flag *D:
 #     o m p e r e     >    -ere,ano     # imp. 3a p. pl.
 
     # flag *D:
-    # annettere, connettere, flettere, riannettere, riconnettere, riflettere...
-    [ln] e t t e r e  >    -ere,o       # ind.  pres. 1a p. sn.
-    [ln] e t t e r e  >    -ere,i       # ind.  pres. 2a p. sn.
-    [ln] e t t e r e  >    -re,
-    [ln] e t t e r e  >    -ere,iamo    # ind.  pres. 1a p. pl.
-    [ln] e t t e r e  >    -re,te       # ind.  pres. 2a p. pl.
-    [ln] e t t e r e  >    -ere,ono     # ind.  pres. 3a p. pl.
-    [ln] e t t e r e  >    -re,vo       # ind.  imp.  1a p. sn.
-    [ln] e t t e r e  >    -re,vi       # ind.  imp.  2a p. sn.
-    [ln] e t t e r e  >    -re,va       # ind.  imp.  3a p. sn.
-    [ln] e t t e r e  >    -re,vamo     # ind.  imp.  1a p. pl.
-    [ln] e t t e r e  >    -re,vate     # ind.  imp.  2a p. pl.
-    [ln] e t t e r e  >    -re,vano     # ind.  imp.  3a p. pl.
-    [ln] e t t e r e  >    -ttere,ssi   # ind.  pass. 1a p. sn.
-    [ln] e t t e r e  >    -re,sti      # ind.  pass. 2a p. sn.
-    [ln] e t t e r e  >    -ttere,sse   # ind.  pass. 3a p. sn.
-    [ln] e t t e r e  >    -re,mmo      # ind.  pass. 1a p. pl.
-    [ln] e t t e r e  >    -re,ste      # ind.  pass. 2a p. pl.
-    [ln] e t t e r e  >    -ttere,ssero # ind.  pass. 3a p. pl.
-    [ln] e t t e r e  >    -e,ò         # ind.  fut.  1a p. sn.
-    [ln] e t t e r e  >    -e,ai        # ind.  fut.  2a p. sn.
-    [ln] e t t e r e  >    -e,à         # ind.  fut.  3a p. sn.
-    [ln] e t t e r e  >    mo           # ind.  fut.  1a p. pl.
-    [ln] e t t e r e  >    te           # ind.  fut.  2a p. pl.
-    [ln] e t t e r e  >    -e,anno      # ind.  fut.  3a p. pl.
-    [ln] e t t e r e  >    -ere,a       # cong. pres. 1a p. sn.
-#     [ln] e t t e r e  >    -ere,a     # cong. pres. 2a p. sn.
-#     [ln] e t t e r e  >    -ere,a     # cong. pres. 3a p. sn.
-#     [ln] e t t e r e  >    -ere,iamo  # cong. pres. 1a p. pl.
-    [ln] e t t e r e  >    -ere,iate    # cong. pres. 2a p. pl.
-    [ln] e t t e r e  >    -ere,ano     # cong. pres. 3a p. pl.
-    [ln] e t t e r e  >    -re,ssi      # cong. pass. 1a p. sn.
-#     [ln] e t t e r e  >    -re,ssi    # cong. pass. 2a p. sn.
-    [ln] e t t e r e  >    -re,sse      # cong. pass. 3a p. sn.
-    [ln] e t t e r e  >    -re,ssimo    # cong. pass. 1a p. pl.
-#     [ln] e t t e r e  >    -re,ste    # cong. pass. 2a p. pl.
-    [ln] e t t e r e  >    -re,ssero    # cong. pass. 3a p. pl.
-    [ln] e t t e r e  >    i            # cond. 1a p. sn.
-    [ln] e t t e r e  >    sti          # cond. 2a p. sn.
-    [ln] e t t e r e  >    bbe          # cond. 3a p. sn.
-    [ln] e t t e r e  >    mmo          # cond. 1a p. pl.
-    [ln] e t t e r e  >    ste          # cond. 2a p. pl.
-    [ln] e t t e r e  >    bbero        # cond. 3a p. pl.
-#     [ln] e t t e r e  >    -ere,i     # imp. 2a p. sn.
-#     [ln] e t t e r e  >    -ere,a     # imp. 3a p. sn.
-#     [ln] e t t e r e  >    -ere,iamo  # imp. 1a p. pl.
-#     [ln] e t t e r e  >    -re,te     # imp. 2a p. pl.
-#     [ln] e t t e r e  >    -ere,ano   # imp. 3a p. pl.
-
-    # flag *D:
     # comprimere, deprimere, esprimere, imprimere, opprimere, reprimere...
     r i m e r e     >    -ere,o         # ind.  pres. 1a p. sn.
     r i m e r e     >    -ere,i         # ind.  pres. 2a p. sn.
@@ -2765,6 +2715,56 @@ flag *D:
 #     r i m e r e     >    -ere,iamo    # imp. 1a p. pl.
 #     r i m e r e     >    -re,te       # imp. 2a p. pl.
 #     r i m e r e     >    -ere,ano     # imp. 3a p. pl.
+
+    # flag *D:
+    # annettere, connettere, flettere, introflettere, riannettere...
+    [ln] e t t e r e  >    -ere,o       # ind.  pres. 1a p. sn.
+    [ln] e t t e r e  >    -ere,i       # ind.  pres. 2a p. sn.
+    [ln] e t t e r e  >    -re,
+    [ln] e t t e r e  >    -ere,iamo    # ind.  pres. 1a p. pl.
+    [ln] e t t e r e  >    -re,te       # ind.  pres. 2a p. pl.
+    [ln] e t t e r e  >    -ere,ono     # ind.  pres. 3a p. pl.
+    [ln] e t t e r e  >    -re,vo       # ind.  imp.  1a p. sn.
+    [ln] e t t e r e  >    -re,vi       # ind.  imp.  2a p. sn.
+    [ln] e t t e r e  >    -re,va       # ind.  imp.  3a p. sn.
+    [ln] e t t e r e  >    -re,vamo     # ind.  imp.  1a p. pl.
+    [ln] e t t e r e  >    -re,vate     # ind.  imp.  2a p. pl.
+    [ln] e t t e r e  >    -re,vano     # ind.  imp.  3a p. pl.
+    [ln] e t t e r e  >    -ttere,ssi   # ind.  pass. 1a p. sn.
+    [ln] e t t e r e  >    -re,sti      # ind.  pass. 2a p. sn.
+    [ln] e t t e r e  >    -ttere,sse   # ind.  pass. 3a p. sn.
+    [ln] e t t e r e  >    -re,mmo      # ind.  pass. 1a p. pl.
+    [ln] e t t e r e  >    -re,ste      # ind.  pass. 2a p. pl.
+    [ln] e t t e r e  >    -ttere,ssero # ind.  pass. 3a p. pl.
+    [ln] e t t e r e  >    -e,ò         # ind.  fut.  1a p. sn.
+    [ln] e t t e r e  >    -e,ai        # ind.  fut.  2a p. sn.
+    [ln] e t t e r e  >    -e,à         # ind.  fut.  3a p. sn.
+    [ln] e t t e r e  >    mo           # ind.  fut.  1a p. pl.
+    [ln] e t t e r e  >    te           # ind.  fut.  2a p. pl.
+    [ln] e t t e r e  >    -e,anno      # ind.  fut.  3a p. pl.
+    [ln] e t t e r e  >    -ere,a       # cong. pres. 1a p. sn.
+#     [ln] e t t e r e  >    -ere,a     # cong. pres. 2a p. sn.
+#     [ln] e t t e r e  >    -ere,a     # cong. pres. 3a p. sn.
+#     [ln] e t t e r e  >    -ere,iamo  # cong. pres. 1a p. pl.
+    [ln] e t t e r e  >    -ere,iate    # cong. pres. 2a p. pl.
+    [ln] e t t e r e  >    -ere,ano     # cong. pres. 3a p. pl.
+    [ln] e t t e r e  >    -re,ssi      # cong. pass. 1a p. sn.
+#     [ln] e t t e r e  >    -re,ssi    # cong. pass. 2a p. sn.
+    [ln] e t t e r e  >    -re,sse      # cong. pass. 3a p. sn.
+    [ln] e t t e r e  >    -re,ssimo    # cong. pass. 1a p. pl.
+#     [ln] e t t e r e  >    -re,ste    # cong. pass. 2a p. pl.
+    [ln] e t t e r e  >    -re,ssero    # cong. pass. 3a p. pl.
+    [ln] e t t e r e  >    i            # cond. 1a p. sn.
+    [ln] e t t e r e  >    sti          # cond. 2a p. sn.
+    [ln] e t t e r e  >    bbe          # cond. 3a p. sn.
+    [ln] e t t e r e  >    mmo          # cond. 1a p. pl.
+    [ln] e t t e r e  >    ste          # cond. 2a p. pl.
+    [ln] e t t e r e  >    bbero        # cond. 3a p. pl.
+#     [ln] e t t e r e  >    -ere,i     # imp. 2a p. sn.
+#     [ln] e t t e r e  >    -ere,a     # imp. 3a p. sn.
+#     [ln] e t t e r e  >    -ere,iamo  # imp. 1a p. pl.
+#     [ln] e t t e r e  >    -re,te     # imp. 2a p. pl.
+#     [ln] e t t e r e  >    -ere,ano   # imp. 3a p. pl.
 
     # flag *D:
     # accrescere, conoscere, crescere, decrescere, disconoscere...
@@ -2817,7 +2817,7 @@ flag *D:
 #     [eo] s c e r e  >    -ere,ano     # imp. 3a p. pl.
 
     # flag *D:
-    # avviare, deviare, inviare, obliare, ovviare, riavviare, rinviare...
+    # avviare, deviare, espiare, inviare, obliare, ovviare, riavviare...
     i a r e         >    -are,o         # ind.  pres. 1a p. sn.
     i a r e         >    -are,i         # ind.  pres. 2a p. sn.
     i a r e         >    -re,
@@ -6059,7 +6059,7 @@ flag *H:
     [dt] a r e      >    -are,iano
 
     # flag *H:
-    # avviare, deviare, inviare, obliare, ovviare, riavviare, rinviare...
+    # avviare, deviare, espiare, inviare, obliare, ovviare, riavviare...
     i a r e         >    -re,lo
     i a r e         >    -re,la
     i a r e         >    -re,li
@@ -6299,7 +6299,7 @@ flag *H:
     g l i e r e     >    -gliere,lgano
 
     # flag *H:
-    # artefare, assuefare, confare, contraffare, fare, liquefare, putrefare...
+    # artefare, assuefare, confare, contraffare, liquefare, putrefare...
     f a r e         >    -re,ilo
     f a r e         >    -re,ila
     f a r e         >    -re,ili
@@ -6462,86 +6462,6 @@ flag *H:
 flag *I:
 
     # flag *I:
-    # andare
-    a n d a r e     >    -andare,vailo
-    a n d a r e     >    -andare,vaila
-    a n d a r e     >    -andare,vaili
-    a n d a r e     >    -andare,vaile
-    a n d a r e     >    -andare,vaine
-    a n d a r e     >    -andare,vaimi
-    a n d a r e     >    -andare,vaigli
-    a n d a r e     >    -andare,vaiti
-    a n d a r e     >    -andare,vaici
-    a n d a r e     >    -andare,vaimelo
-    a n d a r e     >    -andare,vaimela
-    a n d a r e     >    -andare,vaimeli
-    a n d a r e     >    -andare,vaimele
-    a n d a r e     >    -andare,vaimene
-    a n d a r e     >    -andare,vaiglielo
-    a n d a r e     >    -andare,vaigliela
-    a n d a r e     >    -andare,vaiglieli
-    a n d a r e     >    -andare,vaigliele
-    a n d a r e     >    -andare,vaigliene
-    a n d a r e     >    -andare,vaitelo
-    a n d a r e     >    -andare,vaitela
-    a n d a r e     >    -andare,vaiteli
-    a n d a r e     >    -andare,vaitele
-    a n d a r e     >    -andare,vaitene
-    a n d a r e     >    -andare,vaicelo
-    a n d a r e     >    -andare,vaicela
-    a n d a r e     >    -andare,vaiceli
-    a n d a r e     >    -andare,vaicele
-    a n d a r e     >    -andare,vaicene
-    a n d a r e     >    -andare,vada
-    a n d a r e     >    -are,iamolo
-    a n d a r e     >    -are,iamola
-    a n d a r e     >    -are,iamoli
-    a n d a r e     >    -are,iamole
-    a n d a r e     >    -are,iamone
-    a n d a r e     >    -are,iamogli
-    a n d a r e     >    -are,iamoci
-    a n d a r e     >    -are,iamoglielo
-    a n d a r e     >    -are,iamogliela
-    a n d a r e     >    -are,iamoglieli
-    a n d a r e     >    -are,iamogliele
-    a n d a r e     >    -are,iamogliene
-    a n d a r e     >    -are,iamocelo
-    a n d a r e     >    -are,iamocela
-    a n d a r e     >    -are,iamoceli
-    a n d a r e     >    -are,iamocele
-    a n d a r e     >    -are,iamocene
-    a n d a r e     >    -re,telo
-    a n d a r e     >    -re,tela
-    a n d a r e     >    -re,teli
-    a n d a r e     >    -re,tele
-    a n d a r e     >    -re,tene
-    a n d a r e     >    -re,temi
-    a n d a r e     >    -re,tegli
-    a n d a r e     >    -re,teci
-    a n d a r e     >    -re,tevi
-    a n d a r e     >    -re,temelo
-    a n d a r e     >    -re,temela
-    a n d a r e     >    -re,temeli
-    a n d a r e     >    -re,temele
-    a n d a r e     >    -re,temene
-    a n d a r e     >    -re,teglielo
-    a n d a r e     >    -re,tegliela
-    a n d a r e     >    -re,teglieli
-    a n d a r e     >    -re,tegliele
-    a n d a r e     >    -re,tegliene
-    a n d a r e     >    -re,tecelo
-    a n d a r e     >    -re,tecela
-    a n d a r e     >    -re,teceli
-    a n d a r e     >    -re,tecele
-    a n d a r e     >    -re,tecene
-    a n d a r e     >    -re,tevelo
-    a n d a r e     >    -re,tevela
-    a n d a r e     >    -re,teveli
-    a n d a r e     >    -re,tevele
-    a n d a r e     >    -re,tevene
-    a n d a r e     >    -andare,vadano
-
-    # flag *I:
     # riempire
     p i r e         >    -re,lo
     p i r e         >    -re,la
@@ -6620,6 +6540,86 @@ flag *I:
     p i r e         >    -re,tevele
     p i r e         >    -re,tevene
     p i r e         >    -re,ano
+
+    # flag *I:
+    # riudire, udire
+    u d i r e       >    -udire,odilo
+    u d i r e       >    -udire,odila
+    u d i r e       >    -udire,odili
+    u d i r e       >    -udire,odile
+    u d i r e       >    -udire,odine
+    u d i r e       >    -udire,odimi
+    u d i r e       >    -udire,odigli
+    u d i r e       >    -udire,oditi
+    u d i r e       >    -udire,odici
+    u d i r e       >    -udire,odimelo
+    u d i r e       >    -udire,odimela
+    u d i r e       >    -udire,odimeli
+    u d i r e       >    -udire,odimele
+    u d i r e       >    -udire,odimene
+    u d i r e       >    -udire,odiglielo
+    u d i r e       >    -udire,odigliela
+    u d i r e       >    -udire,odiglieli
+    u d i r e       >    -udire,odigliele
+    u d i r e       >    -udire,odigliene
+    u d i r e       >    -udire,oditelo
+    u d i r e       >    -udire,oditela
+    u d i r e       >    -udire,oditeli
+    u d i r e       >    -udire,oditele
+    u d i r e       >    -udire,oditene
+    u d i r e       >    -udire,odicelo
+    u d i r e       >    -udire,odicela
+    u d i r e       >    -udire,odiceli
+    u d i r e       >    -udire,odicele
+    u d i r e       >    -udire,odicene
+    u d i r e       >    -udire,oda
+    u d i r e       >    -re,amolo
+    u d i r e       >    -re,amola
+    u d i r e       >    -re,amoli
+    u d i r e       >    -re,amole
+    u d i r e       >    -re,amone
+    u d i r e       >    -re,amogli
+    u d i r e       >    -re,amoci
+    u d i r e       >    -re,amoglielo
+    u d i r e       >    -re,amogliela
+    u d i r e       >    -re,amoglieli
+    u d i r e       >    -re,amogliele
+    u d i r e       >    -re,amogliene
+    u d i r e       >    -re,amocelo
+    u d i r e       >    -re,amocela
+    u d i r e       >    -re,amoceli
+    u d i r e       >    -re,amocele
+    u d i r e       >    -re,amocene
+    u d i r e       >    -re,telo
+    u d i r e       >    -re,tela
+    u d i r e       >    -re,teli
+    u d i r e       >    -re,tele
+    u d i r e       >    -re,tene
+    u d i r e       >    -re,temi
+    u d i r e       >    -re,tegli
+    u d i r e       >    -re,teci
+    u d i r e       >    -re,tevi
+    u d i r e       >    -re,temelo
+    u d i r e       >    -re,temela
+    u d i r e       >    -re,temeli
+    u d i r e       >    -re,temele
+    u d i r e       >    -re,temene
+    u d i r e       >    -re,teglielo
+    u d i r e       >    -re,tegliela
+    u d i r e       >    -re,teglieli
+    u d i r e       >    -re,tegliele
+    u d i r e       >    -re,tegliene
+    u d i r e       >    -re,tecelo
+    u d i r e       >    -re,tecela
+    u d i r e       >    -re,teceli
+    u d i r e       >    -re,tecele
+    u d i r e       >    -re,tecene
+    u d i r e       >    -re,tevelo
+    u d i r e       >    -re,tevela
+    u d i r e       >    -re,teveli
+    u d i r e       >    -re,tevele
+    u d i r e       >    -re,tevene
+    u d i r e       >    -udire,odano
 
     # flag *I:
     # morire, premorire
@@ -7022,84 +7022,84 @@ flag *I:
     [ln] e r e      >    -ere,gano
 
     # flag *I:
-    # benedire, contraddire, dire, disdire, indire, interdire, maledire...
-    d i r e         >    -re,cilo
-    d i r e         >    -re,cila
-    d i r e         >    -re,cili
-    d i r e         >    -re,cile
-    d i r e         >    -re,cine
-    d i r e         >    -re,cimi
-    d i r e         >    -re,cigli
-    d i r e         >    -re,citi
-    d i r e         >    -re,cici
-    d i r e         >    -re,cimelo
-    d i r e         >    -re,cimela
-    d i r e         >    -re,cimeli
-    d i r e         >    -re,cimele
-    d i r e         >    -re,cimene
-    d i r e         >    -re,ciglielo
-    d i r e         >    -re,cigliela
-    d i r e         >    -re,ciglieli
-    d i r e         >    -re,cigliele
-    d i r e         >    -re,cigliene
-    d i r e         >    -re,citelo
-    d i r e         >    -re,citela
-    d i r e         >    -re,citeli
-    d i r e         >    -re,citele
-    d i r e         >    -re,citene
-    d i r e         >    -re,cicelo
-    d i r e         >    -re,cicela
-    d i r e         >    -re,ciceli
-    d i r e         >    -re,cicele
-    d i r e         >    -re,cicene
-    d i r e         >    -re,ca
-    d i r e         >    -re,ciamolo
-    d i r e         >    -re,ciamola
-    d i r e         >    -re,ciamoli
-    d i r e         >    -re,ciamole
-    d i r e         >    -re,ciamone
-    d i r e         >    -re,ciamogli
-    d i r e         >    -re,ciamoci
-    d i r e         >    -re,ciamoglielo
-    d i r e         >    -re,ciamogliela
-    d i r e         >    -re,ciamoglieli
-    d i r e         >    -re,ciamogliele
-    d i r e         >    -re,ciamogliene
-    d i r e         >    -re,ciamocelo
-    d i r e         >    -re,ciamocela
-    d i r e         >    -re,ciamoceli
-    d i r e         >    -re,ciamocele
-    d i r e         >    -re,ciamocene
-    d i r e         >    -re,telo
-    d i r e         >    -re,tela
-    d i r e         >    -re,teli
-    d i r e         >    -re,tele
-    d i r e         >    -re,tene
-    d i r e         >    -re,temi
-    d i r e         >    -re,tegli
-    d i r e         >    -re,teci
-    d i r e         >    -re,tevi
-    d i r e         >    -re,temelo
-    d i r e         >    -re,temela
-    d i r e         >    -re,temeli
-    d i r e         >    -re,temele
-    d i r e         >    -re,temene
-    d i r e         >    -re,teglielo
-    d i r e         >    -re,tegliela
-    d i r e         >    -re,teglieli
-    d i r e         >    -re,tegliele
-    d i r e         >    -re,tegliene
-    d i r e         >    -re,tecelo
-    d i r e         >    -re,tecela
-    d i r e         >    -re,teceli
-    d i r e         >    -re,tecele
-    d i r e         >    -re,tecene
-    d i r e         >    -re,tevelo
-    d i r e         >    -re,tevela
-    d i r e         >    -re,teveli
-    d i r e         >    -re,tevele
-    d i r e         >    -re,tevene
-    d i r e         >    -re,cano
+    # benedire, contraddire, disdire, indire, interdire, maledire, predire...
+    [^u] d i r e    >    -re,cilo
+    [^u] d i r e    >    -re,cila
+    [^u] d i r e    >    -re,cili
+    [^u] d i r e    >    -re,cile
+    [^u] d i r e    >    -re,cine
+    [^u] d i r e    >    -re,cimi
+    [^u] d i r e    >    -re,cigli
+    [^u] d i r e    >    -re,citi
+    [^u] d i r e    >    -re,cici
+    [^u] d i r e    >    -re,cimelo
+    [^u] d i r e    >    -re,cimela
+    [^u] d i r e    >    -re,cimeli
+    [^u] d i r e    >    -re,cimele
+    [^u] d i r e    >    -re,cimene
+    [^u] d i r e    >    -re,ciglielo
+    [^u] d i r e    >    -re,cigliela
+    [^u] d i r e    >    -re,ciglieli
+    [^u] d i r e    >    -re,cigliele
+    [^u] d i r e    >    -re,cigliene
+    [^u] d i r e    >    -re,citelo
+    [^u] d i r e    >    -re,citela
+    [^u] d i r e    >    -re,citeli
+    [^u] d i r e    >    -re,citele
+    [^u] d i r e    >    -re,citene
+    [^u] d i r e    >    -re,cicelo
+    [^u] d i r e    >    -re,cicela
+    [^u] d i r e    >    -re,ciceli
+    [^u] d i r e    >    -re,cicele
+    [^u] d i r e    >    -re,cicene
+    [^u] d i r e    >    -re,ca
+    [^u] d i r e    >    -re,ciamolo
+    [^u] d i r e    >    -re,ciamola
+    [^u] d i r e    >    -re,ciamoli
+    [^u] d i r e    >    -re,ciamole
+    [^u] d i r e    >    -re,ciamone
+    [^u] d i r e    >    -re,ciamogli
+    [^u] d i r e    >    -re,ciamoci
+    [^u] d i r e    >    -re,ciamoglielo
+    [^u] d i r e    >    -re,ciamogliela
+    [^u] d i r e    >    -re,ciamoglieli
+    [^u] d i r e    >    -re,ciamogliele
+    [^u] d i r e    >    -re,ciamogliene
+    [^u] d i r e    >    -re,ciamocelo
+    [^u] d i r e    >    -re,ciamocela
+    [^u] d i r e    >    -re,ciamoceli
+    [^u] d i r e    >    -re,ciamocele
+    [^u] d i r e    >    -re,ciamocene
+    [^u] d i r e    >    -re,telo
+    [^u] d i r e    >    -re,tela
+    [^u] d i r e    >    -re,teli
+    [^u] d i r e    >    -re,tele
+    [^u] d i r e    >    -re,tene
+    [^u] d i r e    >    -re,temi
+    [^u] d i r e    >    -re,tegli
+    [^u] d i r e    >    -re,teci
+    [^u] d i r e    >    -re,tevi
+    [^u] d i r e    >    -re,temelo
+    [^u] d i r e    >    -re,temela
+    [^u] d i r e    >    -re,temeli
+    [^u] d i r e    >    -re,temele
+    [^u] d i r e    >    -re,temene
+    [^u] d i r e    >    -re,teglielo
+    [^u] d i r e    >    -re,tegliela
+    [^u] d i r e    >    -re,teglieli
+    [^u] d i r e    >    -re,tegliele
+    [^u] d i r e    >    -re,tegliene
+    [^u] d i r e    >    -re,tecelo
+    [^u] d i r e    >    -re,tecela
+    [^u] d i r e    >    -re,teceli
+    [^u] d i r e    >    -re,tecele
+    [^u] d i r e    >    -re,tecene
+    [^u] d i r e    >    -re,tevelo
+    [^u] d i r e    >    -re,tevela
+    [^u] d i r e    >    -re,teveli
+    [^u] d i r e    >    -re,tevele
+    [^u] d i r e    >    -re,tevene
+    [^u] d i r e    >    -re,cano
 
     # flag *I:
     # addivenire, avvenire, circonvenire, contravvenire, convenire, divenire...
@@ -7181,88 +7181,248 @@ flag *I:
     e n i r e       >    -re,tevene
     e n i r e       >    -ire,gano
 
-# particelle pronominali su imperativo
+# particelle pronominali su imperativo monosillabico
 flag *J:
 
     # flag *J:
-    # riudire, udire
-    u d i r e       >    -udire,odilo
-    u d i r e       >    -udire,odila
-    u d i r e       >    -udire,odili
-    u d i r e       >    -udire,odile
-    u d i r e       >    -udire,odine
-    u d i r e       >    -udire,odimi
-    u d i r e       >    -udire,odigli
-    u d i r e       >    -udire,oditi
-    u d i r e       >    -udire,odici
-    u d i r e       >    -udire,odimelo
-    u d i r e       >    -udire,odimela
-    u d i r e       >    -udire,odimeli
-    u d i r e       >    -udire,odimele
-    u d i r e       >    -udire,odimene
-    u d i r e       >    -udire,odiglielo
-    u d i r e       >    -udire,odigliela
-    u d i r e       >    -udire,odiglieli
-    u d i r e       >    -udire,odigliele
-    u d i r e       >    -udire,odigliene
-    u d i r e       >    -udire,oditelo
-    u d i r e       >    -udire,oditela
-    u d i r e       >    -udire,oditeli
-    u d i r e       >    -udire,oditele
-    u d i r e       >    -udire,oditene
-    u d i r e       >    -udire,odicelo
-    u d i r e       >    -udire,odicela
-    u d i r e       >    -udire,odiceli
-    u d i r e       >    -udire,odicele
-    u d i r e       >    -udire,odicene
-    u d i r e       >    -udire,oda
-    u d i r e       >    -re,amolo
-    u d i r e       >    -re,amola
-    u d i r e       >    -re,amoli
-    u d i r e       >    -re,amole
-    u d i r e       >    -re,amone
-    u d i r e       >    -re,amogli
-    u d i r e       >    -re,amoci
-    u d i r e       >    -re,amoglielo
-    u d i r e       >    -re,amogliela
-    u d i r e       >    -re,amoglieli
-    u d i r e       >    -re,amogliele
-    u d i r e       >    -re,amogliene
-    u d i r e       >    -re,amocelo
-    u d i r e       >    -re,amocela
-    u d i r e       >    -re,amoceli
-    u d i r e       >    -re,amocele
-    u d i r e       >    -re,amocene
-    u d i r e       >    -re,telo
-    u d i r e       >    -re,tela
-    u d i r e       >    -re,teli
-    u d i r e       >    -re,tele
-    u d i r e       >    -re,tene
-    u d i r e       >    -re,temi
-    u d i r e       >    -re,tegli
-    u d i r e       >    -re,teci
-    u d i r e       >    -re,tevi
-    u d i r e       >    -re,temelo
-    u d i r e       >    -re,temela
-    u d i r e       >    -re,temeli
-    u d i r e       >    -re,temele
-    u d i r e       >    -re,temene
-    u d i r e       >    -re,teglielo
-    u d i r e       >    -re,tegliela
-    u d i r e       >    -re,teglieli
-    u d i r e       >    -re,tegliele
-    u d i r e       >    -re,tegliene
-    u d i r e       >    -re,tecelo
-    u d i r e       >    -re,tecela
-    u d i r e       >    -re,teceli
-    u d i r e       >    -re,tecele
-    u d i r e       >    -re,tecene
-    u d i r e       >    -re,tevelo
-    u d i r e       >    -re,tevela
-    u d i r e       >    -re,teveli
-    u d i r e       >    -re,tevele
-    u d i r e       >    -re,tevene
-    u d i r e       >    -udire,odano
+    # andare
+    a n d a r e     >    -andare,vallo
+    a n d a r e     >    -andare,valla
+    a n d a r e     >    -andare,valli
+    a n d a r e     >    -andare,valle
+    a n d a r e     >    -andare,vanne
+    a n d a r e     >    -andare,vammi
+    a n d a r e     >    -andare,vagli
+    a n d a r e     >    -andare,vatti
+    a n d a r e     >    -andare,vacci
+    a n d a r e     >    -andare,vammelo
+    a n d a r e     >    -andare,vammela
+    a n d a r e     >    -andare,vammeli
+    a n d a r e     >    -andare,vammele
+    a n d a r e     >    -andare,vammene
+    a n d a r e     >    -andare,vaglielo
+    a n d a r e     >    -andare,vagliela
+    a n d a r e     >    -andare,vaglieli
+    a n d a r e     >    -andare,vagliele
+    a n d a r e     >    -andare,vagliene
+    a n d a r e     >    -andare,vattelo
+    a n d a r e     >    -andare,vattela
+    a n d a r e     >    -andare,vatteli
+    a n d a r e     >    -andare,vattele
+    a n d a r e     >    -andare,vattene
+    a n d a r e     >    -andare,vaccelo
+    a n d a r e     >    -andare,vaccela
+    a n d a r e     >    -andare,vacceli
+    a n d a r e     >    -andare,vaccele
+    a n d a r e     >    -andare,vaccene
+    a n d a r e     >    -andare,vada
+    a n d a r e     >    -are,iamolo
+    a n d a r e     >    -are,iamola
+    a n d a r e     >    -are,iamoli
+    a n d a r e     >    -are,iamole
+    a n d a r e     >    -are,iamone
+    a n d a r e     >    -are,iamogli
+    a n d a r e     >    -are,iamoci
+    a n d a r e     >    -are,iamoglielo
+    a n d a r e     >    -are,iamogliela
+    a n d a r e     >    -are,iamoglieli
+    a n d a r e     >    -are,iamogliele
+    a n d a r e     >    -are,iamogliene
+    a n d a r e     >    -are,iamocelo
+    a n d a r e     >    -are,iamocela
+    a n d a r e     >    -are,iamoceli
+    a n d a r e     >    -are,iamocele
+    a n d a r e     >    -are,iamocene
+    a n d a r e     >    -re,telo
+    a n d a r e     >    -re,tela
+    a n d a r e     >    -re,teli
+    a n d a r e     >    -re,tele
+    a n d a r e     >    -re,tene
+    a n d a r e     >    -re,temi
+    a n d a r e     >    -re,tegli
+    a n d a r e     >    -re,teci
+    a n d a r e     >    -re,tevi
+    a n d a r e     >    -re,temelo
+    a n d a r e     >    -re,temela
+    a n d a r e     >    -re,temeli
+    a n d a r e     >    -re,temele
+    a n d a r e     >    -re,temene
+    a n d a r e     >    -re,teglielo
+    a n d a r e     >    -re,tegliela
+    a n d a r e     >    -re,teglieli
+    a n d a r e     >    -re,tegliele
+    a n d a r e     >    -re,tegliene
+    a n d a r e     >    -re,tecelo
+    a n d a r e     >    -re,tecela
+    a n d a r e     >    -re,teceli
+    a n d a r e     >    -re,tecele
+    a n d a r e     >    -re,tecene
+    a n d a r e     >    -re,tevelo
+    a n d a r e     >    -re,tevela
+    a n d a r e     >    -re,teveli
+    a n d a r e     >    -re,tevele
+    a n d a r e     >    -re,tevene
+    a n d a r e     >    -andare,vadano
+
+    # flag *J:
+    # dire
+    i r e           >    -re,llo
+    i r e           >    -re,lla
+    i r e           >    -re,lli
+    i r e           >    -re,lle
+    i r e           >    -re,nne
+    i r e           >    -re,mmi
+    i r e           >    -re,gli
+    i r e           >    -re,tti
+    i r e           >    -re,cci
+    i r e           >    -re,mmelo
+    i r e           >    -re,mmela
+    i r e           >    -re,mmeli
+    i r e           >    -re,mmele
+    i r e           >    -re,mmene
+    i r e           >    -re,glielo
+    i r e           >    -re,gliela
+    i r e           >    -re,glieli
+    i r e           >    -re,gliele
+    i r e           >    -re,gliene
+    i r e           >    -re,ttelo
+    i r e           >    -re,ttela
+    i r e           >    -re,tteli
+    i r e           >    -re,ttele
+    i r e           >    -re,ttene
+    i r e           >    -re,ccelo
+    i r e           >    -re,ccela
+    i r e           >    -re,cceli
+    i r e           >    -re,ccele
+    i r e           >    -re,ccene
+    i r e           >    -re,ca
+    i r e           >    -re,ciamolo
+    i r e           >    -re,ciamola
+    i r e           >    -re,ciamoli
+    i r e           >    -re,ciamole
+    i r e           >    -re,ciamone
+    i r e           >    -re,ciamogli
+    i r e           >    -re,ciamoci
+    i r e           >    -re,ciamoglielo
+    i r e           >    -re,ciamogliela
+    i r e           >    -re,ciamoglieli
+    i r e           >    -re,ciamogliele
+    i r e           >    -re,ciamogliene
+    i r e           >    -re,ciamocelo
+    i r e           >    -re,ciamocela
+    i r e           >    -re,ciamoceli
+    i r e           >    -re,ciamocele
+    i r e           >    -re,ciamocene
+    i r e           >    -re,telo
+    i r e           >    -re,tela
+    i r e           >    -re,teli
+    i r e           >    -re,tele
+    i r e           >    -re,tene
+    i r e           >    -re,temi
+    i r e           >    -re,tegli
+    i r e           >    -re,teci
+    i r e           >    -re,tevi
+    i r e           >    -re,temelo
+    i r e           >    -re,temela
+    i r e           >    -re,temeli
+    i r e           >    -re,temele
+    i r e           >    -re,temene
+    i r e           >    -re,teglielo
+    i r e           >    -re,tegliela
+    i r e           >    -re,teglieli
+    i r e           >    -re,tegliele
+    i r e           >    -re,tegliene
+    i r e           >    -re,tecelo
+    i r e           >    -re,tecela
+    i r e           >    -re,teceli
+    i r e           >    -re,tecele
+    i r e           >    -re,tecene
+    i r e           >    -re,tevelo
+    i r e           >    -re,tevela
+    i r e           >    -re,teveli
+    i r e           >    -re,tevele
+    i r e           >    -re,tevene
+    i r e           >    -re,cano
+
+    # flag *J:
+    # fare
+    f a r e         >    -re,llo
+    f a r e         >    -re,lla
+    f a r e         >    -re,lli
+    f a r e         >    -re,lle
+    f a r e         >    -re,nne
+    f a r e         >    -re,mmi
+    f a r e         >    -re,gli
+    f a r e         >    -re,tti
+    f a r e         >    -re,cci
+    f a r e         >    -re,mmelo
+    f a r e         >    -re,mmela
+    f a r e         >    -re,mmeli
+    f a r e         >    -re,mmele
+    f a r e         >    -re,mmene
+    f a r e         >    -re,glielo
+    f a r e         >    -re,gliela
+    f a r e         >    -re,glieli
+    f a r e         >    -re,gliele
+    f a r e         >    -re,gliene
+    f a r e         >    -re,ttelo
+    f a r e         >    -re,ttela
+    f a r e         >    -re,tteli
+    f a r e         >    -re,ttele
+    f a r e         >    -re,ttene
+    f a r e         >    -re,ccelo
+    f a r e         >    -re,ccela
+    f a r e         >    -re,cceli
+    f a r e         >    -re,ccele
+    f a r e         >    -re,ccene
+    f a r e         >    -re,ccia
+    f a r e         >    -re,cciamolo
+    f a r e         >    -re,cciamola
+    f a r e         >    -re,cciamoli
+    f a r e         >    -re,cciamole
+    f a r e         >    -re,cciamone
+    f a r e         >    -re,cciamogli
+    f a r e         >    -re,cciamoci
+    f a r e         >    -re,cciamoglielo
+    f a r e         >    -re,cciamogliela
+    f a r e         >    -re,cciamoglieli
+    f a r e         >    -re,cciamogliele
+    f a r e         >    -re,cciamogliene
+    f a r e         >    -re,cciamocelo
+    f a r e         >    -re,cciamocela
+    f a r e         >    -re,cciamoceli
+    f a r e         >    -re,cciamocele
+    f a r e         >    -re,cciamocene
+    f a r e         >    -re,telo
+    f a r e         >    -re,tela
+    f a r e         >    -re,teli
+    f a r e         >    -re,tele
+    f a r e         >    -re,tene
+    f a r e         >    -re,temi
+    f a r e         >    -re,tegli
+    f a r e         >    -re,teci
+    f a r e         >    -re,tevi
+    f a r e         >    -re,temelo
+    f a r e         >    -re,temela
+    f a r e         >    -re,temeli
+    f a r e         >    -re,temele
+    f a r e         >    -re,temene
+    f a r e         >    -re,teglielo
+    f a r e         >    -re,tegliela
+    f a r e         >    -re,teglieli
+    f a r e         >    -re,tegliele
+    f a r e         >    -re,tegliene
+    f a r e         >    -re,tecelo
+    f a r e         >    -re,tecela
+    f a r e         >    -re,teceli
+    f a r e         >    -re,tecele
+    f a r e         >    -re,tecene
+    f a r e         >    -re,tevelo
+    f a r e         >    -re,tevela
+    f a r e         >    -re,teveli
+    f a r e         >    -re,tevele
+    f a r e         >    -re,tevene
+    f a r e         >    -re,cciano
 
 # part. pres.
 flag *K:
@@ -7905,18 +8065,6 @@ flag *T:
     n i r e         >    -ire,utamente
 
     # flag *T:
-    # ammettere, annettere, commettere, compromettere, connettere, dimettere...
-    t t e r e       >    -ttere,sso
-    t t e r e       >    -ttere,ssa
-    t t e r e       >    -ttere,ssi
-    t t e r e       >    -ttere,sse
-    t t e r e       >    -ttere,ssissimo
-    t t e r e       >    -ttere,ssissima
-    t t e r e       >    -ttere,ssissimi
-    t t e r e       >    -ttere,ssissime
-    t t e r e       >    -ttere,ssamente
-
-    # flag *T:
     # accrescere, aspergere, assurgere, attorcere, compiacere, conoscere...
     [cg] e r e      >    -ere,iuto
     [cg] e r e      >    -ere,iuta
@@ -7927,6 +8075,18 @@ flag *T:
     [cg] e r e      >    -ere,iutissimi
     [cg] e r e      >    -ere,iutissime
     [cg] e r e      >    -ere,iutamente
+
+    # flag *T:
+    # ammettere, annettere, commettere, compromettere, connettere, dimettere...
+    t t e r e       >    -ttere,sso
+    t t e r e       >    -ttere,ssa
+    t t e r e       >    -ttere,ssi
+    t t e r e       >    -ttere,sse
+    t t e r e       >    -ttere,ssissimo
+    t t e r e       >    -ttere,ssissima
+    t t e r e       >    -ttere,ssissimi
+    t t e r e       >    -ttere,ssissime
+    t t e r e       >    -ttere,ssamente
 
     # flag *T:
     # accludere, alludere, ardere, arridere, chiudere, circoncidere...
@@ -9890,50 +10050,6 @@ flag *W:
     n i r e         >    -ire,utevene
 
     # flag *W:
-    # ammettere, annettere, commettere, compromettere, connettere, dimettere...
-    t t e r e       >    -ttere,ssolo
-    t t e r e       >    -ttere,ssola
-    t t e r e       >    -ttere,ssoli
-    t t e r e       >    -ttere,ssole
-    t t e r e       >    -ttere,ssone
-    t t e r e       >    -ttere,ssala
-    t t e r e       >    -ttere,ssale
-    t t e r e       >    -ttere,ssane
-    t t e r e       >    -ttere,ssili
-    t t e r e       >    -ttere,ssile
-    t t e r e       >    -ttere,ssine
-    t t e r e       >    -ttere,ssele
-    t t e r e       >    -ttere,ssene
-    t t e r e       >    -ttere,ssomi
-    t t e r e       >    -ttere,ssoti
-    t t e r e       >    -ttere,ssogli
-    t t e r e       >    -ttere,ssoci
-    t t e r e       >    -ttere,ssovi
-    t t e r e       >    -ttere,ssosi
-    t t e r e       >    -ttere,ssami
-    t t e r e       >    -ttere,ssati
-    t t e r e       >    -ttere,ssagli
-    t t e r e       >    -ttere,ssaci
-    t t e r e       >    -ttere,ssavi
-    t t e r e       >    -ttere,ssasi
-    t t e r e       >    -ttere,ssimi
-    t t e r e       >    -ttere,ssiti
-    t t e r e       >    -ttere,ssigli
-    t t e r e       >    -ttere,ssici
-    t t e r e       >    -ttere,ssivi
-    t t e r e       >    -ttere,ssisi
-    t t e r e       >    -ttere,ssemi
-    t t e r e       >    -ttere,sseti
-    t t e r e       >    -ttere,ssegli
-    t t e r e       >    -ttere,sseci
-    t t e r e       >    -ttere,ssevi
-    t t e r e       >    -ttere,ssesi
-    t t e r e       >    -ttere,ssovene
-    t t e r e       >    -ttere,ssavene
-    t t e r e       >    -ttere,ssivene
-    t t e r e       >    -ttere,ssevene
-
-    # flag *W:
     # accrescere, aspergere, assurgere, attorcere, compiacere, conoscere...
     [cg] e r e      >    -ere,iutolo
     [cg] e r e      >    -ere,iutola
@@ -9976,6 +10092,50 @@ flag *W:
     [cg] e r e      >    -ere,iutavene
     [cg] e r e      >    -ere,iutivene
     [cg] e r e      >    -ere,iutevene
+
+    # flag *W:
+    # ammettere, annettere, commettere, compromettere, connettere, dimettere...
+    t t e r e       >    -ttere,ssolo
+    t t e r e       >    -ttere,ssola
+    t t e r e       >    -ttere,ssoli
+    t t e r e       >    -ttere,ssole
+    t t e r e       >    -ttere,ssone
+    t t e r e       >    -ttere,ssala
+    t t e r e       >    -ttere,ssale
+    t t e r e       >    -ttere,ssane
+    t t e r e       >    -ttere,ssili
+    t t e r e       >    -ttere,ssile
+    t t e r e       >    -ttere,ssine
+    t t e r e       >    -ttere,ssele
+    t t e r e       >    -ttere,ssene
+    t t e r e       >    -ttere,ssomi
+    t t e r e       >    -ttere,ssoti
+    t t e r e       >    -ttere,ssogli
+    t t e r e       >    -ttere,ssoci
+    t t e r e       >    -ttere,ssovi
+    t t e r e       >    -ttere,ssosi
+    t t e r e       >    -ttere,ssami
+    t t e r e       >    -ttere,ssati
+    t t e r e       >    -ttere,ssagli
+    t t e r e       >    -ttere,ssaci
+    t t e r e       >    -ttere,ssavi
+    t t e r e       >    -ttere,ssasi
+    t t e r e       >    -ttere,ssimi
+    t t e r e       >    -ttere,ssiti
+    t t e r e       >    -ttere,ssigli
+    t t e r e       >    -ttere,ssici
+    t t e r e       >    -ttere,ssivi
+    t t e r e       >    -ttere,ssisi
+    t t e r e       >    -ttere,ssemi
+    t t e r e       >    -ttere,sseti
+    t t e r e       >    -ttere,ssegli
+    t t e r e       >    -ttere,sseci
+    t t e r e       >    -ttere,ssevi
+    t t e r e       >    -ttere,ssesi
+    t t e r e       >    -ttere,ssovene
+    t t e r e       >    -ttere,ssavene
+    t t e r e       >    -ttere,ssivene
+    t t e r e       >    -ttere,ssevene
 
     # flag *W:
     # accludere, alludere, ardere, arridere, chiudere, circoncidere...
