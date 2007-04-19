@@ -49,4 +49,4 @@ split:
 
 merge:
 	python merge_dicts.py verbi.dict italian-other.dict italian-numbers.dict > italian.dict
-
+	cat italian.aff.before-verbs verbi.aff italian.aff.after-verbs > italian.aff

@@ -1,0 +1,223 @@
+# Italian dictionary for full-text search
+#
+# Copyright 2001, 2002 Gianluca Turconi
+# Copyright 2002, 2003, 2004 Gianluca Turconi, Davide Prina
+# Copyright 2004, 2005, 2006 Davide Prina
+# Copyright 2007 Daniele Varrazzo
+#
+# E-Mail: piro(CHIOCCIOLA)develer(PUNTO)com
+#
+# Version 0.1 (yyyy-mm-dd)
+#
+# This file is distributed under GPL license
+#
+# This file is part of the Italian dictionary for full-text search.
+#
+# The Italian dictionary for full-text search is free software; you can
+# redistribute it and/or modify it under the terms of the GNU General Public
+# License as published by the Free Software Foundation; either version 2 of
+# the License, or (at your option) any later version.
+#
+# The Italian dictionary for full-text search is distributed in the hope that
+# it will be useful, but WITHOUT ANY WARRANTY; without even the implied
+# warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public
+# License along with Italian dictionary for full-text search,
+# if not, write to the Free Software Foundation, Inc.,
+# 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA
+#
+# GPL license can be found here:
+# http://www.fsf.org/licenses/licenses.html
+
+#SET ISO8859-15
+#TRY aoertncmdpgubzfvhà'ACMSkBGPLxEyRVòIODNwFéùèìjZKHWJYQ
+
+MAP 5
+MAP aàAÀ
+MAP eéèEÉÈ
+MAP iìIÌ
+MAP oòOÒ
+MAP uùUÙ
+
+suffixes
+
+# Sostantivi maschili
+
+flag *a:
+    [^IGC]  O   >   -O,I
+    [GC]    O   >   -O,HI
+    I       O   >   -O,
+    [^CG]   A   >   -A,I
+    [CG]    A   >   -A,HI
+            E   >   -E,I
+
+# Sostantivi femminili
+
+flag *b:
+    [^GC]   A   >   -A,E
+    [GC]    A   >   -A,HE
+
+# Forme alternativa di costruzione del plurale maschile (manico -> manici,
+# uomo -> uomini) e femminile (freccia -> frecce)
+
+flag *c:
+    I       A   >   -IA,E
+    [^M]    O   >   -O,I
+    [M]     O   >   -O,INI
+
+# Forme alternative di femminili
+
+flag *d:
+    T   O   R   E   >   -ORE,RICE
+    T   O   R   E   >   -ORE,RICI
+
+        [^CG]   A   >   -A,ESSA
+        [^CG]   A   >   -A,ESSE
+
+        [CG]    A   >   -A,HESSA
+        [CG]    A   >   -A,HESSE
+
+                E   >   SSA
+                E   >   SSE
+
+                O   >   -O,ESSA
+                O   >   -O,ESSE
+
+# Pronomi indefiniti (qualcuno, nessuno...)
+
+flag *e:
+    O       >   -O,A
+
+# Aggettivi e sostantivi sia maschili che femminili
+
+flag *f:
+        [^IGC]  O   >   -O,I
+        [GC]    O   >   -O,HI
+        I       O   >   -O,
+                E   >   -E,I
+
+                O   >   -O,A
+                E   >   -E,A
+
+        [^GC]   O   >   -O,E
+        [GC]    O   >   -O,HE
+
+# Forma alternativa di plurale maschile (amico -> amici, amica, amiche)
+
+flag *g:
+                O   >   -O,I
+                O   >   -O,A
+        [^CG]   O   >   -O,E
+        [CG]    O   >   -O,HE
+
+# Superlativo assoluto
+# Non deve andare sulle parole col flag /p, ma solo su /o e /S
+
+flag *h:
+        [^IGC]  O   >   -O,ISSIMO
+        [^IGC]  O   >   -O,ISSIMI
+        [^IGC]  O   >   -O,ISSIMA
+        [^IGC]  O   >   -O,ISSIME
+
+                E   >   -E,ISSIMO
+                E   >   -E,ISSIMI
+                E   >   -E,ISSIMA
+                E   >   -E,ISSIME
+
+        I       O   >   -O,SSIMO
+        I       O   >   -O,SSIMI
+        I       O   >   -O,SSIMA
+        I       O   >   -O,SSIME
+
+        [CG]    O   >   -O,HISSIMO
+        [CG]    O   >   -O,HISSIMA
+        [CG]    O   >   -O,HISSIME
+        [CG]    O   >   -O,HISSIMI
+
+# Superlativo su aggettivi in forma -co -> -ci (es. amico, amici)
+# Queste parole sono caratterizzate dal flag /p
+
+flag *i:
+                O   >   -O,ISSIMO
+                O   >   -O,ISSIMA
+                O   >   -O,ISSIME
+                O   >   -O,ISSIMI
+
+# Superlativo in -errimo
+
+flag *j:
+    [^E]    R   E   >   -RE,ERRIMO
+    [^E]    R   E   >   -RE,ERRIMI
+    [^E]    R   E   >   -RE,ERRIMA
+    [^E]    R   E   >   -RE,ERRIME
+
+    E       R   E   >   -E,RIMO
+    E       R   E   >   -E,RIMI
+    E       R   E   >   -E,RIMA
+    E       R   E   >   -E,RIME
+
+   [^E]     R   O   >   -RO,ERRIMO
+   [^E]     R   O   >   -RO,ERRIMI
+   [^E]     R   O   >   -RO,ERRIMA
+   [^E]     R   O   >   -RO,ERRIME
+
+   E        R   O   >   -O,RIMO
+   E        R   O   >   -O,RIMI
+   E        R   O   >   -O,RIMA
+   E        R   O   >   -O,RIME
+
+# Avverbi
+
+flag k:
+                A   >   MENTE
+                O   >   -O,AMENTE
+          [^RL] E   >   MENTE
+   [AEIOU]  R   E   >   -E,MENTE
+   [^AEIOU] R   E   >   MENTE
+   [^L]     L   E   >   -E,MENTE
+   L        L   E   >   MENTE
+
+flag l:
+                O   >   -O,EMENTE
+
+# Avverbio sul superlativo. Questo flag dovrebbe essere applicato a tutti
+# Gli aggettivi che hanno i flag (y | Y) & W
+
+flag *m:
+    [^IGC]  O   >   -O,ISSIMAMENTE
+    [CG]    O   >   -O,HISSIMAMENTE
+    I       O   >   -O,SSIMAMENTE
+    [^R]    E   >   -E,ISSIMAMENTE
+    R       E   >   -RE,ERRIMAMENTE
+
+
+# Diminutivi, vezzeggiativi, accrescitivi...
+
+flag *n:
+   [^ICG]   A   >   -A,INA
+   [^ICG]   A   >   -A,INE
+   [CG]     A   >   -A,HINA
+   [CG]     A   >   -A,HINE
+   [CG]     A   >   -A,HETTA
+   [CG]     A   >   -A,HETTE
+   [^CG]    A   >   -A,ETTA
+   [^CG]    A   >   -A,ETTE
+   I        A   >   -A,NA
+   I        A   >   -A,NE
+            A   >   -A,ONA
+            A   >   -A,ONE
+
+# Troncamento
+
+flag *o:
+    A       >   -A
+    E       >   -E
+    I       >   -I
+    O       >   -O
+
+
+# Suffissi per i verbi
+# --------------------
+

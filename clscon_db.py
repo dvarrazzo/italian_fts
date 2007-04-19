@@ -202,26 +202,39 @@ def main():
                             prod.comment and prod.comment.replace(
                                 "*" + flag_o.letter, "*" + flag.letter))
 
+    # Aggiunta dei prefissi
+    # ---------------------
+
+    # aggiungi i prefissi
+    def fetchPrefissi(cur):
+        cur.execute(
+            "SELECT infinito, substring(attributo FROM 10) "
+            "FROM attributo_mydict "
+            "WHERE attributo LIKE 'prefisso\_%';")
+
+        return cur.fetchall()
+
+    pre2flag = {
+        'ri': 'z',
+        'stra': 'y',
+        'pre': 'x',
+        're': 'w',
+    }
+
+    for f, v in sorted((pre2flag[b], a) for a, b in dbRun(fetchPrefissi)):
+        oflags[v] += f
+
     # Output
     # ------
+
+    for flag in flags:
+        print "Flag %s (%d prod.): %s" % (
+            flag.letter, len(flag.productions), flag.comment)
 
     print >> open('verbi.aff', 'w'), "\n\n".join(map(str, flags))
 
     print >> open('verbi.dict', 'w'), \
         '\n'.join("%s/%s" % t for t in sorted(oflags.iteritems()))
-
-    def suffKey(s):
-        if ']' in s:
-            s1, s2 = s.split(']',1)
-            s = s1[1] + s2
-
-        return ''.join(reversed(s))
-
-    for i, flag in enumerate(fdata):
-        print "\nflag", i
-        for k, v in sorted(flag.iteritems(),key=lambda _: suffKey(_[1])):
-            print "   ", v, ":", k
-            print "              #", len(forms[k]), forms[k][:3]
 
 # Risultati: sono necessari
 

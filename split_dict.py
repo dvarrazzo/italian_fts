@@ -29,7 +29,10 @@ for w, f in din.iteritems():
         dx[w] = f
         continue
 
+    is_verb = f[0] == 'A'
     for flag in f:
+        if is_verb and flag in 'zyxw':
+            continue
         do = dicts.get(flag, dn)
         do[w] = do.get(w, '') + flag
 

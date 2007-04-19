@@ -1,0 +1,164 @@
+/ Italian dictionary for full-text search
+/
+/ Copyright (C) 2001, 2002 Gianluca Turconi
+/ Copyright (C) 2002, 2003, 2004 Gianluca Turconi and Davide Prina
+/ Copyright (C) 2004, 2005, 2006 Davide Prina
+/ Copyright (C) 2007 Daniele Varrazzo
+/
+/ E-Mail: piro(CHIOCCIOLA)develer(PUNTO)com
+/
+/ Version 0.1 (yyyy-mm-dd)
+/
+/ This file is distributed under GPL license.
+/
+/ This file is part of the Italian dictionary for full-text search.
+/
+/ The Italian dictionary for full-text search is free software; you can
+/ redistribute it and/or modify it under the terms of the GNU General Public
+/ License as published by the Free Software Foundation; either version 2 of
+/ the License, or (at your option) any later version.
+/
+/ The Italian dictionary for full-text search is distributed in the hope that
+/ it will be useful, but WITHOUT ANY WARRANTY; without even the implied
+/ warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+/ GNU General Public License for more details.
+/
+/ You should have received a copy of the GNU General Public
+/ License along with Italian dictionary for full-text search,
+/ if not, write to the Free Software Foundation, Inc.,
+/ 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA
+/
+/ GPL license can be found here:
+/ http://www.fsf.org/licenses/licenses.html
+c/£$
+cento/|!@&()=
+cinquanta/|@&)=
+cinquantacinquemila/|!
+cinquantaduemila/|!
+cinquantamila/|!
+cinquantanovemila/|!
+cinquantaquattromila/|!
+cinquantaseimila/|!
+cinquantasettemila/|!
+cinquantatremila/|!
+cinquantottomila/|!
+cinquantunmila/|!
+cinquecento/|!@&(
+cinquemila/|!
+d/£$
+diciannove/@)
+diciannovemila/|!
+diciassette/@)
+diciassettemila/|!
+diciotto/@)
+diciottomila/|!
+diecimila/|!
+dodici/@)
+dodicimila/|!
+duecento/|!@&(
+duemila/|!
+i/£
+l/£$
+m/£$
+mille/|!@
+novanta/|@&)=
+novantacinquemila/|!
+novantaduemila/|!
+novantamila/|!
+novantanovemila/|!
+novantaquattromila/|!
+novantaseimila/|!
+novantasettemila/|!
+novantatremila/|!
+novantottomila/|!
+novantunmila/|!
+novecento/|!@&(
+novemila/|!
+ottanta/|
+ottantacinquemila/|!
+ottantaduemila/|!
+ottantamila/|!
+ottantanovemila/|!
+ottantaquattromila/|!
+ottantaseimila/|!
+ottantasettemila/|!
+ottantatremila/|!
+ottantottomila/|!
+ottantunmila/|!
+ottocento/|!@&(
+ottomila/|!
+quaranta/|@&)=
+quarantacinquemila/|!
+quarantaduemila/|!
+quarantamila/|!
+quarantanovemila/|!
+quarantaquattromila/|!
+quarantaseimila/|!
+quarantasettemila/|!
+quarantatremila/|!
+quarantottomila/|!
+quarantunmila/|!
+quattordici/@)
+quattordicimila/|!
+quattrocento/|!@&(
+quattromila/|!
+quindici/@)
+quindicimila/|!
+sedici/@)
+sedicimila/|!
+seicento/|!@&(
+seimila/|!
+sessanta/|@&)=
+sessantacinquemila/|!
+sessantaduemila/|!
+sessantamila/|!
+sessantanovemila/|!
+sessantaquattromila/|!
+sessantaseimila/|!
+sessantasettemila/|!
+sessantatremila/|!
+sessantottomila/|!
+sessantunmila/|!
+settanta/|@&)=
+settantacinquemila/|!
+settantaduemila/|!
+settantamila/|!
+settantanovemila/|!
+settantaquattromila/|!
+settantaseimila/|!
+settantasettemila/|!
+settantatremila/|!
+settantottomila/|!
+settantunmila/|!
+settecento/|!@&(
+settemila/|!
+trecento/|!@&(
+tredici/@)
+tredicimila/|!
+tremila/|!
+trenta/|@&)=
+trentacinquemila/|!
+trentaduemila/|!
+trentamila/|!
+trentanovemila/|!
+trentaquattromila/|!
+trentaseimila/|!
+trentasettemila/|!
+trentatremila/|!
+trentottomila/|!
+trentunmila/|!
+undicimila/|!
+v/£
+venticinquemila/|!
+ventiduemila/|!
+ventimila/|!
+ventinomila/|!
+ventiquattromila/|!
+ventiseimila/|!
+ventisettemila/|!
+ventitremila/|!
+ventottomila/|!
+ventunmila/|!
+x/£$
+xx/£$
+xxx/£$
