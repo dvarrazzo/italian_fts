@@ -606,6 +606,23 @@ class RimuoviProduzioni(Operation):
                     if prod in dictionary and prod not in nv:
                         del dictionary[prod]
 
+class SeparaMaschileFemminile(Operation):
+    """Suddividi l'aggettivo in maschile e femminile"""
+    def _run(self, dictionary):
+        for w, f in sorted(dictionary.iteritems()):
+            if 'f' not in f and 'g' not in f: continue
+
+            f = set(f)
+            if 'f' in f:
+                f.remove('f')
+                f.add('a')
+            else:
+                f.remove('g')
+                f.add('b')
+
+            f.add('f')
+
+            dictionary[w] = ''.join(sorted(f))
 
 #: The list of operation to perform.
 #: The first item is the revision number after which the operation is not to
@@ -653,6 +670,7 @@ processes = [
     (78, RimuoviConiugazioni()),
     (78, UnisciVerbi()),
     (99, RimuoviProduzioni()),
+    (105, SeparaMaschileFemminile()),
 ]
 
         #def getVerbWithAttr(cur, attr):
@@ -666,7 +684,7 @@ processes = [
         #prefixed['z'] = dbRun(getVerbWithAttr('prefisso_ri'))
 
 if __name__ == '__main__':
-    d_name = 'italian.dict'
+    d_name = 'italian-other.dict'
     locale.setlocale(locale.LC_ALL, 'it_IT')
     
     d_rev = getRevision(d_name)

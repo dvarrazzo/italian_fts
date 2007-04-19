@@ -90,30 +90,22 @@ flag *d:
 flag *e:
     O       >   -O,A
 
-# Aggettivi e sostantivi sia maschili che femminili
+# Creazione del femminile dal maschile (regio -> regia, regie)
 
 flag *f:
-        [^IGC]  O   >   -O,I
-        [GC]    O   >   -O,HI
-        I       O   >   -O,
-                E   >   -E,I
+            E   >   -E,A
+            O   >   -O,A
+    [^GC]   O   >   -O,E
+    [GC]    O   >   -O,HE
 
-                O   >   -O,A
-                E   >   -E,A
-
-        [^GC]   O   >   -O,E
-        [GC]    O   >   -O,HE
-
-# Forma alternativa di plurale maschile (amico -> amici, amica, amiche)
+# Creazione del femminile dal maschile (arancio -> arancia, arance)
 
 flag *g:
-                O   >   -O,I
-                O   >   -O,A
-        [^CG]   O   >   -O,E
-        [CG]    O   >   -O,HE
+        I   O   >   -O,A
+        I   O   >   -IO,E
 
 # Superlativo assoluto
-# Non deve andare sulle parole col flag /p, ma solo su /o e /S
+# Non deve andare sulle parole col flag /c, ma solo su /a
 
 flag *h:
         [^IGC]  O   >   -O,ISSIMO
@@ -137,7 +129,7 @@ flag *h:
         [CG]    O   >   -O,HISSIMI
 
 # Superlativo su aggettivi in forma -co -> -ci (es. amico, amici)
-# Queste parole sono caratterizzate dal flag /p
+# Queste parole sono caratterizzate dal flag /c
 
 flag *i:
                 O   >   -O,ISSIMO
