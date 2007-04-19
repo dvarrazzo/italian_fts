@@ -214,6 +214,7 @@ flag *n:
 flag *o:
     A       >   -A
     E       >   -E
+    I       >   -I
     O       >   -O
 
 
