@@ -136,7 +136,7 @@ def toFlags(fin, avail, examples={}):
         fout.append(fo)
         for k, suf in sorted(f.iteritems(),
                 key=lambda _: _[0] in examples
-                              and len(examples[_[0]]) or 0):
+                              and -len(examples[_[0]]) or 0):
             first_prod = True
             distincts = set()
             for pair in k:
@@ -169,7 +169,8 @@ def toFlags(fin, avail, examples={}):
                 if i <= len(verbs):
                     p.comment += "..."
 
-                p.comment = ("flag *%s:\n" % fo.letter) + p.comment
+                p.comment = ("flag *%s: # %s\n" % (fo.letter, p.pattern )
+                             + p.comment)
 
                 first_prod = False
 
