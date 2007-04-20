@@ -594,17 +594,20 @@ class RimuoviProduzioni(Operation):
         import affix
         aff = affix.parseMyDict(open("italian.aff"))
         nv = Dictionary(); nv.load("non-verbi.dict")
+        vaff = affix.parseMyDict(open("verbi.aff"))
+        for l in 'wxyz':
+            vaff[l] = aff[l]
+        vdict = Dictionary(); vdict.load("verbi.dict")
 
         prev = None
-        for w, f in sorted(dictionary.iteritems()):
-            if 'A' in f: # e' un verbo
-                if not prev or prev[0] != w[0]:
-                    print w
-                    prev = w
-                prods = aff.apply(w, f)
-                for prod in prods:
-                    if prod in dictionary and prod not in nv:
-                        del dictionary[prod]
+        for w, f in sorted(vdict.iteritems()):
+            if not prev or prev[0] != w[0]:
+                print w
+                prev = w
+            prods = vaff.apply(w, f)
+            for prod in prods:
+                if prod in dictionary and prod not in nv:
+                    del dictionary[prod]
 
 class SeparaMaschileFemminile(Operation):
     """Suddividi l'aggettivo in maschile e femminile"""
@@ -669,8 +672,8 @@ processes = [
     (69, RenameAffFlags("italian.aff")),
     (78, RimuoviConiugazioni()),
     (78, UnisciVerbi()),
-    (99, RimuoviProduzioni()),
     (105, SeparaMaschileFemminile()),
+    (107, RimuoviProduzioni()),
 ]
 
         #def getVerbWithAttr(cur, attr):

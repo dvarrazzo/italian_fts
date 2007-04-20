@@ -5406,86 +5406,6 @@ flag *H:
     i a r e         >    -re,tevene
     i a r e         >    -are,insi
 
-    # flag *H: # [dt]are
-    # constare, dare, ridare, ristare, sottostare, stare
-    [dt] a r e      >    -re,ilo
-    [dt] a r e      >    -re,ila
-    [dt] a r e      >    -re,ili
-    [dt] a r e      >    -re,ile
-    [dt] a r e      >    -re,ine
-    [dt] a r e      >    -re,imi
-    [dt] a r e      >    -re,igli
-    [dt] a r e      >    -re,iti
-    [dt] a r e      >    -re,ici
-    [dt] a r e      >    -re,imelo
-    [dt] a r e      >    -re,imela
-    [dt] a r e      >    -re,imeli
-    [dt] a r e      >    -re,imele
-    [dt] a r e      >    -re,imene
-    [dt] a r e      >    -re,iglielo
-    [dt] a r e      >    -re,igliela
-    [dt] a r e      >    -re,iglieli
-    [dt] a r e      >    -re,igliele
-    [dt] a r e      >    -re,igliene
-    [dt] a r e      >    -re,itelo
-    [dt] a r e      >    -re,itela
-    [dt] a r e      >    -re,iteli
-    [dt] a r e      >    -re,itele
-    [dt] a r e      >    -re,itene
-    [dt] a r e      >    -re,icelo
-    [dt] a r e      >    -re,icela
-    [dt] a r e      >    -re,iceli
-    [dt] a r e      >    -re,icele
-    [dt] a r e      >    -re,icene
-    [dt] a r e      >    -are,iasi
-    [dt] a r e      >    -are,iamolo
-    [dt] a r e      >    -are,iamola
-    [dt] a r e      >    -are,iamoli
-    [dt] a r e      >    -are,iamole
-    [dt] a r e      >    -are,iamone
-    [dt] a r e      >    -are,iamogli
-    [dt] a r e      >    -are,iamoci
-    [dt] a r e      >    -are,iamoglielo
-    [dt] a r e      >    -are,iamogliela
-    [dt] a r e      >    -are,iamoglieli
-    [dt] a r e      >    -are,iamogliele
-    [dt] a r e      >    -are,iamogliene
-    [dt] a r e      >    -are,iamocelo
-    [dt] a r e      >    -are,iamocela
-    [dt] a r e      >    -are,iamoceli
-    [dt] a r e      >    -are,iamocele
-    [dt] a r e      >    -are,iamocene
-    [dt] a r e      >    -re,telo
-    [dt] a r e      >    -re,tela
-    [dt] a r e      >    -re,teli
-    [dt] a r e      >    -re,tele
-    [dt] a r e      >    -re,tene
-    [dt] a r e      >    -re,temi
-    [dt] a r e      >    -re,tegli
-    [dt] a r e      >    -re,teci
-    [dt] a r e      >    -re,tevi
-    [dt] a r e      >    -re,temelo
-    [dt] a r e      >    -re,temela
-    [dt] a r e      >    -re,temeli
-    [dt] a r e      >    -re,temele
-    [dt] a r e      >    -re,temene
-    [dt] a r e      >    -re,teglielo
-    [dt] a r e      >    -re,tegliela
-    [dt] a r e      >    -re,teglieli
-    [dt] a r e      >    -re,tegliele
-    [dt] a r e      >    -re,tegliene
-    [dt] a r e      >    -re,tecelo
-    [dt] a r e      >    -re,tecela
-    [dt] a r e      >    -re,teceli
-    [dt] a r e      >    -re,tecele
-    [dt] a r e      >    -re,tecene
-    [dt] a r e      >    -re,tevelo
-    [dt] a r e      >    -re,tevela
-    [dt] a r e      >    -re,teveli
-    [dt] a r e      >    -re,tevele
-    [dt] a r e      >    -re,tevene
-    [dt] a r e      >    -are,iansi
-
     # flag *H: # uscire
     # fuoriuscire, fuoruscire, riuscire, uscire
     u s c i r e     >    -uscire,escilo
@@ -5645,6 +5565,86 @@ flag *H:
     a c e r e       >    -re,tevele
     a c e r e       >    -re,tevene
     a c e r e       >    -ere,ciansi
+
+    # flag *H: # [dt]are
+    # constare, ridare, ristare, sottostare
+    [dt] a r e      >    -re,ilo
+    [dt] a r e      >    -re,ila
+    [dt] a r e      >    -re,ili
+    [dt] a r e      >    -re,ile
+    [dt] a r e      >    -re,ine
+    [dt] a r e      >    -re,imi
+    [dt] a r e      >    -re,igli
+    [dt] a r e      >    -re,iti
+    [dt] a r e      >    -re,ici
+    [dt] a r e      >    -re,imelo
+    [dt] a r e      >    -re,imela
+    [dt] a r e      >    -re,imeli
+    [dt] a r e      >    -re,imele
+    [dt] a r e      >    -re,imene
+    [dt] a r e      >    -re,iglielo
+    [dt] a r e      >    -re,igliela
+    [dt] a r e      >    -re,iglieli
+    [dt] a r e      >    -re,igliele
+    [dt] a r e      >    -re,igliene
+    [dt] a r e      >    -re,itelo
+    [dt] a r e      >    -re,itela
+    [dt] a r e      >    -re,iteli
+    [dt] a r e      >    -re,itele
+    [dt] a r e      >    -re,itene
+    [dt] a r e      >    -re,icelo
+    [dt] a r e      >    -re,icela
+    [dt] a r e      >    -re,iceli
+    [dt] a r e      >    -re,icele
+    [dt] a r e      >    -re,icene
+    [dt] a r e      >    -are,iasi
+    [dt] a r e      >    -are,iamolo
+    [dt] a r e      >    -are,iamola
+    [dt] a r e      >    -are,iamoli
+    [dt] a r e      >    -are,iamole
+    [dt] a r e      >    -are,iamone
+    [dt] a r e      >    -are,iamogli
+    [dt] a r e      >    -are,iamoci
+    [dt] a r e      >    -are,iamoglielo
+    [dt] a r e      >    -are,iamogliela
+    [dt] a r e      >    -are,iamoglieli
+    [dt] a r e      >    -are,iamogliele
+    [dt] a r e      >    -are,iamogliene
+    [dt] a r e      >    -are,iamocelo
+    [dt] a r e      >    -are,iamocela
+    [dt] a r e      >    -are,iamoceli
+    [dt] a r e      >    -are,iamocele
+    [dt] a r e      >    -are,iamocene
+    [dt] a r e      >    -re,telo
+    [dt] a r e      >    -re,tela
+    [dt] a r e      >    -re,teli
+    [dt] a r e      >    -re,tele
+    [dt] a r e      >    -re,tene
+    [dt] a r e      >    -re,temi
+    [dt] a r e      >    -re,tegli
+    [dt] a r e      >    -re,teci
+    [dt] a r e      >    -re,tevi
+    [dt] a r e      >    -re,temelo
+    [dt] a r e      >    -re,temela
+    [dt] a r e      >    -re,temeli
+    [dt] a r e      >    -re,temele
+    [dt] a r e      >    -re,temene
+    [dt] a r e      >    -re,teglielo
+    [dt] a r e      >    -re,tegliela
+    [dt] a r e      >    -re,teglieli
+    [dt] a r e      >    -re,tegliele
+    [dt] a r e      >    -re,tegliene
+    [dt] a r e      >    -re,tecelo
+    [dt] a r e      >    -re,tecela
+    [dt] a r e      >    -re,teceli
+    [dt] a r e      >    -re,tecele
+    [dt] a r e      >    -re,tecene
+    [dt] a r e      >    -re,tevelo
+    [dt] a r e      >    -re,tevela
+    [dt] a r e      >    -re,teveli
+    [dt] a r e      >    -re,tevele
+    [dt] a r e      >    -re,tevene
+    [dt] a r e      >    -are,iansi
 
     # flag *H: # edere
     # possedere, risedere, sedere, soprassedere
@@ -7172,85 +7172,85 @@ flag *I:
 # particelle pronominali su imperativo monosillabico
 flag *J:
 
-    # flag *J: # andare
-    # andare
-    a n d a r e     >    -andare,vallo
-    a n d a r e     >    -andare,valla
-    a n d a r e     >    -andare,valli
-    a n d a r e     >    -andare,valle
-    a n d a r e     >    -andare,vanne
-    a n d a r e     >    -andare,vammi
-    a n d a r e     >    -andare,vagli
-    a n d a r e     >    -andare,vatti
-    a n d a r e     >    -andare,vacci
-    a n d a r e     >    -andare,vammelo
-    a n d a r e     >    -andare,vammela
-    a n d a r e     >    -andare,vammeli
-    a n d a r e     >    -andare,vammele
-    a n d a r e     >    -andare,vammene
-    a n d a r e     >    -andare,vaglielo
-    a n d a r e     >    -andare,vagliela
-    a n d a r e     >    -andare,vaglieli
-    a n d a r e     >    -andare,vagliele
-    a n d a r e     >    -andare,vagliene
-    a n d a r e     >    -andare,vattelo
-    a n d a r e     >    -andare,vattela
-    a n d a r e     >    -andare,vatteli
-    a n d a r e     >    -andare,vattele
-    a n d a r e     >    -andare,vattene
-    a n d a r e     >    -andare,vaccelo
-    a n d a r e     >    -andare,vaccela
-    a n d a r e     >    -andare,vacceli
-    a n d a r e     >    -andare,vaccele
-    a n d a r e     >    -andare,vaccene
-    a n d a r e     >    -andare,vadasi
-    a n d a r e     >    -are,iamolo
-    a n d a r e     >    -are,iamola
-    a n d a r e     >    -are,iamoli
-    a n d a r e     >    -are,iamole
-    a n d a r e     >    -are,iamone
-    a n d a r e     >    -are,iamogli
-    a n d a r e     >    -are,iamoci
-    a n d a r e     >    -are,iamoglielo
-    a n d a r e     >    -are,iamogliela
-    a n d a r e     >    -are,iamoglieli
-    a n d a r e     >    -are,iamogliele
-    a n d a r e     >    -are,iamogliene
-    a n d a r e     >    -are,iamocelo
-    a n d a r e     >    -are,iamocela
-    a n d a r e     >    -are,iamoceli
-    a n d a r e     >    -are,iamocele
-    a n d a r e     >    -are,iamocene
-    a n d a r e     >    -re,telo
-    a n d a r e     >    -re,tela
-    a n d a r e     >    -re,teli
-    a n d a r e     >    -re,tele
-    a n d a r e     >    -re,tene
-    a n d a r e     >    -re,temi
-    a n d a r e     >    -re,tegli
-    a n d a r e     >    -re,teci
-    a n d a r e     >    -re,tevi
-    a n d a r e     >    -re,temelo
-    a n d a r e     >    -re,temela
-    a n d a r e     >    -re,temeli
-    a n d a r e     >    -re,temele
-    a n d a r e     >    -re,temene
-    a n d a r e     >    -re,teglielo
-    a n d a r e     >    -re,tegliela
-    a n d a r e     >    -re,teglieli
-    a n d a r e     >    -re,tegliele
-    a n d a r e     >    -re,tegliene
-    a n d a r e     >    -re,tecelo
-    a n d a r e     >    -re,tecela
-    a n d a r e     >    -re,teceli
-    a n d a r e     >    -re,tecele
-    a n d a r e     >    -re,tecene
-    a n d a r e     >    -re,tevelo
-    a n d a r e     >    -re,tevela
-    a n d a r e     >    -re,teveli
-    a n d a r e     >    -re,tevele
-    a n d a r e     >    -re,tevene
-    a n d a r e     >    -andare,vadansi
+    # flag *J: # [dt]are
+    # dare, stare
+    [dt] a r e      >    -re,llo
+    [dt] a r e      >    -re,lla
+    [dt] a r e      >    -re,lli
+    [dt] a r e      >    -re,lle
+    [dt] a r e      >    -re,nne
+    [dt] a r e      >    -re,mmi
+    [dt] a r e      >    -re,gli
+    [dt] a r e      >    -re,tti
+    [dt] a r e      >    -re,cci
+    [dt] a r e      >    -re,mmelo
+    [dt] a r e      >    -re,mmela
+    [dt] a r e      >    -re,mmeli
+    [dt] a r e      >    -re,mmele
+    [dt] a r e      >    -re,mmene
+    [dt] a r e      >    -re,glielo
+    [dt] a r e      >    -re,gliela
+    [dt] a r e      >    -re,glieli
+    [dt] a r e      >    -re,gliele
+    [dt] a r e      >    -re,gliene
+    [dt] a r e      >    -re,ttelo
+    [dt] a r e      >    -re,ttela
+    [dt] a r e      >    -re,tteli
+    [dt] a r e      >    -re,ttele
+    [dt] a r e      >    -re,ttene
+    [dt] a r e      >    -re,ccelo
+    [dt] a r e      >    -re,ccela
+    [dt] a r e      >    -re,cceli
+    [dt] a r e      >    -re,ccele
+    [dt] a r e      >    -re,ccene
+    [dt] a r e      >    -are,iasi
+    [dt] a r e      >    -are,iamolo
+    [dt] a r e      >    -are,iamola
+    [dt] a r e      >    -are,iamoli
+    [dt] a r e      >    -are,iamole
+    [dt] a r e      >    -are,iamone
+    [dt] a r e      >    -are,iamogli
+    [dt] a r e      >    -are,iamoci
+    [dt] a r e      >    -are,iamoglielo
+    [dt] a r e      >    -are,iamogliela
+    [dt] a r e      >    -are,iamoglieli
+    [dt] a r e      >    -are,iamogliele
+    [dt] a r e      >    -are,iamogliene
+    [dt] a r e      >    -are,iamocelo
+    [dt] a r e      >    -are,iamocela
+    [dt] a r e      >    -are,iamoceli
+    [dt] a r e      >    -are,iamocele
+    [dt] a r e      >    -are,iamocene
+    [dt] a r e      >    -re,telo
+    [dt] a r e      >    -re,tela
+    [dt] a r e      >    -re,teli
+    [dt] a r e      >    -re,tele
+    [dt] a r e      >    -re,tene
+    [dt] a r e      >    -re,temi
+    [dt] a r e      >    -re,tegli
+    [dt] a r e      >    -re,teci
+    [dt] a r e      >    -re,tevi
+    [dt] a r e      >    -re,temelo
+    [dt] a r e      >    -re,temela
+    [dt] a r e      >    -re,temeli
+    [dt] a r e      >    -re,temele
+    [dt] a r e      >    -re,temene
+    [dt] a r e      >    -re,teglielo
+    [dt] a r e      >    -re,tegliela
+    [dt] a r e      >    -re,teglieli
+    [dt] a r e      >    -re,tegliele
+    [dt] a r e      >    -re,tegliene
+    [dt] a r e      >    -re,tecelo
+    [dt] a r e      >    -re,tecela
+    [dt] a r e      >    -re,teceli
+    [dt] a r e      >    -re,tecele
+    [dt] a r e      >    -re,tecene
+    [dt] a r e      >    -re,tevelo
+    [dt] a r e      >    -re,tevela
+    [dt] a r e      >    -re,teveli
+    [dt] a r e      >    -re,tevele
+    [dt] a r e      >    -re,tevene
+    [dt] a r e      >    -are,iansi
 
     # flag *J: # ire
     # dire
@@ -7412,154 +7412,237 @@ flag *J:
     f a r e         >    -re,tevene
     f a r e         >    -re,cciansi
 
-# part. pres.
+# particelle pronominali su imperativo monosillabico
 flag *K:
 
-    # flag *K: # [ae]re
+    # flag *K: # andare
+    # andare
+    a n d a r e     >    -andare,vallo
+    a n d a r e     >    -andare,valla
+    a n d a r e     >    -andare,valli
+    a n d a r e     >    -andare,valle
+    a n d a r e     >    -andare,vanne
+    a n d a r e     >    -andare,vammi
+    a n d a r e     >    -andare,vagli
+    a n d a r e     >    -andare,vatti
+    a n d a r e     >    -andare,vacci
+    a n d a r e     >    -andare,vammelo
+    a n d a r e     >    -andare,vammela
+    a n d a r e     >    -andare,vammeli
+    a n d a r e     >    -andare,vammele
+    a n d a r e     >    -andare,vammene
+    a n d a r e     >    -andare,vaglielo
+    a n d a r e     >    -andare,vagliela
+    a n d a r e     >    -andare,vaglieli
+    a n d a r e     >    -andare,vagliele
+    a n d a r e     >    -andare,vagliene
+    a n d a r e     >    -andare,vattelo
+    a n d a r e     >    -andare,vattela
+    a n d a r e     >    -andare,vatteli
+    a n d a r e     >    -andare,vattele
+    a n d a r e     >    -andare,vattene
+    a n d a r e     >    -andare,vaccelo
+    a n d a r e     >    -andare,vaccela
+    a n d a r e     >    -andare,vacceli
+    a n d a r e     >    -andare,vaccele
+    a n d a r e     >    -andare,vaccene
+    a n d a r e     >    -andare,vadasi
+    a n d a r e     >    -are,iamolo
+    a n d a r e     >    -are,iamola
+    a n d a r e     >    -are,iamoli
+    a n d a r e     >    -are,iamole
+    a n d a r e     >    -are,iamone
+    a n d a r e     >    -are,iamogli
+    a n d a r e     >    -are,iamoci
+    a n d a r e     >    -are,iamoglielo
+    a n d a r e     >    -are,iamogliela
+    a n d a r e     >    -are,iamoglieli
+    a n d a r e     >    -are,iamogliele
+    a n d a r e     >    -are,iamogliene
+    a n d a r e     >    -are,iamocelo
+    a n d a r e     >    -are,iamocela
+    a n d a r e     >    -are,iamoceli
+    a n d a r e     >    -are,iamocele
+    a n d a r e     >    -are,iamocene
+    a n d a r e     >    -re,telo
+    a n d a r e     >    -re,tela
+    a n d a r e     >    -re,teli
+    a n d a r e     >    -re,tele
+    a n d a r e     >    -re,tene
+    a n d a r e     >    -re,temi
+    a n d a r e     >    -re,tegli
+    a n d a r e     >    -re,teci
+    a n d a r e     >    -re,tevi
+    a n d a r e     >    -re,temelo
+    a n d a r e     >    -re,temela
+    a n d a r e     >    -re,temeli
+    a n d a r e     >    -re,temele
+    a n d a r e     >    -re,temene
+    a n d a r e     >    -re,teglielo
+    a n d a r e     >    -re,tegliela
+    a n d a r e     >    -re,teglieli
+    a n d a r e     >    -re,tegliele
+    a n d a r e     >    -re,tegliene
+    a n d a r e     >    -re,tecelo
+    a n d a r e     >    -re,tecela
+    a n d a r e     >    -re,teceli
+    a n d a r e     >    -re,tecele
+    a n d a r e     >    -re,tecene
+    a n d a r e     >    -re,tevelo
+    a n d a r e     >    -re,tevela
+    a n d a r e     >    -re,teveli
+    a n d a r e     >    -re,tevele
+    a n d a r e     >    -re,tevene
+    a n d a r e     >    -andare,vadansi
+
+# part. pres.
+flag *L:
+
+    # flag *L: # [ae]re
     # abbacchiare, abbacinare, abbagliare, abbaiare, abballare, abbandonare...
     [ae] r e        >    -re,nte
     [ae] r e        >    -re,nti
 
-    # flag *K: # ire
+    # flag *L: # ire
     # abbellire, abbonire, abbrustolire, abbrutire, abbruttire, abolire...
     i r e           >    -ire,ente
     i r e           >    -ire,enti
 
-    # flag *K: # orre
+    # flag *L: # orre
     # anteporre, apporre, comporre, contrapporre, decomporre, deporre...
     o r r e         >    -rre,nente
     o r r e         >    -rre,nenti
 
-    # flag *K: # urre
+    # flag *L: # urre
     # abdurre, addurre, autoridurre, circondurre, condurre, dedurre, indurre...
     u r r e         >    -rre,cente
     u r r e         >    -rre,centi
 
-    # flag *K: # arre
+    # flag *L: # arre
     # astrarre, attrarre, contrarre, decontrarre, detrarre, distrarre...
     a r r e         >    -rre,ente
     a r r e         >    -rre,enti
 
 # part. pres.
-flag *L:
+flag *M:
 
-    # flag *L: # [^t]ire
+    # flag *M: # [^t]ire
     # addivenire, assalire, avvenire, circonvenire, contravvenire, convenire...
     [^t] i r e      >    -re,ente
     [^t] i r e      >    -re,enti
 
-    # flag *L: # tire
+    # flag *M: # tire
     # acconsentire, consentire, dissentire, patire, risentire, sentire
     t i r e         >    -tire,ziente
     t i r e         >    -tire,zienti
 
-    # flag *L: # bere
+    # flag *M: # bere
     # bere, strabere
     b e r e         >    -re,vente
     b e r e         >    -re,venti
 
-    # flag *L: # pere
+    # flag *M: # pere
     # risapere, sapere
     p e r e         >    -ere,iente
     p e r e         >    -ere,ienti
 
-    # flag *L: # uocere
+    # flag *M: # uocere
     # nuocere
     u o c e r e     >    -uocere,ocente
     u o c e r e     >    -uocere,ocenti
 
 # part. pres.
-flag *M:
+flag *N:
 
-    # flag *M: # re
+    # flag *N: # re
     # artefare, assuefare, benedire, confare, contraddire, contraffare, dire...
     r e             >    -re,cente
     r e             >    -re,centi
 
 # part. pres.
-flag *N:
+flag *O:
 
-    # flag *N: # rire
+    # flag *O: # rire
     # offrire, soffrire
     r i r e         >    -rire,erente
     r i r e         >    -rire,erenti
 
 # particelle pronominali su part. pres.
-flag *O:
+flag *P:
 
-    # flag *O: # [ae]re
+    # flag *P: # [ae]re
     # abbacchiare, abbacinare, abbagliare, abbaiare, abballare, abbandonare...
     [ae] r e        >    -re,ntesi
     [ae] r e        >    -re,ntisi
 
-    # flag *O: # ire
+    # flag *P: # ire
     # abbellire, abbonire, abbrustolire, abbrutire, abbruttire, abolire...
     i r e           >    -ire,entesi
     i r e           >    -ire,entisi
 
-    # flag *O: # orre
+    # flag *P: # orre
     # anteporre, apporre, comporre, contrapporre, decomporre, deporre...
     o r r e         >    -rre,nentesi
     o r r e         >    -rre,nentisi
 
-    # flag *O: # urre
+    # flag *P: # urre
     # abdurre, addurre, autoridurre, circondurre, condurre, dedurre, indurre...
     u r r e         >    -rre,centesi
     u r r e         >    -rre,centisi
 
-    # flag *O: # arre
+    # flag *P: # arre
     # astrarre, attrarre, contrarre, decontrarre, detrarre, distrarre...
     a r r e         >    -rre,entesi
     a r r e         >    -rre,entisi
 
 # particelle pronominali su part. pres.
-flag *P:
+flag *Q:
 
-    # flag *P: # [^t]ire
+    # flag *Q: # [^t]ire
     # addivenire, assalire, avvenire, circonvenire, contravvenire, convenire...
     [^t] i r e      >    -re,entesi
     [^t] i r e      >    -re,entisi
 
-    # flag *P: # tire
+    # flag *Q: # tire
     # acconsentire, consentire, dissentire, patire, risentire, sentire
     t i r e         >    -tire,zientesi
     t i r e         >    -tire,zientisi
 
-    # flag *P: # bere
+    # flag *Q: # bere
     # bere, strabere
     b e r e         >    -re,ventesi
     b e r e         >    -re,ventisi
 
-    # flag *P: # pere
+    # flag *Q: # pere
     # risapere, sapere
     p e r e         >    -ere,ientesi
     p e r e         >    -ere,ientisi
 
-    # flag *P: # uocere
+    # flag *Q: # uocere
     # nuocere
     u o c e r e     >    -uocere,ocentesi
     u o c e r e     >    -uocere,ocentisi
 
 # particelle pronominali su part. pres.
-flag *Q:
+flag *R:
 
-    # flag *Q: # re
+    # flag *R: # re
     # artefare, assuefare, benedire, confare, contraddire, contraffare, dire...
     r e             >    -re,centesi
     r e             >    -re,centisi
 
 # particelle pronominali su part. pres.
-flag *R:
+flag *S:
 
-    # flag *R: # rire
+    # flag *S: # rire
     # offrire, soffrire
     r i r e         >    -rire,erentesi
     r i r e         >    -rire,erentisi
 
 # part. pass.
-flag *S:
+flag *T:
 
-    # flag *S: # [ai]re
+    # flag *T: # [ai]re
     # abbacchiare, abbacinare, abbagliare, abbaiare, abballare, abbandonare...
     [ai] r e        >    -re,to
     [ai] r e        >    -re,ta
@@ -7571,7 +7654,7 @@ flag *S:
     [ai] r e        >    -re,tissime
     [ai] r e        >    -re,tamente
 
-    # flag *S: # [^cgr]ere
+    # flag *T: # [^cgr]ere
     # abbattere, abradere, accadere, accedere, adempiere, appartenere...
     [^cgr] e r e    >    -ere,uto
     [^cgr] e r e    >    -ere,uta
@@ -7583,7 +7666,7 @@ flag *S:
     [^cgr] e r e    >    -ere,utissime
     [^cgr] e r e    >    -ere,utamente
 
-    # flag *S: # [lnr]gere
+    # flag *T: # [lnr]gere
     # accingere, accorgere, aggiungere, attingere, avvolgere, capovolgere...
     [lnr] g e r e   >    -gere,to
     [lnr] g e r e   >    -gere,ta
@@ -7595,7 +7678,7 @@ flag *S:
     [lnr] g e r e   >    -gere,tissime
     [lnr] g e r e   >    -gere,tamente
 
-    # flag *S: # orre
+    # flag *T: # orre
     # anteporre, apporre, comporre, contrapporre, decomporre, deporre...
     o r r e         >    -rre,sto
     o r r e         >    -rre,sta
@@ -7607,7 +7690,7 @@ flag *S:
     o r r e         >    -rre,stissime
     o r r e         >    -rre,stamente
 
-    # flag *S: # urre
+    # flag *T: # urre
     # abdurre, addurre, autoridurre, circondurre, condurre, dedurre, indurre...
     u r r e         >    -urre,otto
     u r r e         >    -urre,otta
@@ -7619,7 +7702,7 @@ flag *S:
     u r r e         >    -urre,ottissime
     u r r e         >    -urre,ottamente
 
-    # flag *S: # ggere
+    # flag *T: # ggere
     # affliggere, correggere, distruggere, eleggere, friggere, infliggere...
     g g e r e       >    -ggere,tto
     g g e r e       >    -ggere,tta
@@ -7631,7 +7714,7 @@ flag *S:
     g g e r e       >    -ggere,ttissime
     g g e r e       >    -ggere,ttamente
 
-    # flag *S: # rere
+    # flag *T: # rere
     # accorrere, concorrere, correre, decorrere, discorrere, incorrere...
     r e r e         >    -rere,so
     r e r e         >    -rere,sa
@@ -7643,7 +7726,7 @@ flag *S:
     r e r e         >    -rere,sissime
     r e r e         >    -rere,samente
 
-    # flag *S: # arre
+    # flag *T: # arre
     # astrarre, attrarre, contrarre, decontrarre, detrarre, distrarre...
     a r r e         >    -rre,tto
     a r r e         >    -rre,tta
@@ -7655,7 +7738,7 @@ flag *S:
     a r r e         >    -rre,ttissime
     a r r e         >    -rre,ttamente
 
-    # flag *S: # [nr]cere
+    # flag *T: # [nr]cere
     # avvincere, contorcere, convincere, distorcere, estorcere, evincere...
     [nr] c e r e    >    -cere,to
     [nr] c e r e    >    -cere,ta
@@ -7667,7 +7750,7 @@ flag *S:
     [nr] c e r e    >    -cere,tissime
     [nr] c e r e    >    -cere,tamente
 
-    # flag *S: # [ds]igere
+    # flag *T: # [ds]igere
     # esigere, redigere, transigere
     [ds] i g e r e  >    -igere,atto
     [ds] i g e r e  >    -igere,atta
@@ -7679,7 +7762,7 @@ flag *S:
     [ds] i g e r e  >    -igere,attissime
     [ds] i g e r e  >    -igere,attamente
 
-    # flag *S: # rigere
+    # flag *T: # rigere
     # dirigere, erigere, ridirigere
     r i g e r e     >    -igere,etto
     r i g e r e     >    -igere,etta
@@ -7691,7 +7774,7 @@ flag *S:
     r i g e r e     >    -igere,ettissime
     r i g e r e     >    -igere,ettamente
 
-    # flag *S: # scere
+    # flag *T: # scere
     # nascere, prenascere, rinascere
     s c e r e       >    -scere,to
     s c e r e       >    -scere,ta
@@ -7703,7 +7786,7 @@ flag *S:
     s c e r e       >    -scere,tissime
     s c e r e       >    -scere,tamente
 
-    # flag *S: # cuocere
+    # flag *T: # cuocere
     # cuocere, ricuocere, stracuocere
     c u o c e r e   >    -uocere,otto
     c u o c e r e   >    -uocere,otta
@@ -7715,7 +7798,7 @@ flag *S:
     c u o c e r e   >    -uocere,ottissime
     c u o c e r e   >    -uocere,ottamente
 
-    # flag *S: # nuocere
+    # flag *T: # nuocere
     # nuocere
     n u o c e r e   >    -uocere,ociuto
     n u o c e r e   >    -uocere,ociuta
@@ -7728,9 +7811,9 @@ flag *S:
     n u o c e r e   >    -uocere,ociutamente
 
 # part. pass.
-flag *T:
+flag *U:
 
-    # flag *T: # dere
+    # flag *U: # dere
     # accludere, alludere, ardere, arridere, chiudere, circoncidere...
     d e r e         >    -dere,so
     d e r e         >    -dere,sa
@@ -7742,7 +7825,7 @@ flag *T:
     d e r e         >    -dere,sissime
     d e r e         >    -dere,samente
 
-    # flag *T: # [cg]ere
+    # flag *U: # [cg]ere
     # accrescere, aspergere, assurgere, attorcere, compiacere, conoscere...
     [cg] e r e      >    -ere,iuto
     [cg] e r e      >    -ere,iuta
@@ -7754,7 +7837,7 @@ flag *T:
     [cg] e r e      >    -ere,iutissime
     [cg] e r e      >    -ere,iutamente
 
-    # flag *T: # ttere
+    # flag *U: # ttere
     # ammettere, annettere, commettere, compromettere, connettere, dimettere...
     t t e r e       >    -ttere,sso
     t t e r e       >    -ttere,ssa
@@ -7766,7 +7849,7 @@ flag *T:
     t t e r e       >    -ttere,ssissime
     t t e r e       >    -ttere,ssamente
 
-    # flag *T: # nire
+    # flag *U: # nire
     # addivenire, avvenire, circonvenire, contravvenire, convenire, divenire...
     n i r e         >    -ire,uto
     n i r e         >    -ire,uta
@@ -7778,7 +7861,7 @@ flag *T:
     n i r e         >    -ire,utissime
     n i r e         >    -ire,utamente
 
-    # flag *T: # gliere
+    # flag *U: # gliere
     # accogliere, cogliere, disciogliere, distogliere, incogliere...
     g l i e r e     >    -gliere,lto
     g l i e r e     >    -gliere,lta
@@ -7790,7 +7873,7 @@ flag *T:
     g l i e r e     >    -gliere,ltissime
     g l i e r e     >    -gliere,ltamente
 
-    # flag *T: # are
+    # flag *U: # are
     # artefare, assuefare, confare, contraffare, disfare, fare, liquefare...
     a r e           >    -re,tto
     a r e           >    -re,tta
@@ -7802,7 +7885,7 @@ flag *T:
     a r e           >    -re,ttissime
     a r e           >    -re,ttamente
 
-    # flag *T: # rivere
+    # flag *U: # rivere
     # ascrivere, circoscrivere, coscrivere, dattiloscrivere, descrivere...
     r i v e r e     >    -vere,tto
     r i v e r e     >    -vere,tta
@@ -7814,7 +7897,7 @@ flag *T:
     r i v e r e     >    -vere,ttissime
     r i v e r e     >    -vere,ttamente
 
-    # flag *T: # dire
+    # flag *U: # dire
     # benedire, contraddire, dire, disdire, indire, interdire, maledire...
     d i r e         >    -ire,etto
     d i r e         >    -ire,etta
@@ -7826,7 +7909,7 @@ flag *T:
     d i r e         >    -ire,ettissime
     d i r e         >    -ire,ettamente
 
-    # flag *T: # [fp]rire
+    # flag *U: # [fp]rire
     # aprire, coprire, discoprire, offrire, riaprire, riscoprire, scoprire...
     [fp] r i r e    >    -rire,erto
     [fp] r i r e    >    -rire,erta
@@ -7838,7 +7921,7 @@ flag *T:
     [fp] r i r e    >    -rire,ertissime
     [fp] r i r e    >    -rire,ertamente
 
-    # flag *T: # rimere
+    # flag *U: # rimere
     # comprimere, decomprimere, deprimere, esprimere, imprimere, opprimere...
     r i m e r e     >    -imere,esso
     r i m e r e     >    -imere,essa
@@ -7850,7 +7933,7 @@ flag *T:
     r i m e r e     >    -imere,essissime
     r i m e r e     >    -imere,essamente
 
-    # flag *T: # mpere
+    # flag *U: # mpere
     # corrompere, dirompere, erompere, interrompere, irrompere, prorompere...
     m p e r e       >    -mpere,tto
     m p e r e       >    -mpere,tta
@@ -7862,7 +7945,7 @@ flag *T:
     m p e r e       >    -mpere,ttissime
     m p e r e       >    -mpere,ttamente
 
-    # flag *T: # [lr]ere
+    # flag *U: # [lr]ere
     # avvalere, equivalere, invalere, parere, prevalere, valere
     [lr] e r e      >    -ere,so
     [lr] e r e      >    -ere,sa
@@ -7874,7 +7957,7 @@ flag *T:
     [lr] e r e      >    -ere,sissime
     [lr] e r e      >    -ere,samente
 
-    # flag *T: # uovere
+    # flag *U: # uovere
     # commuovere, muovere, promuovere, rimuovere, smuovere
     u o v e r e     >    -uovere,osso
     u o v e r e     >    -uovere,ossa
@@ -7886,7 +7969,7 @@ flag *T:
     u o v e r e     >    -uovere,ossissime
     u o v e r e     >    -uovere,ossamente
 
-    # flag *T: # solvere
+    # flag *U: # solvere
     # assolvere, dissolvere, risolvere, solvere
     s o l v e r e   >    -vere,to
     s o l v e r e   >    -vere,ta
@@ -7898,7 +7981,7 @@ flag *T:
     s o l v e r e   >    -vere,tissime
     s o l v e r e   >    -vere,tamente
 
-    # flag *T: # umere
+    # flag *U: # umere
     # assumere, desumere, presumere, riassumere
     u m e r e       >    -mere,nto
     u m e r e       >    -mere,nta
@@ -7910,7 +7993,7 @@ flag *T:
     u m e r e       >    -mere,ntissime
     u m e r e       >    -mere,ntamente
 
-    # flag *T: # uotere
+    # flag *U: # uotere
     # percuotere, ripercuotere, riscuotere, scuotere
     u o t e r e     >    -uotere,osso
     u o t e r e     >    -uotere,ossa
@@ -7922,7 +8005,7 @@ flag *T:
     u o t e r e     >    -uotere,ossissime
     u o t e r e     >    -uotere,ossamente
 
-    # flag *T: # guere
+    # flag *U: # guere
     # contraddistinguere, distinguere, estinguere, suddistinguere
     g u e r e       >    -guere,to
     g u e r e       >    -guere,ta
@@ -7934,7 +8017,7 @@ flag *T:
     g u e r e       >    -guere,tissime
     g u e r e       >    -guere,tamente
 
-    # flag *T: # arire
+    # flag *U: # arire
     # apparire, comparire, scomparire, trasparire
     a r i r e       >    -ire,so
     a r i r e       >    -ire,sa
@@ -7946,7 +8029,7 @@ flag *T:
     a r i r e       >    -ire,sissime
     a r i r e       >    -ire,samente
 
-    # flag *T: # vivere
+    # flag *U: # vivere
     # convivere, rivivere, sopravvivere, vivere
     v i v e r e     >    -vere,ssuto
     v i v e r e     >    -vere,ssuta
@@ -7958,7 +8041,7 @@ flag *T:
     v i v e r e     >    -vere,ssutissime
     v i v e r e     >    -vere,ssutamente
 
-    # flag *T: # [eo]rire
+    # flag *U: # [eo]rire
     # inferire, morire, premorire
     [eo] r i r e    >    -ire,to
     [eo] r i r e    >    -ire,ta
@@ -7970,7 +8053,7 @@ flag *T:
     [eo] r i r e    >    -ire,tissime
     [eo] r i r e    >    -ire,tamente
 
-    # flag *T: # volvere
+    # flag *U: # volvere
     # devolvere, evolvere, involvere
     v o l v e r e   >    -vere,uto
     v o l v e r e   >    -vere,uta
@@ -7982,7 +8065,7 @@ flag *T:
     v o l v e r e   >    -vere,utissime
     v o l v e r e   >    -vere,utamente
 
-    # flag *T: # utere
+    # flag *U: # utere
     # discutere, incutere, ridiscutere
     u t e r e       >    -tere,sso
     u t e r e       >    -tere,ssa
@@ -7994,7 +8077,7 @@ flag *T:
     u t e r e       >    -tere,ssissime
     u t e r e       >    -tere,ssamente
 
-    # flag *T: # essere
+    # flag *U: # essere
     # essere, riessere
     e s s e r e     >    -essere,stato
     e s s e r e     >    -essere,stata
@@ -8006,7 +8089,7 @@ flag *T:
     e s s e r e     >    -essere,statissime
     e s s e r e     >    -essere,statamente
 
-    # flag *T: # bere
+    # flag *U: # bere
     # bere, strabere
     b e r e         >    -re,vuto
     b e r e         >    -re,vuta
@@ -8018,7 +8101,7 @@ flag *T:
     b e r e         >    -re,vutissime
     b e r e         >    -re,vutamente
 
-    # flag *T: # anere
+    # flag *U: # anere
     # permanere, rimanere
     a n e r e       >    -nere,sto
     a n e r e       >    -nere,sta
@@ -8030,7 +8113,7 @@ flag *T:
     a n e r e       >    -nere,stissime
     a n e r e       >    -nere,stamente
 
-    # flag *T: # pellire
+    # flag *U: # pellire
     # disseppellire, seppellire
     p e l l i r e   >    -pellire,olto
     p e l l i r e   >    -pellire,olta
@@ -8042,7 +8125,7 @@ flag *T:
     p e l l i r e   >    -pellire,oltissime
     p e l l i r e   >    -pellire,oltamente
 
-    # flag *T: # gnere
+    # flag *U: # gnere
     # spegnere
     g n e r e       >    -gnere,nto
     g n e r e       >    -gnere,nta
@@ -8054,7 +8137,7 @@ flag *T:
     g n e r e       >    -gnere,ntissime
     g n e r e       >    -gnere,ntamente
 
-    # flag *T: # dimere
+    # flag *U: # dimere
     # redimere
     d i m e r e     >    -imere,ento
     d i m e r e     >    -imere,enta
@@ -8067,9 +8150,9 @@ flag *T:
     d i m e r e     >    -imere,entamente
 
 # part. pass.
-flag *U:
+flag *V:
 
-    # flag *U: # [eu]ndere
+    # flag *V: # [eu]ndere
     # accendere, accondiscendere, appendere, apprendere, arrendere...
     [eu] n d e r e  >    -ndere,so
     [eu] n d e r e  >    -ndere,sa
@@ -8081,7 +8164,7 @@ flag *U:
     [eu] n d e r e  >    -ndere,sissime
     [eu] n d e r e  >    -ndere,samente
 
-    # flag *U: # [lt]ere
+    # flag *V: # [lt]ere
     # assistere, consistere, desistere, esistere, estrovertere, insistere...
     [lt] e r e      >    -ere,ito
     [lt] e r e      >    -ere,ita
@@ -8093,7 +8176,7 @@ flag *U:
     [lt] e r e      >    -ere,itissime
     [lt] e r e      >    -ere,itamente
 
-    # flag *U: # fondere
+    # flag *V: # fondere
     # confondere, diffondere, effondere, fondere, infondere, profondere...
     f o n d e r e   >    -ondere,uso
     f o n d e r e   >    -ondere,usa
@@ -8105,7 +8188,7 @@ flag *U:
     f o n d e r e   >    -ondere,usissime
     f o n d e r e   >    -ondere,usamente
 
-    # flag *U: # rgere
+    # flag *V: # rgere
     # convergere, cospargere, detergere, emergere, immergere, riemergere...
     r g e r e       >    -gere,so
     r g e r e       >    -gere,sa
@@ -8117,7 +8200,7 @@ flag *U:
     r g e r e       >    -gere,sissime
     r g e r e       >    -gere,samente
 
-    # flag *U: # ggere
+    # flag *V: # ggere
     # affiggere, configgere, crocifiggere, infiggere, prefiggere, rifiggere...
     g g e r e       >    -ggere,sso
     g g e r e       >    -ggere,ssa
@@ -8129,7 +8212,7 @@ flag *U:
     g g e r e       >    -ggere,ssissime
     g g e r e       >    -ggere,ssamente
 
-    # flag *U: # vedere
+    # flag *V: # vedere
     # intravedere, prevedere, rivedere, stravedere, vedere
     v e d e r e     >    -edere,isto
     v e d e r e     >    -edere,ista
@@ -8141,7 +8224,7 @@ flag *U:
     v e d e r e     >    -edere,istissime
     v e d e r e     >    -edere,istamente
 
-    # flag *U: # ingere
+    # flag *V: # ingere
     # astringere, costringere, restringere, ristringere, stringere
     i n g e r e     >    -ingere,etto
     i n g e r e     >    -ingere,etta
@@ -8153,7 +8236,7 @@ flag *U:
     i n g e r e     >    -ingere,ettissime
     i n g e r e     >    -ingere,ettamente
 
-    # flag *U: # [cp]ondere
+    # flag *V: # [cp]ondere
     # corrispondere, nascondere, rispondere
     [cp] o n d e r e  >    -ndere,sto
     [cp] o n d e r e  >    -ndere,sta
@@ -8165,7 +8248,7 @@ flag *U:
     [cp] o n d e r e  >    -ndere,stissime
     [cp] o n d e r e  >    -ndere,stamente
 
-    # flag *U: # cedere
+    # flag *V: # cedere
     # concedere, riconcedere, succedere
     c e d e r e     >    -dere,sso
     c e d e r e     >    -dere,ssa
@@ -8177,7 +8260,7 @@ flag *U:
     c e d e r e     >    -dere,ssissime
     c e d e r e     >    -dere,ssamente
 
-    # flag *U: # indere
+    # flag *V: # indere
     # prescindere, rescindere, scindere
     i n d e r e     >    -ndere,sso
     i n d e r e     >    -ndere,ssa
@@ -8189,7 +8272,7 @@ flag *U:
     i n d e r e     >    -ndere,ssissime
     i n d e r e     >    -ndere,ssamente
 
-    # flag *U: # angere
+    # flag *V: # angere
     # diffrangere, rifrangere
     a n g e r e     >    -ngere,tto
     a n g e r e     >    -ngere,tta
@@ -8201,7 +8284,7 @@ flag *U:
     a n g e r e     >    -ngere,ttissime
     a n g e r e     >    -ngere,ttamente
 
-    # flag *U: # iedere
+    # flag *V: # iedere
     # chiedere, richiedere
     i e d e r e     >    -dere,sto
     i e d e r e     >    -dere,sta
@@ -8213,7 +8296,7 @@ flag *U:
     i e d e r e     >    -dere,stissime
     i e d e r e     >    -dere,stamente
 
-    # flag *U: # udere
+    # flag *V: # udere
     # prudere
     u d e r e       >    -dere,rito
     u d e r e       >    -dere,rita
@@ -8226,9 +8309,9 @@ flag *U:
     u d e r e       >    -dere,ritamente
 
 # part. pass.
-flag *V:
+flag *W:
 
-    # flag *V: # pellere
+    # flag *W: # pellere
     # espellere, repellere, riespellere
     p e l l e r e   >    -ellere,ulso
     p e l l e r e   >    -ellere,ulsa
@@ -8240,7 +8323,7 @@ flag *V:
     p e l l e r e   >    -ellere,ulsissime
     p e l l e r e   >    -ellere,ulsamente
 
-    # flag *V: # vellere
+    # flag *W: # vellere
     # divellere, svellere
     v e l l e r e   >    -lere,to
     v e l l e r e   >    -lere,ta
@@ -8252,7 +8335,7 @@ flag *V:
     v e l l e r e   >    -lere,tissime
     v e l l e r e   >    -lere,tamente
 
-    # flag *V: # cellere
+    # flag *W: # cellere
     # eccellere
     c e l l e r e   >    -lere,so
     c e l l e r e   >    -lere,sa
@@ -8265,9 +8348,9 @@ flag *V:
     c e l l e r e   >    -lere,samente
 
 # particelle pronominali su part. pass.
-flag *W:
+flag *X:
 
-    # flag *W: # [ai]re
+    # flag *X: # [ai]re
     # abbacchiare, abbacinare, abbagliare, abbaiare, abballare, abbandonare...
     [ai] r e        >    -re,tolo
     [ai] r e        >    -re,tola
@@ -8311,7 +8394,7 @@ flag *W:
     [ai] r e        >    -re,tivene
     [ai] r e        >    -re,tevene
 
-    # flag *W: # [^cgr]ere
+    # flag *X: # [^cgr]ere
     # abbattere, abradere, accadere, accedere, adempiere, appartenere...
     [^cgr] e r e    >    -ere,utolo
     [^cgr] e r e    >    -ere,utola
@@ -8355,7 +8438,7 @@ flag *W:
     [^cgr] e r e    >    -ere,utivene
     [^cgr] e r e    >    -ere,utevene
 
-    # flag *W: # [lnr]gere
+    # flag *X: # [lnr]gere
     # accingere, accorgere, aggiungere, attingere, avvolgere, capovolgere...
     [lnr] g e r e   >    -gere,tolo
     [lnr] g e r e   >    -gere,tola
@@ -8399,7 +8482,7 @@ flag *W:
     [lnr] g e r e   >    -gere,tivene
     [lnr] g e r e   >    -gere,tevene
 
-    # flag *W: # orre
+    # flag *X: # orre
     # anteporre, apporre, comporre, contrapporre, decomporre, deporre...
     o r r e         >    -rre,stolo
     o r r e         >    -rre,stola
@@ -8443,7 +8526,7 @@ flag *W:
     o r r e         >    -rre,stivene
     o r r e         >    -rre,stevene
 
-    # flag *W: # urre
+    # flag *X: # urre
     # abdurre, addurre, autoridurre, circondurre, condurre, dedurre, indurre...
     u r r e         >    -urre,ottolo
     u r r e         >    -urre,ottola
@@ -8487,7 +8570,7 @@ flag *W:
     u r r e         >    -urre,ottivene
     u r r e         >    -urre,ottevene
 
-    # flag *W: # ggere
+    # flag *X: # ggere
     # affliggere, correggere, distruggere, eleggere, friggere, infliggere...
     g g e r e       >    -ggere,ttolo
     g g e r e       >    -ggere,ttola
@@ -8531,7 +8614,7 @@ flag *W:
     g g e r e       >    -ggere,ttivene
     g g e r e       >    -ggere,ttevene
 
-    # flag *W: # rere
+    # flag *X: # rere
     # accorrere, concorrere, correre, decorrere, discorrere, incorrere...
     r e r e         >    -rere,solo
     r e r e         >    -rere,sola
@@ -8575,7 +8658,7 @@ flag *W:
     r e r e         >    -rere,sivene
     r e r e         >    -rere,sevene
 
-    # flag *W: # arre
+    # flag *X: # arre
     # astrarre, attrarre, contrarre, decontrarre, detrarre, distrarre...
     a r r e         >    -rre,ttolo
     a r r e         >    -rre,ttola
@@ -8619,7 +8702,7 @@ flag *W:
     a r r e         >    -rre,ttivene
     a r r e         >    -rre,ttevene
 
-    # flag *W: # [nr]cere
+    # flag *X: # [nr]cere
     # avvincere, contorcere, convincere, distorcere, estorcere, evincere...
     [nr] c e r e    >    -cere,tolo
     [nr] c e r e    >    -cere,tola
@@ -8663,7 +8746,7 @@ flag *W:
     [nr] c e r e    >    -cere,tivene
     [nr] c e r e    >    -cere,tevene
 
-    # flag *W: # [ds]igere
+    # flag *X: # [ds]igere
     # esigere, redigere, transigere
     [ds] i g e r e  >    -igere,attolo
     [ds] i g e r e  >    -igere,attola
@@ -8707,7 +8790,7 @@ flag *W:
     [ds] i g e r e  >    -igere,attivene
     [ds] i g e r e  >    -igere,attevene
 
-    # flag *W: # rigere
+    # flag *X: # rigere
     # dirigere, erigere, ridirigere
     r i g e r e     >    -igere,ettolo
     r i g e r e     >    -igere,ettola
@@ -8751,7 +8834,7 @@ flag *W:
     r i g e r e     >    -igere,ettivene
     r i g e r e     >    -igere,ettevene
 
-    # flag *W: # scere
+    # flag *X: # scere
     # nascere, prenascere, rinascere
     s c e r e       >    -scere,tolo
     s c e r e       >    -scere,tola
@@ -8795,7 +8878,7 @@ flag *W:
     s c e r e       >    -scere,tivene
     s c e r e       >    -scere,tevene
 
-    # flag *W: # cuocere
+    # flag *X: # cuocere
     # cuocere, ricuocere, stracuocere
     c u o c e r e   >    -uocere,ottolo
     c u o c e r e   >    -uocere,ottola
@@ -8839,7 +8922,7 @@ flag *W:
     c u o c e r e   >    -uocere,ottivene
     c u o c e r e   >    -uocere,ottevene
 
-    # flag *W: # nuocere
+    # flag *X: # nuocere
     # nuocere
     n u o c e r e   >    -uocere,ociutolo
     n u o c e r e   >    -uocere,ociutola
@@ -8884,9 +8967,9 @@ flag *W:
     n u o c e r e   >    -uocere,ociutevene
 
 # particelle pronominali su part. pass.
-flag *X:
+flag *Y:
 
-    # flag *X: # dere
+    # flag *Y: # dere
     # accludere, alludere, ardere, arridere, chiudere, circoncidere...
     d e r e         >    -dere,solo
     d e r e         >    -dere,sola
@@ -8930,7 +9013,7 @@ flag *X:
     d e r e         >    -dere,sivene
     d e r e         >    -dere,sevene
 
-    # flag *X: # [cg]ere
+    # flag *Y: # [cg]ere
     # accrescere, aspergere, assurgere, attorcere, compiacere, conoscere...
     [cg] e r e      >    -ere,iutolo
     [cg] e r e      >    -ere,iutola
@@ -8974,7 +9057,7 @@ flag *X:
     [cg] e r e      >    -ere,iutivene
     [cg] e r e      >    -ere,iutevene
 
-    # flag *X: # ttere
+    # flag *Y: # ttere
     # ammettere, annettere, commettere, compromettere, connettere, dimettere...
     t t e r e       >    -ttere,ssolo
     t t e r e       >    -ttere,ssola
@@ -9018,7 +9101,7 @@ flag *X:
     t t e r e       >    -ttere,ssivene
     t t e r e       >    -ttere,ssevene
 
-    # flag *X: # nire
+    # flag *Y: # nire
     # addivenire, avvenire, circonvenire, contravvenire, convenire, divenire...
     n i r e         >    -ire,utolo
     n i r e         >    -ire,utola
@@ -9062,7 +9145,7 @@ flag *X:
     n i r e         >    -ire,utivene
     n i r e         >    -ire,utevene
 
-    # flag *X: # gliere
+    # flag *Y: # gliere
     # accogliere, cogliere, disciogliere, distogliere, incogliere...
     g l i e r e     >    -gliere,ltolo
     g l i e r e     >    -gliere,ltola
@@ -9106,7 +9189,7 @@ flag *X:
     g l i e r e     >    -gliere,ltivene
     g l i e r e     >    -gliere,ltevene
 
-    # flag *X: # are
+    # flag *Y: # are
     # artefare, assuefare, confare, contraffare, disfare, fare, liquefare...
     a r e           >    -re,ttolo
     a r e           >    -re,ttola
@@ -9150,7 +9233,7 @@ flag *X:
     a r e           >    -re,ttivene
     a r e           >    -re,ttevene
 
-    # flag *X: # rivere
+    # flag *Y: # rivere
     # ascrivere, circoscrivere, coscrivere, dattiloscrivere, descrivere...
     r i v e r e     >    -vere,ttolo
     r i v e r e     >    -vere,ttola
@@ -9194,7 +9277,7 @@ flag *X:
     r i v e r e     >    -vere,ttivene
     r i v e r e     >    -vere,ttevene
 
-    # flag *X: # dire
+    # flag *Y: # dire
     # benedire, contraddire, dire, disdire, indire, interdire, maledire...
     d i r e         >    -ire,ettolo
     d i r e         >    -ire,ettola
@@ -9238,7 +9321,7 @@ flag *X:
     d i r e         >    -ire,ettivene
     d i r e         >    -ire,ettevene
 
-    # flag *X: # [fp]rire
+    # flag *Y: # [fp]rire
     # aprire, coprire, discoprire, offrire, riaprire, riscoprire, scoprire...
     [fp] r i r e    >    -rire,ertolo
     [fp] r i r e    >    -rire,ertola
@@ -9282,7 +9365,7 @@ flag *X:
     [fp] r i r e    >    -rire,ertivene
     [fp] r i r e    >    -rire,ertevene
 
-    # flag *X: # rimere
+    # flag *Y: # rimere
     # comprimere, decomprimere, deprimere, esprimere, imprimere, opprimere...
     r i m e r e     >    -imere,essolo
     r i m e r e     >    -imere,essola
@@ -9326,7 +9409,7 @@ flag *X:
     r i m e r e     >    -imere,essivene
     r i m e r e     >    -imere,essevene
 
-    # flag *X: # mpere
+    # flag *Y: # mpere
     # corrompere, dirompere, erompere, interrompere, irrompere, prorompere...
     m p e r e       >    -mpere,ttolo
     m p e r e       >    -mpere,ttola
@@ -9370,7 +9453,7 @@ flag *X:
     m p e r e       >    -mpere,ttivene
     m p e r e       >    -mpere,ttevene
 
-    # flag *X: # [lr]ere
+    # flag *Y: # [lr]ere
     # avvalere, equivalere, invalere, parere, prevalere, valere
     [lr] e r e      >    -ere,solo
     [lr] e r e      >    -ere,sola
@@ -9414,7 +9497,7 @@ flag *X:
     [lr] e r e      >    -ere,sivene
     [lr] e r e      >    -ere,sevene
 
-    # flag *X: # uovere
+    # flag *Y: # uovere
     # commuovere, muovere, promuovere, rimuovere, smuovere
     u o v e r e     >    -uovere,ossolo
     u o v e r e     >    -uovere,ossola
@@ -9458,7 +9541,7 @@ flag *X:
     u o v e r e     >    -uovere,ossivene
     u o v e r e     >    -uovere,ossevene
 
-    # flag *X: # solvere
+    # flag *Y: # solvere
     # assolvere, dissolvere, risolvere, solvere
     s o l v e r e   >    -vere,tolo
     s o l v e r e   >    -vere,tola
@@ -9502,7 +9585,7 @@ flag *X:
     s o l v e r e   >    -vere,tivene
     s o l v e r e   >    -vere,tevene
 
-    # flag *X: # umere
+    # flag *Y: # umere
     # assumere, desumere, presumere, riassumere
     u m e r e       >    -mere,ntolo
     u m e r e       >    -mere,ntola
@@ -9546,7 +9629,7 @@ flag *X:
     u m e r e       >    -mere,ntivene
     u m e r e       >    -mere,ntevene
 
-    # flag *X: # uotere
+    # flag *Y: # uotere
     # percuotere, ripercuotere, riscuotere, scuotere
     u o t e r e     >    -uotere,ossolo
     u o t e r e     >    -uotere,ossola
@@ -9590,7 +9673,7 @@ flag *X:
     u o t e r e     >    -uotere,ossivene
     u o t e r e     >    -uotere,ossevene
 
-    # flag *X: # guere
+    # flag *Y: # guere
     # contraddistinguere, distinguere, estinguere, suddistinguere
     g u e r e       >    -guere,tolo
     g u e r e       >    -guere,tola
@@ -9634,7 +9717,7 @@ flag *X:
     g u e r e       >    -guere,tivene
     g u e r e       >    -guere,tevene
 
-    # flag *X: # arire
+    # flag *Y: # arire
     # apparire, comparire, scomparire, trasparire
     a r i r e       >    -ire,solo
     a r i r e       >    -ire,sola
@@ -9678,7 +9761,7 @@ flag *X:
     a r i r e       >    -ire,sivene
     a r i r e       >    -ire,sevene
 
-    # flag *X: # vivere
+    # flag *Y: # vivere
     # convivere, rivivere, sopravvivere, vivere
     v i v e r e     >    -vere,ssutolo
     v i v e r e     >    -vere,ssutola
@@ -9722,7 +9805,7 @@ flag *X:
     v i v e r e     >    -vere,ssutivene
     v i v e r e     >    -vere,ssutevene
 
-    # flag *X: # [eo]rire
+    # flag *Y: # [eo]rire
     # inferire, morire, premorire
     [eo] r i r e    >    -ire,tolo
     [eo] r i r e    >    -ire,tola
@@ -9766,7 +9849,7 @@ flag *X:
     [eo] r i r e    >    -ire,tivene
     [eo] r i r e    >    -ire,tevene
 
-    # flag *X: # volvere
+    # flag *Y: # volvere
     # devolvere, evolvere, involvere
     v o l v e r e   >    -vere,utolo
     v o l v e r e   >    -vere,utola
@@ -9810,7 +9893,7 @@ flag *X:
     v o l v e r e   >    -vere,utivene
     v o l v e r e   >    -vere,utevene
 
-    # flag *X: # utere
+    # flag *Y: # utere
     # discutere, incutere, ridiscutere
     u t e r e       >    -tere,ssolo
     u t e r e       >    -tere,ssola
@@ -9854,7 +9937,7 @@ flag *X:
     u t e r e       >    -tere,ssivene
     u t e r e       >    -tere,ssevene
 
-    # flag *X: # essere
+    # flag *Y: # essere
     # essere, riessere
     e s s e r e     >    -essere,statolo
     e s s e r e     >    -essere,statola
@@ -9898,7 +9981,7 @@ flag *X:
     e s s e r e     >    -essere,stativene
     e s s e r e     >    -essere,statevene
 
-    # flag *X: # bere
+    # flag *Y: # bere
     # bere, strabere
     b e r e         >    -re,vutolo
     b e r e         >    -re,vutola
@@ -9942,7 +10025,7 @@ flag *X:
     b e r e         >    -re,vutivene
     b e r e         >    -re,vutevene
 
-    # flag *X: # anere
+    # flag *Y: # anere
     # permanere, rimanere
     a n e r e       >    -nere,stolo
     a n e r e       >    -nere,stola
@@ -9986,7 +10069,7 @@ flag *X:
     a n e r e       >    -nere,stivene
     a n e r e       >    -nere,stevene
 
-    # flag *X: # pellire
+    # flag *Y: # pellire
     # disseppellire, seppellire
     p e l l i r e   >    -pellire,oltolo
     p e l l i r e   >    -pellire,oltola
@@ -10030,7 +10113,7 @@ flag *X:
     p e l l i r e   >    -pellire,oltivene
     p e l l i r e   >    -pellire,oltevene
 
-    # flag *X: # gnere
+    # flag *Y: # gnere
     # spegnere
     g n e r e       >    -gnere,ntolo
     g n e r e       >    -gnere,ntola
@@ -10074,7 +10157,7 @@ flag *X:
     g n e r e       >    -gnere,ntivene
     g n e r e       >    -gnere,ntevene
 
-    # flag *X: # dimere
+    # flag *Y: # dimere
     # redimere
     d i m e r e     >    -imere,entolo
     d i m e r e     >    -imere,entola
@@ -10119,9 +10202,9 @@ flag *X:
     d i m e r e     >    -imere,entevene
 
 # particelle pronominali su part. pass.
-flag *Y:
+flag *Z:
 
-    # flag *Y: # [eu]ndere
+    # flag *Z: # [eu]ndere
     # accendere, accondiscendere, appendere, apprendere, arrendere...
     [eu] n d e r e  >    -ndere,solo
     [eu] n d e r e  >    -ndere,sola
@@ -10165,7 +10248,7 @@ flag *Y:
     [eu] n d e r e  >    -ndere,sivene
     [eu] n d e r e  >    -ndere,sevene
 
-    # flag *Y: # [lt]ere
+    # flag *Z: # [lt]ere
     # assistere, consistere, desistere, esistere, estrovertere, insistere...
     [lt] e r e      >    -ere,itolo
     [lt] e r e      >    -ere,itola
@@ -10209,7 +10292,7 @@ flag *Y:
     [lt] e r e      >    -ere,itivene
     [lt] e r e      >    -ere,itevene
 
-    # flag *Y: # fondere
+    # flag *Z: # fondere
     # confondere, diffondere, effondere, fondere, infondere, profondere...
     f o n d e r e   >    -ondere,usolo
     f o n d e r e   >    -ondere,usola
@@ -10253,7 +10336,7 @@ flag *Y:
     f o n d e r e   >    -ondere,usivene
     f o n d e r e   >    -ondere,usevene
 
-    # flag *Y: # rgere
+    # flag *Z: # rgere
     # convergere, cospargere, detergere, emergere, immergere, riemergere...
     r g e r e       >    -gere,solo
     r g e r e       >    -gere,sola
@@ -10297,7 +10380,7 @@ flag *Y:
     r g e r e       >    -gere,sivene
     r g e r e       >    -gere,sevene
 
-    # flag *Y: # ggere
+    # flag *Z: # ggere
     # affiggere, configgere, crocifiggere, infiggere, prefiggere, rifiggere...
     g g e r e       >    -ggere,ssolo
     g g e r e       >    -ggere,ssola
@@ -10341,7 +10424,7 @@ flag *Y:
     g g e r e       >    -ggere,ssivene
     g g e r e       >    -ggere,ssevene
 
-    # flag *Y: # vedere
+    # flag *Z: # vedere
     # intravedere, prevedere, rivedere, stravedere, vedere
     v e d e r e     >    -edere,istolo
     v e d e r e     >    -edere,istola
@@ -10385,7 +10468,7 @@ flag *Y:
     v e d e r e     >    -edere,istivene
     v e d e r e     >    -edere,istevene
 
-    # flag *Y: # ingere
+    # flag *Z: # ingere
     # astringere, costringere, restringere, ristringere, stringere
     i n g e r e     >    -ingere,ettolo
     i n g e r e     >    -ingere,ettola
@@ -10429,7 +10512,7 @@ flag *Y:
     i n g e r e     >    -ingere,ettivene
     i n g e r e     >    -ingere,ettevene
 
-    # flag *Y: # [cp]ondere
+    # flag *Z: # [cp]ondere
     # corrispondere, nascondere, rispondere
     [cp] o n d e r e  >    -ndere,stolo
     [cp] o n d e r e  >    -ndere,stola
@@ -10473,7 +10556,7 @@ flag *Y:
     [cp] o n d e r e  >    -ndere,stivene
     [cp] o n d e r e  >    -ndere,stevene
 
-    # flag *Y: # cedere
+    # flag *Z: # cedere
     # concedere, riconcedere, succedere
     c e d e r e     >    -dere,ssolo
     c e d e r e     >    -dere,ssola
@@ -10517,7 +10600,7 @@ flag *Y:
     c e d e r e     >    -dere,ssivene
     c e d e r e     >    -dere,ssevene
 
-    # flag *Y: # indere
+    # flag *Z: # indere
     # prescindere, rescindere, scindere
     i n d e r e     >    -ndere,ssolo
     i n d e r e     >    -ndere,ssola
@@ -10561,7 +10644,7 @@ flag *Y:
     i n d e r e     >    -ndere,ssivene
     i n d e r e     >    -ndere,ssevene
 
-    # flag *Y: # angere
+    # flag *Z: # angere
     # diffrangere, rifrangere
     a n g e r e     >    -ngere,ttolo
     a n g e r e     >    -ngere,ttola
@@ -10605,7 +10688,7 @@ flag *Y:
     a n g e r e     >    -ngere,ttivene
     a n g e r e     >    -ngere,ttevene
 
-    # flag *Y: # iedere
+    # flag *Z: # iedere
     # chiedere, richiedere
     i e d e r e     >    -dere,stolo
     i e d e r e     >    -dere,stola
@@ -10649,7 +10732,7 @@ flag *Y:
     i e d e r e     >    -dere,stivene
     i e d e r e     >    -dere,stevene
 
-    # flag *Y: # udere
+    # flag *Z: # udere
     # prudere
     u d e r e       >    -dere,ritolo
     u d e r e       >    -dere,ritola
@@ -10694,9 +10777,9 @@ flag *Y:
     u d e r e       >    -dere,ritevene
 
 # particelle pronominali su part. pass.
-flag *Z:
+flag *0:
 
-    # flag *Z: # pellere
+    # flag *0: # pellere
     # espellere, repellere, riespellere
     p e l l e r e   >    -ellere,ulsolo
     p e l l e r e   >    -ellere,ulsola
@@ -10740,7 +10823,7 @@ flag *Z:
     p e l l e r e   >    -ellere,ulsivene
     p e l l e r e   >    -ellere,ulsevene
 
-    # flag *Z: # vellere
+    # flag *0: # vellere
     # divellere, svellere
     v e l l e r e   >    -lere,tolo
     v e l l e r e   >    -lere,tola
@@ -10784,7 +10867,7 @@ flag *Z:
     v e l l e r e   >    -lere,tivene
     v e l l e r e   >    -lere,tevene
 
-    # flag *Z: # cellere
+    # flag *0: # cellere
     # eccellere
     c e l l e r e   >    -lere,solo
     c e l l e r e   >    -lere,sola
@@ -10829,54 +10912,54 @@ flag *Z:
     c e l l e r e   >    -lere,sevene
 
 # ger.
-flag *0:
+flag *1:
 
-    # flag *0: # [ae]re
+    # flag *1: # [ae]re
     # abbacchiare, abbacinare, abbagliare, abbaiare, abballare, abbandonare...
     [ae] r e        >    -re,ndo
 
-    # flag *0: # ire
+    # flag *1: # ire
     # abbellire, abbonire, abbrustolire, abbrutire, abbruttire, abolire...
     i r e           >    -ire,endo
 
-    # flag *0: # orre
+    # flag *1: # orre
     # anteporre, apporre, comporre, contrapporre, decomporre, deporre...
     o r r e         >    -rre,nendo
 
-    # flag *0: # urre
+    # flag *1: # urre
     # abdurre, addurre, autoridurre, circondurre, condurre, dedurre, indurre...
     u r r e         >    -rre,cendo
 
-    # flag *0: # arre
+    # flag *1: # arre
     # astrarre, attrarre, contrarre, decontrarre, detrarre, distrarre...
     a r r e         >    -rre,endo
 
 # ger.
-flag *1:
+flag *2:
 
-    # flag *1: # [ai]re
+    # flag *2: # [ai]re
     # artefare, assuefare, benedire, confare, contraddire, contraffare, dire...
     [ai] r e        >    -re,cendo
 
-    # flag *1: # bere
+    # flag *2: # bere
     # bere, strabere
     b e r e         >    -re,vendo
 
-    # flag *1: # uocere
+    # flag *2: # uocere
     # nuocere
     u o c e r e     >    -uocere,ocendo
 
 # ger.
-flag *2:
+flag *3:
 
-    # flag *2: # re
+    # flag *3: # re
     # riempire
     r e             >    -re,endo
 
 # particelle pronominali su ger.
-flag *3:
+flag *4:
 
-    # flag *3: # [ae]re
+    # flag *4: # [ae]re
     # abbacchiare, abbacinare, abbagliare, abbaiare, abballare, abbandonare...
     [ae] r e        >    -re,ndolo
     [ae] r e        >    -re,ndola
@@ -10925,7 +11008,7 @@ flag *3:
     [ae] r e        >    -re,ndosele
     [ae] r e        >    -re,ndosene
 
-    # flag *3: # ire
+    # flag *4: # ire
     # abbellire, abbonire, abbrustolire, abbrutire, abbruttire, abolire...
     i r e           >    -ire,endolo
     i r e           >    -ire,endola
@@ -10974,7 +11057,7 @@ flag *3:
     i r e           >    -ire,endosele
     i r e           >    -ire,endosene
 
-    # flag *3: # orre
+    # flag *4: # orre
     # anteporre, apporre, comporre, contrapporre, decomporre, deporre...
     o r r e         >    -rre,nendolo
     o r r e         >    -rre,nendola
@@ -11023,7 +11106,7 @@ flag *3:
     o r r e         >    -rre,nendosele
     o r r e         >    -rre,nendosene
 
-    # flag *3: # urre
+    # flag *4: # urre
     # abdurre, addurre, autoridurre, circondurre, condurre, dedurre, indurre...
     u r r e         >    -rre,cendolo
     u r r e         >    -rre,cendola
@@ -11072,7 +11155,7 @@ flag *3:
     u r r e         >    -rre,cendosele
     u r r e         >    -rre,cendosene
 
-    # flag *3: # arre
+    # flag *4: # arre
     # astrarre, attrarre, contrarre, decontrarre, detrarre, distrarre...
     a r r e         >    -rre,endolo
     a r r e         >    -rre,endola
@@ -11122,9 +11205,9 @@ flag *3:
     a r r e         >    -rre,endosene
 
 # particelle pronominali su ger.
-flag *4:
+flag *5:
 
-    # flag *4: # [ai]re
+    # flag *5: # [ai]re
     # artefare, assuefare, benedire, confare, contraddire, contraffare, dire...
     [ai] r e        >    -re,cendolo
     [ai] r e        >    -re,cendola
@@ -11173,7 +11256,7 @@ flag *4:
     [ai] r e        >    -re,cendosele
     [ai] r e        >    -re,cendosene
 
-    # flag *4: # bere
+    # flag *5: # bere
     # bere, strabere
     b e r e         >    -re,vendolo
     b e r e         >    -re,vendola
@@ -11222,7 +11305,7 @@ flag *4:
     b e r e         >    -re,vendosele
     b e r e         >    -re,vendosene
 
-    # flag *4: # uocere
+    # flag *5: # uocere
     # nuocere
     u o c e r e     >    -uocere,ocendolo
     u o c e r e     >    -uocere,ocendola
@@ -11272,9 +11355,9 @@ flag *4:
     u o c e r e     >    -uocere,ocendosene
 
 # particelle pronominali su ger.
-flag *5:
+flag *6:
 
-    # flag *5: # re
+    # flag *6: # re
     # riempire
     r e             >    -re,endolo
     r e             >    -re,endola

@@ -79,7 +79,7 @@ def main():
     forms = dbRun(getFormsAsTuple, infs, '= 8')
 
     # Metti da parte i verbi con imperativo monosillabico
-    funky_infs = dict.fromkeys(['dire', 'fare', 'andare'])
+    funky_infs = dict.fromkeys([ 'andare', 'dare', 'dire', 'fare', 'stare'])
     for form, verbs in list(forms.iteritems()):
         for v in verbs[:]:
             if v in funky_infs:
