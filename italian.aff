@@ -2027,24 +2027,24 @@ flag *D:
     v i v e r e     >    -ere,iamo      # ind.  pres. 1a p. pl.
     v i v e r e     >    -re,te         # ind.  pres. 2a p. pl.
     v i v e r e     >    -ere,ono       # ind.  pres. 3a p. pl.
-    v i v e r e     >    -vere,ssi      # ind.  imp.  1a p. sn.
-    v i v e r e     >    -re,sti        # ind.  imp.  2a p. sn.
-    v i v e r e     >    -vere,sse      # ind.  imp.  3a p. sn.
-    v i v e r e     >    -re,mmo        # ind.  imp.  1a p. pl.
-    v i v e r e     >    -re,ste        # ind.  imp.  2a p. pl.
-    v i v e r e     >    -vere,ssero    # ind.  imp.  3a p. pl.
-    v i v e r e     >    -re,tti        # ind.  pass. 1a p. sn.
-#     v i v e r e     >    -re,sti      # ind.  pass. 2a p. sn.
-    v i v e r e     >    -re,tte        # ind.  pass. 3a p. sn.
-#     v i v e r e     >    -re,mmo      # ind.  pass. 1a p. pl.
-#     v i v e r e     >    -re,ste      # ind.  pass. 2a p. pl.
-    v i v e r e     >    -re,ttero      # ind.  pass. 3a p. pl.
-    v i v e r e     >    -e,ò           # ind.  fut.  1a p. sn.
-    v i v e r e     >    -e,ai          # ind.  fut.  2a p. sn.
-    v i v e r e     >    -e,à           # ind.  fut.  3a p. sn.
-    v i v e r e     >    mo             # ind.  fut.  1a p. pl.
-    v i v e r e     >    te             # ind.  fut.  2a p. pl.
-    v i v e r e     >    -e,anno        # ind.  fut.  3a p. pl.
+    v i v e r e     >    -re,vo         # ind.  imp.  1a p. sn.
+    v i v e r e     >    -re,vi         # ind.  imp.  2a p. sn.
+    v i v e r e     >    -re,va         # ind.  imp.  3a p. sn.
+    v i v e r e     >    -re,vamo       # ind.  imp.  1a p. pl.
+    v i v e r e     >    -re,vate       # ind.  imp.  2a p. pl.
+    v i v e r e     >    -re,vano       # ind.  imp.  3a p. pl.
+    v i v e r e     >    -vere,ssi      # ind.  pass. 1a p. sn.
+    v i v e r e     >    -re,sti        # ind.  pass. 2a p. sn.
+    v i v e r e     >    -vere,sse      # ind.  pass. 3a p. sn.
+    v i v e r e     >    -re,mmo        # ind.  pass. 1a p. pl.
+    v i v e r e     >    -re,ste        # ind.  pass. 2a p. pl.
+    v i v e r e     >    -vere,ssero    # ind.  pass. 3a p. pl.
+    v i v e r e     >    -ere,rò        # ind.  fut.  1a p. sn.
+    v i v e r e     >    -ere,rai       # ind.  fut.  2a p. sn.
+    v i v e r e     >    -ere,rà        # ind.  fut.  3a p. sn.
+    v i v e r e     >    -ere,remo      # ind.  fut.  1a p. pl.
+    v i v e r e     >    -ere,rete      # ind.  fut.  2a p. pl.
+    v i v e r e     >    -ere,ranno     # ind.  fut.  3a p. pl.
     v i v e r e     >    -ere,a         # cong. pres. 1a p. sn.
 #     v i v e r e     >    -ere,a       # cong. pres. 2a p. sn.
 #     v i v e r e     >    -ere,a       # cong. pres. 3a p. sn.
@@ -2057,17 +2057,67 @@ flag *D:
     v i v e r e     >    -re,ssimo      # cong. pass. 1a p. pl.
 #     v i v e r e     >    -re,ste      # cong. pass. 2a p. pl.
     v i v e r e     >    -re,ssero      # cong. pass. 3a p. pl.
-    v i v e r e     >    i              # cond. 1a p. sn.
-    v i v e r e     >    sti            # cond. 2a p. sn.
-    v i v e r e     >    bbe            # cond. 3a p. sn.
-    v i v e r e     >    mmo            # cond. 1a p. pl.
-    v i v e r e     >    ste            # cond. 2a p. pl.
-    v i v e r e     >    bbero          # cond. 3a p. pl.
+    v i v e r e     >    -ere,rei       # cond. 1a p. sn.
+    v i v e r e     >    -ere,resti     # cond. 2a p. sn.
+    v i v e r e     >    -ere,rebbe     # cond. 3a p. sn.
+    v i v e r e     >    -ere,remmo     # cond. 1a p. pl.
+    v i v e r e     >    -ere,reste     # cond. 2a p. pl.
+    v i v e r e     >    -ere,rebbero   # cond. 3a p. pl.
 #     v i v e r e     >    -ere,i       # imp. 2a p. sn.
 #     v i v e r e     >    -ere,a       # imp. 3a p. sn.
 #     v i v e r e     >    -ere,iamo    # imp. 1a p. pl.
 #     v i v e r e     >    -re,te       # imp. 2a p. pl.
 #     v i v e r e     >    -ere,ano     # imp. 3a p. pl.
+
+    # flag *D: # piacere
+    # compiacere, dispiacere, piacere, spiacere
+    p i a c e r e   >    -ere,cio       # ind.  pres. 1a p. sn.
+    p i a c e r e   >    -ere,i         # ind.  pres. 2a p. sn.
+    p i a c e r e   >    -re,
+    p i a c e r e   >    -ere,iamo      # ind.  pres. 1a p. pl.
+    p i a c e r e   >    -re,te         # ind.  pres. 2a p. pl.
+    p i a c e r e   >    -ere,ciono     # ind.  pres. 3a p. pl.
+    p i a c e r e   >    -re,vo         # ind.  imp.  1a p. sn.
+    p i a c e r e   >    -re,vi         # ind.  imp.  2a p. sn.
+    p i a c e r e   >    -re,va         # ind.  imp.  3a p. sn.
+    p i a c e r e   >    -re,vamo       # ind.  imp.  1a p. pl.
+    p i a c e r e   >    -re,vate       # ind.  imp.  2a p. pl.
+    p i a c e r e   >    -re,vano       # ind.  imp.  3a p. pl.
+    p i a c e r e   >    -ere,qui       # ind.  pass. 1a p. sn.
+    p i a c e r e   >    -re,sti        # ind.  pass. 2a p. sn.
+    p i a c e r e   >    -ere,que       # ind.  pass. 3a p. sn.
+    p i a c e r e   >    -re,mmo        # ind.  pass. 1a p. pl.
+    p i a c e r e   >    -re,ste        # ind.  pass. 2a p. pl.
+    p i a c e r e   >    -ere,quero     # ind.  pass. 3a p. pl.
+    p i a c e r e   >    -e,ò           # ind.  fut.  1a p. sn.
+    p i a c e r e   >    -e,ai          # ind.  fut.  2a p. sn.
+    p i a c e r e   >    -e,à           # ind.  fut.  3a p. sn.
+    p i a c e r e   >    mo             # ind.  fut.  1a p. pl.
+    p i a c e r e   >    te             # ind.  fut.  2a p. pl.
+    p i a c e r e   >    -e,anno        # ind.  fut.  3a p. pl.
+    p i a c e r e   >    -ere,cia       # cong. pres. 1a p. sn.
+#     p i a c e r e   >    -ere,cia     # cong. pres. 2a p. sn.
+#     p i a c e r e   >    -ere,cia     # cong. pres. 3a p. sn.
+    p i a c e r e   >    -ere,ciamo     # cong. pres. 1a p. pl.
+    p i a c e r e   >    -ere,ciate     # cong. pres. 2a p. pl.
+    p i a c e r e   >    -ere,ciano     # cong. pres. 3a p. pl.
+    p i a c e r e   >    -re,ssi        # cong. pass. 1a p. sn.
+#     p i a c e r e   >    -re,ssi      # cong. pass. 2a p. sn.
+    p i a c e r e   >    -re,sse        # cong. pass. 3a p. sn.
+    p i a c e r e   >    -re,ssimo      # cong. pass. 1a p. pl.
+#     p i a c e r e   >    -re,ste      # cong. pass. 2a p. pl.
+    p i a c e r e   >    -re,ssero      # cong. pass. 3a p. pl.
+    p i a c e r e   >    i              # cond. 1a p. sn.
+    p i a c e r e   >    sti            # cond. 2a p. sn.
+    p i a c e r e   >    bbe            # cond. 3a p. sn.
+    p i a c e r e   >    mmo            # cond. 1a p. pl.
+    p i a c e r e   >    ste            # cond. 2a p. pl.
+    p i a c e r e   >    bbero          # cond. 3a p. pl.
+#     p i a c e r e   >    -ere,i       # imp. 2a p. sn.
+#     p i a c e r e   >    -ere,cia     # imp. 3a p. sn.
+#     p i a c e r e   >    -ere,ciamo   # imp. 1a p. pl.
+#     p i a c e r e   >    -re,te       # imp. 2a p. pl.
+#     p i a c e r e   >    -ere,ciono   # imp. 3a p. pl.
 
     # flag *D: # tare
     # constare, ristare, sottostare, stare
@@ -2218,56 +2268,6 @@ flag *D:
 #     u t e r e       >    -ere,iamo    # imp. 1a p. pl.
 #     u t e r e       >    -re,te       # imp. 2a p. pl.
 #     u t e r e       >    -ere,ano     # imp. 3a p. pl.
-
-    # flag *D: # piacere
-    # dispiacere, piacere, spiacere
-    p i a c e r e   >    -ere,cio       # ind.  pres. 1a p. sn.
-    p i a c e r e   >    -ere,i         # ind.  pres. 2a p. sn.
-    p i a c e r e   >    -re,
-    p i a c e r e   >    -ere,iamo      # ind.  pres. 1a p. pl.
-    p i a c e r e   >    -re,te         # ind.  pres. 2a p. pl.
-    p i a c e r e   >    -ere,ciono     # ind.  pres. 3a p. pl.
-    p i a c e r e   >    -re,vo         # ind.  imp.  1a p. sn.
-    p i a c e r e   >    -re,vi         # ind.  imp.  2a p. sn.
-    p i a c e r e   >    -re,va         # ind.  imp.  3a p. sn.
-    p i a c e r e   >    -re,vamo       # ind.  imp.  1a p. pl.
-    p i a c e r e   >    -re,vate       # ind.  imp.  2a p. pl.
-    p i a c e r e   >    -re,vano       # ind.  imp.  3a p. pl.
-    p i a c e r e   >    -ere,qui       # ind.  pass. 1a p. sn.
-    p i a c e r e   >    -re,sti        # ind.  pass. 2a p. sn.
-    p i a c e r e   >    -ere,que       # ind.  pass. 3a p. sn.
-    p i a c e r e   >    -re,mmo        # ind.  pass. 1a p. pl.
-    p i a c e r e   >    -re,ste        # ind.  pass. 2a p. pl.
-    p i a c e r e   >    -ere,quero     # ind.  pass. 3a p. pl.
-    p i a c e r e   >    -e,ò           # ind.  fut.  1a p. sn.
-    p i a c e r e   >    -e,ai          # ind.  fut.  2a p. sn.
-    p i a c e r e   >    -e,à           # ind.  fut.  3a p. sn.
-    p i a c e r e   >    mo             # ind.  fut.  1a p. pl.
-    p i a c e r e   >    te             # ind.  fut.  2a p. pl.
-    p i a c e r e   >    -e,anno        # ind.  fut.  3a p. pl.
-    p i a c e r e   >    -ere,cia       # cong. pres. 1a p. sn.
-#     p i a c e r e   >    -ere,cia     # cong. pres. 2a p. sn.
-#     p i a c e r e   >    -ere,cia     # cong. pres. 3a p. sn.
-    p i a c e r e   >    -ere,ciamo     # cong. pres. 1a p. pl.
-    p i a c e r e   >    -ere,ciate     # cong. pres. 2a p. pl.
-    p i a c e r e   >    -ere,ciano     # cong. pres. 3a p. pl.
-    p i a c e r e   >    -re,ssi        # cong. pass. 1a p. sn.
-#     p i a c e r e   >    -re,ssi      # cong. pass. 2a p. sn.
-    p i a c e r e   >    -re,sse        # cong. pass. 3a p. sn.
-    p i a c e r e   >    -re,ssimo      # cong. pass. 1a p. pl.
-#     p i a c e r e   >    -re,ste      # cong. pass. 2a p. pl.
-    p i a c e r e   >    -re,ssero      # cong. pass. 3a p. pl.
-    p i a c e r e   >    i              # cond. 1a p. sn.
-    p i a c e r e   >    sti            # cond. 2a p. sn.
-    p i a c e r e   >    bbe            # cond. 3a p. sn.
-    p i a c e r e   >    mmo            # cond. 1a p. pl.
-    p i a c e r e   >    ste            # cond. 2a p. pl.
-    p i a c e r e   >    bbero          # cond. 3a p. pl.
-#     p i a c e r e   >    -ere,i       # imp. 2a p. sn.
-#     p i a c e r e   >    -ere,cia     # imp. 3a p. sn.
-#     p i a c e r e   >    -ere,ciamo   # imp. 1a p. pl.
-#     p i a c e r e   >    -re,te       # imp. 2a p. pl.
-#     p i a c e r e   >    -ere,ciono   # imp. 3a p. pl.
 
     # flag *D: # [cv]ellere
     # divellere, eccellere, svellere
@@ -6769,6 +6769,86 @@ flag *I:
     l i r e         >    -re,tevene
     l i r e         >    -ire,gansi
 
+    # flag *I: # cere
+    # compiacere, dispiacere, piacere, spiacere
+    c e r e         >    -ere,ilo
+    c e r e         >    -ere,ila
+    c e r e         >    -ere,ili
+    c e r e         >    -ere,ile
+    c e r e         >    -ere,ine
+    c e r e         >    -ere,imi
+    c e r e         >    -ere,igli
+    c e r e         >    -ere,iti
+    c e r e         >    -ere,ici
+    c e r e         >    -ere,imelo
+    c e r e         >    -ere,imela
+    c e r e         >    -ere,imeli
+    c e r e         >    -ere,imele
+    c e r e         >    -ere,imene
+    c e r e         >    -ere,iglielo
+    c e r e         >    -ere,igliela
+    c e r e         >    -ere,iglieli
+    c e r e         >    -ere,igliele
+    c e r e         >    -ere,igliene
+    c e r e         >    -ere,itelo
+    c e r e         >    -ere,itela
+    c e r e         >    -ere,iteli
+    c e r e         >    -ere,itele
+    c e r e         >    -ere,itene
+    c e r e         >    -ere,icelo
+    c e r e         >    -ere,icela
+    c e r e         >    -ere,iceli
+    c e r e         >    -ere,icele
+    c e r e         >    -ere,icene
+    c e r e         >    -ere,ciasi
+    c e r e         >    -ere,ciamolo
+    c e r e         >    -ere,ciamola
+    c e r e         >    -ere,ciamoli
+    c e r e         >    -ere,ciamole
+    c e r e         >    -ere,ciamone
+    c e r e         >    -ere,ciamogli
+    c e r e         >    -ere,ciamoci
+    c e r e         >    -ere,ciamoglielo
+    c e r e         >    -ere,ciamogliela
+    c e r e         >    -ere,ciamoglieli
+    c e r e         >    -ere,ciamogliele
+    c e r e         >    -ere,ciamogliene
+    c e r e         >    -ere,ciamocelo
+    c e r e         >    -ere,ciamocela
+    c e r e         >    -ere,ciamoceli
+    c e r e         >    -ere,ciamocele
+    c e r e         >    -ere,ciamocene
+    c e r e         >    -re,telo
+    c e r e         >    -re,tela
+    c e r e         >    -re,teli
+    c e r e         >    -re,tele
+    c e r e         >    -re,tene
+    c e r e         >    -re,temi
+    c e r e         >    -re,tegli
+    c e r e         >    -re,teci
+    c e r e         >    -re,tevi
+    c e r e         >    -re,temelo
+    c e r e         >    -re,temela
+    c e r e         >    -re,temeli
+    c e r e         >    -re,temele
+    c e r e         >    -re,temene
+    c e r e         >    -re,teglielo
+    c e r e         >    -re,tegliela
+    c e r e         >    -re,teglieli
+    c e r e         >    -re,tegliele
+    c e r e         >    -re,tegliene
+    c e r e         >    -re,tecelo
+    c e r e         >    -re,tecela
+    c e r e         >    -re,teceli
+    c e r e         >    -re,tecele
+    c e r e         >    -re,tecene
+    c e r e         >    -re,tevelo
+    c e r e         >    -re,tevela
+    c e r e         >    -re,teveli
+    c e r e         >    -re,tevele
+    c e r e         >    -re,tevene
+    c e r e         >    -ere,cionsi
+
     # flag *I: # arire
     # apparire, comparire, scomparire, trasparire
     a r i r e       >    -re,lo
@@ -6848,86 +6928,6 @@ flag *I:
     a r i r e       >    -re,tevele
     a r i r e       >    -re,tevene
     a r i r e       >    -rire,iansi
-
-    # flag *I: # cere
-    # dispiacere, piacere, spiacere
-    c e r e         >    -ere,ilo
-    c e r e         >    -ere,ila
-    c e r e         >    -ere,ili
-    c e r e         >    -ere,ile
-    c e r e         >    -ere,ine
-    c e r e         >    -ere,imi
-    c e r e         >    -ere,igli
-    c e r e         >    -ere,iti
-    c e r e         >    -ere,ici
-    c e r e         >    -ere,imelo
-    c e r e         >    -ere,imela
-    c e r e         >    -ere,imeli
-    c e r e         >    -ere,imele
-    c e r e         >    -ere,imene
-    c e r e         >    -ere,iglielo
-    c e r e         >    -ere,igliela
-    c e r e         >    -ere,iglieli
-    c e r e         >    -ere,igliele
-    c e r e         >    -ere,igliene
-    c e r e         >    -ere,itelo
-    c e r e         >    -ere,itela
-    c e r e         >    -ere,iteli
-    c e r e         >    -ere,itele
-    c e r e         >    -ere,itene
-    c e r e         >    -ere,icelo
-    c e r e         >    -ere,icela
-    c e r e         >    -ere,iceli
-    c e r e         >    -ere,icele
-    c e r e         >    -ere,icene
-    c e r e         >    -ere,ciasi
-    c e r e         >    -ere,ciamolo
-    c e r e         >    -ere,ciamola
-    c e r e         >    -ere,ciamoli
-    c e r e         >    -ere,ciamole
-    c e r e         >    -ere,ciamone
-    c e r e         >    -ere,ciamogli
-    c e r e         >    -ere,ciamoci
-    c e r e         >    -ere,ciamoglielo
-    c e r e         >    -ere,ciamogliela
-    c e r e         >    -ere,ciamoglieli
-    c e r e         >    -ere,ciamogliele
-    c e r e         >    -ere,ciamogliene
-    c e r e         >    -ere,ciamocelo
-    c e r e         >    -ere,ciamocela
-    c e r e         >    -ere,ciamoceli
-    c e r e         >    -ere,ciamocele
-    c e r e         >    -ere,ciamocene
-    c e r e         >    -re,telo
-    c e r e         >    -re,tela
-    c e r e         >    -re,teli
-    c e r e         >    -re,tele
-    c e r e         >    -re,tene
-    c e r e         >    -re,temi
-    c e r e         >    -re,tegli
-    c e r e         >    -re,teci
-    c e r e         >    -re,tevi
-    c e r e         >    -re,temelo
-    c e r e         >    -re,temela
-    c e r e         >    -re,temeli
-    c e r e         >    -re,temele
-    c e r e         >    -re,temene
-    c e r e         >    -re,teglielo
-    c e r e         >    -re,tegliela
-    c e r e         >    -re,teglieli
-    c e r e         >    -re,tegliele
-    c e r e         >    -re,tegliene
-    c e r e         >    -re,tecelo
-    c e r e         >    -re,tecela
-    c e r e         >    -re,teceli
-    c e r e         >    -re,tecele
-    c e r e         >    -re,tecene
-    c e r e         >    -re,tevelo
-    c e r e         >    -re,tevela
-    c e r e         >    -re,teveli
-    c e r e         >    -re,tevele
-    c e r e         >    -re,tevene
-    c e r e         >    -ere,cionsi
 
     # flag *I: # udire
     # riudire, udire
