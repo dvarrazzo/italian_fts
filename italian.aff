@@ -2769,6 +2769,56 @@ flag *D:
 #     a n e r e       >    -re,te       # imp. 2a p. pl.
 #     a n e r e       >    -ere,gano    # imp. 3a p. pl.
 
+    # flag *D: # avere
+    # avere, riavere
+    a v e r e       >    -avere,ho      # ind.  pres. 1a p. sn.
+    a v e r e       >    -avere,hai     # ind.  pres. 2a p. sn.
+    a v e r e       >    -avere,ha      # ind.  pres. 3a p. sn.
+    a v e r e       >    -vere,bbiamo   # ind.  pres. 1a p. pl.
+    a v e r e       >    -re,te         # ind.  pres. 2a p. pl.
+    a v e r e       >    -avere,hanno   # ind.  pres. 3a p. pl.
+    a v e r e       >    -re,vo         # ind.  imp.  1a p. sn.
+    a v e r e       >    -re,vi         # ind.  imp.  2a p. sn.
+    a v e r e       >    -re,va         # ind.  imp.  3a p. sn.
+    a v e r e       >    -re,vamo       # ind.  imp.  1a p. pl.
+    a v e r e       >    -re,vate       # ind.  imp.  2a p. pl.
+    a v e r e       >    -re,vano       # ind.  imp.  3a p. pl.
+    a v e r e       >    -avere,ebbi    # ind.  pass. 1a p. sn.
+    a v e r e       >    -re,sti        # ind.  pass. 2a p. sn.
+    a v e r e       >    -avere,ebbe    # ind.  pass. 3a p. sn.
+    a v e r e       >    -re,mmo        # ind.  pass. 1a p. pl.
+    a v e r e       >    -re,ste        # ind.  pass. 2a p. pl.
+    a v e r e       >    -avere,ebbero  # ind.  pass. 3a p. pl.
+    a v e r e       >    -ere,rò        # ind.  fut.  1a p. sn.
+    a v e r e       >    -ere,rai       # ind.  fut.  2a p. sn.
+    a v e r e       >    -ere,rà        # ind.  fut.  3a p. sn.
+    a v e r e       >    -ere,remo      # ind.  fut.  1a p. pl.
+    a v e r e       >    -ere,rete      # ind.  fut.  2a p. pl.
+    a v e r e       >    -ere,ranno     # ind.  fut.  3a p. pl.
+    a v e r e       >    -vere,bbia     # cong. pres. 1a p. sn.
+#     a v e r e       >    -vere,bbia   # cong. pres. 2a p. sn.
+#     a v e r e       >    -vere,bbia   # cong. pres. 3a p. sn.
+#     a v e r e       >    -vere,bbiamo # cong. pres. 1a p. pl.
+    a v e r e       >    -vere,bbiate   # cong. pres. 2a p. pl.
+    a v e r e       >    -vere,bbiano   # cong. pres. 3a p. pl.
+    a v e r e       >    -re,ssi        # cong. pass. 1a p. sn.
+#     a v e r e       >    -re,ssi      # cong. pass. 2a p. sn.
+    a v e r e       >    -re,sse        # cong. pass. 3a p. sn.
+    a v e r e       >    -re,ssimo      # cong. pass. 1a p. pl.
+#     a v e r e       >    -re,ste      # cong. pass. 2a p. pl.
+    a v e r e       >    -re,ssero      # cong. pass. 3a p. pl.
+    a v e r e       >    -ere,rei       # cond. 1a p. sn.
+    a v e r e       >    -ere,resti     # cond. 2a p. sn.
+    a v e r e       >    -ere,rebbe     # cond. 3a p. sn.
+    a v e r e       >    -ere,remmo     # cond. 1a p. pl.
+    a v e r e       >    -ere,reste     # cond. 2a p. pl.
+    a v e r e       >    -ere,rebbero   # cond. 3a p. pl.
+#     a v e r e       >    -vere,bbia   # imp. 2a p. sn.
+#     a v e r e       >    -vere,bbia   # imp. 3a p. sn.
+#     a v e r e       >    -vere,bbiamo # imp. 1a p. pl.
+#     a v e r e       >    -vere,bbiate # imp. 2a p. pl.
+#     a v e r e       >    -vere,bbiano # imp. 3a p. pl.
+
     # flag *D: # dolere
     # condolere, dolere
     d o l e r e     >    -ere,go        # ind.  pres. 1a p. sn.
@@ -2868,56 +2918,6 @@ flag *D:
 #     i o v e r e     >    -ere,iamo    # imp. 1a p. pl.
 #     i o v e r e     >    -re,te       # imp. 2a p. pl.
 #     i o v e r e     >    -ere,ano     # imp. 3a p. pl.
-
-    # flag *D: # avere
-    # avere, riavere
-    a v e r e       >    -avere,ho      # ind.  pres. 1a p. sn.
-    a v e r e       >    -avere,hai     # ind.  pres. 2a p. sn.
-    a v e r e       >    -avere,ha      # ind.  pres. 3a p. sn.
-    a v e r e       >    -vere,bbiamo   # ind.  pres. 1a p. pl.
-    a v e r e       >    -re,te         # ind.  pres. 2a p. pl.
-    a v e r e       >    -avere,hanno   # ind.  pres. 3a p. pl.
-    a v e r e       >    -re,vo         # ind.  imp.  1a p. sn.
-    a v e r e       >    -re,vi         # ind.  imp.  2a p. sn.
-    a v e r e       >    -re,va         # ind.  imp.  3a p. sn.
-    a v e r e       >    -re,vamo       # ind.  imp.  1a p. pl.
-    a v e r e       >    -re,vate       # ind.  imp.  2a p. pl.
-    a v e r e       >    -re,vano       # ind.  imp.  3a p. pl.
-    a v e r e       >    -avere,ebbi    # ind.  pass. 1a p. sn.
-    a v e r e       >    -re,sti        # ind.  pass. 2a p. sn.
-    a v e r e       >    -avere,ebbe    # ind.  pass. 3a p. sn.
-    a v e r e       >    -re,mmo        # ind.  pass. 1a p. pl.
-    a v e r e       >    -re,ste        # ind.  pass. 2a p. pl.
-    a v e r e       >    -avere,ebbero  # ind.  pass. 3a p. pl.
-    a v e r e       >    -ere,rò        # ind.  fut.  1a p. sn.
-    a v e r e       >    -ere,rai       # ind.  fut.  2a p. sn.
-    a v e r e       >    -ere,rà        # ind.  fut.  3a p. sn.
-    a v e r e       >    -ere,remo      # ind.  fut.  1a p. pl.
-    a v e r e       >    -ere,rete      # ind.  fut.  2a p. pl.
-    a v e r e       >    -ere,ranno     # ind.  fut.  3a p. pl.
-    a v e r e       >    -vere,bbia     # cong. pres. 1a p. sn.
-#     a v e r e       >    -vere,bbia   # cong. pres. 2a p. sn.
-#     a v e r e       >    -vere,bbia   # cong. pres. 3a p. sn.
-#     a v e r e       >    -vere,bbiamo # cong. pres. 1a p. pl.
-    a v e r e       >    -vere,bbiate   # cong. pres. 2a p. pl.
-    a v e r e       >    -vere,bbiano   # cong. pres. 3a p. pl.
-    a v e r e       >    -re,ssi        # cong. pass. 1a p. sn.
-#     a v e r e       >    -re,ssi      # cong. pass. 2a p. sn.
-#     a v e r e       >    -re,ssi      # cong. pass. 3a p. sn.
-    a v e r e       >    -re,ssimo      # cong. pass. 1a p. pl.
-#     a v e r e       >    -re,ste      # cong. pass. 2a p. pl.
-    a v e r e       >    -re,ssero      # cong. pass. 3a p. pl.
-    a v e r e       >    -ere,rei       # cond. 1a p. sn.
-    a v e r e       >    -ere,resti     # cond. 2a p. sn.
-    a v e r e       >    -ere,rebbe     # cond. 3a p. sn.
-    a v e r e       >    -ere,remmo     # cond. 1a p. pl.
-    a v e r e       >    -ere,reste     # cond. 2a p. pl.
-    a v e r e       >    -ere,rebbero   # cond. 3a p. pl.
-#     a v e r e       >    -vere,bbia   # imp. 2a p. sn.
-#     a v e r e       >    -vere,bbia   # imp. 3a p. sn.
-#     a v e r e       >    -vere,bbiamo # imp. 1a p. pl.
-#     a v e r e       >    -vere,bbiate # imp. 2a p. pl.
-#     a v e r e       >    -vere,bbiano # imp. 3a p. pl.
 
     # flag *D: # ascere
     # nascere, rinascere
@@ -3119,56 +3119,6 @@ flag *D:
 #     d i m e r e     >    -re,te       # imp. 2a p. pl.
 #     d i m e r e     >    -ere,ano     # imp. 3a p. pl.
 
-    # flag *D: # arere
-    # parere
-    a r e r e       >    -rere,io       # ind.  pres. 1a p. sn.
-    a r e r e       >    -ere,i         # ind.  pres. 2a p. sn.
-    a r e r e       >    -re,
-    a r e r e       >    -rere,iamo     # ind.  pres. 1a p. pl.
-    a r e r e       >    -re,te         # ind.  pres. 2a p. pl.
-    a r e r e       >    -rere,iono     # ind.  pres. 3a p. pl.
-    a r e r e       >    -re,vo         # ind.  imp.  1a p. sn.
-    a r e r e       >    -re,vi         # ind.  imp.  2a p. sn.
-    a r e r e       >    -re,va         # ind.  imp.  3a p. sn.
-    a r e r e       >    -re,vamo       # ind.  imp.  1a p. pl.
-    a r e r e       >    -re,vate       # ind.  imp.  2a p. pl.
-    a r e r e       >    -re,vano       # ind.  imp.  3a p. pl.
-    a r e r e       >    -ere,vi        # ind.  pass. 1a p. sn.
-    a r e r e       >    -re,sti        # ind.  pass. 2a p. sn.
-    a r e r e       >    -ere,ve        # ind.  pass. 3a p. sn.
-    a r e r e       >    -re,mmo        # ind.  pass. 1a p. pl.
-    a r e r e       >    -re,ste        # ind.  pass. 2a p. pl.
-    a r e r e       >    -ere,vero      # ind.  pass. 3a p. pl.
-    a r e r e       >    -ere,rò        # ind.  fut.  1a p. sn.
-    a r e r e       >    -ere,rai       # ind.  fut.  2a p. sn.
-    a r e r e       >    -ere,rà        # ind.  fut.  3a p. sn.
-    a r e r e       >    -ere,remo      # ind.  fut.  1a p. pl.
-    a r e r e       >    -ere,rete      # ind.  fut.  2a p. pl.
-    a r e r e       >    -ere,ranno     # ind.  fut.  3a p. pl.
-    a r e r e       >    -rere,ia       # cong. pres. 1a p. sn.
-#     a r e r e       >    -rere,ia     # cong. pres. 2a p. sn.
-#     a r e r e       >    -rere,ia     # cong. pres. 3a p. sn.
-#     a r e r e       >    -rere,iamo   # cong. pres. 1a p. pl.
-    a r e r e       >    -rere,iate     # cong. pres. 2a p. pl.
-    a r e r e       >    -rere,iano     # cong. pres. 3a p. pl.
-    a r e r e       >    -re,ssi        # cong. pass. 1a p. sn.
-#     a r e r e       >    -re,ssi      # cong. pass. 2a p. sn.
-    a r e r e       >    -re,sse        # cong. pass. 3a p. sn.
-    a r e r e       >    -re,ssimo      # cong. pass. 1a p. pl.
-#     a r e r e       >    -re,ste      # cong. pass. 2a p. pl.
-    a r e r e       >    -re,ssero      # cong. pass. 3a p. pl.
-    a r e r e       >    -ere,rei       # cond. 1a p. sn.
-    a r e r e       >    -ere,resti     # cond. 2a p. sn.
-    a r e r e       >    -ere,rebbe     # cond. 3a p. sn.
-    a r e r e       >    -ere,remmo     # cond. 1a p. pl.
-    a r e r e       >    -ere,reste     # cond. 2a p. pl.
-    a r e r e       >    -ere,rebbero   # cond. 3a p. pl.
-#     a r e r e       >    -ere,i       # imp. 2a p. sn.
-    a r e r e       >    -ere,a         # imp. 3a p. sn.
-    a r e r e       >    -ere,iamo      # imp. 1a p. pl.
-#     a r e r e       >    -re,te       # imp. 2a p. pl.
-    a r e r e       >    -ere,ano       # imp. 3a p. pl.
-
     # flag *D: # nuocere
     # nuocere
     n u o c e r e   >    -uocere,occio  # ind.  pres. 1a p. sn.
@@ -3218,6 +3168,56 @@ flag *D:
 #     n u o c e r e   >    -uocere,ociamo # imp. 1a p. pl.
     n u o c e r e   >    -uocere,ocete  # imp. 2a p. pl.
 #     n u o c e r e   >    -uocere,occiano  # imp. 3a p. pl.
+
+    # flag *D: # arere
+    # parere
+    a r e r e       >    -rere,io       # ind.  pres. 1a p. sn.
+    a r e r e       >    -ere,i         # ind.  pres. 2a p. sn.
+    a r e r e       >    -re,
+    a r e r e       >    -rere,iamo     # ind.  pres. 1a p. pl.
+    a r e r e       >    -re,te         # ind.  pres. 2a p. pl.
+    a r e r e       >    -rere,iono     # ind.  pres. 3a p. pl.
+    a r e r e       >    -re,vo         # ind.  imp.  1a p. sn.
+    a r e r e       >    -re,vi         # ind.  imp.  2a p. sn.
+    a r e r e       >    -re,va         # ind.  imp.  3a p. sn.
+    a r e r e       >    -re,vamo       # ind.  imp.  1a p. pl.
+    a r e r e       >    -re,vate       # ind.  imp.  2a p. pl.
+    a r e r e       >    -re,vano       # ind.  imp.  3a p. pl.
+    a r e r e       >    -ere,vi        # ind.  pass. 1a p. sn.
+    a r e r e       >    -re,sti        # ind.  pass. 2a p. sn.
+    a r e r e       >    -ere,ve        # ind.  pass. 3a p. sn.
+    a r e r e       >    -re,mmo        # ind.  pass. 1a p. pl.
+    a r e r e       >    -re,ste        # ind.  pass. 2a p. pl.
+    a r e r e       >    -ere,vero      # ind.  pass. 3a p. pl.
+    a r e r e       >    -ere,rò        # ind.  fut.  1a p. sn.
+    a r e r e       >    -ere,rai       # ind.  fut.  2a p. sn.
+    a r e r e       >    -ere,rà        # ind.  fut.  3a p. sn.
+    a r e r e       >    -ere,remo      # ind.  fut.  1a p. pl.
+    a r e r e       >    -ere,rete      # ind.  fut.  2a p. pl.
+    a r e r e       >    -ere,ranno     # ind.  fut.  3a p. pl.
+    a r e r e       >    -rere,ia       # cong. pres. 1a p. sn.
+#     a r e r e       >    -rere,ia     # cong. pres. 2a p. sn.
+#     a r e r e       >    -rere,ia     # cong. pres. 3a p. sn.
+#     a r e r e       >    -rere,iamo   # cong. pres. 1a p. pl.
+    a r e r e       >    -rere,iate     # cong. pres. 2a p. pl.
+    a r e r e       >    -rere,iano     # cong. pres. 3a p. pl.
+    a r e r e       >    -re,ssi        # cong. pass. 1a p. sn.
+#     a r e r e       >    -re,ssi      # cong. pass. 2a p. sn.
+    a r e r e       >    -re,sse        # cong. pass. 3a p. sn.
+    a r e r e       >    -re,ssimo      # cong. pass. 1a p. pl.
+#     a r e r e       >    -re,ste      # cong. pass. 2a p. pl.
+    a r e r e       >    -re,ssero      # cong. pass. 3a p. pl.
+    a r e r e       >    -ere,rei       # cond. 1a p. sn.
+    a r e r e       >    -ere,resti     # cond. 2a p. sn.
+    a r e r e       >    -ere,rebbe     # cond. 3a p. sn.
+    a r e r e       >    -ere,remmo     # cond. 1a p. pl.
+    a r e r e       >    -ere,reste     # cond. 2a p. pl.
+    a r e r e       >    -ere,rebbero   # cond. 3a p. pl.
+#     a r e r e       >    -ere,i       # imp. 2a p. sn.
+    a r e r e       >    -ere,a         # imp. 3a p. sn.
+    a r e r e       >    -ere,iamo      # imp. 1a p. pl.
+#     a r e r e       >    -re,te       # imp. 2a p. pl.
+    a r e r e       >    -ere,ano       # imp. 3a p. pl.
 
     # flag *D: # potere
     # potere
