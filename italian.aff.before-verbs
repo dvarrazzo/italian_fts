@@ -31,14 +31,7 @@
 # GPL license can be found here:
 # http://www.fsf.org/licenses/licenses.html
 
-#SET ISO8859-15
-
-MAP 5
-MAP aàAÀ
-MAP eéèEÉÈ
-MAP iìIÌ
-MAP oòOÒ
-MAP uùUÙ
+# File encoding is ISO-8859-1
 
 suffixes
 
