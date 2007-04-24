@@ -3161,6 +3161,51 @@ flag *D:
     n u o c e r e   >    -uocere,ocete  # imp. 2a p. pl.
 #     n u o c e r e   >    -uocere,occiano  # imp. 3a p. pl.
 
+    # flag *D: # potere
+    # potere
+    p o t e r e     >    -tere,sso      # ind.  pres. 1a p. sn.
+    p o t e r e     >    -otere,uoi     # ind.  pres. 2a p. sn.
+    p o t e r e     >    -otere,uò      # ind.  pres. 3a p. sn.
+    p o t e r e     >    -tere,ssiamo   # ind.  pres. 1a p. pl.
+    p o t e r e     >    -re,te         # ind.  pres. 2a p. pl.
+    p o t e r e     >    -tere,ssono    # ind.  pres. 3a p. pl.
+    p o t e r e     >    -re,vo         # ind.  imp.  1a p. sn.
+    p o t e r e     >    -re,vi         # ind.  imp.  2a p. sn.
+    p o t e r e     >    -re,va         # ind.  imp.  3a p. sn.
+    p o t e r e     >    -re,vamo       # ind.  imp.  1a p. pl.
+    p o t e r e     >    -re,vate       # ind.  imp.  2a p. pl.
+    p o t e r e     >    -re,vano       # ind.  imp.  3a p. pl.
+    p o t e r e     >    -re,i          # ind.  pass. 1a p. sn.
+    p o t e r e     >    -re,sti        # ind.  pass. 2a p. sn.
+    p o t e r e     >    -ere,é         # ind.  pass. 3a p. sn.
+    p o t e r e     >    -re,mmo        # ind.  pass. 1a p. pl.
+    p o t e r e     >    -re,ste        # ind.  pass. 2a p. pl.
+    p o t e r e     >    -e,ono         # ind.  pass. 3a p. pl.
+    p o t e r e     >    -ere,rò        # ind.  fut.  1a p. sn.
+    p o t e r e     >    -ere,rai       # ind.  fut.  2a p. sn.
+    p o t e r e     >    -ere,rà        # ind.  fut.  3a p. sn.
+    p o t e r e     >    -ere,remo      # ind.  fut.  1a p. pl.
+    p o t e r e     >    -ere,rete      # ind.  fut.  2a p. pl.
+    p o t e r e     >    -ere,ranno     # ind.  fut.  3a p. pl.
+    p o t e r e     >    -tere,ssa      # cong. pres. 1a p. sn.
+#     p o t e r e     >    -tere,ssa    # cong. pres. 2a p. sn.
+#     p o t e r e     >    -tere,ssa    # cong. pres. 3a p. sn.
+#     p o t e r e     >    -tere,ssiamo # cong. pres. 1a p. pl.
+    p o t e r e     >    -tere,ssiate   # cong. pres. 2a p. pl.
+    p o t e r e     >    -tere,ssano    # cong. pres. 3a p. pl.
+    p o t e r e     >    -re,ssi        # cong. pass. 1a p. sn.
+#     p o t e r e     >    -re,ssi      # cong. pass. 2a p. sn.
+    p o t e r e     >    -re,sse        # cong. pass. 3a p. sn.
+    p o t e r e     >    -re,ssimo      # cong. pass. 1a p. pl.
+#     p o t e r e     >    -re,ste      # cong. pass. 2a p. pl.
+    p o t e r e     >    -re,ssero      # cong. pass. 3a p. pl.
+    p o t e r e     >    -ere,rei       # cond. 1a p. sn.
+    p o t e r e     >    -ere,resti     # cond. 2a p. sn.
+    p o t e r e     >    -ere,rebbe     # cond. 3a p. sn.
+    p o t e r e     >    -ere,remmo     # cond. 1a p. pl.
+    p o t e r e     >    -ere,reste     # cond. 2a p. pl.
+    p o t e r e     >    -ere,rebbero   # cond. 3a p. pl.
+
     # flag *D: # arere
     # parere
     a r e r e       >    -rere,io       # ind.  pres. 1a p. sn.
@@ -3210,51 +3255,6 @@ flag *D:
     a r e r e       >    -ere,iamo      # imp. 1a p. pl.
 #     a r e r e       >    -re,te       # imp. 2a p. pl.
     a r e r e       >    -ere,ano       # imp. 3a p. pl.
-
-    # flag *D: # potere
-    # potere
-    p o t e r e     >    -tere,sso      # ind.  pres. 1a p. sn.
-    p o t e r e     >    -otere,uoi     # ind.  pres. 2a p. sn.
-    p o t e r e     >    -otere,uò      # ind.  pres. 3a p. sn.
-    p o t e r e     >    -tere,ssiamo   # ind.  pres. 1a p. pl.
-    p o t e r e     >    -re,te         # ind.  pres. 2a p. pl.
-    p o t e r e     >    -tere,ssono    # ind.  pres. 3a p. pl.
-    p o t e r e     >    -re,vo         # ind.  imp.  1a p. sn.
-    p o t e r e     >    -re,vi         # ind.  imp.  2a p. sn.
-    p o t e r e     >    -re,va         # ind.  imp.  3a p. sn.
-    p o t e r e     >    -re,vamo       # ind.  imp.  1a p. pl.
-    p o t e r e     >    -re,vate       # ind.  imp.  2a p. pl.
-    p o t e r e     >    -re,vano       # ind.  imp.  3a p. pl.
-    p o t e r e     >    -re,i          # ind.  pass. 1a p. sn.
-    p o t e r e     >    -re,sti        # ind.  pass. 2a p. sn.
-    p o t e r e     >    -ere,é         # ind.  pass. 3a p. sn.
-    p o t e r e     >    -re,mmo        # ind.  pass. 1a p. pl.
-    p o t e r e     >    -re,ste        # ind.  pass. 2a p. pl.
-    p o t e r e     >    -e,ono         # ind.  pass. 3a p. pl.
-    p o t e r e     >    -ere,rò        # ind.  fut.  1a p. sn.
-    p o t e r e     >    -ere,rai       # ind.  fut.  2a p. sn.
-    p o t e r e     >    -ere,rà        # ind.  fut.  3a p. sn.
-    p o t e r e     >    -ere,remmo     # ind.  fut.  1a p. pl.
-    p o t e r e     >    -ere,rete      # ind.  fut.  2a p. pl.
-#     p o t e r e     >    -e,ono       # ind.  fut.  3a p. pl.
-    p o t e r e     >    -tere,ssa      # cong. pres. 1a p. sn.
-#     p o t e r e     >    -tere,ssa    # cong. pres. 2a p. sn.
-#     p o t e r e     >    -tere,ssa    # cong. pres. 3a p. sn.
-#     p o t e r e     >    -tere,ssiamo # cong. pres. 1a p. pl.
-    p o t e r e     >    -tere,ssiate   # cong. pres. 2a p. pl.
-    p o t e r e     >    -tere,ssano    # cong. pres. 3a p. pl.
-    p o t e r e     >    -re,ssi        # cong. pass. 1a p. sn.
-#     p o t e r e     >    -re,ssi      # cong. pass. 2a p. sn.
-    p o t e r e     >    -re,sse        # cong. pass. 3a p. sn.
-    p o t e r e     >    -re,ssimo      # cong. pass. 1a p. pl.
-#     p o t e r e     >    -re,ste      # cong. pass. 2a p. pl.
-    p o t e r e     >    -re,ssero      # cong. pass. 3a p. pl.
-    p o t e r e     >    -ere,rei       # cond. 1a p. sn.
-    p o t e r e     >    -ere,resti     # cond. 2a p. sn.
-    p o t e r e     >    -ere,rebbe     # cond. 3a p. sn.
-#     p o t e r e     >    -ere,remmo   # cond. 1a p. pl.
-    p o t e r e     >    -ere,reste     # cond. 2a p. pl.
-    p o t e r e     >    -ere,rebbero   # cond. 3a p. pl.
 
     # flag *D: # digere
     # redigere
@@ -3500,7 +3500,7 @@ flag *E:
 #     e n i r e       >    -ire,gano    # imp. 3a p. pl.
 
     # flag *E: # dire
-    # benedire, contraddire, dire, disdire, indire, interdire, maledire...
+    # addire, benedire, contraddire, dire, disdire, indire, interdire...
     d i r e         >    -re,co         # ind.  pres. 1a p. sn.
     d i r e         >    -re,ci         # ind.  pres. 2a p. sn.
     d i r e         >    -re,ce         # ind.  pres. 3a p. sn.
@@ -6521,6 +6521,86 @@ flag *I:
     e n i r e       >    -re,tevene
     e n i r e       >    -ire,gansi
 
+    # flag *I: # [^u]dire
+    # addire, benedire, contraddire, disdire, indire, interdire, maledire...
+    [^u] d i r e    >    -re,cilo
+    [^u] d i r e    >    -re,cila
+    [^u] d i r e    >    -re,cili
+    [^u] d i r e    >    -re,cile
+    [^u] d i r e    >    -re,cine
+    [^u] d i r e    >    -re,cimi
+    [^u] d i r e    >    -re,cigli
+    [^u] d i r e    >    -re,citi
+    [^u] d i r e    >    -re,cici
+    [^u] d i r e    >    -re,cimelo
+    [^u] d i r e    >    -re,cimela
+    [^u] d i r e    >    -re,cimeli
+    [^u] d i r e    >    -re,cimele
+    [^u] d i r e    >    -re,cimene
+    [^u] d i r e    >    -re,ciglielo
+    [^u] d i r e    >    -re,cigliela
+    [^u] d i r e    >    -re,ciglieli
+    [^u] d i r e    >    -re,cigliele
+    [^u] d i r e    >    -re,cigliene
+    [^u] d i r e    >    -re,citelo
+    [^u] d i r e    >    -re,citela
+    [^u] d i r e    >    -re,citeli
+    [^u] d i r e    >    -re,citele
+    [^u] d i r e    >    -re,citene
+    [^u] d i r e    >    -re,cicelo
+    [^u] d i r e    >    -re,cicela
+    [^u] d i r e    >    -re,ciceli
+    [^u] d i r e    >    -re,cicele
+    [^u] d i r e    >    -re,cicene
+    [^u] d i r e    >    -re,casi
+    [^u] d i r e    >    -re,ciamolo
+    [^u] d i r e    >    -re,ciamola
+    [^u] d i r e    >    -re,ciamoli
+    [^u] d i r e    >    -re,ciamole
+    [^u] d i r e    >    -re,ciamone
+    [^u] d i r e    >    -re,ciamogli
+    [^u] d i r e    >    -re,ciamoci
+    [^u] d i r e    >    -re,ciamoglielo
+    [^u] d i r e    >    -re,ciamogliela
+    [^u] d i r e    >    -re,ciamoglieli
+    [^u] d i r e    >    -re,ciamogliele
+    [^u] d i r e    >    -re,ciamogliene
+    [^u] d i r e    >    -re,ciamocelo
+    [^u] d i r e    >    -re,ciamocela
+    [^u] d i r e    >    -re,ciamoceli
+    [^u] d i r e    >    -re,ciamocele
+    [^u] d i r e    >    -re,ciamocene
+    [^u] d i r e    >    -re,telo
+    [^u] d i r e    >    -re,tela
+    [^u] d i r e    >    -re,teli
+    [^u] d i r e    >    -re,tele
+    [^u] d i r e    >    -re,tene
+    [^u] d i r e    >    -re,temi
+    [^u] d i r e    >    -re,tegli
+    [^u] d i r e    >    -re,teci
+    [^u] d i r e    >    -re,tevi
+    [^u] d i r e    >    -re,temelo
+    [^u] d i r e    >    -re,temela
+    [^u] d i r e    >    -re,temeli
+    [^u] d i r e    >    -re,temele
+    [^u] d i r e    >    -re,temene
+    [^u] d i r e    >    -re,teglielo
+    [^u] d i r e    >    -re,tegliela
+    [^u] d i r e    >    -re,teglieli
+    [^u] d i r e    >    -re,tegliele
+    [^u] d i r e    >    -re,tegliene
+    [^u] d i r e    >    -re,tecelo
+    [^u] d i r e    >    -re,tecela
+    [^u] d i r e    >    -re,teceli
+    [^u] d i r e    >    -re,tecele
+    [^u] d i r e    >    -re,tecene
+    [^u] d i r e    >    -re,tevelo
+    [^u] d i r e    >    -re,tevela
+    [^u] d i r e    >    -re,teveli
+    [^u] d i r e    >    -re,tevele
+    [^u] d i r e    >    -re,tevene
+    [^u] d i r e    >    -re,cansi
+
     # flag *I: # [ln]ere
     # avvalere, equivalere, invalere, permanere, prevalere, rimanere, valere...
     [ln] e r e      >    -ere,ilo
@@ -6600,86 +6680,6 @@ flag *I:
     [ln] e r e      >    -re,tevele
     [ln] e r e      >    -re,tevene
     [ln] e r e      >    -ere,gansi
-
-    # flag *I: # [^u]dire
-    # benedire, contraddire, disdire, indire, interdire, maledire, predire
-    [^u] d i r e    >    -re,cilo
-    [^u] d i r e    >    -re,cila
-    [^u] d i r e    >    -re,cili
-    [^u] d i r e    >    -re,cile
-    [^u] d i r e    >    -re,cine
-    [^u] d i r e    >    -re,cimi
-    [^u] d i r e    >    -re,cigli
-    [^u] d i r e    >    -re,citi
-    [^u] d i r e    >    -re,cici
-    [^u] d i r e    >    -re,cimelo
-    [^u] d i r e    >    -re,cimela
-    [^u] d i r e    >    -re,cimeli
-    [^u] d i r e    >    -re,cimele
-    [^u] d i r e    >    -re,cimene
-    [^u] d i r e    >    -re,ciglielo
-    [^u] d i r e    >    -re,cigliela
-    [^u] d i r e    >    -re,ciglieli
-    [^u] d i r e    >    -re,cigliele
-    [^u] d i r e    >    -re,cigliene
-    [^u] d i r e    >    -re,citelo
-    [^u] d i r e    >    -re,citela
-    [^u] d i r e    >    -re,citeli
-    [^u] d i r e    >    -re,citele
-    [^u] d i r e    >    -re,citene
-    [^u] d i r e    >    -re,cicelo
-    [^u] d i r e    >    -re,cicela
-    [^u] d i r e    >    -re,ciceli
-    [^u] d i r e    >    -re,cicele
-    [^u] d i r e    >    -re,cicene
-    [^u] d i r e    >    -re,casi
-    [^u] d i r e    >    -re,ciamolo
-    [^u] d i r e    >    -re,ciamola
-    [^u] d i r e    >    -re,ciamoli
-    [^u] d i r e    >    -re,ciamole
-    [^u] d i r e    >    -re,ciamone
-    [^u] d i r e    >    -re,ciamogli
-    [^u] d i r e    >    -re,ciamoci
-    [^u] d i r e    >    -re,ciamoglielo
-    [^u] d i r e    >    -re,ciamogliela
-    [^u] d i r e    >    -re,ciamoglieli
-    [^u] d i r e    >    -re,ciamogliele
-    [^u] d i r e    >    -re,ciamogliene
-    [^u] d i r e    >    -re,ciamocelo
-    [^u] d i r e    >    -re,ciamocela
-    [^u] d i r e    >    -re,ciamoceli
-    [^u] d i r e    >    -re,ciamocele
-    [^u] d i r e    >    -re,ciamocene
-    [^u] d i r e    >    -re,telo
-    [^u] d i r e    >    -re,tela
-    [^u] d i r e    >    -re,teli
-    [^u] d i r e    >    -re,tele
-    [^u] d i r e    >    -re,tene
-    [^u] d i r e    >    -re,temi
-    [^u] d i r e    >    -re,tegli
-    [^u] d i r e    >    -re,teci
-    [^u] d i r e    >    -re,tevi
-    [^u] d i r e    >    -re,temelo
-    [^u] d i r e    >    -re,temela
-    [^u] d i r e    >    -re,temeli
-    [^u] d i r e    >    -re,temele
-    [^u] d i r e    >    -re,temene
-    [^u] d i r e    >    -re,teglielo
-    [^u] d i r e    >    -re,tegliela
-    [^u] d i r e    >    -re,teglieli
-    [^u] d i r e    >    -re,tegliele
-    [^u] d i r e    >    -re,tegliene
-    [^u] d i r e    >    -re,tecelo
-    [^u] d i r e    >    -re,tecela
-    [^u] d i r e    >    -re,teceli
-    [^u] d i r e    >    -re,tecele
-    [^u] d i r e    >    -re,tecene
-    [^u] d i r e    >    -re,tevelo
-    [^u] d i r e    >    -re,tevela
-    [^u] d i r e    >    -re,teveli
-    [^u] d i r e    >    -re,tevele
-    [^u] d i r e    >    -re,tevene
-    [^u] d i r e    >    -re,cansi
 
     # flag *I: # lire
     # assalire, riassalire, risalire, salire, trasalire
@@ -7547,7 +7547,7 @@ flag *M:
 flag *N:
 
     # flag *N: # re
-    # artefare, assuefare, benedire, confare, contraddire, contraffare, dire...
+    # addire, artefare, assuefare, benedire, confare, contraddire...
     r e             >    -re,cente
     r e             >    -re,centi
 
@@ -7619,7 +7619,7 @@ flag *Q:
 flag *R:
 
     # flag *R: # re
-    # artefare, assuefare, benedire, confare, contraddire, contraffare, dire...
+    # addire, artefare, assuefare, benedire, confare, contraddire...
     r e             >    -re,centesi
     r e             >    -re,centisi
 
@@ -7890,7 +7890,7 @@ flag *U:
     r i v e r e     >    -vere,ttamente
 
     # flag *U: # dire
-    # benedire, contraddire, dire, disdire, indire, interdire, maledire...
+    # addire, benedire, contraddire, dire, disdire, indire, interdire...
     d i r e         >    -ire,etto
     d i r e         >    -ire,etta
     d i r e         >    -ire,etti
@@ -9270,7 +9270,7 @@ flag *Y:
     r i v e r e     >    -vere,ttevene
 
     # flag *Y: # dire
-    # benedire, contraddire, dire, disdire, indire, interdire, maledire...
+    # addire, benedire, contraddire, dire, disdire, indire, interdire...
     d i r e         >    -ire,ettolo
     d i r e         >    -ire,ettola
     d i r e         >    -ire,ettoli
@@ -10930,7 +10930,7 @@ flag *1:
 flag *2:
 
     # flag *2: # [ai]re
-    # artefare, assuefare, benedire, confare, contraddire, contraffare, dire...
+    # addire, artefare, assuefare, benedire, confare, contraddire...
     [ai] r e        >    -re,cendo
 
     # flag *2: # bere
@@ -11200,7 +11200,7 @@ flag *4:
 flag *5:
 
     # flag *5: # [ai]re
-    # artefare, assuefare, benedire, confare, contraddire, contraffare, dire...
+    # addire, artefare, assuefare, benedire, confare, contraddire...
     [ai] r e        >    -re,cendolo
     [ai] r e        >    -re,cendola
     [ai] r e        >    -re,cendoli

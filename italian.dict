@@ -5070,6 +5070,7 @@ accademismo/a
 accademista/ab
 accadere/ABEGLPTX14
 accadico/cf
+accadimento/a
 accagliamento/a
 accagliare/ABCGLPTX14
 accagliatura/b
@@ -5322,7 +5323,6 @@ acconciare/ABCGLPTX14
 acconciatore/ad
 acconciatura/b
 acconcio/af
-accondiscendente/a
 accondiscendenza/b
 accondiscendere/ABEGLPVZ14
 acconsentimento/a
@@ -5679,10 +5679,10 @@ addestrabilità
 addestramento/a
 addestrare/ABCGLPTX14z
 addestratore/ad
-addetto/af
 addiaccio/a
 addietro
 addio/c
+addire/ABEINRUY25
 addirittura
 addisoniano/af
 additamento/a
@@ -5942,6 +5942,7 @@ affante
 affaraccio/a
 affardellamento/a
 affardellare/ABCGLPTX14
+affare/a
 affarino/a
 affarismo/a
 affarista/ab
@@ -6362,6 +6363,7 @@ aizzamento/a
 aizzare/ABCGLPTX14
 aizzatore/ad
 al
+ala/a
 alabarda/b
 alabardato/af
 alabardiere/a
@@ -6502,6 +6504,7 @@ alfabetizzazione/a
 alfabeto/a
 alfanumerico/cf
 alfiere/a
+alfine
 alga/b
 algale/a
 algebra/b
@@ -6667,11 +6670,10 @@ allocabile/a
 allocare/ABCGLPTX14
 allocativo/af
 allocazione/a
-allocca
 alloccaggine/a
 alloccheria/b
 allocchire/ABCGLPTX14
-allocco
+allocco/af
 allocroico/cf
 allocromatico/cf
 alloctono/af
@@ -7253,7 +7255,7 @@ anatroccolo/a
 anca/b
 ancella/b
 ancestrale/a
-anche
+anche/o
 ancheggiamento/a
 ancheggiare/ABCGLPTX14
 anchilosare/ABCGLPTX14
@@ -7676,6 +7678,7 @@ antidolorifico/cf
 antidoping
 antidoto/a
 antidroga
+antiecclesiastico/cf
 antieconomico/cf
 antielettrone/a
 antielmintico/cf
@@ -8283,6 +8286,7 @@ apribottiglie
 apricasse
 aprico/cf
 aprilante/a
+aprile
 aprilia
 apriliano/a
 aprilino/af
@@ -8446,6 +8450,7 @@ archetto/a
 archiacuto/af
 archiatro/af
 archibugetto/a
+archibugiata/b
 archibugiera/ab
 archibugio/a
 archicembalo/a
@@ -10369,6 +10374,7 @@ avversativo/af
 avversatore/ad
 avversione/a
 avversità
+avverso/af
 avvertenza/b
 avvertibile/a
 avvertimento/a
@@ -10884,6 +10890,7 @@ banconista/ab
 banconota/b
 bancoposta
 band
+banda/b
 bandaio/a
 bandana/b
 bandato/a
@@ -10909,6 +10916,7 @@ bandistico/cf
 banditesco/afk
 banditismo/a
 banditore/ad
+bando/a
 bandoliera/b
 bandoliere/a
 bandolo/a
@@ -11041,8 +11049,7 @@ barcollamento/a
 barcollare/ABCGLPTX14
 barcollio/c
 barcolloni
-barcona/b
-barcone/a
+barcone/af
 bardaglio/a
 bardamento/a
 bardana/b
@@ -11138,6 +11145,7 @@ baronia/b
 baropatia/b
 baroscopio/a
 barotermografo/a
+barra/b
 barracano/a
 barracellare/a
 barracello/a
@@ -11548,7 +11556,7 @@ belligero
 bellimbusto/a
 bellino/af
 bellinzonese/a
-bello/afhk
+bello/afhko
 bellocchio/a
 belloccio/afg
 belloli
@@ -12020,6 +12028,7 @@ bilaterale/ak
 bilateralismo/a
 bilateralità
 bilatero/af
+bile/a
 bilia/b
 biliardaio/af
 biliardiere/a
@@ -13016,7 +13025,7 @@ bravazzata/b
 braveggiare/ABCGLPTX14
 braveria/b
 bravina/b
-bravo/afhk
+bravo/afhko
 bravura/b
 breakfast
 breccia/c
@@ -13588,6 +13597,7 @@ cabrare/ABCGLPTX14
 cabriole
 cabriolet
 cacao
+cacare/ABCGLPTX14
 cacarella/b
 cacatoa
 cacatua
@@ -13668,7 +13678,7 @@ cagliare/ABCGLPTX14
 cagliaritano/af
 cagliatura/b
 cagna/bn
-cagnaccio
+cagnaccio/af
 cagnara
 cagnesco/af
 cagnolino/a
@@ -14664,7 +14674,7 @@ carminio
 carmona
 carnagione/a
 carnaio/a
-carnale/ak
+carnale/ako
 carnalità
 carnallite/a
 carname/a
@@ -15220,6 +15230,7 @@ cavoletto/a
 cavolfiore/a
 cavolo/a
 cazzata/b
+cazzeggiare/ABCGLPTX14
 cazzettino/a
 cazzetto/a
 cazzino/a
@@ -15228,7 +15239,8 @@ cazzone/a
 cazzottata/b
 cazzotto/a
 cazzuola/b
-ce/a
+cazzuto/af
+ce
 cebano/a
 cebo/a
 cecaggine
@@ -15241,7 +15253,7 @@ cecità
 ceco/af
 cecoslovacco/af
 cecubo/a
-cedere/ABCGLPTX14x
+cedere/ABCGLPTX14
 cedevole/a
 cedevolezza/b
 cedibile/a
@@ -15318,9 +15330,9 @@ celomato/af
 celona
 celostata/a
 celsius
-celta/ab
 celtico/cf
 celtismo/a
+celto/af
 cembalista/ab
 cembalo/a
 cembro/a
@@ -15364,6 +15376,7 @@ cenozoico/cf
 censibile/a
 censimento/a
 censire/ABCGLPTX14
+censo/a
 censorato/a
 censore
 censorio/af
@@ -15604,7 +15617,7 @@ charme
 charter
 chartreuse
 chauffeur
-che
+che/o
 checca/b
 checchessia
 checché
@@ -16513,7 +16526,7 @@ codinismo/a
 codino/af
 codirosso/a
 codolo/a
-codominio
+codominio/a
 codone/a
 codrione/a
 coeditore/ad
@@ -16629,6 +16642,7 @@ colina/ab
 colinergico/cf
 colite/a
 colitico/cf
+colla/b
 collaborare/ABCGLPTX14
 collaborativo/af
 collaboratore/ad
@@ -16655,6 +16669,7 @@ collazionare/ABCGLPTX14
 collazionatore/ad
 collazionatura/b
 collazione/a
+colle/a
 collega/ab
 collegabile/a
 collegamento/a
@@ -16699,7 +16714,7 @@ collinoso/af
 collirio/a
 collisione/a
 collisore/a
-collo/af
+collo/a
 collocabile/a
 collocamento/az
 collocare/ABCGLPTX14z
@@ -16765,7 +16780,7 @@ colorabile/ah
 coloramento/a
 colorare/ABCGLPTX14z
 colorazione/a
-colore/a
+colore/ao
 coloreria/b
 colorificio/a
 colorimetro/a
@@ -16781,6 +16796,7 @@ colosimo
 colossale/a
 colosso/a
 colostro/a
+colpa/b
 colpaccio/a
 colpetto/a
 colpevole/ak
@@ -16790,6 +16806,7 @@ colpevolista/ab
 colpevolizzare/ABCGLPTX14
 colpibile/a
 colpire/ABCGLPTX14
+colpo/a
 colposo/afk
 coltellaccio/a
 coltellata/b
@@ -16816,6 +16833,7 @@ colubro/a
 colui
 coluro/a
 colza/b
+colà
 coma/a
 comacino/a
 comandamento/a
@@ -16845,7 +16863,7 @@ combustione/a
 combusto/af
 combustore/a
 combutta/b
-come
+come/o
 comedone/a
 comense/a
 cometa/b
@@ -17323,7 +17341,7 @@ condoglianza/b
 condolere/ABDHLPTX14
 condom
 condominiale/a
-condominio
+condominio/i
 condomino/af
 condonabile/a
 condonare/ABCGLPTX14
@@ -17887,7 +17905,7 @@ contribuzione/a
 contristare/ABCGLPTX14
 contrito/afk
 contrizione/a
-contro
+contro/o
 controaccuse
 controaliseo/a
 controazione/a
@@ -18229,7 +18247,6 @@ corizza/b
 cormo/a
 cormofita/b
 cormorano/a
-corna
 cornacchia/b
 cornage
 cornalina/b
@@ -18248,7 +18265,7 @@ cornicione/a
 cornificare/ABCGLPTX14
 corniolo/af
 cornista/ab
-corno/a
+corno/af
 cornovaglia
 cornucopia/b
 cornuto/af
@@ -18404,8 +18421,7 @@ corto/afh
 cortocircuitare/ABCGLPTX14
 cortocircuito/a
 cortometraggio/a
-corvaccio
-corve
+corvaccio/a
 corvetta/b
 corvino/af
 corvisieri
@@ -18455,7 +18471,7 @@ cosmopolita/ab
 cosmopolitico/cf
 cosmopolitismo/a
 cosmosofia
-coso/af
+coso/afo
 cosonantizzazione/a
 cospargere/ABDGLPVZ14
 cospersa/b
@@ -19159,7 +19175,7 @@ dai
 daino/a
 dal
 dalia
-dalla/b
+dalla/bo
 dallo
 dalmata/ab
 dalmatico/cf
@@ -19672,7 +19688,7 @@ delittuoso/afk
 delizia/b
 deliziare/ABCGLPTX14
 delizioso/afhk
-della/b
+della/bo
 dello
 delocalizzazione/a
 delta
@@ -20571,7 +20587,7 @@ diradamento/a
 diradare/ABCGLPTX14
 diramare/ABCGLPTX14
 diramazione/a
-dire/ABEJNRUY25xz
+dire/ABEJNRUY25z
 director
 directory
 direttività
@@ -21421,11 +21437,9 @@ dominare/ABCGLPTX14
 dominatore/ad
 dominazione/a
 domine
-dominga
-domingo
 dominicale/a
 dominicano/af
-dominio
+dominio/a
 dominion
 domiziano
 domma/ab
@@ -23382,7 +23396,7 @@ eseguibile/a
 eseguibilità
 eseguire/ABDHLPTX14
 esempio/a
-esemplare/ABCGLPTX14
+esemplare/ABCGLPTX14a
 esemplarità
 esemplificabile/a
 esemplificare/ABCGLPTX14
@@ -23638,7 +23652,7 @@ essiccatoio/a
 essiccatore/ad
 essiccazione/a
 essiccosi
-esso
+esso/af
 essoterico/cf
 essoterismo/a
 essudare/ABCGLPTX14
@@ -24566,9 +24580,10 @@ fatturista/ab
 fatuità
 fatuo/af
 fauci
+fauna/b
 faunesco/af
 faunistico/cfk
-fauno/af
+fauno/a
 faure
 faust
 faustiano
@@ -24858,6 +24873,7 @@ feso/af
 fessaggine/a
 fesseria/b
 fesso/af
+fessura/b
 fessurare/ABCGLPTX14
 fessurazione/a
 fessurina/b
@@ -25843,7 +25859,7 @@ forno/a
 foronomia
 forosetta/b
 forra/b
-forse
+forse/o
 forsempronese
 forsennatezza
 forsennato/afhk
@@ -27060,6 +27076,7 @@ gastrulazione/a
 gateau
 gato
 gattabuia/b
+gattaccio/ag
 gattaia
 gattaiola/b
 gattamorta
@@ -28029,7 +28046,7 @@ glicoproteina/b
 glicoside/a
 glicosio
 glicosuria/b
-glielo/af
+glielo/afo
 gliene
 glifo/a
 glioma/a
@@ -28286,6 +28303,7 @@ gorgonzola
 gorilla
 goriziano/af
 gospel
+gota/b
 goticizzante
 gotico/cf
 goto/af
@@ -28517,11 +28535,12 @@ grassetto/af
 grassezza/b
 grassmanniana
 grasso/afhk
-grassoccio/af
+grassoccio/ag
 grassone/af
 grassoso/af
 grassottello/af
 grassume/a
+grata/b
 gratella/b
 gratiano
 graticce
@@ -28713,7 +28732,7 @@ guaiaco/a
 guaiacolo/a
 guaina/b
 guainante/a
-guaio
+guaio/a
 guaiola
 guaiolo
 guaire/ABCGLPTX14
@@ -29020,6 +29039,7 @@ idantoina
 idatide/a
 idatideo/af
 idatodo/a
+iddio
 idea/bn
 ideabile/a
 ideale/ak
@@ -29253,6 +29273,7 @@ idrovoro/af
 idrozoi
 idruntino/af
 idruro/a
+iella/b
 iemale/a
 iena/b
 ieraticità
@@ -30873,6 +30894,7 @@ incubatoio/a
 incubatorio/a
 incubatrice/a
 incubazione/a
+incubo/a
 incudine/a
 inculare/ABCGLPTX14
 inculcare/ABCGLPTX14
@@ -33972,8 +33994,7 @@ l/£$
 la
 labaro/a
 labbo/a
-labbra
-labbro/a
+labbro/ae
 labdacismo/a
 labello/a
 labiale/a
@@ -36700,6 +36721,7 @@ masoreta/b
 masoretico/cf
 masque
 mass
+massa/b
 massacrare/ABCGLPTX14
 massacratore/ad
 massaggiagengive
@@ -36732,7 +36754,7 @@ massivo/afk
 massmediatico/cf
 massmediologia
 massmediologico/cf
-masso/af
+masso/a
 massone/a
 massoneria/b
 massonico/cf
@@ -37017,6 +37039,7 @@ meharista/a
 meiosi
 meiotico/cf
 meitnerio
+mela/b
 melagrano/af
 melancolia/b
 melancolico/cfk
@@ -37055,7 +37078,7 @@ mellito/af
 melma/b
 melmosità
 melmoso/af
-melo/af
+melo/a
 melodia/b
 melodico/cfk
 melodioso/afk
@@ -37135,6 +37158,7 @@ meningitico/cf
 menisco/a
 menispermina
 menispermo/a
+meno/o
 menomabile/a
 menomare/ABCGLPTX14
 menomazione/a
@@ -37149,6 +37173,7 @@ mensolina/b
 mensolone/a
 mentale/ak
 mentalità
+mente/a
 mentecatto/af
 mentina/b
 mentire/ABDHLPTX14
@@ -37173,6 +37198,7 @@ mentisciti
 mentisco
 mentiscono
 mentitore/ad
+mento/a
 mentolo
 mentoniera/b
 mentore/a
@@ -37225,6 +37251,7 @@ mercurico/cf
 mercurio
 mercé
 merda/b
+merdoso/af
 merenda/b
 merendina/b
 meretrice
@@ -37252,6 +37279,7 @@ merlare/ABCGLPTX14
 merlatura/b
 merlettaia/b
 merlettare/ABCGLPTX14
+merlo/af
 merlone/a
 merlot
 merlotto/af
@@ -37265,7 +37293,7 @@ merore/a
 merovingico/cf
 merovingio/af
 merozoite/a
-mesa/ab
+mesa/b
 mesata/b
 mescere/ABCGLPUY14
 meschinità
@@ -37279,6 +37307,7 @@ mescolare/ABCGLPTX14
 mescolatore/ad
 mescolatura/b
 mescolazione/a
+mese/a
 mesencefalo/a
 mesenchima/a
 mesenchimale/a
@@ -37333,8 +37362,7 @@ messale/a
 messalina/b
 messapico/cf
 messenico/cf
-messer
-messere/a
+messere/ao
 messia
 messianicità
 messianico/cf
@@ -37646,7 +37674,7 @@ mezzipunti
 mezzirilievi
 mezzisoprani
 mezzititoli
-mezzo/af
+mezzo/afo
 mezzobusto
 mezzocontralto
 mezzodì
@@ -39035,6 +39063,7 @@ mostrina/ab
 mostro/a
 mostruosità
 mostruoso/afk
+mota/b
 motel
 motiglio
 motilità
@@ -39043,7 +39072,7 @@ motivare/ABCGLPTX14
 motivazionale/a
 motivazione/a
 motivetto/a
-moto/af
+moto/a
 motoaliante/a
 motoaratore/ad
 motoaratura
@@ -39139,6 +39168,7 @@ movimentazione/a
 movimentismo/a
 movimentista/ab
 movimentistico/cf
+movimento/a
 moviola/b
 mozambicano/af
 mozarabico/cf
@@ -39528,6 +39558,7 @@ nasturzio/a
 nasua/b
 nasuto/af
 natabile/a
+natale/a
 natalità
 natalizio/af
 natante/a
@@ -41685,8 +41716,7 @@ opuscolo/a
 opzionabile/a
 opzionale/ak
 opzione/a
-or
-ora/b
+ora/bo
 oracolare/ABCGLPTX14
 oracolo/a
 orafo/af
@@ -42159,7 +42189,6 @@ ossequiosità
 ossequioso/afhk
 osservabile/ak
 osservabilità
-osservadole
 osservanza/b
 osservare/ABCGLPTX14z
 osservativo/af
@@ -42637,6 +42666,7 @@ paganini
 paganità
 paganizzare/ABCGLPTX14
 paganizzazione/a
+pagano/af
 pagare/ABCGLPTX14
 pagatore/adf
 pagatoria/b
@@ -42922,7 +42952,6 @@ pampepato/a
 pamphlet
 pampineo/af
 pampino/a
-pan
 panacea/b
 panafricanismo/a
 panafricano/af
@@ -42991,7 +43020,7 @@ pandolce/a
 pandolfi
 pandoro/af
 panduro
-pane/a
+pane/ao
 panegirico/c
 panegirista/ab
 panegiristico/cf
@@ -43209,7 +43238,6 @@ papuloide/a
 papuloso/af
 papà
 paquette
-par
 parabancario/af
 parabase/a
 parabella
@@ -43502,6 +43530,7 @@ paretimologico/cf
 paretina/b
 pargoletto/af
 pargolo/af
+pari/o
 paria/b
 paribus
 paricollo
@@ -43614,7 +43643,6 @@ parsifal
 parsimonia/b
 parsimonioso/afhk
 parsismo
-parso/af
 partaccia/c
 parte/a
 partecipabile/a
@@ -43664,6 +43692,7 @@ partitino/a
 partitismo/a
 partitistico/cf
 partitivo/af
+partito/a
 partitocrate/a
 partitocratico/cf
 partitocrazia/b
@@ -44180,6 +44209,7 @@ pellicola/b
 pellicolare/a
 pellirossa/b
 pellucido/af
+pelo/a
 pelobio/af
 pelofilo/af
 pelone
@@ -44202,6 +44232,7 @@ pelvico/cf
 pelvimetria
 pelviperitonite
 pemmican
+pena/b
 penale/ak
 penalista/ab
 penalistico/cf
@@ -45332,6 +45363,7 @@ pipita/b
 pippiolino/a
 pippolo/a
 pipì
+pira/b
 piramidale/a
 piramide/a
 piramidone/a
@@ -45366,7 +45398,7 @@ pirimidinico/cf
 pirite/a
 piritico/cf
 pirla
-piro/af
+piro/a
 piroclasi
 piroclastico/cf
 pirocorvetta/b
@@ -46603,6 +46635,7 @@ porto/a
 portoghese/a
 portolano/a
 portoncino/a
+portone/a
 portoricano/af
 portoro/a
 portuale/a
@@ -46790,8 +46823,6 @@ potenziometro/a
 potere/ABDLPTX14a
 potestativo/af
 potestà
-potranno
-potremo
 pouf
 poule
 poveraccio/af
@@ -46898,8 +46929,9 @@ precario/afk
 precauzionale/ak
 precauzione/a
 prece/a
-precedente/ak
+precedentemente
 precedenza/b
+precedere/ABCGLPTX14
 precedessore/a
 precessione/a
 precessore/a
@@ -46965,6 +46997,7 @@ precristiano/af
 precritico/cf
 precucinato/af
 precursore/a
+preda/b
 predace/a
 predare/ABCGLPTX14
 predatore/ad
@@ -48792,7 +48825,7 @@ quagliodromo
 quai
 qualche
 qualcheduno/e
-qualcosa
+qualcosa/o
 qualcosina
 qualcuno/eo
 quale/ao
@@ -48828,7 +48861,7 @@ quantitativo/afk
 quantità
 quantizzare/ABCGLPTX14
 quantizzazione/a
-quanto/af
+quanto/afo
 quantomai
 quantomeccanica
 quantomeno
@@ -49581,6 +49614,7 @@ rammucchiare/ABCGLPTX14
 ramnacea/b
 ramnale/a
 ramno/a
+ramo/a
 ramolaccio/a
 ramoscello/a
 ramosità
@@ -52846,6 +52880,7 @@ sacramentale/ak
 sacramentare/ABCGLPTX14
 sacramentario/af
 sacramentina/b
+sacramentista/a
 sacrario/a
 sacrestano/af
 sacrestia/b
@@ -54421,7 +54456,7 @@ sconcertare/ABCGLPTX14
 sconcezza/b
 sconciata/ab
 sconciatura
-sconcio/afk
+sconcio/afgk
 sconclusionatezza
 sconclusionato/afhk
 sconcordanza/b
@@ -54816,6 +54851,7 @@ secrezione/a
 sedano/a
 sedare/ABCGLPTX14
 sedativo/af
+sede/a
 sedentarietà
 sedentario/af
 sedere/ABEHLPTX14a
@@ -54824,6 +54860,7 @@ sediario/a
 sedicente/a
 sedici/@)
 sedicimila/|!
+sedile/a
 sedime/a
 sedimentare/ABCGLPTX14
 sedimentario/af
@@ -55230,7 +55267,7 @@ sentina/b
 sentinella/b
 sentire/ABDHMQTX14
 sentore/a
-senza
+senza/o
 senzacasa
 senzadio
 senzapatria
@@ -57361,7 +57398,7 @@ sottino
 sottinoi
 sottinsu
 sottintendere/ABCGLPVZ14
-sotto
+sotto/o
 sottoalimentare/ABCGLPTX14
 sottoalimentazione/a
 sottoargomenti
@@ -58867,6 +58904,7 @@ stearina/b
 steatite/a
 steatopigia/b
 steatopigo/cf
+stecca/b
 steccare/ABCGLPTX14
 steccatura/b
 stecchetto/a
@@ -59224,6 +59262,7 @@ storiografico/cfk
 storiografo/af
 storione/a
 stormire/ABCGLPTX14
+stormo/a
 stornare/ABCGLPTX14
 stornellare/ABCGLPTX14
 stornellatore/ad
@@ -59250,6 +59289,7 @@ strabere/ABDHMQUY25
 strabico/cf
 strabiliare/ABCGLPTX14
 strabismo/a
+strabordante/a
 straboccamento/a
 straboccare/ABCGLPTX14
 strabocchevole/a
@@ -59631,6 +59671,7 @@ studiabile/a
 studiacchiare/ABCGLPTX14
 studiare/ABCGLPTX14
 studicchiare/ABCGLPTX14
+studio/a
 studiolo/a
 studiorono
 studioso/afhk
@@ -64279,7 +64320,7 @@ tuttala
 tuttalpiù
 tuttasanta/b
 tuttavia
-tutto/af
+tutto/afo
 tuttofare
 tuttologia/b
 tuttologo/cf
@@ -64315,6 +64356,7 @@ ubicazione/a
 ubiquitario/af
 ubiquitina/b
 ubiquità
+ubiquo/af
 ubriacamento/a
 ubriacare/ABCGLPTX14
 ubriacatura/b
@@ -65317,6 +65359,7 @@ vellutatura
 vellutiere/a
 vellutini
 velma/b
+velo/a
 veloce/ahk
 velocifero/a
 velocimetro/a
@@ -65600,6 +65643,7 @@ versificazione/a
 versiliberista/ab
 versione/a
 versipelle
+verso/a
 versoio/a
 versore/a
 versta/b
