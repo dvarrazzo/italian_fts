@@ -5,8 +5,8 @@ Dizionario per la Ricerca di Testo in Italiano
 :Autore: Daniele Varrazzo
 :Contatto: piro (alla) develer.com
 :Organizzazione: `Develer S.r.l. <http://www.develer.com>`__
-:Data: 2007-04-23
-:Versione: 0.9
+:Data: 2007-04-25
+:Versione: 1.0
 
 :Riassunto: Questo package fornisce un dizionario e gli altri file necessari
     per effettuare la *ricerca full text* in documenti in italiano utilizzando

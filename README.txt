@@ -5,8 +5,8 @@ Italian Dictionary for Full Text Search
 :Author: Daniele Varrazzo
 :Contact: piro (at) develer.com
 :Organization: `Develer S.r.l. <http://www.develer.com>`__
-:Date: 2007-04-23
-:Version: 0.9
+:Date: 2007-04-25
+:Version: 1.0
 
 :Abstract: This package provides a dictionary and the other files required to
     perform *full text search* in Italian documents using the PostgreSQL_
