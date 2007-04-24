@@ -1,24 +1,31 @@
 ==============================================
-Dizionario per la ricerca di testo in Italiano
+Dizionario per la Ricerca di Testo in Italiano
 ==============================================
 
 :Autore: Daniele Varrazzo
-:Contatto: piro@develer.com
+:Contatto: piro (alla) develer.com
+:Organizzazione: `Develer S.r.l. <http://www.develer.com>`__
 :Data: 2007-04-23
 :Versione: 0.9
 
-:Riassunto: Il presente package include i dizionari necessari per effettuare
-    la *ricerca full text* utilizzando il database PostgreSQL_ insieme al
-    package aggiuntivo Tsearch2_.
+:Riassunto: Questo package fornisce un dizionario e gli altri file necessari
+    per effettuare la *ricerca full text* in documenti in italiano utilizzando
+    il database PostgreSQL_ insieme al package aggiuntivo Tsearch2_.
 
-.. _PostgreSQL: http://www.postgresql.org
-.. _Tsearch2: http://www.sai.msu.su/~megera/postgres/gist/tsearch/V2/
+    La ricerca tiene in considerazione le variazioni caratteristiche della
+    lingua italiana per restituire i documenti corrispondenti ai criteri di
+    ricerca, ad esempio le diverse coniugazioni verbali. Utilizzando le
+    strutture indicizzate di Tsearch2 è possibile effettuare interrogazioni
+    efficienti su grandi quantità di dati.
+
+    .. _PostgreSQL: http://www.postgresql.org
+    .. _Tsearch2: http://www.sai.msu.su/~megera/postgres/gist/tsearch/V2/
 
 
-- Copyright (C) 2001, 2002 Gianluca Turconi
-- Copyright (C) 2002, 2003, 2004 Gianluca Turconi and Davide Prina
-- Copyright (C) 2004, 2005, 2006 Davide Prina
-- Copyright (C) 2007 Daniele Varrazzo
+:Copyright: 2001, 2002 Gianluca Turconi
+:Copyright: 2002, 2003, 2004 Gianluca Turconi and Davide Prina
+:Copyright: 2004, 2005, 2006 Davide Prina
+:Copyright: 2007 Daniele Varrazzo
 
 This file is distributed under GPL license.
 
@@ -48,17 +55,17 @@ GPL license can be found at http://www.fsf.org/licenses/licenses.html
 Informazioni sul dizionario
 ===========================
 
-Il presente vocabolario è stato generato partendo dal dizionario MySpell di
+Il presente dizionario è stato generato partendo dal dizionario MySpell di
 OpenOffice.org, curato dal `progetto linguistico`_.
 
 .. _progetto linguistico: http://linguistico.sourceforge.net/
 
 Il dizionario ha subito una enorme quantità di trasformazioni, ed è ormai
 praticamente irriconoscibile rispetto all'originale. In particolare tutte le
-forme verbali, compresi i verbi irragolari, vengono fatte risalire
+forme verbali, compresi i verbi irregolari, vengono fatte risalire
 all'infinito. Inoltre per ogni verbo vengono riconosciute le forme pronominali
 e riflessive applicabili sull'infinito, l'imperativo, il gerundio e il
-participio presente e passato).
+participio presente e passato.
 
 Altra cura è stata posta nel ricondurre le diverse persone degli aggettivi e
 dei loro superlativi ad una forma normale, ad unificare le forme di maschile
@@ -70,13 +77,13 @@ divisi per evitare falsi positivi (purtroppo alcuni "falsi amici" di questo
 genere potrebbero ancora gironzolare per il dizionario, perché per individuare
 questo genere di problemi non c'è script Python che tenga).
 
-QUalche statistica sulla corrente edizione del dizionario:
+Qualche statistica sulla corrente edizione del dizionario:
 
-- Numero di radici distinte: 66929
-- Numero di verbi completamente coniugati: 7300
-- Numero di termini distinti riconosciuti: 1943826
-- Numero di flag nel file degli affissi: 62
-- Numero di regole di produzioni nel file degli affissi: 10365
+- **66.929** radici distinte;
+- **7.300** verbi completamente coniugati;
+- **1.943.826** termini distinti riconosciuti:
+- **62** flag nel file degli affissi;
+- **10.365** regole di produzioni nel file degli affissi.
 
 
 Download
@@ -91,21 +98,22 @@ Potete verificare sulla pagina del progetto se sono disponibili nuove versioni
 del dizionario.
 
 
-Installazione dei file
-======================
+Installazione del dizionario
+============================
 
 Il package contiene i seguenti file:
 
 ``italian.dict``
     elenco delle parole italiane, con i flag che indicano le possibili
-    variazioni;
+    variazioni della parola;
 
 ``italian.aff``
-    elenco delle possibili variazioni delle parole
+    file in formato ISpell con l'elenco delle possibili variazioni delle
+    parole;
 
 ``italian.stop``
     elenco delle parole da escludere dalla ricerca, in quanto prive di un
-    proprio significato (es. congiunzioni, articoli)
+    proprio significato (es. congiunzioni, articoli);
 
 La codifica di questi file è ``iso-8859-1`` (detto anche ``latin1``).
 Ciò vuol dire che essi sono adatti per essere installati in un backend creato
@@ -132,10 +140,10 @@ Configurazione
 ==============
 
 
-Installazione di tsearch2
+Installazione di Tsearch2
 -------------------------
 
-Si presuppone che la libraria tsearch2 sia stata installata come descritto
+Si presuppone che la libraria Tsearch2 sia stata installata come descritto
 nella documentazione__. Se avete fatto i passi giusti, avrete delle tabelle
 simili alle seguenti::
 
@@ -174,8 +182,8 @@ quelli scelti nel il vostro sistema::
 
     INSERT 16627 1
 
-Potete verificare il suo corretto funzionamento richedendo la lexizzazione di
-un paio di termini::
+Potete verificare il suo corretto funzionamento richiedendo la *lexizzazione*
+di un paio di termini::
 
     tstest=# SELECT lexize('it_spell', 'Mangiato');
        lexize
@@ -190,8 +198,8 @@ un paio di termini::
     (1 row)
 
 La prima query mostra che un verbo coniugato viene portato al tempo infinito.
-La seconda query mostra che il file delle stop-word correttamente esclude dalla
-lexizzazione i termini ininfluenti.
+La seconda query mostra che il file delle *stop-word* correttamente esclude
+i termini ininfluenti.
 
 La configurazione viene ultimata creando il mapping dal parser (che ha il
 compito di dividere le stringhe di input in parole) al dizionario::
@@ -240,7 +248,7 @@ Per verificare il corretto funzionamento della configurazione, è possibile
 utilizzare la funzione ``ts_debug``, che fornisce informazioni sui singoli
 token e sulla loro trasformazione in vettore::
 
-    tstest=# SELECT ts_name, description, token, tsvector
+    tstest=# SELECT tok_type, description, token, tsvector
     FROM ts_debug($$
     <p>Ma quell'ampolla non aveva l'iscrizione «Veleno». Quindi Alice
     si arrischiò a berne un sorso. Era una bevanda deliziosa (aveva
@@ -248,55 +256,55 @@ token e sulla loro trasformazione in vettore::
     di gallinaccio arrosto, di torrone, e di crostini imburrati)
     e la tracannò d'un fiato.</p>
     $$);
-         ts_name     | description |    token    |     tsvector
-    -----------------+-------------+-------------+-------------------
-     default_italian | Latin word  | Ma          |
-     default_italian | Latin word  | quell       |
-     default_italian | Latin word  | ampolla     | 'ampolla'
-     default_italian | Latin word  | non         | 'non'
-     default_italian | Latin word  | aveva       |
-     default_italian | Latin word  | l           |
-     default_italian | Latin word  | iscrizione  | 'iscrizione'
-     default_italian | Latin word  | Veleno      | 'veleno'
-     default_italian | Latin word  | Quindi      |
-     default_italian | Latin word  | Alice       | 'alice'
-     default_italian | Latin word  | si          |
-     default_italian | Word        | arrischiò   | 'arrischiare'
-     default_italian | Latin word  | a           |
-     default_italian | Latin word  | berne       | 'bere'
-     default_italian | Latin word  | un          |
-     default_italian | Latin word  | sorso       | 'sorso'
-     default_italian | Latin word  | Era         |
-     default_italian | Latin word  | una         |
-     default_italian | Latin word  | bevanda     | 'bevanda'
-     default_italian | Latin word  | deliziosa   | 'delizioso'
-     default_italian | Latin word  | aveva       |
-     default_italian | Latin word  | un          |
-     default_italian | Latin word  | sapore      | 'sapore'
-     default_italian | Latin word  | misto       | 'misto'
-     default_italian | Latin word  | di          |
-     default_italian | Latin word  | torta       | 'torta' 'torcere'
-     default_italian | Latin word  | di          |
-     default_italian | Latin word  | ciliegie    | 'ciliegio'
-     default_italian | Latin word  | di          |
-     default_italian | Latin word  | crema       | 'crema' 'cremare'
-     default_italian | Latin word  | d           |
-     default_italian | Latin word  | ananasso    | 'ananasso'
-     default_italian | Latin word  | di          |
-     default_italian | Latin word  | gallinaccio | 'gallinaccio'
-     default_italian | Latin word  | arrosto     | 'arrostare'
-     default_italian | Latin word  | di          |
-     default_italian | Latin word  | torrone     | 'torrone'
-     default_italian | Latin word  | e           |
-     default_italian | Latin word  | di          |
-     default_italian | Latin word  | crostini    | 'crostino'
-     default_italian | Latin word  | imburrati   | 'imburrare'
-     default_italian | Latin word  | e           |
-     default_italian | Latin word  | la          |
-     default_italian | Word        | tracannò    | 'tracannare'
-     default_italian | Latin word  | d           |
-     default_italian | Latin word  | un          |
-     default_italian | Latin word  | fiato       | 'fiato' 'fiatare'
+     tok_type | description |    token    |     tsvector
+    ----------+-------------+-------------+-------------------
+     lword    | Latin word  | Ma          |
+     lword    | Latin word  | quell       |
+     lword    | Latin word  | ampolla     | 'ampolla'
+     lword    | Latin word  | non         | 'non'
+     lword    | Latin word  | aveva       |
+     lword    | Latin word  | l           |
+     lword    | Latin word  | iscrizione  | 'iscrizione'
+     lword    | Latin word  | Veleno      | 'veleno'
+     lword    | Latin word  | Quindi      |
+     lword    | Latin word  | Alice       | 'alice'
+     lword    | Latin word  | si          |
+     word     | Word        | arrischiò   | 'arrischiare'
+     lword    | Latin word  | a           |
+     lword    | Latin word  | berne       | 'bere'
+     lword    | Latin word  | un          |
+     lword    | Latin word  | sorso       | 'sorso'
+     lword    | Latin word  | Era         |
+     lword    | Latin word  | una         |
+     lword    | Latin word  | bevanda     | 'bevanda'
+     lword    | Latin word  | deliziosa   | 'delizioso'
+     lword    | Latin word  | aveva       |
+     lword    | Latin word  | un          |
+     lword    | Latin word  | sapore      | 'sapore'
+     lword    | Latin word  | misto       | 'misto'
+     lword    | Latin word  | di          |
+     lword    | Latin word  | torta       | 'torta' 'torcere'
+     lword    | Latin word  | di          |
+     lword    | Latin word  | ciliegie    | 'ciliegio'
+     lword    | Latin word  | di          |
+     lword    | Latin word  | crema       | 'crema' 'cremare'
+     lword    | Latin word  | d           |
+     lword    | Latin word  | ananasso    | 'ananasso'
+     lword    | Latin word  | di          |
+     lword    | Latin word  | gallinaccio | 'gallinaccio'
+     lword    | Latin word  | arrosto     | 'arrostare'
+     lword    | Latin word  | di          |
+     lword    | Latin word  | torrone     | 'torrone'
+     lword    | Latin word  | e           |
+     lword    | Latin word  | di          |
+     lword    | Latin word  | crostini    | 'crostino'
+     lword    | Latin word  | imburrati   | 'imburrare'
+     lword    | Latin word  | e           |
+     lword    | Latin word  | la          |
+     word     | Word        | tracannò    | 'tracannare'
+     lword    | Latin word  | d           |
+     lword    | Latin word  | un          |
+     lword    | Latin word  | fiato       | 'fiato' 'fiatare'
     (47 rows)
 
 
@@ -315,7 +323,7 @@ giornalisti italiani sono particolarmente creativi nell'inventare neologismi,
 (cerchiobottismo, calciopoli, lelemoristi...) dei quali (grazie al cielo!) solo
 poche decine finiscono ogni anno nei dizionari ufficiali. Lo stemmer è in grado
 di riportare le variazioni più semplici di tali termini ad una radice comune,
-aumentando la possibilità di match.
+aumentando la possibilità di match::
 
     tstest=# UPDATE pg_ts_cfgmap
             SET dict_name = '{it_spell,it_stem}'
@@ -333,10 +341,10 @@ aumentando la possibilità di match.
 Lo stemmer italiano ha anche la interessante proprietà di lasciare inalterati
 la maggior parte dei termini inglesi, probabilmente perché la maggior parte
 delle parole inglesi finiscono con una consonante mentre lo stemmer è calibrato
-per riconoscere le parole italiane, per la maggior parte terminanti con una
-vocale. Quindi è possibile usare lo stemmer anche con documenti contenenti una
-gran quantità di parole inglesi, senza paura di un eccessivo numero di falsi
-positivi.
+per riconoscere le parole italiane, che per la maggior parte sono terminanti
+con una vocale. È quindi possibile usare lo stemmer anche con documenti
+contenenti una gran quantità di parole inglesi, senza paura di un eccessivo
+numero di falsi positivi.
 
 E' possibile installare uno stemmer seguendo le istruzioni del tool Gendict_
 e scaricando le regole di stemming dal sito dello stemmer Snowball_.
@@ -346,7 +354,7 @@ e scaricando le regole di stemming dal sito dello stemmer Snowball_.
 .. _Snowball: http://snowball.tartarus.org/algorithms/italian/
 
 Potreste trovare qualche difficoltà nel compilare i sorgenti degli stemmer
-snowball con Tsearch2: sembra che ultimamente le interfacce dei due sistemi
+Snowball con Tsearch2: sembra che ultimamente le interfacce dei due sistemi
 siano diventate incompatibili. In rete è comunque possibile trovare indicazioni
 su `come far compilare Snowball con Tsearch2`__. Inoltre le `mailing list`__
 sono posti accoglienti.
@@ -358,12 +366,14 @@ sono posti accoglienti.
 Ringraziamenti
 ==============
 
-Desidero ringraziare Davide Prina e Gianluca Turconi perché senza il loro
-`progetto linguistico`_ non avrei avuto un punto di partenza.
+Desidero ringraziare **Davide Prina** e **Gianluca Turconi** perché senza il
+loro `progetto linguistico`_ non avrei avuto un punto di partenza.
 
-Ringrazio anche Oleg Bartunov e Teodor Sigaev autori del progetto Tsearch2
+Ringrazio anche **Oleg Bartunov** e **Teodor Sigaev**, autori del progetto
+Tsearch2_
 
 E mille grazie alla Develer_, il posto più buono dove mettere un hacker!
 
-...e al mio angelo che sopporta con pazienza i miei fusi orari...
+...e al mio angelo, che sopporta con pazienza i miei fusi orari.
 
+.. _Develer: http://www.develer.com
