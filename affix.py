@@ -173,7 +173,7 @@ class Affixes(dict):
 
         return o
 
-def parseMyDict(f):
+def parseIspellAff(f):
     flags = []
 
     prod_class = Production

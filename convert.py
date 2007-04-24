@@ -592,9 +592,9 @@ class RimuoviProduzioni(Operation):
     """Rimuovi le produzioni che partono dai verbi."""
     def _run(self, dictionary):
         import affix
-        aff = affix.parseMyDict(open("italian.aff"))
+        aff = affix.parseIspellAff(open("italian.aff"))
         nv = Dictionary(); nv.load("non-verbi.dict")
-        vaff = affix.parseMyDict(open("verbi.aff"))
+        vaff = affix.parseIspellAff(open("verbi.aff"))
         for l in 'wxyz':
             vaff[l] = aff[l]
         vdict = Dictionary(); vdict.load("verbi.dict")
