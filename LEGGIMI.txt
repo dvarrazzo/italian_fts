@@ -1,0 +1,369 @@
+==============================================
+Dizionario per la ricerca di testo in Italiano
+==============================================
+
+:Autore: Daniele Varrazzo
+:Contatto: piro@develer.com
+:Data: 2007-04-23
+:Versione: 0.9
+
+:Riassunto: Il presente package include i dizionari necessari per effettuare
+    la *ricerca full text* utilizzando il database PostgreSQL_ insieme al
+    package aggiuntivo Tsearch2_.
+
+.. _PostgreSQL: http://www.postgresql.org
+.. _Tsearch2: http://www.sai.msu.su/~megera/postgres/gist/tsearch/V2/
+
+
+- Copyright (C) 2001, 2002 Gianluca Turconi
+- Copyright (C) 2002, 2003, 2004 Gianluca Turconi and Davide Prina
+- Copyright (C) 2004, 2005, 2006 Davide Prina
+- Copyright (C) 2007 Daniele Varrazzo
+
+This file is distributed under GPL license.
+
+This file is part of the Italian dictionary for full-text search.
+
+The Italian dictionary for full-text search is free software; you can
+redistribute it and/or modify it under the terms of the GNU General Public
+License as published by the Free Software Foundation; either version 2 of
+the License, or (at your option) any later version.
+
+The Italian dictionary for full-text search is distributed in the hope that
+it will be useful, but WITHOUT ANY WARRANTY; without even the implied
+warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public
+License along with Italian dictionary for full-text search,
+if not, write to the Free Software Foundation, Inc.,
+51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA
+
+GPL license can be found at http://www.fsf.org/licenses/licenses.html
+
+
+.. Indice::
+
+
+Informazioni sul dizionario
+===========================
+
+Il presente vocabolario è stato generato partendo dal dizionario MySpell di
+OpenOffice.org, curato dal `progetto linguistico`_.
+
+.. _progetto linguistico: http://linguistico.sourceforge.net/
+
+Il dizionario ha subito una enorme quantità di trasformazioni, ed è ormai
+praticamente irriconoscibile rispetto all'originale. In particolare tutte le
+forme verbali, compresi i verbi irragolari, vengono fatte risalire
+all'infinito. Inoltre per ogni verbo vengono riconosciute le forme pronominali
+e riflessive applicabili sull'infinito, l'imperativo, il gerundio e il
+participio presente e passato).
+
+Altra cura è stata posta nel ricondurre le diverse persone degli aggettivi e
+dei loro superlativi ad una forma normale, ad unificare le forme di maschile
+e femminile diverse (ricercatore = ricercatrice, sindaco = sindachessa).
+
+Molti sostantivi apparivano inoltre unificati per ottenere il massimo risparmio
+del numero di radici (es. caso/casi + casa/case). Tali sostantivi sono stati
+divisi per evitare falsi positivi (purtroppo alcuni "falsi amici" di questo
+genere potrebbero ancora gironzolare per il dizionario, perché per individuare
+questo genere di problemi non c'è script Python che tenga).
+
+QUalche statistica sulla corrente edizione del dizionario:
+
+- Numero di radici distinte: 66929
+- Numero di verbi completamente coniugati: 7300
+- Numero di termini distinti riconosciuti: 1943826
+- Numero di flag nel file degli affissi: 62
+- Numero di regole di produzioni nel file degli affissi: 10365
+
+
+Download
+========
+
+La presente edizione del dizionario per la ricerca di testo in Italiano può
+essere scaricata dall'indirizzo:
+
+http://www.develer.com/~piro/ispell-italian/ispell-italian-1.0.tar.gz
+
+Potete verificare sulla pagina del progetto se sono disponibili nuove versioni
+del dizionario.
+
+
+Installazione dei file
+======================
+
+Il package contiene i seguenti file:
+
+``italian.dict``
+    elenco delle parole italiane, con i flag che indicano le possibili
+    variazioni;
+
+``italian.aff``
+    elenco delle possibili variazioni delle parole
+
+``italian.stop``
+    elenco delle parole da escludere dalla ricerca, in quanto prive di un
+    proprio significato (es. congiunzioni, articoli)
+
+La codifica di questi file è ``iso-8859-1`` (detto anche ``latin1``).
+Ciò vuol dire che essi sono adatti per essere installati in un backend creato
+con encoding ``LATIN1``. Se volete utilizzare il dizionario con un database
+creato con encoding ``UTF8`` potete effettuare la conversione dei file con::
+
+    $ iconv -f latin1 -t utf8 < italian.dict > italian_UTF8.dict
+    $ iconv -f latin1 -t utf8 < italian.aff  > italian_UTF8.aff
+    $ iconv -f latin1 -t utf8 < italian.stop > italian_UTF8.stop
+
+Potrebbe anche esservi utile leggere le informazioni disponibili online
+riguardo `Tsearch2 con Unicode/UTF-8`__.
+
+.. __: http://www.sai.msu.su/~megera/postgres/gist/tsearch/V2/
+            docs/tsearch2_german_utf8.html
+
+Occorre copiare i file che si intende usare in una directory raggiungibile dal
+backend di PostgreSQL. Nel resto del documento verrà usata la directory
+``/usr/share/postgresql``: se decidete di usare una diversa directory,
+modificate le istruzioni seguenti in maniera consistente.
+
+
+Configurazione
+==============
+
+
+Installazione di tsearch2
+-------------------------
+
+Si presuppone che la libraria tsearch2 sia stata installata come descritto
+nella documentazione__. Se avete fatto i passi giusti, avrete delle tabelle
+simili alle seguenti::
+
+    tstest=# \d
+            List of relations
+     Schema |     Name     | Type  | Owner
+    --------+--------------+-------+-------
+     public | pg_ts_cfg    | table | piro
+     public | pg_ts_cfgmap | table | piro
+     public | pg_ts_dict   | table | piro
+     public | pg_ts_parser | table | piro
+    (4 rows)
+
+.. __: http://www.sai.msu.su/~megera/postgres/gist/tsearch/V2/
+            docs/tsearch-V2-intro.html
+
+
+Configurazione del dizionario
+-----------------------------
+
+Il dizionario va configurato nella tabella ``pg_ts_dict``. Nel campo
+``dict_initoption`` occorre sostituire i percorsi indicati nell'esempio con
+quelli scelti nel il vostro sistema::
+
+    tstest=# INSERT INTO pg_ts_dict
+        (dict_name, dict_comment, dict_init, dict_lexize, dict_initoption)
+
+        SELECT 'it_spell', 'Italian spelling dictionary',
+            dict_init, dict_lexize,
+            'DictFile="/usr/share/postgresql/italian.dict",'
+            'AffFile="/usr/share/postgresql/italian.aff",'
+            'StopFile="/usr/share/postgresql/italian.stop"'
+
+        FROM pg_ts_dict
+        WHERE dict_name = 'ispell_template';
+
+    INSERT 16627 1
+
+Potete verificare il suo corretto funzionamento richedendo la lexizzazione di
+un paio di termini::
+
+    tstest=# SELECT lexize('it_spell', 'Mangiato');
+       lexize
+    ------------
+     {mangiare}
+    (1 row)
+
+    tstest=# SELECT lexize('it_spell', 'ma');
+     lexize
+    --------
+     {}
+    (1 row)
+
+La prima query mostra che un verbo coniugato viene portato al tempo infinito.
+La seconda query mostra che il file delle stop-word correttamente esclude dalla
+lexizzazione i termini ininfluenti.
+
+La configurazione viene ultimata creando il mapping dal parser (che ha il
+compito di dividere le stringhe di input in parole) al dizionario::
+
+    tstest=# INSERT INTO pg_ts_cfg (ts_name, prs_name, locale)
+            VALUES ('default_italian', 'default', 'it_IT');
+    INSERT 16630 1
+
+    tstest=# INSERT INTO pg_ts_cfgmap
+            SELECT 'default_italian', tok_alias, dict_name
+            FROM pg_ts_cfgmap
+            WHERE ts_name = 'simple';
+    INSERT 0 19
+
+    tstest=# UPDATE pg_ts_cfgmap
+            SET dict_name = '{it_spell,simple}'
+            WHERE ts_name = 'default_italian'
+            AND tok_alias IN ('word', 'lword', 'nlword',
+                'part_hword', 'lpart_hword', 'nlpart_hword');
+    UPDATE 6
+
+    tstest=# UPDATE pg_ts_cfgmap
+            SET dict_name = NULL
+            WHERE ts_name = 'default_italian'
+            AND tok_alias IN ('hword', 'lhword', 'nlhword');
+    UPDATE 3
+
+Il valore scelto per il campo ``pg_ts_cfg.locale`` dovrebbe coincidere
+con il locale scelto per il database (con il parametro ``--locale`` del comando
+``initdb``): per un database con encoding utf8 potrebbe essere corretto
+il valore ``it_IT.utf8``.
+
+La configurazione illustrata ha il seguente effetto:
+
+- le parole normali vengono processate dal dizionario italiano;
+- le singole parti delle parole separate da un trattino subiscono lo stesso
+  processo;
+- se il dizionario non riconosce la parola trovata, questa viene lasciata
+  inalterata;
+- i complessi di parole separate da un trattino vengono ignorati (non sono
+  presenti nel dizionario)
+- i numeri, le URL, gli indirizzi e-mail, i percorsi di file vengono lasciati
+  inalterati.
+
+Per verificare il corretto funzionamento della configurazione, è possibile
+utilizzare la funzione ``ts_debug``, che fornisce informazioni sui singoli
+token e sulla loro trasformazione in vettore::
+
+    tstest=# SELECT ts_name, description, token, tsvector
+    FROM ts_debug($$
+    <p>Ma quell'ampolla non aveva l'iscrizione «Veleno». Quindi Alice
+    si arrischiò a berne un sorso. Era una bevanda deliziosa (aveva
+    un sapore misto di torta di ciliegie, di crema, d'ananasso,
+    di gallinaccio arrosto, di torrone, e di crostini imburrati)
+    e la tracannò d'un fiato.</p>
+    $$);
+         ts_name     | description |    token    |     tsvector
+    -----------------+-------------+-------------+-------------------
+     default_italian | Latin word  | Ma          |
+     default_italian | Latin word  | quell       |
+     default_italian | Latin word  | ampolla     | 'ampolla'
+     default_italian | Latin word  | non         | 'non'
+     default_italian | Latin word  | aveva       |
+     default_italian | Latin word  | l           |
+     default_italian | Latin word  | iscrizione  | 'iscrizione'
+     default_italian | Latin word  | Veleno      | 'veleno'
+     default_italian | Latin word  | Quindi      |
+     default_italian | Latin word  | Alice       | 'alice'
+     default_italian | Latin word  | si          |
+     default_italian | Word        | arrischiò   | 'arrischiare'
+     default_italian | Latin word  | a           |
+     default_italian | Latin word  | berne       | 'bere'
+     default_italian | Latin word  | un          |
+     default_italian | Latin word  | sorso       | 'sorso'
+     default_italian | Latin word  | Era         |
+     default_italian | Latin word  | una         |
+     default_italian | Latin word  | bevanda     | 'bevanda'
+     default_italian | Latin word  | deliziosa   | 'delizioso'
+     default_italian | Latin word  | aveva       |
+     default_italian | Latin word  | un          |
+     default_italian | Latin word  | sapore      | 'sapore'
+     default_italian | Latin word  | misto       | 'misto'
+     default_italian | Latin word  | di          |
+     default_italian | Latin word  | torta       | 'torta' 'torcere'
+     default_italian | Latin word  | di          |
+     default_italian | Latin word  | ciliegie    | 'ciliegio'
+     default_italian | Latin word  | di          |
+     default_italian | Latin word  | crema       | 'crema' 'cremare'
+     default_italian | Latin word  | d           |
+     default_italian | Latin word  | ananasso    | 'ananasso'
+     default_italian | Latin word  | di          |
+     default_italian | Latin word  | gallinaccio | 'gallinaccio'
+     default_italian | Latin word  | arrosto     | 'arrostare'
+     default_italian | Latin word  | di          |
+     default_italian | Latin word  | torrone     | 'torrone'
+     default_italian | Latin word  | e           |
+     default_italian | Latin word  | di          |
+     default_italian | Latin word  | crostini    | 'crostino'
+     default_italian | Latin word  | imburrati   | 'imburrare'
+     default_italian | Latin word  | e           |
+     default_italian | Latin word  | la          |
+     default_italian | Word        | tracannò    | 'tracannare'
+     default_italian | Latin word  | d           |
+     default_italian | Latin word  | un          |
+     default_italian | Latin word  | fiato       | 'fiato' 'fiatare'
+    (47 rows)
+
+
+Utilizzo dello *stemmer* come dizionario alternativo
+----------------------------------------------------
+
+Con la configurazione illustrata ogni parola non riconosciuta dal dizionario
+viene passata al dizionario ``simple``, che la lascia inalterata.
+Una possibilità migliore può essere quella di configurare uno *stemmer* come
+dizionario secondario: il compito dello stemmer è quello di eliminare le
+desinenze variabili delle parole lasciandone solo il tema.
+
+Un tale dizionario potrebbe essere particolarmente utile per particolari
+compiti, ad esempio per effettuare ricerche in articoli di giornale. I
+giornalisti italiani sono particolarmente creativi nell'inventare neologismi,
+(cerchiobottismo, calciopoli, lelemoristi...) dei quali (grazie al cielo!) solo
+poche decine finiscono ogni anno nei dizionari ufficiali. Lo stemmer è in grado
+di riportare le variazioni più semplici di tali termini ad una radice comune,
+aumentando la possibilità di match.
+
+    tstest=# UPDATE pg_ts_cfgmap
+            SET dict_name = '{it_spell,it_stem}'
+            WHERE ts_name = 'default_italian'
+            AND tok_alias IN ('word', 'lword', 'nlword',
+                'part_hword', 'lpart_hword', 'nlpart_hword');
+    UPDATE 6
+    tstest=# SELECT to_tsvector('Cerchiobottisti alla riscossa')
+                @@ to_tsquery('cerchiobottismo');
+     ?column?
+    ----------
+     t
+    (1 row)
+
+Lo stemmer italiano ha anche la interessante proprietà di lasciare inalterati
+la maggior parte dei termini inglesi, probabilmente perché la maggior parte
+delle parole inglesi finiscono con una consonante mentre lo stemmer è calibrato
+per riconoscere le parole italiane, per la maggior parte terminanti con una
+vocale. Quindi è possibile usare lo stemmer anche con documenti contenenti una
+gran quantità di parole inglesi, senza paura di un eccessivo numero di falsi
+positivi.
+
+E' possibile installare uno stemmer seguendo le istruzioni del tool Gendict_
+e scaricando le regole di stemming dal sito dello stemmer Snowball_.
+
+.. _Gendict: http://www.sai.msu.su/~megera/postgres/gist/tsearch/V2/
+                docs/README.gendict
+.. _Snowball: http://snowball.tartarus.org/algorithms/italian/
+
+Potreste trovare qualche difficoltà nel compilare i sorgenti degli stemmer
+snowball con Tsearch2: sembra che ultimamente le interfacce dei due sistemi
+siano diventate incompatibili. In rete è comunque possibile trovare indicazioni
+su `come far compilare Snowball con Tsearch2`__. Inoltre le `mailing list`__
+sono posti accoglienti.
+
+.. __: http://www.mail-archive.com/pgsql-general@postgresql.org/msg94518.html
+.. __: https://lists.sourceforge.net/lists/listinfo/openfts-general
+
+
+Ringraziamenti
+==============
+
+Desidero ringraziare Davide Prina e Gianluca Turconi perché senza il loro
+`progetto linguistico`_ non avrei avuto un punto di partenza.
+
+Ringrazio anche Oleg Bartunov e Teodor Sigaev autori del progetto Tsearch2
+
+E mille grazie alla Develer_, il posto più buono dove mettere un hacker!
+
+...e al mio angelo che sopporta con pazienza i miei fusi orari...
+
