@@ -27,6 +27,9 @@ Dizionario per la Ricerca di Testo in Italiano
 :Copyright: 2004, 2005, 2006 Davide Prina
 :Copyright: 2007 Daniele Varrazzo
 
+[ `English version <italian-fts.html>`__ ]
+
+
 This file is distributed under GPL license.
 
 This file is part of the Italian dictionary for full-text search.

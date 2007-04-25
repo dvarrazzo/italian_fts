@@ -25,6 +25,9 @@ Italian Dictionary for Full Text Search
 :Copyright: 2004, 2005, 2006 Davide Prina
 :Copyright: 2007 Daniele Varrazzo
 
+[ `Versione italiana <fts-italiano.html>`__ ]
+
+
 This file is distributed under GPL license.
 
 This file is part of the Italian dictionary for full-text search.
