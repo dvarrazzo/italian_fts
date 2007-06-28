@@ -4,7 +4,7 @@ VERSION = 1.0
 PKGFILE = $(DISTNAME)-$(VERSION)
 
 DICTFILES = ../italian.dict ../italian.aff ../italian.stop
-DOCSOURCE = ../README.txt ../LEGGIMI.txt
+DOCSOURCE = ../README.txt ../LEGGIMI.txt gpl.txt
 
 site.tar.gz: $(PKGFILE).tar.gz italian-fts.html fts-italiano.html
 	tar czvf $@ $^
