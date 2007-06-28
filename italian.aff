@@ -11535,7 +11535,7 @@ flag *\!:
    .    > NOVANTOTTO
    .    > NOVANTANOVE
 
-flag *\£:
+flag *\%:
    [IVXLCDM]    > I
    [IVXLCDM]    > II
    [VXLCDM]    > III
