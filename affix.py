@@ -153,9 +153,10 @@ class Affixes(dict):
         sufs = []
 
         for f in flags:
+            if f not in self: continue
             prod = self[f]
-            if not prod.productions:
-                continue
+            if not prod.productions: continue
+
             if isinstance(prod.productions[0], Prefix):
                 pres.append(prod)
             else:
