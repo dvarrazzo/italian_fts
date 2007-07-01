@@ -627,6 +627,63 @@ class SeparaMaschileFemminile(Operation):
 
             dictionary[w] = ''.join(sorted(f))
 
+class NoTroppiVerbi(Operation):
+    """Troppi verbi rendono headline() lento?"""
+    def _run(self, dw):
+        import affix
+        aw = affix.parseIspellAff(open("italian.aff.before-verbs"))
+        #wall = {}
+        #for w in dw:
+            #wall[w] = aw.apply(w, dw[w])
+
+        idw = {}
+        for b,f in dw.iteritems():
+            idw.setdefault(b,[]).append(b)
+            for w in aw.apply(b, f):
+                idw.setdefault(w,[]).append(b)
+
+        dv = Dictionary()
+        dv.load("italian-verbs.dict")
+        av = affix.parseIspellAff(open("verbi.aff"))
+        #vall = {}
+        #for w in dv:
+            #vall[w] = av.apply(w, dv[w])
+
+        #sw = set(wall)
+        #for w in wall:
+            #sw.update(wall[w])
+
+        #idw = {}
+        #for k, ww in wall.iteritems():
+            #for w in ww:
+                #idw.setdefault(w,[]).append(k)
+            #idw.setdefault(k,[]).append(k)
+        
+        #sv = set(vall)
+        #for w in vall:
+            #sv.update(vall[w])
+        
+        #idv = {}
+        #for k, ww in vall.iteritems():
+            #for w in ww:
+                #idv.setdefault(w,[]).append(k)
+            #idv.setdefault(k,[]).append(k)
+
+        idv = {}
+        for b,f in dv.iteritems():
+            idv.setdefault(b,[]).append(b)
+            for w in av.apply(b, f):
+                idv.setdefault(w,[]).append(b)
+
+        f = file("italian.ambiguta", "w")
+        try:
+            for w in (set(idv) & set(idw)):
+                print >>f, "%20s %20s" % (idw[w], idv[w])
+        finally:
+            f.close()
+        
+        
+
 #: The list of operation to perform.
 #: The first item is the revision number after which the operation is not to
 #: be performed. Other parameters are the callable to run and the positional
@@ -674,6 +731,7 @@ processes = [
     (78, UnisciVerbi()),
     (105, SeparaMaschileFemminile()),
     (107, RimuoviProduzioni()),
+    (124, NoTroppiVerbi()),
 ]
 
         #def getVerbWithAttr(cur, attr):

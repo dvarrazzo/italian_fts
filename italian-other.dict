@@ -7,7 +7,7 @@
 /
 / E-Mail: piro + at + develer.com
 /
-/ Version 1.0 (2007-04-25)
+/ Version 1.1a0
 /
 / This file is distributed under GPL license.
 /
@@ -8178,7 +8178,6 @@ arrendamento/a
 arrendatore/a
 arrendevole/ak
 arrendevolezza/b
-arreso/a
 arrestabile/a
 arrestamento/a
 arrestatoio/a
@@ -16539,7 +16538,6 @@ contumace/a
 contumacia/b
 contumaciale/a
 contumelia/b
-contundente/a
 conturbamento/a
 contusero
 contusione/a
@@ -17899,7 +17897,6 @@ definibile/a
 definitezza/b
 definitività
 definitivo/afk
-definito/afk
 definitore/ad
 definitorio/af
 definizione/a
@@ -18857,7 +18854,6 @@ disciplinabile/a
 disciplinamento/a
 disciplinare/ak
 disciplinatezza/b
-disciplinato/ak
 disco/a
 discobolo/af
 discofilo/af
@@ -50624,8 +50620,9 @@ sogliola/b
 sognabile/a
 sognatore/ad
 soia
-solaio
+solaio/a
 solanacea/b
+solare/a
 solarigrafo/a
 solarimetro/a
 solario/a
@@ -55003,7 +55000,6 @@ teschio/a
 tesina/b
 tesla
 tesmoteta/a
-teso/afh
 tesoreggiamento/a
 tesoreria/b
 tesoretto/a
@@ -58942,7 +58938,6 @@ visore/a
 vispezza
 vispo/af
 vissano/af
-visso/a
 vista/b
 visto/a
 vistoselo

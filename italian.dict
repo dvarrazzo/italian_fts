@@ -7,7 +7,7 @@
 /
 / E-Mail: piro + at + develer.com
 /
-/ Version 1.0 (2007-04-25)
+/ Version 1.1a0
 /
 / This file is distributed under GPL license.
 /
@@ -8778,7 +8778,6 @@ arrendatore/a
 arrendere/ABEGLPVZ14
 arrendevole/ak
 arrendevolezza/b
-arreso/a
 arrestabile/a
 arrestamento/a
 arrestare/ABCGLPTX14z
@@ -18011,7 +18010,6 @@ contumace/a
 contumacia/b
 contumaciale/a
 contumelia/b
-contundente/a
 contundere/ABCGLPVZ14
 conturbamento/a
 conturbare/ABCGLPTX14
@@ -19541,7 +19539,6 @@ definire/ABCGLPTX14
 definitezza/b
 definitività
 definitivo/afk
-definito/afk
 definitore/ad
 definitorio/af
 definizione/a
@@ -20746,7 +20743,6 @@ disciplinabile/a
 disciplinamento/a
 disciplinare/ABCGLPTX14ak
 disciplinatezza/b
-disciplinato/ak
 disco/a
 discobolo/af
 discofilo/af
@@ -21369,7 +21365,6 @@ doga/b
 dogana/b
 doganale/a
 doganiere/af
-dogare/ABCGLPTX14
 dogaressa/b
 doge/a
 doglianza/b
@@ -21428,7 +21423,7 @@ domese/a
 domesticazione/a
 domesticità
 domestico/cfk
-domiciliare/ABCGLPTX14a
+domiciliare/a
 domiciliazione/a
 domificazione/a
 dominabile/a
@@ -23727,7 +23722,6 @@ estirpare/ABCGLPTX14
 estirpatore/ad
 estirpatura
 estirpazione/a
-estivare/ABCGLPTX14
 estivazione/a
 estivo/af
 estone/a
@@ -24188,7 +24182,6 @@ faccendiere/af
 faccendino
 faccendone/af
 faccetta/b
-faccettare/ABCGLPTX14
 faccettatrice
 facchinaggio/a
 facchinata/b
@@ -25579,7 +25572,7 @@ foghesino
 foglia/b
 fogliaceo/af
 fogliame/a
-fogliare/ABCGLPTX14a
+fogliare/a
 fogliazione/a
 fogliettino/a
 foglietto/af
@@ -25611,7 +25604,6 @@ folico
 folio
 folk
 folla/b
-follare/ABCGLPTX14
 follatrice/a
 follatura/b
 folle/ak
@@ -26120,7 +26112,6 @@ frana/b
 franabile/a
 franamento/a
 franare/ABCGLPTX14
-francare/ABCGLPTX14
 francatura/b
 france
 francene
@@ -26315,7 +26306,6 @@ fresine
 fresolone
 fretta/b
 frettaggio
-frettare/ABCGLPTX14
 frettazzo/a
 frettolosità
 frettoloso/afk
@@ -26793,7 +26783,6 @@ gallaccio
 gallarate
 gallaratese/a
 gallardo
-gallare/ABCGLPTX14
 gallastegui
 galleggiabile
 galleggiabilità
@@ -27494,7 +27483,6 @@ ghiacciare/ABCGLPTX14
 ghiacciolo/a
 ghiado
 ghiaia/b
-ghiaiare/ABCGLPTX14
 ghiaieto/a
 ghiaione/a
 ghiaioso/af
@@ -27916,7 +27904,6 @@ giugulare/a
 giugulazione/a
 giugulo/a
 giulebba/b
-giulebbare/ABCGLPTX14
 giuliano/af
 giulivo/afk
 giullare/a
@@ -28069,7 +28056,7 @@ globicefalo
 globigerine
 globina/b
 globo/a
-globulare/ABCGLPTX14a
+globulare/a
 globulina/b
 globuloso/af
 glomerulo/a
@@ -28352,7 +28339,6 @@ gradevolezza/b
 gradiente/a
 gradimento/a
 gradinamento/a
-gradinare/ABCGLPTX14
 gradinatura/b
 gradine/a
 gradire/ABCGLPTX14
@@ -28603,7 +28589,6 @@ graziolo
 graziosità
 grazioso/afhk
 grecanico/cf
-grecare/ABCGLPTX14
 grecismo/a
 grecista/ab
 grecità
@@ -30575,7 +30560,6 @@ incettatore/ad
 inchiappettare/ABCGLPTX14
 inchiavardare/ABCGLPTX14
 inchiesta/b
-inchiestare/ABCGLPTX14
 inchinare/ABCGLPTX14
 inchiodacristi
 inchiodamento
@@ -31247,7 +31231,6 @@ inerbimento/a
 inerbire/ABCGLPTX14
 inerente/ak
 inerenza/b
-inerire/ABCGLPTX14
 inerme/a
 inerpicare/ABCGLPTX14
 inerrante/a
@@ -32425,7 +32408,6 @@ interiettivo/af
 interiezione/a
 interim
 interinale/ak
-interinare/ABCGLPTX14
 interine
 interiora
 interiore/a
@@ -34579,7 +34561,6 @@ legnaia/b
 legnaiolo/af
 legname/a
 legnanese/a
-legnare/ABCGLPTX14
 legnatico
 legnetto/a
 legnosità
@@ -35533,7 +35514,6 @@ lumiera/b
 luminaio/a
 luminal
 luminanza/b
-luminare/ABCGLPTX14
 luminaria/b
 luminello/a
 luminescente/a
@@ -35545,7 +35525,6 @@ lumino/a
 luminosità
 luminoso/afhk
 luna/b
-lunare/ABCGLPTX14
 lunario/af
 lunatico/cf
 lunazione/a
@@ -36558,7 +36537,6 @@ marginalistico/cfk
 marginalità
 marginalizzare/ABCGLPTX14
 marginalizzazione/a
-marginare/ABCGLPTX14
 marginatore/a
 marginatura/b
 margine/a
@@ -36610,7 +36588,6 @@ marmorizzazione/a
 marmosa/b
 marmotta/b
 marna/b
-marnare/ABCGLPTX14
 marnatura
 marnoso/af
 marocchino/af
@@ -36689,7 +36666,6 @@ maschiaccio/a
 maschiato/a
 maschiatore/ad
 maschiatura/b
-maschiettare/ABCGLPTX14
 maschiettatura
 maschietto/af
 maschiezza
@@ -36743,7 +36719,6 @@ massificazione/a
 massimalismo/a
 massimalista/ab
 massimalistico/cf
-massimare/ABCGLPTX14
 massimario/a
 massiminimo/a
 massimizzare/ABCGLPTX14
@@ -36849,7 +36824,7 @@ matricidio
 matricinato/af
 matricino/af
 matricola/b
-matricolare/ABCGLPTX14a
+matricolare/a
 matricolazione/a
 matrigna/b
 matrilineare/a
@@ -36871,7 +36846,6 @@ mattacchione/af
 mattaccino/af
 mattana/b
 mattanza/b
-mattare/ABCGLPTX14
 mattarello/a
 mattatoio/a
 mattatore/ad
@@ -36880,7 +36854,6 @@ matterello/a
 matteria/b
 mattero/a
 mattia/b
-mattinare/ABCGLPTX14
 mattiniero/af
 mattino/af
 matto/af
@@ -37411,7 +37384,6 @@ metadinamo
 metadone/a
 metadonico/cf
 metafase
-metafisicare/ABCGLPTX14
 metafisicheria/b
 metafisico/cfk
 metafonesi
@@ -38534,7 +38506,6 @@ momentaneo/afk
 momentino/a
 momento/a
 monacando/cf
-monacare/ABCGLPTX14
 monacazione/a
 monacense/a
 monachella/b
@@ -38590,7 +38561,6 @@ monello/af
 moneta/b
 monetabile/a
 monetaggio/a
-monetare/ABCGLPTX14
 monetario/af
 monetarismo
 monetarista/a
@@ -38663,7 +38633,6 @@ monocottura/b
 monocratico/cf
 monocristallino/af
 monocristallo/a
-monocromare/ABCGLPTX14
 monocromatico/cf
 monocromatismo/a
 monocromatizzare/ABCGLPTX14
@@ -39327,7 +39296,6 @@ munificenza/b
 munifico/cf
 munire/ABCGLPTX14
 munizionamento
-munizionare/ABCGLPTX14
 munizione/a
 munizioniere/a
 muoiate
@@ -40281,7 +40249,6 @@ nitido/afhk
 nito
 niton
 nitore/a
-nitrare/ABCGLPTX14
 nitratare/ABCGLPTX14
 nitratazione/a
 nitratina/b
@@ -40862,7 +40829,6 @@ ocarinista/a
 occasionale/ak
 occasionalismo/a
 occasionalità
-occasionare/ABCGLPTX14
 occasione/a
 occaso/a
 occelli
@@ -41292,7 +41258,6 @@ omaso/a
 ombelicale/a
 ombelico/a
 ombra/b
-ombrare/ABCGLPTX14
 ombratile/a
 ombratura/b
 ombreggiamento
@@ -42466,7 +42431,6 @@ ottomila/|!
 ottonaia/b
 ottonaio
 ottoname/a
-ottonare/ABCGLPTX14
 ottonario/af
 ottonatura
 ottone/a
@@ -42494,7 +42458,6 @@ outsider
 ouverture
 ovaio/af
 ovaiolo/af
-ovalare/ABCGLPTX14
 ovale/a
 ovalizzare/ABCGLPTX14
 ovalizzazione/a
@@ -42722,7 +42685,6 @@ palamedea/b
 palamidone/a
 palamito/af
 palanca/b
-palancare/ABCGLPTX14
 palanchini
 palancola/b
 palandra
@@ -42730,7 +42692,6 @@ palandrana/b
 palangaro/a
 palanisami
 palaquio/a
-palare/ABCGLPTX14
 palasport
 palatalizzare/ABCGLPTX14
 palatalizzazione/a
@@ -42822,7 +42783,6 @@ paletnologico/cf
 paletnologo/cf
 paletot
 paletta/b
-palettare/ABCGLPTX14
 palettatura/b
 palettizzabile/a
 palettizzare/ABCGLPTX14
@@ -42839,7 +42799,6 @@ palilie
 palilogia
 palimbacchio
 palina/b
-palinare/ABCGLPTX14
 palindromico/cf
 palindromo/af
 palingenesi
@@ -42962,7 +42921,6 @@ panamericanismo/a
 panamericano/af
 panarabismo/a
 panarabo/af
-panare/ABCGLPTX14
 panario/af
 panartrite/a
 panasiatico/cf
@@ -43218,7 +43176,6 @@ pappagorgia/bc
 pappalardo
 pappalasagne
 pappardella/b
-pappare/ABCGLPTX14
 pappatore/ad
 pappatoria/b
 pappiforme/a
@@ -50459,7 +50416,7 @@ reticella/b
 reticente/a
 reticenza/b
 retico/cf
-reticolare/ABCGLPTX14a
+reticolare/a
 reticolatura
 reticolazione/a
 reticoloendoteliale/a
@@ -53826,7 +53783,7 @@ scapitare/ABCGLPTX14
 scapitozzare/ABCGLPTX14
 scapo/a
 scapola/b
-scapolare/ABCGLPTX14ak
+scapolare/ak
 scapolo/a
 scapolone/a
 scappamento/a
@@ -56819,7 +56776,6 @@ sognatore/ad
 soia
 solaio
 solanacea/b
-solare/ABCGLPTX14
 solarigrafo/a
 solarimetro/a
 solario/a
@@ -58922,7 +58878,7 @@ stele
 stella/b
 stellage
 stellaggio/a
-stellare/ABCGLPTX14a
+stellare/a
 stelletta/b
 stellina/b
 stellionato/a
@@ -59289,10 +59245,10 @@ strabere/ABDHMQUY25
 strabico/cf
 strabiliare/ABCGLPTX14
 strabismo/a
-strabordante/a
 straboccamento/a
 straboccare/ABCGLPTX14
 strabocchevole/a
+strabordante/a
 strabuzzamento
 strabuzzare/ABCGLPTX14
 stracannatura/b
@@ -61931,7 +61887,6 @@ teschio/a
 tesina/b
 tesla
 tesmoteta/a
-teso/afh
 tesoreggiamento/a
 tesoreggiare/ABCGLPTX14
 tesoreria/b
@@ -66249,7 +66204,6 @@ visore/a
 vispezza
 vispo/af
 vissano/af
-visso/a
 vista/b
 vistare/ABCGLPTX14
 visto/a
