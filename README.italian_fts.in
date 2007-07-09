@@ -55,7 +55,7 @@ GPL license can be found at http://www.fsf.org/licenses/licenses.html
 Package description
 ===================
 
-This package contains both a ispell dictionary and a stemmer library for
+This package contains both a ISpell dictionary and a stemmer library for
 Italian language.
 
 The Italian dictionary is distributed in **latin1** and **utf8** encodings. 
@@ -83,11 +83,10 @@ If you don't want to patch the source you can skip the stemmer build and
 install only the spelling dictionary. In this case refer to the `Installing 
 only the spelling dictionary`_ section.
 
-To install the Italian dictionary into a database you must first install the
-tsearch2 contrib module and load the ``tsearch2.sql`` file into the database
-(which is usually located in the ``/usr/share/postgresql/contrib/`` directory.
-
-To build the Italian stemmer you must start from a PostgreSQL source tree.
+To install the Italian dictionary into a database you must first compile and 
+install the tsearch2 contrib module and load the ``tsearch2.sql`` file into the
+database (which is usually located in the ``/usr/share/postgresql/contrib/`` 
+directory).
 
 
 Full package installation
