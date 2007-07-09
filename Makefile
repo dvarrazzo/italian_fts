@@ -45,9 +45,24 @@ DICTFILES = $(addsuffix .$(ENCODING),$(DICTFILES_in))
 
 .PHONY : package clean
 
+all : packages site
+
 dict : $(DICTFILES)
 
 package : dist/$(PKGFILE)
+
+packages : package_utf8 package_latin1
+
+package_utf8 :
+	$(MAKE) clean
+	$(MAKE) ENCODING=utf8 package
+
+package_latin1 :
+	$(MAKE) clean
+	$(MAKE) ENCODING=latin1 package
+
+site :
+	$(MAKE) -C sito site
 
 italian.dict : italian-verbs.dict italian-other.dict italian-numbers.dict $(HEADER)
 	sed 's,^,/ ,' < $(HEADER) > $@
@@ -79,6 +94,7 @@ clean:
 	-rm $(addsuffix   .utf8,HEADER README.italian_fts LEGGIMI.italian_fts \
 	                        italian_fts.sql italian_fts_spell.sql \
 	                        $(DICTFILES_in) src/Makefile)
+	$(MAKE) -C sito $@
 
 split:
 	python ./split_dict.py
