@@ -75,8 +75,8 @@ Download
 
 The package is available in two encodings:
 
- * `UTF8 encoding <http://www.develer.com/~piro/ispell-italian/ispell-italian-VERSION-utf8.tar.gz>`__
- * `LATIN1 encoding <http://www.develer.com/~piro/ispell-italian/ispell-italian-VERSION-latin1.tar.gz>`__
+ * `UTF8 encoding <http://www.develer.com/~piro/ispell-italian/italian-fts-VERSION-utf8.tar.gz>`__
+ * `LATIN1 encoding <http://www.develer.com/~piro/ispell-italian/italian-fts-VERSION-latin1.tar.gz>`__
 
 Please install only the version matching your cluster locale (use ``psql -tc
 SHOW LC_CTYPE postgres`` to know your cluster locale).

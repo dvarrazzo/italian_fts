@@ -43,7 +43,7 @@ FILTER_VAR = \
 
 DICTFILES = $(addsuffix .$(ENCODING),$(DICTFILES_in))
 
-.PHONY : package clean
+.PHONY : package site clean
 
 all : packages site
 
@@ -62,7 +62,7 @@ package_latin1 :
 	$(MAKE) ENCODING=latin1 package
 
 site :
-	$(MAKE) -C sito site
+	$(MAKE) -C site site
 
 italian.dict : italian-verbs.dict italian-other.dict italian-numbers.dict $(HEADER)
 	sed 's,^,/ ,' < $(HEADER) > $@
@@ -94,7 +94,7 @@ clean:
 	-rm $(addsuffix   .utf8,HEADER README.italian_fts LEGGIMI.italian_fts \
 	                        italian_fts.sql italian_fts_spell.sql \
 	                        $(DICTFILES_in) src/Makefile)
-	$(MAKE) -C sito $@
+	$(MAKE) -C site $@
 
 split:
 	python ./split_dict.py

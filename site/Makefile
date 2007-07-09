@@ -13,9 +13,10 @@ PAGES = italian-fts.html fts-italiano.html index.html \
 
 .PHONY : clean
 
-site : $(PKGFILES) $(PAGES)
+site : site.tar.gz
 
-sitedist : site.tar.gz
+upload : site.tar.gz
+	scp $< piro@trinity.develer.com:public_html/ispell-italian
 
 FILTER_VAR = \
 	  sed 's,VERSION,$(VERSION),g' \
