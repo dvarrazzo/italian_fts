@@ -7,8 +7,8 @@ ENCODING version
 :Author: Daniele Varrazzo
 :Contact: piro (at) develer.com
 :Organization: `Develer S.r.l. <http://www.develer.com>`__
-:Date: $(DATE)
-:Version: $(VERSION)
+:Date: DATE
+:Version: VERSION
 
 :Abstract: This package provides a dictionary and the other files required to
     perform *full text search* in Italian documents using the PostgreSQL_
@@ -100,8 +100,8 @@ source tree::
 Build the library and install the dictionary files::
 
     cd italian_fts_ENCODING
-	make
-	make install
+    make
+    make install
 
 Load the dictionary configuration in your database::
 

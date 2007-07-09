@@ -1,12 +1,14 @@
 ==============================================
 Dizionario per la Ricerca di Testo in Italiano
 ==============================================
+Versione ENCODING
+-----------------
 
 :Autore: Daniele Varrazzo
 :Contatto: piro (alla) develer.com
 :Organizzazione: `Develer S.r.l. <http://www.develer.com>`__
-:Data: 2007-04-25
-:Versione: 1.0
+:Data: DATE
+:Versione: VERSION
 
 :Riassunto: Questo package fornisce un dizionario e gli altri file necessari
     per effettuare la *ricerca full text* in documenti in italiano utilizzando
@@ -16,8 +18,8 @@ Dizionario per la Ricerca di Testo in Italiano
     lingua italiana per restituire i documenti corrispondenti ai criteri di
     ricerca, ad esempio le diverse coniugazioni verbali.
 
-	Il package contiene anche uno stemmer Snowball utile come dizionario di
-	ripiego per le parole non incluse nel dizionario.
+    Il package contiene anche uno stemmer Snowball utile come dizionario di
+    ripiego per le parole non incluse nel dizionario.
 
     .. _PostgreSQL: http://www.postgresql.org
     .. _Tsearch2: http://www.sai.msu.su/~megera/postgres/gist/tsearch/V2/
@@ -98,8 +100,8 @@ dei sorgenti di PostgreSQL::
 Costruisci la libreria e installa i file del dizionario::
 
     cd italian_fts_ENCODING
-	make
-	make install
+    make
+    make install
 
 Carica la configurazione del dizionario nel tuo database::
 
