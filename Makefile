@@ -10,10 +10,10 @@ endif
 DISTNAME = italian-fts
 DISTDIR = italian_fts_$(ENCODING)
 HEADER = HEADER.$(ENCODING) 
-README = README.dict_it.$(ENCODING) 
-LEGGIMI = LEGGIMI.dict_it.$(ENCODING) 
-SQLFILE1 = dict_it.sql.$(ENCODING)
-SQLFILE2 = dict_it_spell.sql.$(ENCODING)
+README = README.italian_fts.$(ENCODING) 
+LEGGIMI = LEGGIMI.italian_fts.$(ENCODING) 
+SQLFILE1 = italian_fts.sql.$(ENCODING)
+SQLFILE2 = italian_fts_spell.sql.$(ENCODING)
 SQLFILES = $(SQLFILE1) $(SQLFILE2)
 MAKEFILE = src/Makefile.$(ENCODING)
 DOCFILES = $(README) $(LEGGIMI) gpl.txt
@@ -64,8 +64,8 @@ dist/$(PKGFILE) : $(DICTFILES) $(SQLFILES) $(DOCFILES) $(SOURCE) $(MAKEFILE)
 	mkdir dist/$(DISTDIR)
 	cp $(DICTFILES) $(DOCFILES) dist/$(DISTDIR)
 	cp $(SOURCE) dist/$(DISTDIR)
-	cp $(SQLFILE1) dist/$(DISTDIR)/dict_it_$(ENCODING).sql.in
-	cp $(SQLFILE2) dist/$(DISTDIR)/dict_it_spell_$(ENCODING).sql.in
+	cp $(SQLFILE1) dist/$(DISTDIR)/italian_fts_$(ENCODING).sql.in
+	cp $(SQLFILE2) dist/$(DISTDIR)/italian_fts_spell_$(ENCODING).sql.in
 	cp $(MAKEFILE) dist/$(DISTDIR)/Makefile
 	tar czvf dist/$(PKGFILE) -C dist $(DISTDIR)
 
@@ -73,11 +73,11 @@ clean:
 	-rm -rf dist/italian_fts_latin1
 	-rm -rf dist/italian_fts_utf8
 	-rm italian.dict italian.aff
-	-rm $(addsuffix .latin1,HEADER README.dict_it LEGGIMI.dict_it \
-	                        dict_it.sql dict_it_spell.sql \
+	-rm $(addsuffix .latin1,HEADER README.italian_fts LEGGIMI.italian_fts \
+	                        italian_fts.sql italian_fts_spell.sql \
 							$(DICTFILES_in) src/Makefile)
-	-rm $(addsuffix   .utf8,HEADER README.dict_it LEGGIMI.dict_it \
-	                        dict_it.sql dict_it_spell.sql \
+	-rm $(addsuffix   .utf8,HEADER README.italian_fts LEGGIMI.italian_fts \
+	                        italian_fts.sql italian_fts_spell.sql \
 	                        $(DICTFILES_in) src/Makefile)
 
 split:

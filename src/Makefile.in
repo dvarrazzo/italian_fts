@@ -1,31 +1,31 @@
 DATA = italian.dict.ENCODING italian.aff.ENCODING italian.stop.ENCODING
-DOCS = README.dict_it.ENCODING LEGGIMI.dict_it.ENCODING
+DOCS = README.italian_fts.ENCODING LEGGIMI.italian_fts.ENCODING
 
 ifndef SPELL_ONLY
 
-MODULE_big = dict_it_stem_ENCODING
+MODULE_big = italian_stem_ENCODING
 OBJS =  stem.o dict_snowball.o
 PG_CPPFLAGS = -I../tsearch2/snowball -I../tsearch2
 SHLIB_LINK = ../tsearch2/libtsearch2.a
-DATA_built = dict_it_ENCODING.sql
+DATA_built = italian_fts_ENCODING.sql
 
 PGXS := $(shell pg_config --pgxs)
 include $(PGXS)
 
 DEFAULT: $(MODULE_big)$(DLSUFFIX)
 
-dict_it_ENCODING.sql : dict_it_ENCODING.sql.in
+italian_fts_ENCODING.sql : italian_fts_ENCODING.sql.in
 	sed 's,CONTRIBDIR,$(DESTDIR)$(datadir)/contrib,g' $< | \
 	sed 's,MODULE_PATHNAME,$$libdir/$(MODULE_big)$(DLSUFFIX),g' >$@
 
 else # SPELL_ONLY
 
-DATA_built = dict_it_spell_ENCODING.sql
+DATA_built = italian_fts_spell_ENCODING.sql
 
 PGXS := $(shell pg_config --pgxs)
 include $(PGXS)
 
-dict_it_spell_ENCODING.sql : dict_it_spell_ENCODING.sql.in
+italian_fts_spell_ENCODING.sql : italian_fts_spell_ENCODING.sql.in
 	sed 's,CONTRIBDIR,$(DESTDIR)$(datadir)/contrib,g' $< >$@
 
 endif # SPELL_ONLY

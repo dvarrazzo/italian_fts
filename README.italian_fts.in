@@ -79,6 +79,10 @@ tsearch2 package must be patched to make it compatible with the current
 Snowball version. The patch is available at
 http://www.sai.msu.su/~megera/postgres/gist/tsearch/V2/tsearch_snowball_82-20070504.gz
 
+If you don't want to patch the source you can skip the stemmer build and 
+install only the spelling dictionary. In this case refer to the `Installing 
+only the spelling dictionary`_ section.
+
 To install the Italian dictionary into a database you must first install the
 tsearch2 contrib module and load the ``tsearch2.sql`` file into the database
 (which is usually located in the ``/usr/share/postgresql/contrib/`` directory.
@@ -92,17 +96,36 @@ Full package installation
 Unpack the dictionary archive in the ``contrib`` directory in a PostgreSQL
 source tree::
 
-    tar xzvf dict_it_ENCODING.tar.gz
+    tar xzvf italian-fts-VERSION-ENCODING.tar.gz
 
 Build the library and install the dictionary files::
 
-    cd dict_it_ENCODING
+    cd italian_fts_ENCODING
 	make
 	make install
 
 Load the dictionary configuration in your database::
 
-    psql -f dict_it_ENCODING.sql mydict
+    psql -f italian_fts_ENCODING.sql mydict
 
-A configuration named ``dict_it_ENCODING`` will be created in the database.
+A configuration named ``italian_ENCODING`` will be created in the database.
 
+
+Installing only the spelling dictionary
+=======================================
+
+If you don't want to alter the source code you can install only the spelling
+dictionary. In this case the words not recognized by the spelling dictionary
+will be left unchanged instead of being stemmed.
+
+To install the spelling dictionary unpack the package as explained before
+but issue the following commands instead::
+
+    make SPELL_ONLY=1
+    make SPELL_ONLY=1 install
+
+To create a dictionary configuration in your database::
+
+    psql -f italian_fts_spell_ENCODING.sql mydict
+
+A configuration named ``it_spell_ENCODING`` will be created in the database.
