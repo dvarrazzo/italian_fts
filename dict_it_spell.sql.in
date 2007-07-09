@@ -1,0 +1,25 @@
+SET search_path = public;
+BEGIN;
+
+INSERT INTO pg_ts_dict (dict_name, dict_init, dict_initoption, dict_lexize, dict_comment) VALUES ('it_spell_ENCODING', 'spell_init(internal)', 'DictFile="CONTRIBDIR/italian.dict.ENCODING",AffFile="CONTRIBDIR/italian.aff.ENCODING",StopFile="CONTRIBDIR/italian.stop.ENCODING"', 'spell_lexize(internal,internal,integer)', 'Italian ISpell. ENCODING encoding');
+
+INSERT INTO pg_ts_cfg (ts_name, prs_name, locale) VALUES ('it_spell_ENCODING', 'default', 'PGLOCALE');
+
+INSERT INTO pg_ts_cfgmap (ts_name, tok_alias, dict_name) VALUES ('it_spell_ENCODING', 'email', '{simple}');
+INSERT INTO pg_ts_cfgmap (ts_name, tok_alias, dict_name) VALUES ('it_spell_ENCODING', 'url', '{simple}');
+INSERT INTO pg_ts_cfgmap (ts_name, tok_alias, dict_name) VALUES ('it_spell_ENCODING', 'host', '{simple}');
+INSERT INTO pg_ts_cfgmap (ts_name, tok_alias, dict_name) VALUES ('it_spell_ENCODING', 'sfloat', '{simple}');
+INSERT INTO pg_ts_cfgmap (ts_name, tok_alias, dict_name) VALUES ('it_spell_ENCODING', 'version', '{simple}');
+INSERT INTO pg_ts_cfgmap (ts_name, tok_alias, dict_name) VALUES ('it_spell_ENCODING', 'uri', '{simple}');
+INSERT INTO pg_ts_cfgmap (ts_name, tok_alias, dict_name) VALUES ('it_spell_ENCODING', 'file', '{simple}');
+INSERT INTO pg_ts_cfgmap (ts_name, tok_alias, dict_name) VALUES ('it_spell_ENCODING', 'float', '{simple}');
+INSERT INTO pg_ts_cfgmap (ts_name, tok_alias, dict_name) VALUES ('it_spell_ENCODING', 'int', '{simple}');
+INSERT INTO pg_ts_cfgmap (ts_name, tok_alias, dict_name) VALUES ('it_spell_ENCODING', 'uint', '{simple}');
+INSERT INTO pg_ts_cfgmap (ts_name, tok_alias, dict_name) VALUES ('it_spell_ENCODING', 'lword', '{it_spell_ENCODING,simple}');
+INSERT INTO pg_ts_cfgmap (ts_name, tok_alias, dict_name) VALUES ('it_spell_ENCODING', 'nlword', '{it_spell_ENCODING,simple}');
+INSERT INTO pg_ts_cfgmap (ts_name, tok_alias, dict_name) VALUES ('it_spell_ENCODING', 'word', '{it_spell_ENCODING,simple}');
+INSERT INTO pg_ts_cfgmap (ts_name, tok_alias, dict_name) VALUES ('it_spell_ENCODING', 'part_hword', '{it_spell_ENCODING,simple}');
+INSERT INTO pg_ts_cfgmap (ts_name, tok_alias, dict_name) VALUES ('it_spell_ENCODING', 'nlpart_hword', '{it_spell_ENCODING,simple}');
+INSERT INTO pg_ts_cfgmap (ts_name, tok_alias, dict_name) VALUES ('it_spell_ENCODING', 'lpart_hword', '{it_spell_ENCODING,simple}');
+
+COMMIT;

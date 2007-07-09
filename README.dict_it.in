@@ -1,0 +1,108 @@
+=======================================
+Italian Dictionary for Full Text Search
+=======================================
+ENCODING version
+----------------
+
+:Author: Daniele Varrazzo
+:Contact: piro (at) develer.com
+:Organization: `Develer S.r.l. <http://www.develer.com>`__
+:Date: $(DATE)
+:Version: $(VERSION)
+
+:Abstract: This package provides a dictionary and the other files required to
+    perform *full text search* in Italian documents using the PostgreSQL_
+    database together with the contrib module Tsearch2_.
+
+    Using the provided dictionary, search operations in Italian documents can
+    keep into account morphological variations of Italian words, such as verb
+    conjugations.
+
+    This package contains also a Snowball stemmer useful as fallback for words
+    not included in the dictionary.
+
+    .. _PostgreSQL: http://www.postgresql.org
+    .. _Tsearch2: http://www.sai.msu.su/~megera/postgres/gist/tsearch/V2/
+
+
+:Copyright: 2001, 2002 Gianluca Turconi
+:Copyright: 2002, 2003, 2004 Gianluca Turconi and Davide Prina
+:Copyright: 2004, 2005, 2006 Davide Prina
+:Copyright: 2007 Daniele Varrazzo
+
+This file is distributed under GPL license.
+
+This file is part of the Italian dictionary for full-text search.
+
+The Italian dictionary for full-text search is free software; you can
+redistribute it and/or modify it under the terms of the GNU General Public
+License as published by the Free Software Foundation; either version 2 of
+the License, or (at your option) any later version.
+
+The Italian dictionary for full-text search is distributed in the hope that
+it will be useful, but WITHOUT ANY WARRANTY; without even the implied
+warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public
+License along with Italian dictionary for full-text search,
+if not, write to the Free Software Foundation, Inc.,
+51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA
+
+GPL license can be found at http://www.fsf.org/licenses/licenses.html
+
+
+Package description
+===================
+
+This package contains both a ispell dictionary and a stemmer library for
+Italian language.
+
+The Italian dictionary is distributed in **latin1** and **utf8** encodings. 
+This package is in **ENCODING** encoding. Please use the Italian dictionary
+only with database clusters created with the according encoding. For instance
+if your cluster has been created with ``initdb --locale=it_IT`` (or any 8 bit
+encoding) use the latin1 version. If your cluster has been created with 
+``initdb --locale=it_IT.utf8`` (or any other multibyte locale) use the utf8 
+version. If you want to know the locale of an existing cluster you can use
+the command ``psql -tc "SHOW LC_CTYPE" postgres``.
+
+
+Prerequisites
+=============
+
+The ISpell dictionary has been tested with PostgreSQL versions 8.1 and above,
+but should work with any PostgreSQL version including the tsearch2 contrib.
+
+The stemming library has only been tested with PostgreSQL 8.2. Furthermore the
+tsearch2 package must be patched to make it compatible with the current
+Snowball version. The patch is available at
+http://www.sai.msu.su/~megera/postgres/gist/tsearch/V2/tsearch_snowball_82-20070504.gz
+
+To install the Italian dictionary into a database you must first install the
+tsearch2 contrib module and load the ``tsearch2.sql`` file into the database
+(which is usually located in the ``/usr/share/postgresql/contrib/`` directory.
+
+To build the Italian stemmer you must start from a PostgreSQL source tree.
+
+
+Full package installation
+=========================
+
+Unpack the dictionary archive in the ``contrib`` directory in a PostgreSQL
+source tree::
+
+    tar xzvf dict_it_ENCODING.tar.gz
+
+Build the library and install the dictionary files::
+
+    cd dict_it_ENCODING
+	make
+	make install
+
+Load the dictionary configuration in your database::
+
+    psql -f dict_it_ENCODING.sql mydict
+
+A configuration named ``dict_it_ENCODING`` will be created in the database.
+

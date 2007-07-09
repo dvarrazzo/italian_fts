@@ -1,48 +1,82 @@
-ZIPFILE=nb_NO
-LANGUAGE=norsk
+# use ``make ENCODING=utf8`` to create the utf8 version of everything
+ENCODING = latin1
 
+ifeq ($(ENCODING),utf8)
+PGLOCALE = it_IT.utf8
+else
+PGLOCALE = it_IT
+endif
 
-UNZIP=unzip -o
+DISTNAME = italian-fts
+DISTDIR = dict_it_$(ENCODING)
+HEADER = HEADER.$(ENCODING) 
+README = README.dict_it.$(ENCODING) 
+LEGGIMI = LEGGIMI.dict_it.$(ENCODING) 
+SQLFILE1 = dict_it.sql.$(ENCODING)
+SQLFILE2 = dict_it_spell.sql.$(ENCODING)
+SQLFILES = $(SQLFILE1) $(SQLFILE2)
+MAKEFILE = src/Makefile.$(ENCODING)
+DOCFILES = $(README) $(LEGGIMI) gpl.txt
+DICTFILES_in = italian.dict italian.aff italian.stop
+SOURCE = src/$(ENCODING)/dict_snowball.c src/$(ENCODING)/stem.c src/$(ENCODING)/stem.h
 
+VERSION =  $(shell cat VERSION)
+PKGFILE = $(DISTNAME)-$(VERSION)-$(ENCODING).tar.gz
 
-all: $(LANGUAGE).dict $(LANGUAGE).aff
+ifndef DATE
+DATE = $(shell date +%Y-%m-%d)
+endif
 
-$(ZIPFILE).aff: $(ZIPFILE).zip
-	$(UNZIP) $? $@
-	touch $@ 
+PYTHON = python
+ICONV = iconv -f latin1 -t $(ENCODING)
+FILTER_VAR = \
+	  sed 's,VERSION,$(VERSION),g' \
+	| sed 's,DATE,$(DATE),g' \
+	| sed 's,PGLOCALE,$(PGLOCALE),g' \
+	| sed 's,ENCODING,$(ENCODING),g' 
 
+%.$(ENCODING) : %
+	$(ICONV) < $< > $@
 
-# 1 Cleanup dictionary
-# 2 remove " symbol
-# 3 add compoundwords controlled flag to word which hasn't it, but
-#   has compound only suffixes
+%.$(ENCODING) : %.in
+	cat $< | $(FILTER_VAR) > $@
 
-$(LANGUAGE).dict: $(ZIPFILE).zip
-	$(UNZIP) $? $(ZIPFILE).dic
-	grep -v -E '^[[:digit:]]+$$' < $(ZIPFILE).dic \
-	 | grep -v '\.' \
-	 | sed -e 's/"//g' \
-	 | perl -pi -e 's|/(\S+)| $$q=$$1; ( $$q=~/[\\_`]/ && $$q!~/z/ ) ? "/$${q}z" : "/$${q}"|e' \
-	 | sort \
-	> $@
+DICTFILES = $(addsuffix .$(ENCODING),$(DICTFILES_in))
 
-#just convert affix file
+.PHONY : package clean
 
-$(LANGUAGE).aff: $(ZIPFILE).aff 
-	grep -v -i zyzyzy $(ZIPFILE).aff \
-	 | grep -v -i zyzyzy \
-	 | perl -pi \
-		-e 's/^COMPOUNDFLAG\s+(\S+)/compoundwords controlled $$1/;' \
-	        -e 's/^COMPOUNDMIN\s+(\d+)/compoundmin $$1/;' \
-	        -e 's/^PFX\s+(\S+)\s+Y\s+\d+.*$$/ if ( !$$wasprf ) { $$wasprf=1; "prefixes\n\nflag $$1:" } else { "flag $$1:" } /e;' \
-	        -e 's/^PFX\s+\S+\s+(\S+)\s+(\S+)\s+(\S+)/ uc("   $$3    > $$2")/e;' \
-	        -e 's/^(.*)SFX\s+(\S+)\s+([YN])\s+\d+.*$$/ $$flg=($$3 eq "Y") ? "*" : ""; $$flg="~$$flg" if length $$1; $$q=$$2; $$q="\\$$q" if $$q!~m#[a-zA-Z]#; if ( !$$wassfx ) { $$wassfx=1; "suffixes\n\nflag $$flg$$q:" } else { "flag $$flg$$q:" } /e;' \
-	        -e 's/^.*SFX\s+\S+\s+(\S+)\s+(\S+)\s+(\S+)/ uc("   $$3    > ".( ($$1 eq "0") ? "" : "-$$1,").( ($$2 eq "0") ? "" : "$$2") )/e;' \
-		-e 's/^(SET|TRY)/#$$1/' \
-	> $@ 
+dict : $(DICTFILES)
+
+package : dist/$(PKGFILE)
+
+italian.dict : italian-verbs.dict italian-other.dict italian-numbers.dict $(HEADER)
+	sed 's,^,/ ,' < $(HEADER) > $@
+	$(PYTHON) merge_dicts.py \
+		italian-verbs.dict italian-other.dict italian-numbers.dict >> $@
+
+italian.aff : italian.aff.before-verbs italian.aff.verbs italian.aff.after-verbs $(HEADER)
+	sed 's,^,# ,' < $(HEADER) > $@
+	cat italian.aff.before-verbs italian.aff.verbs italian.aff.after-verbs >> $@
+
+dist/$(PKGFILE) : $(DICTFILES) $(SQLFILES) $(DOCFILES) $(SOURCE) $(MAKEFILE)
+	-mkdir dist
+	-rm -rf dist/$(DISTDIR)
+	mkdir dist/$(DISTDIR)
+	cp $(DICTFILES) $(DOCFILES) dist/$(DISTDIR)
+	cp $(SOURCE) dist/$(DISTDIR)
+	cp $(SQLFILE1) dist/$(DISTDIR)/dict_it_$(ENCODING).sql.in
+	cp $(SQLFILE2) dist/$(DISTDIR)/dict_it_spell_$(ENCODING).sql.in
+	cp $(MAKEFILE) dist/$(DISTDIR)/Makefile
+	tar czvf dist/$(PKGFILE) -C dist $(DISTDIR)
 
 clean:
-	rm -rf $(ZIPFILE).aff $(ZIPFILE).dic $(LANGUAGE).dict $(LANGUAGE).aff 
+	-rm -rf dist
+	-rm $(addsuffix .latin1,HEADER README.dict_it LEGGIMI.dict_it \
+	                        dict_it.sql dict_it_spell.sql \
+							$(DICTFILES_in) src/Makefile dict_it.sql)
+	-rm $(addsuffix   .utf8,HEADER README.dict_it LEGGIMI.dict_it \
+	                        dict_it.sql dict_it_spell.sql \
+	                        $(DICTFILES_in) src/Makefile dict_it.sql)
 
 split:
 	python ./split_dict.py
@@ -50,3 +84,4 @@ split:
 merge:
 	python merge_dicts.py verbi.dict italian-other.dict italian-numbers.dict > italian.dict
 	cat italian.aff.before-verbs verbi.aff italian.aff.after-verbs > italian.aff
+

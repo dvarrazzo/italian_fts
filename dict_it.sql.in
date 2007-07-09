@@ -1,0 +1,41 @@
+SET search_path = public;
+BEGIN;
+
+create function dinit_it_stem_ENCODING(internal)
+         returns internal
+         as 'MODULE_PATHNAME'
+         language C;
+
+insert into pg_ts_dict select
+        'it_stem_ENCODING',
+        (select oid from pg_proc where proname='dinit_it_stem_ENCODING'),
+
+        null,
+        (select oid from pg_proc where proname='snb_lexize'),
+
+        'Italian Snowball stemmer. UTF8 encoding'
+;
+
+
+INSERT INTO pg_ts_dict (dict_name, dict_init, dict_initoption, dict_lexize, dict_comment) VALUES ('it_spell_ENCODING', 'spell_init(internal)', 'DictFile="CONTRIBDIR/italian.dict.ENCODING",AffFile="CONTRIBDIR/italian.aff.ENCODING",StopFile="CONTRIBDIR/italian.stop.ENCODING"', 'spell_lexize(internal,internal,integer)', 'Italian ISpell. ENCODING encoding');
+
+INSERT INTO pg_ts_cfg (ts_name, prs_name, locale) VALUES ('italian_ENCODING', 'default', 'PGLOCALE');
+
+INSERT INTO pg_ts_cfgmap (ts_name, tok_alias, dict_name) VALUES ('italian_ENCODING', 'email', '{simple}');
+INSERT INTO pg_ts_cfgmap (ts_name, tok_alias, dict_name) VALUES ('italian_ENCODING', 'url', '{simple}');
+INSERT INTO pg_ts_cfgmap (ts_name, tok_alias, dict_name) VALUES ('italian_ENCODING', 'host', '{simple}');
+INSERT INTO pg_ts_cfgmap (ts_name, tok_alias, dict_name) VALUES ('italian_ENCODING', 'sfloat', '{simple}');
+INSERT INTO pg_ts_cfgmap (ts_name, tok_alias, dict_name) VALUES ('italian_ENCODING', 'version', '{simple}');
+INSERT INTO pg_ts_cfgmap (ts_name, tok_alias, dict_name) VALUES ('italian_ENCODING', 'uri', '{simple}');
+INSERT INTO pg_ts_cfgmap (ts_name, tok_alias, dict_name) VALUES ('italian_ENCODING', 'file', '{simple}');
+INSERT INTO pg_ts_cfgmap (ts_name, tok_alias, dict_name) VALUES ('italian_ENCODING', 'float', '{simple}');
+INSERT INTO pg_ts_cfgmap (ts_name, tok_alias, dict_name) VALUES ('italian_ENCODING', 'int', '{simple}');
+INSERT INTO pg_ts_cfgmap (ts_name, tok_alias, dict_name) VALUES ('italian_ENCODING', 'uint', '{simple}');
+INSERT INTO pg_ts_cfgmap (ts_name, tok_alias, dict_name) VALUES ('italian_ENCODING', 'lword', '{it_spell_ENCODING,it_stem_ENCODING}');
+INSERT INTO pg_ts_cfgmap (ts_name, tok_alias, dict_name) VALUES ('italian_ENCODING', 'nlword', '{it_spell_ENCODING,it_stem_ENCODING}');
+INSERT INTO pg_ts_cfgmap (ts_name, tok_alias, dict_name) VALUES ('italian_ENCODING', 'word', '{it_spell_ENCODING,it_stem_ENCODING}');
+INSERT INTO pg_ts_cfgmap (ts_name, tok_alias, dict_name) VALUES ('italian_ENCODING', 'part_hword', '{it_spell_ENCODING,it_stem_ENCODING}');
+INSERT INTO pg_ts_cfgmap (ts_name, tok_alias, dict_name) VALUES ('italian_ENCODING', 'nlpart_hword', '{it_spell_ENCODING,it_stem_ENCODING}');
+INSERT INTO pg_ts_cfgmap (ts_name, tok_alias, dict_name) VALUES ('italian_ENCODING', 'lpart_hword', '{it_spell_ENCODING,it_stem_ENCODING}');
+
+COMMIT;

@@ -1,35 +1,38 @@
 / Italian dictionary for full-text search
-/
-/ Copyright (C) 2001, 2002 Gianluca Turconi
-/ Copyright (C) 2002, 2003, 2004 Gianluca Turconi and Davide Prina
-/ Copyright (C) 2004, 2005, 2006 Davide Prina
-/ Copyright (C) 2007 Daniele Varrazzo
-/
+/ 
+/ Copyright 2001, 2002 Gianluca Turconi
+/ Copyright 2002, 2003, 2004 Gianluca Turconi, Davide Prina
+/ Copyright 2004, 2005, 2006 Davide Prina
+/ Copyright 2007 Daniele Varrazzo
+/ 
 / E-Mail: piro + at + develer.com
-/
-/ Version 1.1a0
-/
-/ This file is distributed under GPL license.
-/
+/ 
+/ Version 1.0.1a0 (2007-07-09)
+/ 
+/ This file is distributed under GPL license
+/ 
 / This file is part of the Italian dictionary for full-text search.
-/
+/ 
 / The Italian dictionary for full-text search is free software; you can
 / redistribute it and/or modify it under the terms of the GNU General Public
 / License as published by the Free Software Foundation; either version 2 of
 / the License, or (at your option) any later version.
-/
+/ 
 / The Italian dictionary for full-text search is distributed in the hope that
 / it will be useful, but WITHOUT ANY WARRANTY; without even the implied
 / warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
 / GNU General Public License for more details.
-/
+/ 
 / You should have received a copy of the GNU General Public
 / License along with Italian dictionary for full-text search,
 / if not, write to the Free Software Foundation, Inc.,
 / 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA
-/
+/ 
 / GPL license can be found here:
 / http://www.fsf.org/licenses/licenses.html
+/ 
+/ File encoding is utf8
+/ 
 ACL
 ADSL
 AIDS
@@ -5093,7 +5096,7 @@ accanto
 accantonamento/a
 accantonare/ABCGLPTX14
 accaparramento/a
-accaparrare/ABCGLPTX14z
+accaparrare/ABCGLPTX14
 accaparratore/ad
 accapezzare/ABCGLPTX14
 accapezzatura/b
@@ -5148,14 +5151,14 @@ accecatore/a
 accecatura/b
 accedere/ABCGLPTX14
 acceleramento/a
-accelerare/ABCGLPTX14z
+accelerare/ABCGLPTX14
 accelerativo/af
 acceleratore/ad
 acceleratorio/af
 accelerazione/a
 accelerografo/a
 accelerometro/a
-accendere/ABEGLPVZ14z
+accendere/ABEGLPVZ14
 accendibile/a
 accendigas
 accendino/a
@@ -5182,7 +5185,7 @@ accerchiatura/b
 accertabile/a
 accertabilità
 accertamento/a
-accertare/ABCGLPTX14z
+accertare/ABCGLPTX14
 accertatore/ad
 accessibile/a
 accessibilità
@@ -5198,7 +5201,7 @@ accestire/ABCGLPTX14
 accetta/b
 accettabile/ahk
 accettabilità
-accettare/ABCGLPTX14z
+accettare/ABCGLPTX14
 accettazione/a
 accettore/a
 accezione/a
@@ -5379,7 +5382,7 @@ accozzamento/a
 accozzare/ABCGLPTX14
 accreditabile/a
 accreditamento/az
-accreditare/ABCGLPTX14z
+accreditare/ABCGLPTX14
 accreditario/af
 accrescere/ABDGLPUY14
 accrescibile/a
@@ -5677,7 +5680,7 @@ addentrare/ABCGLPTX14
 addestrabile/a
 addestrabilità
 addestramento/a
-addestrare/ABCGLPTX14z
+addestrare/ABCGLPTX14
 addestratore/ad
 addiaccio/a
 addietro
@@ -5981,7 +5984,7 @@ affezione
 affiancamento/a
 affiancare/ABCGLPTX14
 affiatamento/a
-affiatare/ABCGLPTX14z
+affiatare/ABCGLPTX14
 affibbiare/ABCGLPTX14
 affibbiatura/b
 affidabile/a
@@ -6202,7 +6205,7 @@ aggredire/ABCGLPTX14
 aggreditrice/a
 aggregabile/a
 aggregamento/a
-aggregare/ABCGLPTX14z
+aggregare/ABCGLPTX14
 aggregativo/af
 aggregazione/a
 aggressione/a
@@ -6220,7 +6223,7 @@ aggrumare/ABCGLPTX14
 aggruppamento/a
 aggruppare/ABCGLPTX14
 agguagliare/ABCGLPTX14
-agguantare/ABCGLPTX14z
+agguantare/ABCGLPTX14
 agguato/a
 agguerrimento/a
 agguerrire/ABCGLPTX14
@@ -6589,7 +6592,7 @@ alleanza/b
 alleare/ABCGLPTX14
 allegabile/a
 allegamento/a
-allegare/ABCGLPTX14z
+allegare/ABCGLPTX14
 allegazione/a
 alleggerimento/a
 alleggerire/ABCGLPTX14
@@ -6728,7 +6731,7 @@ allunamento/a
 allunare/ABCGLPTX14
 allungabile/a
 allungamento/a
-allungare/ABCGLPTX14z
+allungare/ABCGLPTX14
 allungatura/b
 allupato/af
 allusione/a
@@ -7069,7 +7072,7 @@ ammobiliare/ABCGLPTX14
 ammodernamento/a
 ammodernare/ABCGLPTX14
 ammodo
-ammogliare/ABCGLPTX14z
+ammogliare/ABCGLPTX14
 ammollamento/a
 ammollare/ABCGLPTX14
 ammollimento/a
@@ -7214,7 +7217,7 @@ analista/ab
 analiticità
 analitico/cfk
 analizzabile/a
-analizzare/ABCGLPTX14z
+analizzare/ABCGLPTX14
 analizzatore/ad
 anallergico/cf
 analogia/b
@@ -7283,7 +7286,7 @@ andaluso/af
 andamento/a
 andana/b
 andantino/a
-andare/ABEKLPTX14z
+andare/ABEKLPTX14
 andatura/b
 andavasi/z
 andazzo/a
@@ -8081,7 +8084,7 @@ apparentare/ABCGLPTX14
 apparenza/b
 apparigliare/ABCGLPTX14
 apparimento/a
-apparire/ABEILPUY14z
+apparire/ABEILPUY14
 apparisca
 appariscano
 apparisce
@@ -8100,7 +8103,7 @@ appartenenza/b
 appartenere/ABDHLPTX14
 appassimento/a
 appassionamento/a
-appassionare/ABCGLPTX14z
+appassionare/ABCGLPTX14
 appassire/ABCGLPTX14
 appastare/ABCGLPTX14
 appastellare/ABCGLPTX14
@@ -8174,7 +8177,7 @@ appio
 appiolo/af
 appiombare/ABCGLPTX14
 appioppare/ABCGLPTX14
-appisolare/ABCGLPTX14z
+appisolare/ABCGLPTX14
 applaudire/ABDHLPTX14
 applaudisca
 applaudiscano
@@ -8258,7 +8261,7 @@ approssimare/ABCGLPTX14
 approssimativo/afk
 approssimazione/a
 approvabile/a
-approvare/ABCGLPTX14z
+approvare/ABCGLPTX14
 approvativo/af
 approvatore/ad
 approvazione/a
@@ -8780,7 +8783,7 @@ arrendevole/ak
 arrendevolezza/b
 arrestabile/a
 arrestamento/a
-arrestare/ABCGLPTX14z
+arrestare/ABCGLPTX14
 arrestatoio/a
 arretramento/a
 arretrare/ABCGLPTX14
@@ -9051,7 +9054,7 @@ asepsi
 asessuale/ak
 asessuato/af
 asettico/cf
-asfaltare/ABCGLPTX14z
+asfaltare/ABCGLPTX14
 asfaltatore/ad
 asfaltatura/b
 asfaltico/cf
@@ -9592,7 +9595,7 @@ atteggiare/ABCGLPTX14
 attempato/af
 attendamento/a
 attendare/ABCGLPTX14
-attendere/ABEGLPVZ14z
+attendere/ABEGLPVZ14
 attendibile/ak
 attendibilità
 attendismo/a
@@ -9701,13 +9704,13 @@ attraccaggio/a
 attraccare/ABCGLPTX14
 attralciatura/b
 attrappare/ABCGLPTX14
-attrarre/ABCGLPTX14z
+attrarre/ABCGLPTX14
 attrattivo/af
 attrattore/a
 attraversabile/a
 attraversabilità
 attraversamento/a
-attraversare/ABCGLPTX14z
+attraversare/ABCGLPTX14
 attrazione/a
 attrezzaggio/a
 attrezzamento/a
@@ -10377,7 +10380,7 @@ avverso/af
 avvertenza/b
 avvertibile/a
 avvertimento/a
-avvertire/ABDHLPTX14z
+avvertire/ABDHLPTX14
 avvezione/a
 avvezzamento
 avvezzare/ABCGLPTX14
@@ -10404,10 +10407,10 @@ avvincente/a
 avvincere/ABDGLPTX14
 avvinghiare/ABCGLPTX14
 avvisaglia/b
-avvisare/ABCGLPTX14z
+avvisare/ABCGLPTX14
 avvisatore/ad
 avvistamento/a
-avvistare/ABCGLPTX14z
+avvistare/ABCGLPTX14
 avvitamento/a
 avvitare/ABCGLPTX14
 avvitatore/ad
@@ -10484,7 +10487,7 @@ azzoppare/ABCGLPTX14
 azzoppimento/a
 azzoppire/ABCGLPTX14
 azzuffamento/a
-azzuffare/ABCGLPTX14z
+azzuffare/ABCGLPTX14
 azzurrabile/a
 azzurraggio/a
 azzurramento/a
@@ -11610,7 +11613,7 @@ beneamato/af
 benedettino/af
 benedicite
 benedii/xyz
-benedire/ABEINRUY25xyz
+benedire/ABEINRUY25
 benedisti/xyz
 benedizionale/a
 benedizione/axyz
@@ -11715,7 +11718,7 @@ bercasio
 berceau
 berchelio/a
 berciare/ABCGLPTX14
-bere/ABDHMQUY25z
+bere/ABDHMQUY25
 berecinto/a
 berettino/a
 bergamasco/afk
@@ -15134,7 +15137,7 @@ cattolicità
 cattolico/cfik
 cattura/b
 catturabile/a
-catturare/ABCGLPTX14z
+catturare/ABCGLPTX14
 catuli
 caturegli
 caucasico/cf
@@ -15288,7 +15291,7 @@ celacanto/a
 celare/ABCGLPTX14
 celastracea/b
 celebrabile/a
-celebrare/ABCGLPTX14z
+celebrare/ABCGLPTX14
 celebrativo/af
 celebratore/ad
 celebrazione/a
@@ -16085,7 +16088,7 @@ cinquefoglie
 cinquemila/|!
 cinquenne/a
 cinquina/b
-cintare/ABCGLPTX14z
+cintare/ABCGLPTX14
 cintura/b
 cinturino/a
 cinturone/a
@@ -16319,7 +16322,7 @@ classicizzare/ABCGLPTX14
 classico/cfik
 classifica/b
 classificabile/a
-classificare/ABCGLPTX14z
+classificare/ABCGLPTX14
 classificatore/ad
 classificatorio/af
 classificazione/a
@@ -16518,7 +16521,7 @@ codicologia/b
 codicologico/cf
 codifica/b
 codificabile/a
-codificare/ABCGLPTX14z
+codificare/ABCGLPTX14
 codificatore/ad
 codificazione/a
 codinismo/a
@@ -16716,7 +16719,7 @@ collisore/a
 collo/a
 collocabile/a
 collocamento/az
-collocare/ABCGLPTX14z
+collocare/ABCGLPTX14
 collocazione/a
 collodio/a
 colloidale/a
@@ -16777,7 +16780,7 @@ colono/af
 coloquintide/a
 colorabile/ah
 coloramento/a
-colorare/ABCGLPTX14z
+colorare/ABCGLPTX14
 colorazione/a
 colore/ao
 coloreria/b
@@ -16848,7 +16851,7 @@ combattimento/a
 combattività
 combattivo/af
 combinabile/a
-combinare/ABCGLPTX14z
+combinare/ABCGLPTX14
 combinatore/ad
 combinatorio/af
 combinazione/a
@@ -16984,7 +16987,7 @@ comparativo/afk
 comparatore/a
 comparazione/a
 compare/a
-comparire/ABEILPUY14z
+comparire/ABEILPUY14
 comparisca
 comparisce
 comparisci
@@ -17050,7 +17053,7 @@ compiegare/ABCGLPTX14
 compiere/ABCGLPTX14
 compieta/b
 compilabile/a
-compilare/ABCGLPTX14x
+compilare/ABCGLPTX14
 compilation
 compilativo/af
 compilatore/ad
@@ -17098,7 +17101,7 @@ componentistica/b
 componibile/a
 componimento/az
 componitore/ad
-comporre/ABCGLPTX14z
+comporre/ABCGLPTX14
 comportamentale/a
 comportamentismo/a
 comportamentista/ab
@@ -17122,7 +17125,7 @@ comprare/ABCGLPTX14
 compratore/ad
 compravendere/ABCGLPTX14
 compravendita/b
-comprendere/ABEGLPVZ14z
+comprendere/ABEGLPVZ14
 comprendonio/a
 comprensibile/ahk
 comprensibilità
@@ -17311,7 +17314,7 @@ concussionario/af
 concussione/a
 condanna/b
 condannabile/a
-condannare/ABCGLPTX14z
+condannare/ABCGLPTX14
 condebitore/ad
 condensa/b
 condensabile/a
@@ -17399,7 +17402,7 @@ confetteria/b
 confettiera/ab
 confettura/b
 confezionamento/a
-confezionare/ABCGLPTX14x
+confezionare/ABCGLPTX14
 confezionatore/ad
 confezione/a
 confezionista/ab
@@ -17412,7 +17415,7 @@ confidenzialità
 configgere/ABDGLPVZ14
 configurabile/a
 configurabilità
-configurare/ABCGLPTX14x
+configurare/ABCGLPTX14
 configurazione/a
 confinamento/a
 confinare/ABCGLPTX14
@@ -17437,7 +17440,7 @@ confondere/ABFGLPVZ14
 confondibile/a
 confondino
 conformabile/a
-conformare/ABCGLPTX14z
+conformare/ABCGLPTX14
 conformativo/a
 conformazione/a
 conforme/ak
@@ -17454,7 +17457,7 @@ confratello/a
 confraternita/b
 confrontabile/a
 confrontabilità
-confrontare/ABCGLPTX14z
+confrontare/ABCGLPTX14
 confucianesimo/a
 confusionale/a
 confusionario/af
@@ -17474,7 +17477,7 @@ congedare/ABCGLPTX14
 congegnare/ABCGLPTX14
 congelabile/a
 congelamento/az
-congelare/ABCGLPTX14z
+congelare/ABCGLPTX14
 congelatore/a
 congelazione/a
 congenere/a
@@ -17563,7 +17566,7 @@ conocchia/b
 conoide/a
 conopeo/a
 conoscenza/b
-conoscere/ABDGLPUY14xz
+conoscere/ABDGLPUY14
 conoscibile/a
 conoscibilità
 conoscimento/a
@@ -17682,7 +17685,7 @@ consulente/a
 consulenza/b
 consulta/b
 consultabile/a
-consultare/ABCGLPTX14z
+consultare/ABCGLPTX14
 consultatore/ad
 consultazione/a
 consultivo/af
@@ -17732,7 +17735,7 @@ contare/ABCGLPTX14
 contarino
 contasecondi
 contatore/ad
-contattare/ABCGLPTX14z
+contattare/ABCGLPTX14
 contattore/a
 conte/ad
 contea/b
@@ -17834,7 +17837,7 @@ contrada/b
 contraddanza/b
 contraddatare/ABCGLPTX14
 contraddicete
-contraddire/ABEINRUY25xyz
+contraddire/ABEINRUY25
 contraddirrei
 contraddirremmo
 contraddirreste
@@ -17872,7 +17875,7 @@ contrargine/a
 contrariare/ABCGLPTX14
 contrarietà
 contrario/afk
-contrarre/ABCGLPTX14z
+contrarre/ABCGLPTX14
 contrassalto/a
 contrassegnare/ABCGLPTX14
 contrastabile/a
@@ -17948,7 +17951,7 @@ controinformazione/a
 controinterrogatorio/a
 controllabile/a
 controllabilità
-controllare/ABCGLPTX14z
+controllare/ABCGLPTX14
 controllore/a
 controluce
 contromanifestazione/a
@@ -18021,7 +18024,7 @@ convalescente/a
 convalescenza/b
 convalescenziario/a
 convalida/b
-convalidare/ABCGLPTX14z
+convalidare/ABCGLPTX14
 convalidazione/a
 convallaria/b
 convegnista/ab
@@ -18144,7 +18147,7 @@ copriletto
 coprimozzo
 copripiatti
 copriradiatore/a
-coprire/ABDHLPUY14z
+coprire/ABDHLPUY14
 copritore/ad
 coprivivande
 coprocessore/a
@@ -18233,7 +18236,7 @@ coriale
 coriambo/a
 coriandolo/a
 coriandre
-coricare/ABCGLPTX14z
+coricare/ABCGLPTX14
 corifeo/af
 corimbo/a
 corindone/a
@@ -18316,7 +18319,7 @@ corrasione/a
 corredare/ABCGLPTX14
 corredino/a
 corredone/a
-correggere/ABDGLPTX14z
+correggere/ABDGLPTX14
 correggia/c
 correggiato/a
 correggibile/a
@@ -18331,7 +18334,7 @@ correligionario/af
 corrente/ak
 correntista/ab
 correo/af
-correre/ABDGLPTX14x
+correre/ABDGLPTX14
 corresponsabile/a
 corresponsabilità
 corresponsione/a
@@ -18813,7 +18816,7 @@ cristalleria/b
 cristalliera/b
 cristallino/af
 cristallizzabile/a
-cristallizzare/ABCGLPTX14z
+cristallizzare/ABCGLPTX14
 cristallizzatore/a
 cristallizzazione/a
 cristallo/a
@@ -19124,7 +19127,7 @@ curtense/a
 curvabile/a
 curvadorsi
 curvamento/a
-curvare/ABCGLPTX14z
+curvare/ABCGLPTX14
 curvatrice/a
 curvatura/b
 curvilineità
@@ -19458,7 +19461,7 @@ decontestualizzare/ABCGLPTX14
 decontestualizzazione/a
 decontrarre/ABCGLPTX14
 decontrazione/a
-decorare/ABCGLPTX14z
+decorare/ABCGLPTX14
 decorativo/af
 decoratore/ad
 decorazione/a
@@ -20584,7 +20587,7 @@ diradamento/a
 diradare/ABCGLPTX14
 diramare/ABCGLPTX14
 diramazione/a
-dire/ABEJNRUY25z
+dire/ABEJNRUY25
 director
 directory
 direttività
@@ -20806,7 +20809,7 @@ disdegnoso/afk
 disdettare/ABCGLPTX14
 disdicete
 disdicevole/ahk
-disdire/ABEINRUY25xyz
+disdire/ABEINRUY25
 disdoro/a
 diseccitare/ABCGLPTX14
 diseconomia/b
@@ -21003,7 +21006,7 @@ dispettuccio
 dispiacere/ABDILPUY14a
 dispiacevole/ak
 dispiegamento
-dispiegare/ABCGLPTX14z
+dispiegare/ABCGLPTX14
 displasia/b
 displastico/cf
 display
@@ -21013,7 +21016,7 @@ dispnea/b
 dispnoico/cf
 disponibile/ah
 disponibilità
-disporre/ABCGLPTX14z
+disporre/ABCGLPTX14
 dispositivo/af
 disposizione/a
 dispotico/cfk
@@ -21144,7 +21147,7 @@ distensivo/afk
 distesero
 distico/c
 distillabile/a
-distillare/ABCGLPTX14z
+distillare/ABCGLPTX14
 distillatoio/a
 distillatore/ad
 distillazione/a
@@ -21385,7 +21388,7 @@ dolcino
 dolciume/a
 dolco
 dolenzia/b
-dolere/ABDHLPTX14z
+dolere/ABDHLPTX14
 dolico/cf
 dolicocefalia/b
 dolicocefalo/af
@@ -22390,7 +22393,7 @@ emetico/cf
 emetismo
 emetizzante/a
 emettenza
-emettere/ABDGLPUY14z
+emettere/ABDGLPUY14
 emettitore/a
 emettritrice/a
 emianopsia/b
@@ -22402,7 +22405,7 @@ emico/cf
 emicrania/b
 emicranico/cf
 emiedrico
-emigrare/ABCGLPTX14z
+emigrare/ABCGLPTX14
 emigratorio/af
 emigrazione/a
 emiliano/af
@@ -23248,7 +23251,7 @@ esalatoio
 esalatore/ad
 esalazione/a
 esaltamento
-esaltare/ABCGLPTX14z
+esaltare/ABCGLPTX14
 esaltatore/ad
 esaltatorio/af
 esaltazione/a
@@ -23572,7 +23575,7 @@ esplicazione/a
 esplicitare/ABCGLPTX14
 esplicitazione/a
 esplicito/afk
-esplodere/ABCGLPUY14z
+esplodere/ABCGLPUY14
 esploditore/a
 esplorabile/a
 esplorare/ABCGLPTX14
@@ -23589,7 +23592,7 @@ esplosivo/af
 esponente/a
 esponenziale/ak
 esponibile/a
-esporre/ABCGLPTX14z
+esporre/ABCGLPTX14
 esportabile/a
 esportare/ABCGLPTX14
 esportatore/ad
@@ -23604,7 +23607,7 @@ espressionista/ab
 espressionistico/cf
 espressività
 espressivo/afk
-esprimere/ABDGLPUY14z
+esprimere/ABDGLPUY14
 esprimibile/a
 esprit
 espromissario
@@ -23743,7 +23746,7 @@ estraniare/ABCGLPTX14
 estraniazione/a
 estrapolare/ABCGLPTX14
 estrapolazione/a
-estrarre/ABCGLPTX14z
+estrarre/ABCGLPTX14
 estrattivo/af
 estrattore/ad
 estravagante/a
@@ -24426,7 +24429,7 @@ farcire/ABCGLPTX14
 farcitura/b
 fard
 fardello/a
-fare/ABDJNRUY25yz
+fare/ABDJNRUY25
 faretra/b
 faretrato/af
 faretto/a
@@ -24948,7 +24951,7 @@ fiaschetto/af
 fiasco/af
 fiasconaro
 fiastre
-fiatare/ABCGLPTX14z
+fiatare/ABCGLPTX14
 fiataviamo
 fiato/a
 fiatone/a
@@ -25539,7 +25542,7 @@ foca/b
 focaccia/c
 focaia/b
 focale/a
-focalizzare/ABCGLPTX14z
+focalizzare/ABCGLPTX14
 focalizzazione/a
 focatico/cf
 foce/a
@@ -25779,7 +25782,7 @@ forforoso/af
 forge
 forgiabile/a
 forgiabilità
-forgiare/ABCGLPTX14z
+forgiare/ABCGLPTX14
 forgiatore/ad
 forgiatura/b
 foriero/af
@@ -25803,7 +25806,7 @@ formalizzazione/a
 formare/ABCGLPTX14
 formativo/af
 formatore/ad
-formattare/ABCGLPTX14z
+formattare/ABCGLPTX14
 formattatore/a
 formattazione/a
 formatura/b
@@ -26410,7 +26413,7 @@ fruire/ABCGLPTX14
 fruitivo
 fruitore/ad
 fruizione/a
-frullare/ABCGLPTX14z
+frullare/ABCGLPTX14
 frullatore/a
 frullino/a
 frullio/c
@@ -27377,7 +27380,7 @@ germe/a
 germicida/a
 germile/a
 germinabile/a
-germinare/ABCGLPTX14z
+germinare/ABCGLPTX14
 germinativo/af
 germinatoio
 germinatrice
@@ -29635,7 +29638,7 @@ immemoriale/a
 immensità
 immenso/afhk
 immensurabile/ak
-immergere/ABDGLPVZ14w
+immergere/ABDGLPVZ14
 immergibile/a
 immeritato/afhk
 immeritevole/ak
@@ -30043,7 +30046,7 @@ importuoso/af
 impositivo/af
 imposizione/a
 impossessamento/a
-impossessare/ABCGLPTX14z
+impossessare/ABCGLPTX14
 impossesò
 impossibile/ak
 impossibilitare/ABCGLPTX14
@@ -30607,7 +30610,7 @@ incitatore/ad
 incitazione/a
 incitrullire/ABCGLPTX14
 incittadinesca
-inciuchire/ABCGLPTX14z
+inciuchire/ABCGLPTX14
 inciucio
 incivile/ak
 incivilimento/a
@@ -31052,7 +31055,7 @@ indipendentista/ab
 indipendentistico/cf
 indipendenza/ab
 indirani
-indire/ABEINRUY25xy
+indire/ABEINRUY25
 indirettezza/b
 indiretto/afk
 indirizzabile/a
@@ -32132,7 +32135,7 @@ inspirazione/a
 instabile/ahk
 instabilità
 installabile/a
-installare/ABCGLPTX14x
+installare/ABCGLPTX14
 installatore/ad
 installazione/a
 instancabile/ak
@@ -32362,7 +32365,7 @@ interdigitale/a
 interdiocesano/af
 interdipendente/a
 interdipendenza/b
-interdire/ABEINRUY25xy
+interdire/ABEINRUY25
 interdisce
 interdisciplinare/a
 interdisciplinarità
@@ -36045,7 +36048,7 @@ maldiviano/af
 malecopie
 maledii/xyz
 maledimmo
-maledire/ABEINRUY1245xyz
+maledire/ABEINRUY1245
 maledirono
 maledisca
 maledisci
@@ -36442,7 +36445,7 @@ mapo
 mappa/b
 mappaluna
 mappamondo/a
-mappare/ABCGLPTX14z
+mappare/ABCGLPTX14
 mappatore/ad
 mappatura/b
 maquette
@@ -36565,7 +36568,7 @@ marionetta/b
 marionettista/ab
 maritabile/a
 maritale/ak
-maritare/ABCGLPTX14z
+maritare/ABCGLPTX14
 maritozzo/a
 marittimo/af
 marker
@@ -38430,7 +38433,7 @@ modista/ab
 modisteria/b
 modo/af
 modulabile/a
-modulare/ABCGLPTX14z
+modulare/ABCGLPTX14
 modulario/a
 modularità
 modulatore/ad
@@ -38932,7 +38935,7 @@ morigerare/ABCGLPTX14
 morigeratezza
 moriglione/a
 morione/a
-morire/ABEILPUY14z
+morire/ABEILPUY14
 morituro/af
 mormone/af
 mormonico/cf
@@ -39023,7 +39026,7 @@ mosto/a
 mostoso/af
 mostra/b
 mostrabile/a
-mostrare/ABCGLPTX14z
+mostrare/ABCGLPTX14
 mostravami
 mostravento/a
 mostreggiatura/b
@@ -40995,7 +40998,7 @@ officiare/ABCGLPTX14
 officiatore/a
 officina/b
 officinale/a
-offrire/ABDHOSUY14z
+offrire/ABDHOSUY14
 offset
 offshore
 offside
@@ -41584,7 +41587,7 @@ operaismo/a
 operaista/a
 operaistico/cf
 operando/cfz
-operare/ABCGLPTX14z
+operare/ABCGLPTX14
 operativismo
 operatività
 operativo/afk
@@ -41746,7 +41749,7 @@ ordinado
 ordinamento/a
 ordinando/cfx
 ordinanza/b
-ordinare/ABCGLPTX14x
+ordinare/ABCGLPTX14
 ordinariato/a
 ordinarietà
 ordinario/afk
@@ -42112,7 +42115,7 @@ oscuramento/a
 oscurantismo/a
 oscurantista/ab
 oscurantistico/cf
-oscurare/ABCGLPTX14z
+oscurare/ABCGLPTX14
 oscuratore/ad
 oscurazione/a
 oscurità
@@ -42155,7 +42158,7 @@ ossequioso/afhk
 osservabile/ak
 osservabilità
 osservanza/b
-osservare/ABCGLPTX14z
+osservare/ABCGLPTX14
 osservativo/af
 osservatore/ad
 osservatorio/a
@@ -42394,7 +42397,7 @@ ottemperanza/b
 ottemperare/ABCGLPTX14
 ottenebramento/a
 ottenebrare/ABCGLPTX14
-ottenere/ABDHLPTX14z
+ottenere/ABDHLPTX14
 ottenibile/a
 ottenibilità/z
 ottenimento/az
@@ -43659,7 +43662,7 @@ partitosene
 partitura/b
 partizionabile/a
 partizionamento/a
-partizionare/ABCGLPTX14z
+partizionare/ABCGLPTX14
 partizione/a
 partner
 partnership
@@ -44226,7 +44229,7 @@ penetrabile/a
 penetrabilità
 penetramento/a
 penetranza/b
-penetrare/ABCGLPTX14z
+penetrare/ABCGLPTX14
 penetrativo/af
 penetrazione/a
 penice
@@ -44342,7 +44345,7 @@ pentemimero
 penteterico/c
 pentico
 pentimento/a
-pentire/ABDHLPTX14z
+pentire/ABDHLPTX14
 pentitismo
 pentium
 pentodo/a
@@ -44436,7 +44439,7 @@ percussione/a
 percussionista/a
 percussore/a
 percutaneo/af
-perdere/ABDGLPTUXY14z
+perdere/ABDGLPTUXY14
 perdiana
 perdibile/a
 perdifiato
@@ -44449,7 +44452,7 @@ perditempo
 perdizione/a
 perdonabile/a
 perdonanza/b
-perdonare/ABCGLPTX14z
+perdonare/ABCGLPTX14
 perdurare/ABCGLPTX14
 peregrinare/ABCGLPTX14
 peregrinazione/a
@@ -44804,7 +44807,7 @@ pessimista/ab
 pessimistico/cfk
 pessimo/afhk
 pestaggio/a
-pestare/ABCGLPTX14z
+pestare/ABCGLPTX14
 pestatura/b
 peste/a
 pestello/a
@@ -44881,7 +44884,7 @@ pettide/a
 pettinabilità
 pettinaia/b
 pettinaio
-pettinare/ABCGLPTX14z
+pettinare/ABCGLPTX14
 pettinatoio/a
 pettinatore/ad
 pettinatura/b
@@ -44974,7 +44977,7 @@ piantaggine/a
 piantagione/a
 piantagrane
 piantana/b
-piantare/ABCGLPTX14z
+piantare/ABCGLPTX14
 piantatoio/a
 piantatore/ad
 piantatura/b
@@ -45151,7 +45154,7 @@ pifferaio/af
 piffero/a
 pigiadiraspatrice/a
 pigiama/a
-pigiare/ABCGLPTX14z
+pigiare/ABCGLPTX14
 pigiatoio/a
 pigiatore/ad
 pigiatura/b
@@ -46430,7 +46433,7 @@ porfirina/b
 porfirite/a
 porfirizzare/ABCGLPTX14
 porfirizzazione/a
-porgere/ABDGLPTX14z
+porgere/ABDGLPTX14
 porgitore/ad
 poricida/ab
 porifero/a
@@ -46451,7 +46454,7 @@ porpora/b
 porporato/af
 porporino/af
 porraccio/a
-porre/ABCGLPTX14z
+porre/ABCGLPTX14
 porro/a
 porroso/af
 porta/b
@@ -46542,7 +46545,7 @@ portaposate
 portapranzi
 portapunta
 portarazzi
-portare/ABCGLPTX14z
+portare/ABCGLPTX14
 portaritratti
 portariviste
 portarocchetto/a
@@ -47169,7 +47172,7 @@ preponderante/ak
 preponderanza/b
 preponderò
 preponimento/a
-preporre/ABCGLPTX14z
+preporre/ABCGLPTX14
 prepositivo/af
 preposito/a
 prepositura/b
@@ -47249,7 +47252,7 @@ presenile/a
 present
 presentabile/a
 presentabilità
-presentare/ABCGLPTX14z
+presentare/ABCGLPTX14
 presentatore/ad
 presentazione/a
 presente/ak
@@ -47711,7 +47714,7 @@ profittare/ABCGLPTX14
 profittatore/ad
 profittevole/a
 profluvio/a
-profondare/ABCGLPTX14z
+profondare/ABCGLPTX14
 profondere/ABCGLPVZ14
 profondimetro/a
 profondità
@@ -47903,7 +47906,7 @@ proponibile/a
 proponibilità
 proponimento/a
 proponitore/ad
-proporre/ABCGLPTX14z
+proporre/ABCGLPTX14
 proporzionabile/a
 proporzionale/ak
 proporzionalismo
@@ -48528,7 +48531,7 @@ puma
 punch
 punchingbag
 punchingball
-pungere/ABDGLPTX14z
+pungere/ABDGLPTX14
 pungiglione/a
 pungitoio/a
 pungitopo/a
@@ -53937,7 +53940,7 @@ scena/b
 scenario/a
 scenarista/ab
 scenata/b
-scendere/ABEGLPVZ14z
+scendere/ABEGLPVZ14
 scendiletto
 sceneggiare/ABCGLPTX14
 sceneggiatore/ad
@@ -54532,7 +54535,7 @@ scorporabile/a
 scorporamento/a
 scorporare/ABCGLPTX14
 scorrazzare/ABCGLPTX14
-scorrere/ABCGLPTX14z
+scorrere/ABCGLPTX14
 scorreria/b
 scorrettezza/b
 scorretto/afk
@@ -54641,7 +54644,7 @@ scritturazione/a
 scritturista/ab
 scrivania/b
 scrivano/a
-scrivere/ABDGLPUY14xz
+scrivere/ABDGLPUY14
 scrivibile/a
 scrivibilità
 scroccare/ABCGLPTX14
@@ -54897,7 +54900,7 @@ segretezza/b
 segreto/afhk
 seguace/a
 segugio/a
-seguire/ABDHLPTX14z
+seguire/ABDHLPTX14
 seguitare/ABCGLPTX14
 segusino/af
 sei
@@ -55061,7 +55064,7 @@ semimpermeabile/a
 semina/b
 seminabile/a
 seminagione/a
-seminare/ABCGLPTX14z
+seminare/ABCGLPTX14
 seminarile/a
 seminario/a
 seminarista/a
@@ -57303,7 +57306,7 @@ sostanziosità
 sostanzioso/af
 sostare/ABCGLPTX14
 sostegno/a
-sostenere/ABDHLPTX14z
+sostenere/ABDHLPTX14
 sostenibile/a
 sostenibilità
 sostenimento/a
@@ -57342,7 +57345,7 @@ sotterfugio/a
 sotterrabile/a
 sotterramento/a
 sotterraneo/afk
-sotterrare/ABCGLPTX14z
+sotterrare/ABCGLPTX14
 sotteso/af
 sottesso
 sottigliezza/b
@@ -57644,7 +57647,7 @@ sovrintendere/ABCGLPTX14
 sovrinteso/af
 sovrosso/a
 sovrumano/af
-sovvenire/ABEIMQUY14z
+sovvenire/ABEIMQUY14
 sovventore/ad
 sovvenzionamento/a
 sovvenzionare/ABCGLPTX14
@@ -57747,7 +57750,7 @@ spampanatura/b
 spanare/ABCGLPTX14
 spanciare/ABCGLPTX14
 spanciatura
-spandere/ABDGLPUY14z
+spandere/ABDGLPUY14
 spandicera
 spandiconcime
 spandifieno
@@ -58897,7 +58900,7 @@ stemprare/ABCGLPTX14
 sten
 stendardiere/a
 stendardo/a
-stendere/ABEGLPVZ14z
+stendere/ABEGLPVZ14
 stendhaliano/af
 stendibiancheria
 stendifili
@@ -60769,7 +60772,7 @@ tapiro/a
 tapis
 tappa/b
 tappabuco/a
-tappare/ABCGLPTX14z
+tappare/ABCGLPTX14
 tapparella/b
 tapparellista/ab
 tappatrice/a
@@ -61189,7 +61192,7 @@ telefax
 teleferico/cf
 teleferista/ab
 telefilm
-telefonare/ABCGLPTX14z
+telefonare/ABCGLPTX14
 telefonia/b
 telefonico/cfk
 telefonino/a
@@ -62846,7 +62849,7 @@ traducibilità
 tradunionismo
 tradunionista/ab
 tradunionistico/cf
-tradurre/ABCGLPTX14z
+tradurre/ABCGLPTX14
 traduttore/ad
 traduzione/az
 traenza/b
@@ -63255,7 +63258,7 @@ trasporre/ABCGLPTX14
 trasportabile/a
 trasportabilità
 trasportamento
-trasportare/ABCGLPTX14z
+trasportare/ABCGLPTX14
 trasportatore/ad
 trasportazione/a
 traspositore/ad
@@ -64073,7 +64076,7 @@ tufaceo/af
 tufello/a
 tuff
 tuffamento/a
-tuffare/ABCGLPTX14z
+tuffare/ABCGLPTX14
 tuffatore/ad
 tuffete
 tuffetto/a
@@ -64145,7 +64148,7 @@ turabottiglie
 turabuchi
 turacciolo/a
 turafalle
-turare/ABCGLPTX14z
+turare/ABCGLPTX14
 turba/b
 turbabile/a
 turbabilità
@@ -64569,7 +64572,7 @@ undici
 undicimila/|!
 ungarico/cf
 ungaro/a
-ungere/ABDGLPTX14z
+ungere/ABDGLPTX14
 ungherese/a
 unghia/b
 unghiato/af
@@ -64900,7 +64903,7 @@ vaccheria/b
 vacchetta/b
 vacchino
 vaccinabile/a
-vaccinare/ABCGLPTX14z
+vaccinare/ABCGLPTX14
 vaccinatore/ad
 vaccinazione/a
 vaccinico/cf
@@ -64995,7 +64998,7 @@ valgismo/a
 valgo/af
 valicabile/a
 valicabilità
-valicare/ABCGLPTX14z
+valicare/ABCGLPTX14
 validare/ABCGLPTX14
 validatrice/a
 validazione/a
@@ -65556,7 +65559,7 @@ vernati
 vernazione/a
 vernelle
 vernice
-verniciare/ABCGLPTX14z
+verniciare/ABCGLPTX14
 verniciatore/ad
 verniciatura/b
 verniero/a
@@ -66089,7 +66092,7 @@ viraggio/a
 viragine/a
 virago/a
 viramento/a
-virare/ABCGLPTX14z
+virare/ABCGLPTX14
 viratore/a
 virelai
 viremia
@@ -66314,7 +66317,7 @@ vivibile/a
 vivibilità
 vividezza
 vivido/afhk
-vivificare/ABCGLPTX14z
+vivificare/ABCGLPTX14
 vivificatore/ad
 vivificazione/a
 vivinatalità
@@ -66362,7 +66365,7 @@ vocio/c
 vociona/ab
 vodka/b
 voga/b
-vogare/ABCGLPTX14z
+vogare/ABCGLPTX14
 vogatore/ad
 voge
 voglia/b
@@ -66383,7 +66386,7 @@ volantinare/ABCGLPTX14
 volantine
 volantino/a
 volaple
-volare/ABCGLPTX14z
+volare/ABCGLPTX14
 volasero
 volatica/b
 volatile/a

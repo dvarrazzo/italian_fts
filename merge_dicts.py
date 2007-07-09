@@ -20,8 +20,8 @@ for fn in sys.argv[1:]:
 do = Dictionary()
 
 for di in in_dicts:
-    if not do.header and di.header:
-        do.header = di.header
+#    if not do.header and di.header:
+#        do.header = di.header
     for w, f in di.iteritems():
         do[w] = do.get(w, '') + f
 
