@@ -8,7 +8,7 @@ PGLOCALE = it_IT
 endif
 
 DISTNAME = italian-fts
-DISTDIR = dict_it_$(ENCODING)
+DISTDIR = italian_fts_$(ENCODING)
 HEADER = HEADER.$(ENCODING) 
 README = README.dict_it.$(ENCODING) 
 LEGGIMI = LEGGIMI.dict_it.$(ENCODING) 
@@ -70,13 +70,15 @@ dist/$(PKGFILE) : $(DICTFILES) $(SQLFILES) $(DOCFILES) $(SOURCE) $(MAKEFILE)
 	tar czvf dist/$(PKGFILE) -C dist $(DISTDIR)
 
 clean:
-	-rm -rf dist
+	-rm -rf dist/italian_fts_latin1
+	-rm -rf dist/italian_fts_utf8
+	-rm italian.dict italian.aff
 	-rm $(addsuffix .latin1,HEADER README.dict_it LEGGIMI.dict_it \
 	                        dict_it.sql dict_it_spell.sql \
-							$(DICTFILES_in) src/Makefile dict_it.sql)
+							$(DICTFILES_in) src/Makefile)
 	-rm $(addsuffix   .utf8,HEADER README.dict_it LEGGIMI.dict_it \
 	                        dict_it.sql dict_it_spell.sql \
-	                        $(DICTFILES_in) src/Makefile dict_it.sql)
+	                        $(DICTFILES_in) src/Makefile)
 
 split:
 	python ./split_dict.py
