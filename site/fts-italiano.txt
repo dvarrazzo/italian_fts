@@ -69,6 +69,16 @@ Qualche statistica sulla corrente edizione del dizionario:
 - **10.365** regole di produzioni nel file degli affissi.
 
 
+Presentazione al PGDay
+----------------------
+
+Il dizionario è stato presentato al PGDay_ 2007, la prima conferenza italiana
+dedicata al PostgreSQL. La presentazione_ è disponibile per il download.
+
+.. _PGDay: http://www.pgday.it
+.. _presentazione: http://www.develer.com/~piro/slides/fts-pgday.odp
+
+
 Download
 ========
 

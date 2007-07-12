@@ -70,6 +70,17 @@ Some statistics about the current dictionary edition:
 - **10,365** production rules in the affix file.
 
 
+Presentation at PGDay
+---------------------
+
+The dictionary was presented at PGDay_ 2007, the first Italian PostgreSQL
+conference. The slideshow_ is available for download.
+
+
+.. _PGDay: http://www.pgday.it
+.. _slideshow: http://www.develer.com/~piro/slides/fts-pgday.odp
+
+
 Download
 ========
 
