@@ -4,19 +4,27 @@ ifndef DATE
 DATE = $(shell date +%Y-%m-%d)
 endif
 
-PKGFILES = $(DISTNAME)-$(VERSION)-latin1.tar.gz \
-           $(DISTNAME)-$(VERSION)-utf8.tar.gz
+PACKAGE_UTF8 = $(DISTNAME)-$(VERSION)-utf8.tar.gz
+PACKAGE_LATIN1 = $(DISTNAME)-$(VERSION)-latin1.tar.gz
+PACKAGES = $(PACKAGE_UTF8) $(PACKAGE_LATIN1)
+
 PAGES = italian-fts.html fts-italiano.html index.html \
 	README.italian_fts_utf8.html README.italian_fts_latin1.html \
 	LEGGIMI.italian_fts_utf8.html LEGGIMI.italian_fts_latin1.html 
 
+REMOTEDIR = piro@trinity.develer.com:public_html/ispell-italian/incoming
 
-.PHONY : clean
+.PHONY : clean upload_site upload_packages
 
-site : site.tar.gz
+site : $(PAGES)
 
-upload : site.tar.gz
-	scp $< piro@trinity.develer.com:public_html/ispell-italian
+site_upload: site.tar.gz
+	scp $< $(REMOTEDIR)
+
+packages : $(PACKAGES)
+
+packages_upload: $(PACKAGES)
+	scp $^ $(REMOTEDIR)
 
 FILTER_VAR = \
 	  sed 's,VERSION,$(VERSION),g' \
@@ -28,7 +36,7 @@ FILTER_UTF8 = \
 FILTER_LATIN1 = \
 	  sed 's,ENCODING,latin1,g'
 
-site.tar.gz: $(PKGFILES) $(PAGES)
+site.tar.gz: $(PACKAGES) $(PAGES)
 	tar czvf $@ $^
 
 index.html : fts-italiano.html
@@ -52,13 +60,13 @@ LEGGIMI.italian_fts_utf8.html : ../LEGGIMI.italian_fts.in
 LEGGIMI.italian_fts_latin1.html : ../LEGGIMI.italian_fts.in
 	cat $< | $(FILTER_VAR) | $(FILTER_LATIN1) | rst2html.py --lang=it > $@
 
-$(DISTNAME)-$(VERSION)-utf8.tar.gz : ../dist/$(DISTNAME)-$(VERSION)-utf8.tar.gz 
+$(PACKAGE_UTF8) : ../dist/$(PACKAGE_UTF8)
 	$(MAKE) -C .. ENCODING=utf8 package
 	ln $< $@
 
-$(DISTNAME)-$(VERSION)-latin1.tar.gz : ../dist/$(DISTNAME)-$(VERSION)-latin1.tar.gz 
+$(PACKAGE_LATIN1) : ../dist/$(PACKAGE_LATIN1) 
 	$(MAKE) -C .. ENCODING=latin1 package
 	ln $< $@
 
 clean:
-	-rm $(PAGES) $(PKGFILES) site.tar.gz
+	-rm $(PAGES) $(PACKAGES) site.tar.gz
