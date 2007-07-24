@@ -82,7 +82,7 @@ http://www.sai.msu.su/~megera/postgres/gist/tsearch/V2/tsearch_snowball_82-20070
 
 Se non intendi patchare i sorgenti puoi evitare di costruire lo stemmer e
 installare il solo dizionario ortografico. In questo caso leggi la sezione
-"installazione del solo dizionario ortografico".
+`installazione del solo dizionario ortografico`_.
 
 Per installare il dizionario in un database devi prima compilare e installare 
 il modulo tsearch2 e caricare il file ``tsearch2`` nel database (di solito si
