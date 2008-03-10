@@ -12,9 +12,9 @@ Dizionario per la Ricerca Full-Text in Italiano
     per effettuare la *ricerca full text* in documenti in italiano utilizzando
     il database PostgreSQL_.
 
-    La ricerca tiene in considerazione le variazioni caratteristiche della
-    lingua italiana per restituire i documenti corrispondenti ai criteri di
-    ricerca, ad esempio le diverse coniugazioni verbali.
+    La ricerca tiene in considerazione le variazioni morfologiche delle
+    parole italiane, ad esempio le coniugazioni verbali, per restituire i
+    documenti corrispondenti ai criteri di una ricerca.
 
     .. _PostgreSQL: http://www.postgresql.org
     .. _Tsearch2: http://www.sai.msu.su/~megera/postgres/gist/tsearch/V2/

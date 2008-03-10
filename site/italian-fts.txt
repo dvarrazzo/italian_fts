@@ -93,8 +93,8 @@ Please refer to the `README.italian_fts <README.italian_fts.html>`__ file for
 installation details.
 
 
-PostgreSQL 8.2 e precedenti
----------------------------
+PostgreSQL 8.2 and older versions
+---------------------------------
 
 The package is available in two encodings:
 
