@@ -10,7 +10,7 @@ Dizionario per la Ricerca Full-Text in Italiano
 
 :Riassunto: Questo package fornisce un dizionario e gli altri file necessari
     per effettuare la *ricerca full text* in documenti in italiano utilizzando
-    il database PostgreSQL_ insieme al package aggiuntivo Tsearch2_.
+    il database PostgreSQL_.
 
     La ricerca tiene in considerazione le variazioni caratteristiche della
     lingua italiana per restituire i documenti corrispondenti ai criteri di

@@ -10,7 +10,7 @@ Italian Dictionary for Full-Text Search
 
 :Abstract: This package provides a dictionary and the other files required to
     perform *full text search* in Italian documents using the PostgreSQL_
-    database together with the contrib module Tsearch2_.
+    database.
 
     Using the provided dictionary, search operations in Italian documents can
     keep into account morphological variations of Italian words, such as verb
