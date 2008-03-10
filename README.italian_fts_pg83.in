@@ -1,0 +1,91 @@
+=======================================
+Italian Dictionary for Full Text Search
+=======================================
+For PostgreSQL version 8.3
+--------------------------
+
+:Author: Daniele Varrazzo
+:Contact: piro (at) develer.com
+:Organization: `Develer S.r.l. <http://www.develer.com>`__
+:Date: DATE
+:Version: VERSION
+
+:Abstract: This package provides an ISpell dictionary to perform high quality
+    perform *full text search* in Italian documents using the PostgreSQL_
+    database.
+
+    Using the provided dictionary, search operations in Italian documents can
+    keep into account morphological variations of Italian words, such as verb
+    conjugations.
+
+    .. _PostgreSQL: http://www.postgresql.org
+    .. _Tsearch2: http://www.sai.msu.su/~megera/postgres/gist/tsearch/V2/
+
+
+:Copyright: 2001, 2002 Gianluca Turconi
+:Copyright: 2002, 2003, 2004 Gianluca Turconi and Davide Prina
+:Copyright: 2004, 2005, 2006 Davide Prina
+:Copyright: 2007, 2008 Daniele Varrazzo
+
+This file is distributed under GPL license.
+
+This file is part of the Italian dictionary for full-text search.
+
+The Italian dictionary for full-text search is free software; you can
+redistribute it and/or modify it under the terms of the GNU General Public
+License as published by the Free Software Foundation; either version 2 of
+the License, or (at your option) any later version.
+
+The Italian dictionary for full-text search is distributed in the hope that
+it will be useful, but WITHOUT ANY WARRANTY; without even the implied
+warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public
+License along with Italian dictionary for full-text search,
+if not, write to the Free Software Foundation, Inc.,
+51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA
+
+GPL license can be found at http://www.fsf.org/licenses/licenses.html
+
+
+Package description
+===================
+
+This package contains an ISpell dictionary useful to perfrom high quality
+full-text searches in Italian language documents. The package also contains
+installation and configuration files.
+
+
+Prerequisites
+=============
+
+This package can be used to install and configure the ISpell dictionary in
+PostgreSQL 8.3 databases. To install the dictionary in older database versions,
+please refer to the homepage_.
+
+.. _homepage: href="http://www.develer.com/~piro/ispell-italian/
+
+
+Package installation
+====================
+
+Unpack the dictionary archive::
+
+    tar xzvf italian-fts-VERSION.tar.gz
+
+Install the dictionary files in the proper directories::
+
+    cd italian_fts
+    make install
+
+Tou can install the dictionary in a database (*mydict* in the example)
+with the command:
+
+.. parsed-literal::
+
+    psql -f $(pg_config --sharedir)/italian_fts.sql *mydict*
+
+The command updates the ``italian`` default configuration: the new configuration
+will use the ISpell dictionary, falling back on the stemmer upon unrecognized
+words.

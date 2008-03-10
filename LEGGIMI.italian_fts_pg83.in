@@ -1,0 +1,91 @@
+==============================================
+Dizionario per la Ricerca di Testo in Italiano
+==============================================
+Per PostgreSQL version 8.3
+--------------------------
+
+:Autore: Daniele Varrazzo
+:Contatto: piro (alla) develer.com
+:Organizzazione: `Develer S.r.l. <http://www.develer.com>`__
+:Data: DATE
+:Versione: VERSION
+
+:Riassunto: Questo package fornisce un dizionario ISpell per effettuare
+    ricerche *full-text* di alta qualità in documenti in italiano utilizzando
+    il database PostgreSQL_.
+
+    La ricerca tiene in considerazione le variazioni caratteristiche della
+    lingua italiana per restituire i documenti corrispondenti ai criteri di
+    ricerca, ad esempio le diverse coniugazioni verbali.
+
+    .. _PostgreSQL: http://www.postgresql.org
+    .. _Tsearch2: http://www.sai.msu.su/~megera/postgres/gist/tsearch/V2/
+
+
+:Copyright: 2001, 2002 Gianluca Turconi
+:Copyright: 2002, 2003, 2004 Gianluca Turconi and Davide Prina
+:Copyright: 2004, 2005, 2006 Davide Prina
+:Copyright: 2007, 2008 Daniele Varrazzo
+
+This file is distributed under GPL license.
+
+This file is part of the Italian dictionary for full-text search.
+
+The Italian dictionary for full-text search is free software; you can
+redistribute it and/or modify it under the terms of the GNU General Public
+License as published by the Free Software Foundation; either version 2 of
+the License, or (at your option) any later version.
+
+The Italian dictionary for full-text search is distributed in the hope that
+it will be useful, but WITHOUT ANY WARRANTY; without even the implied
+warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public
+License along with Italian dictionary for full-text search,
+if not, write to the Free Software Foundation, Inc.,
+51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA
+
+GPL license can be found at http://www.fsf.org/licenses/licenses.html
+
+
+Informazioni sul pacchetto
+==========================
+
+Questo pacchetto contiene il dizionario ISpell per effettuare ricerche
+full-text di buona qualità su documenti in lingua italiana. Il pacchetto
+include anche i file di installazione e configurazione del dizionario.
+
+
+Prerequisiti
+============
+
+Il pacchetto è adatto all'installazione in database PostgreSQL versione 8.3.
+Se si desidera utilizzare la ricerca full-text con versioni precedenti
+di PostgreSQL si prega di riferirsi alla homepage_.
+
+.. _homepage: href="http://www.develer.com/~piro/ispell-italian/
+
+Installazione del package
+=========================
+
+Espandi l'archivio del dizionario::
+
+    tar xzvf italian-fts-VERSION.tar.gz
+
+Installa i file del dizionario nelle relative directory. Questo rende
+il dizionario disponibile in tutti i database del cluser::
+
+    cd italian_fts
+    make install
+
+Per installare il dizionario in un database (nell'esempio *mydict*)
+puoi utilizzare il comando:
+
+.. parsed-literal::
+
+    psql -f $(pg_config --sharedir)/italian_fts.sql *mydict*
+
+Questo modificherà la configurazione ``italian`` installata di default:
+la nuova configurazione utilizzerà il vocabolario ISpell e ricadrà
+sullo stemmer se una parola non viene riconosciuta.

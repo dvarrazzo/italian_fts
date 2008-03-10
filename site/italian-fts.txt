@@ -16,9 +16,6 @@ Italian Dictionary for Full-Text Search
     keep into account morphological variations of Italian words, such as verb
     conjugations.
 
-    This package contains also a Snowball_ stemmer useful as fallback for words
-    not included in the dictionary.
-
     .. _PostgreSQL: http://www.postgresql.org
     .. _Tsearch2: http://www.sai.msu.su/~megera/postgres/gist/tsearch/V2/
     .. _Snowball: http://snowball.tartarus.org/
@@ -27,7 +24,7 @@ Italian Dictionary for Full-Text Search
 :Copyright: 2001, 2002 Gianluca Turconi
 :Copyright: 2002, 2003, 2004 Gianluca Turconi and Davide Prina
 :Copyright: 2004, 2005, 2006 Davide Prina
-:Copyright: 2007 Daniele Varrazzo
+:Copyright: 2007, 2008 Daniele Varrazzo
 
 [ `Versione italiana <fts-italiano.html>`__ ]
 
@@ -76,13 +73,28 @@ Presentation at PGDay
 The dictionary was presented at PGDay_ 2007, the first Italian PostgreSQL
 conference. The slideshow_ is available for download.
 
-
 .. _PGDay: http://www.pgday.it
 .. _slideshow: http://www.develer.com/~piro/slides/fts-pgday.odp
 
 
-Download
-========
+Download and installation
+=========================
+
+PostgreSQL 8.3
+--------------
+
+ * `italian-fts-VERSION.tar.gz <http://www.develer.com/~piro/ispell-italian/italian-fts-VERSION.tar.gz>`__
+
+This version doesn't include a stemming dictionary, which is already included
+in the basic installation. The package can be used with database clusters
+in any encoding.
+
+Please refer to the `README.italian_fts <README.italian_fts.html>`__ file for
+installation details.
+
+
+PostgreSQL 8.2 e precedenti
+---------------------------
 
 The package is available in two encodings:
 
@@ -91,10 +103,6 @@ The package is available in two encodings:
 
 Please install only the version matching your cluster locale (use ``psql -tc
 SHOW LC_CTYPE postgres`` to know your cluster locale).
-
-
-Installation
-============
 
 Please refer to the `README.italian_fts_utf8 <README.italian_fts_utf8.html>`__
 or `README.italian_fts_latin1 <README.italian_fts_latin1.html>`__ file for 
@@ -107,8 +115,8 @@ License
 The Italian Dictionary for Full-Text Search is distributed under GPL license.
 
 
-Acknowledgements
-================
+Acknowledgments
+===============
 
 I wish to thank **Davide Prina** and **Gianluca Turconi**, because without
 their `progetto linguistico`_ i wouldn't have had anything to work upon.
@@ -117,7 +125,5 @@ I also hearty thank **Oleg Bartunov** and **Teodor Sigaev**, the Tsearch2_
 authors.
 
 And many thanks to Develer_, one of the finest hackers assembly in Italy!
-
-...and to my angel, patiently tolerating my jet lag.
 
 .. _Develer: http://www.develer.com

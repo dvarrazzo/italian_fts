@@ -1,27 +1,19 @@
-# use ``make ENCODING=utf8`` to create the utf8 version of everything
-ENCODING = latin1
-
-ifeq ($(ENCODING),utf8)
+ENCODING = utf8
 PGLOCALE = it_IT.utf8
-else
-PGLOCALE = it_IT
-endif
+SUFFIX = pg83
 
 DISTNAME = italian-fts
-DISTDIR = italian_fts_$(ENCODING)
-HEADER = HEADER.$(ENCODING) 
-README = README.italian_fts.$(ENCODING) 
-LEGGIMI = LEGGIMI.italian_fts.$(ENCODING) 
-SQLFILE1 = italian_fts.sql.$(ENCODING)
-SQLFILE2 = italian_fts_spell.sql.$(ENCODING)
-SQLFILES = $(SQLFILE1) $(SQLFILE2)
-MAKEFILE = src/Makefile.$(ENCODING)
+DISTDIR = italian_fts
+HEADER = HEADER.$(ENCODING)
+README = README.italian_fts_pg83.$(ENCODING)
+LEGGIMI = LEGGIMI.italian_fts_pg83.$(ENCODING)
+SQLFILE = italian_fts_pg83.sql
+MAKEFILE = src/Makefile.pg83
 DOCFILES = $(README) $(LEGGIMI) gpl.txt
 DICTFILES_in = italian.dict italian.aff italian.stop
-SOURCE = src/$(ENCODING)/dict_snowball.c src/$(ENCODING)/stem.c src/$(ENCODING)/stem.h
 
 VERSION =  $(shell cat VERSION)
-PKGFILE = $(DISTNAME)-$(VERSION)-$(ENCODING).tar.gz
+PKGFILE = $(DISTNAME)-$(VERSION).tar.gz
 
 ifndef DATE
 DATE = $(shell date +%Y-%m-%d)
@@ -51,15 +43,11 @@ dict : $(DICTFILES)
 
 package : dist/$(PKGFILE)
 
-packages : package_utf8 package_latin1
+packages : package_pg83
 
-package_utf8 :
+package_pg83 :
 	$(MAKE) clean
-	$(MAKE) ENCODING=utf8 package
-
-package_latin1 :
-	$(MAKE) clean
-	$(MAKE) ENCODING=latin1 package
+	$(MAKE) package
 
 site :
 	$(MAKE) -C site site
@@ -73,28 +61,27 @@ italian.aff : italian.aff.before-verbs italian.aff.verbs italian.aff.after-verbs
 	sed 's,^,# ,' < $(HEADER) > $@
 	cat italian.aff.before-verbs italian.aff.verbs italian.aff.after-verbs >> $@
 
-dist/$(PKGFILE) : $(DICTFILES) $(SQLFILES) $(DOCFILES) $(SOURCE) $(MAKEFILE)
+dist/$(PKGFILE) : $(DICTFILES) $(SQLFILE) $(DOCFILES) $(MAKEFILE)
 	-mkdir dist
 	-rm -rf dist/$(DISTDIR)
 	mkdir dist/$(DISTDIR)
-	cp $(DICTFILES) $(DOCFILES) dist/$(DISTDIR)
-	cp $(SOURCE) dist/$(DISTDIR)
-	cp $(SQLFILE1) dist/$(DISTDIR)/italian_fts_$(ENCODING).sql.in
-	cp $(SQLFILE2) dist/$(DISTDIR)/italian_fts_spell_$(ENCODING).sql.in
-	cp $(MAKEFILE) dist/$(DISTDIR)/Makefile
+	cp $(README) dist/$(DISTDIR)/README.italian_fts
+	cp $(LEGGIMI) dist/$(DISTDIR)/LEGGIMI.italian_fts
 	cp gpl.txt dist/$(DISTDIR)
+	cp italian.dict.utf8 dist/$(DISTDIR)/italian.dict
+	cp italian.aff.utf8 dist/$(DISTDIR)/italian.affix
+	cp italian.stop.utf8 dist/$(DISTDIR)/italian_ispell.stop
+	cp $(SQLFILE) dist/$(DISTDIR)/italian_fts.sql
+	cp $(MAKEFILE) dist/$(DISTDIR)/Makefile
 	tar czvf dist/$(PKGFILE) -C dist $(DISTDIR)
 
 clean:
-	-rm -rf dist/italian_fts_latin1
-	-rm -rf dist/italian_fts_utf8
+	-rm -rf dist/italian_fts
 	-rm italian.dict italian.aff
-	-rm $(addsuffix .latin1,HEADER README.italian_fts LEGGIMI.italian_fts \
-	                        italian_fts.sql italian_fts_spell.sql \
-							$(DICTFILES_in) src/Makefile)
-	-rm $(addsuffix   .utf8,HEADER README.italian_fts LEGGIMI.italian_fts \
-	                        italian_fts.sql italian_fts_spell.sql \
-	                        $(DICTFILES_in) src/Makefile)
+	-rm $(addsuffix   .utf8,HEADER README.italian_fts_pg83 \
+	                        LEGGIMI.italian_fts_pg83 \
+	                        italian_fts.sql \
+	                        $(DICTFILES_in))
 	$(MAKE) -C site $@
 
 split:

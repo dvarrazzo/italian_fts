@@ -6,11 +6,13 @@ endif
 
 PACKAGE_UTF8 = $(DISTNAME)-$(VERSION)-utf8.tar.gz
 PACKAGE_LATIN1 = $(DISTNAME)-$(VERSION)-latin1.tar.gz
-PACKAGES = $(PACKAGE_UTF8) $(PACKAGE_LATIN1)
+PACKAGE_PG83 = $(DISTNAME)-$(VERSION).tar.gz
+PACKAGES = $(PACKAGE_UTF8) $(PACKAGE_LATIN1) $(PACKAGE_PG83)
 
 PAGES = italian-fts.html fts-italiano.html index.html \
 	README.italian_fts_utf8.html README.italian_fts_latin1.html \
-	LEGGIMI.italian_fts_utf8.html LEGGIMI.italian_fts_latin1.html 
+	LEGGIMI.italian_fts_utf8.html LEGGIMI.italian_fts_latin1.html \
+	README.italian_fts.html LEGGIMI.italian_fts.html \
 
 REMOTEDIR = piro@trinity.develer.com:public_html/ispell-italian/incoming
 
@@ -54,11 +56,17 @@ README.italian_fts_utf8.html : ../README.italian_fts.in
 README.italian_fts_latin1.html : ../README.italian_fts.in
 	cat $< | $(FILTER_VAR) | $(FILTER_LATIN1) | rst2html.py > $@
 
+README.italian_fts.html : ../README.italian_fts_pg83.in
+	cat $< | $(FILTER_VAR) | $(FILTER_LATIN1) | rst2html.py > $@
+
 LEGGIMI.italian_fts_utf8.html : ../LEGGIMI.italian_fts.in
 	cat $< | $(FILTER_VAR) | $(FILTER_UTF8) | rst2html.py --lang=it > $@
 	
 LEGGIMI.italian_fts_latin1.html : ../LEGGIMI.italian_fts.in
 	cat $< | $(FILTER_VAR) | $(FILTER_LATIN1) | rst2html.py --lang=it > $@
+
+LEGGIMI.italian_fts.html : ../LEGGIMI.italian_fts_pg83.in
+	cat $< | $(FILTER_VAR) | $(FILTER_UTF8) | rst2html.py --lang=it > $@
 
 $(PACKAGE_UTF8) : ../dist/$(PACKAGE_UTF8)
 	$(MAKE) -C .. ENCODING=utf8 package
@@ -66,6 +74,10 @@ $(PACKAGE_UTF8) : ../dist/$(PACKAGE_UTF8)
 
 $(PACKAGE_LATIN1) : ../dist/$(PACKAGE_LATIN1) 
 	$(MAKE) -C .. ENCODING=latin1 package
+	ln $< $@
+
+$(PACKAGE_PG83) : ../dist/$(PACKAGE_PG83)
+	$(MAKE) -C .. -f Makefile.pg83 package
 	ln $< $@
 
 clean:
