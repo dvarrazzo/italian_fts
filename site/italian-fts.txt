@@ -85,8 +85,8 @@ PostgreSQL 8.3
 
  * `italian-fts-VERSION.tar.gz <http://www.develer.com/~piro/ispell-italian/italian-fts-VERSION.tar.gz>`__
 
-This version doesn't include a stemming dictionary, which is already included
-in the basic installation. The package can be used with database clusters
+This package doesn't include a stemming dictionary, which is already included
+in the PostgreSQL installation. The package can be used with database clusters
 in any encoding.
 
 Please refer to the `README.italian_fts <README.italian_fts.html>`__ file for
