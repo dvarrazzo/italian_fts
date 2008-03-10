@@ -64,7 +64,7 @@ Il pacchetto è adatto all'installazione in database PostgreSQL versione 8.3.
 Se si desidera utilizzare la ricerca full-text con versioni precedenti
 di PostgreSQL si prega di riferirsi alla homepage_.
 
-.. _homepage: href="http://www.develer.com/~piro/ispell-italian/
+.. _homepage: http://www.develer.com/~piro/ispell-italian/
 
 Installazione del package
 =========================

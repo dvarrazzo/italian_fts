@@ -64,7 +64,7 @@ This package can be used to install and configure the ISpell dictionary in
 PostgreSQL 8.3 databases. To install the dictionary in older database versions,
 please refer to the homepage_.
 
-.. _homepage: href="http://www.develer.com/~piro/ispell-italian/
+.. _homepage: http://www.develer.com/~piro/ispell-italian/
 
 
 Package installation
