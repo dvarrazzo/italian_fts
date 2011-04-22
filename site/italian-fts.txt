@@ -24,7 +24,7 @@ Italian Dictionary for Full-Text Search
 :Copyright: 2001, 2002 Gianluca Turconi
 :Copyright: 2002, 2003, 2004 Gianluca Turconi and Davide Prina
 :Copyright: 2004, 2005, 2006 Davide Prina
-:Copyright: 2007, 2008 Daniele Varrazzo
+:Copyright: 2007-2011 Daniele Varrazzo
 
 [ `Versione italiana <fts-italiano.html>`__ ]
 
