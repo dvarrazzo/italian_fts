@@ -1,0 +1,19 @@
+Release 1.2
+===========
+
+- Dropped support for PostgreSQL before 8.3 and for Snowball lexer.
+- Installation Makefile uses PGXS to install files in the right place
+
+
+Release 1.1 (released 2007-07-09)
+=================================
+
+- Added installation script for PostgreSQL 8.3.
+- Package released in utf8 and latin1 encoding.
+- Added Snowball lexer.
+
+
+Version 1.0 (released 2007-06-28)
+=================================
+
+- Initial release: for PostgreSQL up to 8.2.
