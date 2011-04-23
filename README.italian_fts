@@ -1,14 +1,13 @@
-=======================================
-Italian Dictionary for Full Text Search
-=======================================
+===================================
+Italian Full-Text Search Dictionary 
+===================================
 
 :Author: Daniele Varrazzo
 :Contact: piro (at) develer.com
 :Organization: `Develer S.r.l. <http://www.develer.com>`__
 
 :Abstract: This package provides an ISpell dictionary to perform high quality
-    perform *full text search* in Italian documents using the PostgreSQL_
-    database.
+    *full text search* in Italian documents using the PostgreSQL_ database.
 
     Using the provided dictionary, search operations in Italian documents can
     keep into account morphological variations of Italian words, such as verb
@@ -54,7 +53,7 @@ Install the dictionary files in the proper directories::
     cd italian_fts-VERSION
     make install
 
-Tou can install the dictionary in a database (*mydict* in the example)
+You can install the dictionary in a database (*mydict* in the example)
 with the command:
 
 .. parsed-literal::
