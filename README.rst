@@ -68,3 +68,48 @@ install the dictionary::
 
 .. __: http://developer.postgresql.org/pgdocs/postgres/extend-extensions.html
 
+
+Dictionary usage
+================
+
+The extension creates a text search dictionary ``italian_ispell`` and a text
+search configuration also called ``italian_ispell`` using the dictionary as a
+default and falling back to the Snowball stemmer ``italian_stem`` (installed
+by default by PostgreSQL) when a word is not found.  Here is a result of the
+process of a sample text with the ``italian_ispell`` configuration::
+
+    =# select token, dictionary, lexemes
+        from ts_debug('italian_ispell', $$
+            Né più mai toccherò le sacre sponde
+            ove il mio corpo fanciulletto giacque,
+            Zacinto mia, che te specchi nell'onde
+            del greco mar da cui vergine nacque
+            ...
+        $$)
+        where array_upper(lexemes,1) <> 0;
+
+        token     |   dictionary   |    lexemes
+    --------------+----------------+----------------
+     più          | italian_ispell | {più}
+     mai          | italian_ispell | {mai}
+     toccherò     | italian_ispell | {toccare}
+     sacre        | italian_ispell | {sacro}
+     sponde       | italian_ispell | {sponda}
+     ove          | italian_ispell | {ove}
+     corpo        | italian_ispell | {corpo}
+     fanciulletto | italian_ispell | {fanciulletto}
+     giacque      | italian_ispell | {giacere}
+     Zacinto      | italian_stem   | {zacint}
+     specchi      | italian_ispell | {specchiare}
+     onde         | italian_ispell | {onda}
+     greco        | italian_ispell | {greco}
+     mar          | italian_ispell | {mare}
+     vergine      | italian_ispell | {vergine}
+     nacque       | italian_ispell | {nascere}
+    (16 rows)
+
+For general usage of the full-text search features in PostgreSQL please refer
+to the `database documentation`__.
+
+.. __: http://www.postgresql.org/docs/current/static/textsearch.html
+
