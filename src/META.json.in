@@ -5,7 +5,6 @@
    "version": "VERSION",
    "maintainer": "Daniele Varrazzo <daniele.varrazzo@gmail.com>",
    "tags": [ "full-text search", "Italian", "dictionary", "ISpell" ],
-   "release_status": "testing",
    "license": "gpl_2",
    "prereqs": {
       "runtime": {
