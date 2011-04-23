@@ -3,7 +3,8 @@ DOCFILES = README.rst LEGGIMI.rst COPYING CHANGES \
 	META.json $(EXTENSION).control
 SRCFILES = Makefile $(EXTENSION).sql uninstall_$(EXTENSION).sql
 DICTFILES = italian_ispell.dict italian_ispell.affix italian_ispell.stop
-DISTFILES = $(addprefix build/, $(SRCFILES) $(DOCFILES) $(DICTFILES))
+TESTFILES = $(patsubst src/%,%,$(wildcard src/test/sql/*.sql) $(wildcard src/test/expected/*.out))
+DISTFILES = $(addprefix build/, $(SRCFILES) $(DOCFILES) $(DICTFILES) $(TESTFILES))
 
 VERSION =  $(shell cat VERSION)
 PKGNAME = $(EXTENSION)-$(VERSION)
@@ -35,7 +36,7 @@ build/% : src/%.in
 	cat $< | $(FILTER_VAR) > $@
 
 build/% : src/%
-	@mkdir -p build
+	@mkdir -p $(dir $@)
 	cat < $< > $@
 
 build/% : %

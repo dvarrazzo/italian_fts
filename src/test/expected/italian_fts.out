@@ -1,0 +1,32 @@
+--
+--  Test italian_fts configuration
+--
+select token, dictionary, lexemes
+from ts_debug('italian_ispell', $$
+    Né più mai toccherò le sacre sponde
+    ove il mio corpo fanciulletto giacque,
+    Zacinto mia, che te specchi nell'onde
+    del greco mar da cui vergine nacque
+    ...
+$$)
+where array_upper(lexemes,1) <> 0;
+    token     |   dictionary   |    lexemes     
+--------------+----------------+----------------
+ più          | italian_ispell | {più}
+ mai          | italian_ispell | {mai}
+ toccherò     | italian_ispell | {toccare}
+ sacre        | italian_ispell | {sacro}
+ sponde       | italian_ispell | {sponda}
+ ove          | italian_ispell | {ove}
+ corpo        | italian_ispell | {corpo}
+ fanciulletto | italian_ispell | {fanciulletto}
+ giacque      | italian_ispell | {giacere}
+ Zacinto      | italian_stem   | {zacint}
+ specchi      | italian_ispell | {specchiare}
+ onde         | italian_ispell | {onda}
+ greco        | italian_ispell | {greco}
+ mar          | italian_ispell | {mare}
+ vergine      | italian_ispell | {vergine}
+ nacque       | italian_ispell | {nascere}
+(16 rows)
+

@@ -12,6 +12,9 @@ PG91 = $(shell $(PG_CONFIG) --version | grep -qE " 8\.| 9\.0" && echo pre91 || e
 DATA_TSEARCH = italian_ispell.dict italian_ispell.affix italian_ispell.stop
 DOCS = README.rst LEGGIMI.rst
 
+# the += doesn't work if the user specified his own REGRESS_OPTS
+REGRESS = --inputdir=test setup-$(PG91) italian_fts
+
 ifeq ($(PG91),91)
 INSTALLSCRIPT = $(EXTENSION)--$(EXTVERSION).sql
 UNINSTALLSCRIPT =

@@ -4,4 +4,6 @@ dict/HEADER
 dict/italian_ispell.affix
 dict/italian_ispell.dict
 dict/italian_ispell.stop
-
+src/results
+src/regression.diffs
+src/regression.out
