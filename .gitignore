@@ -1,6 +1,7 @@
 build
 dist
 dict/HEADER
-dict/italian.affix
-dict/italian.dict
+dict/italian_ispell.affix
+dict/italian_ispell.dict
+dict/italian_ispell.stop
 

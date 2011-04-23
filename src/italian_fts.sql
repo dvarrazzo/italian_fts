@@ -5,9 +5,9 @@
 
 CREATE TEXT SEARCH DICTIONARY italian_ispell (
     TEMPLATE = ispell,
-    DictFile = italian,
-    AffFile = italian,
-    StopWords = italian);
+    DictFile = italian_ispell,
+    AffFile = italian_ispell,
+    StopWords = italian_ispell);
 
 COMMENT ON TEXT SEARCH DICTIONARY italian_ispell
     IS 'ISpell dictionary for Italian language';

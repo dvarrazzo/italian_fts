@@ -2,7 +2,7 @@ DISTNAME = italian_fts
 DOCFILES = README.italian_fts LEGGIMI.italian_fts COPYING CHANGES \
 	META.json italian_fts.control
 SRCFILES = Makefile italian_fts.sql
-DICTFILES = italian.dict italian.affix italian.stop
+DICTFILES = italian_ispell.dict italian_ispell.affix italian_ispell.stop
 DISTFILES = $(addprefix build/, $(SRCFILES) $(DOCFILES) $(DICTFILES))
 
 VERSION =  $(shell cat VERSION)

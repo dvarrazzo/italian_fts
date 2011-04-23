@@ -1,4 +1,4 @@
-DICTFILES = italian.dict italian.affix
+DICTFILES = italian_ispell.dict italian_ispell.affix italian_ispell.stop
 
 dict : $(DICTFILES)
 
@@ -15,14 +15,17 @@ FILTER_VAR = \
 HEADER : HEADER.in
 	cat $< | $(FILTER_VAR) > $@
 
-italian.dict : italian-verbs.dict italian-other.dict italian-numbers.dict HEADER
+italian_ispell.dict : italian-verbs.dict italian-other.dict italian-numbers.dict HEADER
 	sed 's,^,/ ,' < HEADER > $@
 	python merge_dicts.py \
 		italian-verbs.dict italian-other.dict italian-numbers.dict >> $@
 
-italian.affix : italian.aff.before-verbs italian.aff.verbs italian.aff.after-verbs HEADER
+italian_ispell.affix : italian.aff.before-verbs italian.aff.verbs italian.aff.after-verbs HEADER
 	sed 's,^,/ ,' < HEADER > $@
 	cat italian.aff.before-verbs italian.aff.verbs italian.aff.after-verbs >> $@
+
+italian_ispell.stop : italian.stop
+	cat $< > $@
 
 clean:
 	rm -rf $(DICTFILES) HEADER
