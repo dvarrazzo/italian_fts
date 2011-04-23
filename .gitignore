@@ -1,2 +1,6 @@
 build
 dist
+dict/HEADER
+dict/italian.affix
+dict/italian.dict
+
