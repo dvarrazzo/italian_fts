@@ -1,6 +1,6 @@
 DISTNAME = italian_fts
-DISTDIR = italian_fts
-DOCFILES = README.italian_fts LEGGIMI.italian_fts COPYING CHANGES
+DOCFILES = README.italian_fts LEGGIMI.italian_fts COPYING CHANGES \
+	META.json italian_fts.control
 SRCFILES = Makefile italian_fts.sql
 DICTFILES = italian.dict italian.affix italian.stop
 DISTFILES = $(addprefix build/, $(SRCFILES) $(DOCFILES) $(DICTFILES))
@@ -26,6 +26,13 @@ site :
 	$(MAKE) -C site $@
 
 package: $(PKGFILE)
+
+FILTER_VAR = \
+	  sed 's,VERSION,$(VERSION),g' \
+	| sed 's,DATE,$(DATE),g'
+
+build/% : src/%.in
+	cat $< | $(FILTER_VAR) > $@
 
 build/% : src/%
 	@mkdir -p build
