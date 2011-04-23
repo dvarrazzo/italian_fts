@@ -35,32 +35,37 @@ include anche i file di installazione e configurazione del dizionario.
 Prerequisiti
 ============
 
-Il pacchetto è adatto all'installazione in database PostgreSQL versione 8.3.
-Se si desidera utilizzare la ricerca full-text con versioni precedenti
-di PostgreSQL si prega di riferirsi alla homepage_.
+Il pacchetto è adatto all'installazione in database PostgreSQL versione 8.3 e
+successive.
 
-.. _homepage: http://www.develer.com/~piro/ispell-italian/
 
-Installazione del package
-=========================
+Installazione del pacchetto
+===========================
 
-Espandi l'archivio del dizionario::
+Usa il comando::
 
-    tar xzvf italian_fts-VERSION.tar.gz
+    sudo make install
 
-Installa i file del dizionario nelle relative directory. Questo rende
-il dizionario disponibile in tutti i database del cluser::
+per installare i file del dizionario nelle directory di destinazione. Questo
+comando utilizza il primo ``pg_config`` trovato nel ``PATH`` per leggere la
+configurazione del database.  Se vuoi specificare un diverso database puoi
+usare la variabile ``PG_CONFIG`` per indicare un diverso programma::
 
-    cd italian_fts-VERSION
-    make install
+    sudo make PG_CONFIG=/path/to/pg_config install
 
-Per installare il dizionario in un database (nell'esempio *mydict*)
-puoi utilizzare il comando:
+
+Per installare il dizionario in un database PostgreSQL con versione precedente
+alla 9.1 puoi utilizzare il comando:
 
 .. parsed-literal::
 
-    psql -f $(pg_config --sharedir)/italian_fts.sql *mydict*
+    psql -f $(pg_config --sharedir)/italian_fts/italian_fts.sql *nomedb*
 
-Questo modificherà la configurazione ``italian`` installata di default:
-la nuova configurazione utilizzerà il vocabolario ISpell e ricadrà
-sullo stemmer se una parola non viene riconosciuta.
+La stessa directory contiene anche un file di disinstallazione.
+
+In PostgreSQL 9.1 invece puoi usare i `comandi di gestione delle estensioni`__
+per installare il dizionario::
+
+    CREATE EXTENSION italian_fts;
+
+.. __: http://developer.postgresql.org/pgdocs/postgres/extend-extensions.html

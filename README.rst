@@ -1,5 +1,5 @@
 ===================================
-Italian Full-Text Search Dictionary 
+Italian Full-Text Search Dictionary
 ===================================
 
 :Author: Daniele Varrazzo
@@ -35,31 +35,36 @@ Prerequisites
 =============
 
 This package can be used to install and configure the ISpell dictionary in
-PostgreSQL 8.3 databases. To install the dictionary in older database versions,
-please refer to the homepage_.
-
-.. _homepage: http://www.develer.com/~piro/ispell-italian/
+PostgreSQL 8.3 and later.
 
 
 Package installation
 ====================
 
-Unpack the dictionary archive::
+Use the command::
 
-    tar xzvf italian_fts-VERSION.tar.gz
+    sudo make install
 
-Install the dictionary files in the proper directories::
+to install the dictionary files in the target directories. The command will
+use the first ``pg_config`` found on the ``PATH`` to read the database
+configuration: to install the dictionary in a different database you can use
+the ``PG_CONFIG`` variable::
 
-    cd italian_fts-VERSION
-    make install
+    sudo make PG_CONFIG=/path/to/pg_config install
 
-You can install the dictionary in a database (*mydict* in the example)
-with the command:
+With PostgreSQL versions older than 9.1 you can install the dictionary in a
+database with the command:
 
 .. parsed-literal::
 
-    psql -f $(pg_config --sharedir)/italian_fts.sql *mydict*
+    psql -f $(pg_config --sharedir)/italian_fts/italian_fts.sql *dbname*
 
-The command updates the ``italian`` default configuration: the new configuration
-will use the ISpell dictionary, falling back on the stemmer upon unrecognized
-words.
+The same directory also contains an uninstall script.
+
+With PostgreSQL 9.1 you can use the `extensions management commands`__ to
+install the dictionary::
+
+    CREATE EXTENSION italian_fts;
+
+.. __: http://developer.postgresql.org/pgdocs/postgres/extend-extensions.html
+
