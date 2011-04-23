@@ -20,4 +20,5 @@
 
 default_version = 'VERSION'
 comment = 'Italian full-text search dictionary'
+directory = 'italian_fts'
 relocatable = true

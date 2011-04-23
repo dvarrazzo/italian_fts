@@ -2,7 +2,8 @@ Release 1.2
 ===========
 
 - Dropped support for PostgreSQL before 8.3 and for Snowball lexer.
-- Installation Makefile uses PGXS to install files in the right place
+- Installation Makefile uses PGXS to install files in the right place.
+- Added extension metadata for PG 9.1 and uninstall script.
 
 
 Release 1.1 (released 2007-07-09)

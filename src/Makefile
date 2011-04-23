@@ -5,6 +5,7 @@
 PG_CONFIG = pg_config
 
 EXTENSION = italian_fts
+MODULEDIR = $(EXTENSION)
 EXTVERSION = $(shell grep '"version":' META.json | head -1 | sed -e 's/\s*"version":\s*"\(.*\)",/\1/')
 PG91 = $(shell $(PG_CONFIG) --version | grep -qE " 8\.| 9\.0" && echo pre91 || echo 91)
 
@@ -13,14 +14,16 @@ DOCS = README.rst LEGGIMI.rst
 
 ifeq ($(PG91),91)
 INSTALLSCRIPT = $(EXTENSION)--$(EXTVERSION).sql
+UNINSTALLSCRIPT =
 else
 INSTALLSCRIPT = $(EXTENSION).sql
+UNINSTALLSCRIPT = uninstall_$(EXTENSION).sql
 endif
 
 $(EXTENSION)--$(EXTVERSION).sql : $(EXTENSION).sql
 	cp $< $@
 
-DATA = $(INSTALLSCRIPT)
+DATA = $(INSTALLSCRIPT) $(UNINSTALLSCRIPT)
 
 USE_PGXS=1
 PGXS := $(shell $(PG_CONFIG) --pgxs)

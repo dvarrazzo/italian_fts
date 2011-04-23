@@ -1,12 +1,12 @@
-DISTNAME = italian_fts
-DOCFILES = README.italian_fts LEGGIMI.italian_fts COPYING CHANGES \
-	META.json italian_fts.control
-SRCFILES = Makefile italian_fts.sql
+EXTENSION = italian_fts
+DOCFILES = README.rst LEGGIMI.rst COPYING CHANGES \
+	META.json $(EXTENSION).control
+SRCFILES = Makefile $(EXTENSION).sql uninstall_$(EXTENSION).sql
 DICTFILES = italian_ispell.dict italian_ispell.affix italian_ispell.stop
 DISTFILES = $(addprefix build/, $(SRCFILES) $(DOCFILES) $(DICTFILES))
 
 VERSION =  $(shell cat VERSION)
-PKGNAME = $(DISTNAME)-$(VERSION)
+PKGNAME = $(EXTENSION)-$(VERSION)
 PKGFILE = dist/$(PKGNAME).tar.gz
 
 ifndef DATE
