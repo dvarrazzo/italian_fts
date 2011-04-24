@@ -1,22 +1,22 @@
-# pgmp -- Extension control file
+# italian_fts -- Extension control file
 #
 # Copyright (C) 2011 Daniele Varrazzo
 #
-# This file is part of the PostgreSQL GMP Module
+# This file is part of the Italian Full-Text Search Dictionary
 #
-# The PostgreSQL GMP Module is free software; you can redistribute it and/or
-# modify it under the terms of the GNU Lesser General Public License as
-# published by the Free Software Foundation; either version 3 of the License,
-# or (at your option) any later version.
+# The Italian Full-Text Search Dictionary is free software; you can
+# redistribute it and/or modify it under the terms of the GNU General Public
+# License as published by the Free Software Foundation; either version 2 of
+# the License, or (at your option) any later version.
 #
-# The PostgreSQL GMP Module is distributed in the hope that it will be
-# useful, but WITHOUT ANY WARRANTY; without even the implied warranty of
-# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU Lesser
-# General Public License for more details.
+# The Italian Full-Text Search Dictionary is distributed in the hope that it
+# will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty
+# of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General
+# Public License for more details.
 #
-# You should have received a copy of the GNU Lesser General Public License
-# along with the PostgreSQL GMP Module.  If not, see
-# http://www.gnu.org/licenses/.
+# You should have received a copy of the GNU General Public License along with
+# this program; if not, write to the Free Software Foundation, Inc., 51
+# Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA
 
 default_version = 'VERSION'
 comment = 'Italian full-text search dictionary'
