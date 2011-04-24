@@ -14,7 +14,12 @@
       }
    },
    "resources": {
-      "homepage": "http://www.develer.com/~piro/ispell-italian/"
+      "homepage": "http://www.develer.com/~piro/ispell-italian/",
+      "repository": {
+        "url":  "git://github.com/dvarrazzo/italian_fts.git",
+        "web":  "https://github.com/dvarrazzo/italian_fts/",
+        "type": "git"
+      }
    },
    "meta-spec": {
       "version": "1.0.0",
