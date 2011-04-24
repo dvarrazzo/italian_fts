@@ -1,5 +1,5 @@
-Release 1.2
-===========
+Release 1.2 (released 2011-04-23)
+=================================
 
 - Dropped support for PostgreSQL before 8.3 and for Snowball lexer.
 - Installation Makefile uses PGXS to install files in the right place.
