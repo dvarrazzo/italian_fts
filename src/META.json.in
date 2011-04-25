@@ -21,6 +21,13 @@
         "type": "git"
       }
    },
+   "provides": {
+      "italian_fts": {
+         "file": "italian_fts.sql",
+         "version": "VERSION",
+         "abstract": "Italian full-text search dictionary"
+      }
+   },
    "meta-spec": {
       "version": "1.0.0",
       "url": "http://pgxn.org/meta/spec.txt"
