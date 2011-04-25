@@ -4,7 +4,7 @@
    "description": "An ISpell dictionary and configuration to perform high quality full-text search in Italian documents, keeping into account the morphological variations of Italian words, such as verb conjugations.",
    "version": "VERSION",
    "maintainer": "Daniele Varrazzo <daniele.varrazzo@gmail.com>",
-   "tags": [ "full-text search", "Italian", "dictionary", "ISpell" ],
+   "tags": [ "full-text search", "italian", "dictionary", "ispell" ],
    "license": "gpl_2",
    "prereqs": {
       "runtime": {
