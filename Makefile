@@ -6,7 +6,9 @@ DICTFILES = italian_ispell.dict italian_ispell.affix italian_ispell.stop
 TESTFILES = $(patsubst src/%,%,$(wildcard src/test/sql/*.sql) $(wildcard src/test/expected/*.out))
 DISTFILES = $(addprefix build/, $(SRCFILES) $(DOCFILES) $(DICTFILES) $(TESTFILES))
 
-VERSION =  $(shell cat VERSION)
+VERSION := $(shell cat VERSION)
+VERSION_SPLIT := $(subst ., ,$(VERSION))
+VERSION_MINOR := $(word 1,$(VERSION_SPLIT)).$(word 2,$(VERSION_SPLIT))
 PKGNAME = $(EXTENSION)-$(VERSION)
 PKGFILE = dist/$(PKGNAME).tar.gz
 
@@ -29,7 +31,8 @@ site :
 package: $(PKGFILE)
 
 FILTER_VAR = \
-	  sed 's,VERSION,$(VERSION),g' \
+	  sed 's,VERSION_MINOR,$(VERSION_MINOR),g' \
+	| sed 's,VERSION,$(VERSION),g' \
 	| sed 's,DATE,$(DATE),g'
 
 build/% : src/%.in

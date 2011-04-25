@@ -18,7 +18,9 @@
 # this program; if not, write to the Free Software Foundation, Inc., 51
 # Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA
 
-default_version = 'VERSION'
+# control file for italian_fts VERSION
+
+default_version = 'VERSION_MINOR'
 comment = 'Italian full-text search dictionary'
 directory = 'italian_fts'
 relocatable = true
