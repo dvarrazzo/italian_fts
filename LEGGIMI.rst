@@ -5,7 +5,8 @@ Dizionario per la Ricerca di Testo in Italiano
 :Autore: Daniele Varrazzo
 :Contatto: daniele.varrazzo 🐌 gmail.com
 :Organizzazione: `Develer S.r.l. <http://www.develer.com>`__
-:Sorgenti: https://github.com/dvarrazzo/italian_fts/
+:Sorgenti: `Su GitHub <https://github.com/dvarrazzo/italian_fts/>`__
+:Download: `Da PGXN <https://pgxn.org/dist/italian_fts/>`__
 
 :Riassunto: Questo package fornisce un dizionario ISpell per effettuare
     ricerche *full-text* di alta qualità in documenti in italiano utilizzando

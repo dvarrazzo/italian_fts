@@ -5,7 +5,8 @@ Italian Full-Text Search Dictionary
 :Author: Daniele Varrazzo
 :Contact: daniele.varrazzo@gmail.com
 :Organization: `Develer S.r.l. <http://www.develer.com>`__
-:Source code: https://github.com/dvarrazzo/italian_fts/
+:Source code: `On GitHub <https://github.com/dvarrazzo/italian_fts/>`__
+:Download: `From PGXN <https://pgxn.org/dist/italian_fts/>`__
 
 :Abstract: This package provides an ISpell dictionary to perform high quality
     *full text search* in Italian documents using the PostgreSQL_ database.
