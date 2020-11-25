@@ -17,7 +17,6 @@ Dizionario per la Ricerca di Testo in Italiano
     ricerca, ad esempio le diverse coniugazioni verbali.
 
     .. _PostgreSQL: http://www.postgresql.org
-    .. _Tsearch2: http://www.sai.msu.su/~megera/postgres/gist/tsearch/V2/
 
 
 :Copyright: 2001, 2002 Gianluca Turconi
@@ -106,5 +105,5 @@ con la configurazione ``italian_ispell``::
 Per informazioni generali sulla ricerca full-text in PostgreSQL potete leggere
 la `documentazione del database`__.
 
-.. __: http://www.postgresql.org/docs/current/static/textsearch.html
+.. __: https://www.postgresql.org/docs/current/textsearch.html
 
