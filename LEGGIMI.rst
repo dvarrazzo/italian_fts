@@ -3,7 +3,7 @@ Dizionario per la Ricerca di Testo in Italiano
 ==============================================
 
 :Autore: Daniele Varrazzo
-:Contatto: piro (alla) develer.com
+:Contatto: daniele.varrazzo 🐌 gmail.com
 :Organizzazione: `Develer S.r.l. <http://www.develer.com>`__
 
 :Riassunto: Questo package fornisce un dizionario ISpell per effettuare
@@ -21,7 +21,7 @@ Dizionario per la Ricerca di Testo in Italiano
 :Copyright: 2001, 2002 Gianluca Turconi
 :Copyright: 2002, 2003, 2004 Gianluca Turconi and Davide Prina
 :Copyright: 2004, 2005, 2006 Davide Prina
-:Copyright: 2007-2011 Daniele Varrazzo
+:Copyright: 2007-2020 Daniele Varrazzo
 
 
 Informazioni sul pacchetto
@@ -35,40 +35,31 @@ include anche i file di installazione e configurazione del dizionario.
 Prerequisiti
 ============
 
-Il pacchetto è adatto all'installazione in database PostgreSQL versione 8.3 e
-successive.
+Il pacchetto è adatto all'installazione in tutte le versioni attualmente
+supportate di PostgreSQL.
 
 
 Installazione del pacchetto
 ===========================
 
-Usa il comando::
+Puoi usare `PGXN Client`__ per installare il dizionario::
 
-    sudo make install
+    $ [sudo] pgxn install italian_fts
 
-per installare i file del dizionario nelle directory di destinazione. Questo
-comando utilizza il primo ``pg_config`` trovato nel ``PATH`` per leggere la
-configurazione del database.  Se vuoi specificare un diverso database puoi
-usare la variabile ``PG_CONFIG`` per indicare un diverso programma::
+.. __: https://pgxn.github.io/pgxnclient/
 
-    sudo make PG_CONFIG=/path/to/pg_config install
+Il comando installa i file dell'estensione nel cluster PostgreSQL. Se hai più
+di un cluster tra cui scegliere puoi leggere come fare nelle istruzioni di
+`pgxn install`__.
 
+.. __: https://pgxn.github.io/pgxnclient/usage.html#pgxn-install
 
-Per installare il dizionario in un database PostgreSQL con versione precedente
-alla 9.1 puoi utilizzare il comando:
-
-.. parsed-literal::
-
-    psql -f $(pg_config --sharedir)/italian_fts/italian_fts.sql *nomedb*
-
-La stessa directory contiene anche un file di disinstallazione.
-
-In PostgreSQL 9.1 invece puoi usare i `comandi di gestione delle estensioni`__
-per installare il dizionario::
+Dopo aver installato il pacchetto puoi usare il comando SQL `CREATE
+EXTENSION`__ per rendere il dizionario disponibile in un database::
 
     CREATE EXTENSION italian_fts;
 
-.. __: http://developer.postgresql.org/pgdocs/postgres/extend-extensions.html
+.. __: https://www.postgresql.org/docs/current/sql-createextension.html
 
 
 Uso del dizionario

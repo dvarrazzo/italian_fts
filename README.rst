@@ -3,7 +3,7 @@ Italian Full-Text Search Dictionary
 ===================================
 
 :Author: Daniele Varrazzo
-:Contact: piro (at) develer.com
+:Contact: daniele.varrazzo@gmail.com
 :Organization: `Develer S.r.l. <http://www.develer.com>`__
 
 :Abstract: This package provides an ISpell dictionary to perform high quality
@@ -20,13 +20,13 @@ Italian Full-Text Search Dictionary
 :Copyright: 2001, 2002 Gianluca Turconi
 :Copyright: 2002, 2003, 2004 Gianluca Turconi and Davide Prina
 :Copyright: 2004, 2005, 2006 Davide Prina
-:Copyright: 2007-2011 Daniele Varrazzo
+:Copyright: 2007-2020 Daniele Varrazzo
 
 
 Package description
 ===================
 
-This package contains an ISpell dictionary useful to perfrom high quality
+This package contains an ISpell dictionary useful to perform high quality
 full-text searches in Italian language documents. The package also contains
 installation and configuration files.
 
@@ -35,38 +35,29 @@ Prerequisites
 =============
 
 This package can be used to install and configure the ISpell dictionary in
-PostgreSQL 8.3 and later.
+all supported PostgreSQL versions.
 
 
 Package installation
 ====================
 
-Use the command::
+You can use the `PGXN Client`__ to install the dictionary::
 
-    sudo make install
+    $ [sudo] pgxn install italian_fts
 
-to install the dictionary files in the target directories. The command will
-use the first ``pg_config`` found on the ``PATH`` to read the database
-configuration: to install the dictionary in a different database you can use
-the ``PG_CONFIG`` variable::
+.. __: https://pgxn.github.io/pgxnclient/
 
-    sudo make PG_CONFIG=/path/to/pg_config install
+This installs the extension files in the PostgreSQL cluster. Please check
+`pgxn install`__ options if you have more than one cluster.
 
-With PostgreSQL versions older than 9.1 you can install the dictionary in a
-database with the command:
+.. __: https://pgxn.github.io/pgxnclient/usage.html#pgxn-install
 
-.. parsed-literal::
-
-    psql -f $(pg_config --sharedir)/italian_fts/italian_fts.sql *dbname*
-
-The same directory also contains an uninstall script.
-
-With PostgreSQL 9.1 you can use the `extensions management commands`__ to
-install the dictionary::
+After the package has been installed you can use SQL command `CREATE
+EXTENSION`__ to make the dictionary available in a database::
 
     CREATE EXTENSION italian_fts;
 
-.. __: http://developer.postgresql.org/pgdocs/postgres/extend-extensions.html
+.. __: https://www.postgresql.org/docs/current/sql-createextension.html
 
 
 Dictionary usage
@@ -111,5 +102,5 @@ process of a sample text with the ``italian_ispell`` configuration::
 For general usage of the full-text search features in PostgreSQL please refer
 to the `database documentation`__.
 
-.. __: http://www.postgresql.org/docs/current/static/textsearch.html
+.. __: https://www.postgresql.org/docs/current/textsearch.html
 

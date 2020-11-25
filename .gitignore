@@ -7,3 +7,4 @@ dict/italian_ispell.stop
 src/results
 src/regression.diffs
 src/regression.out
+*.html
