@@ -8,7 +8,7 @@ Italian Full-Text Search Dictionary
 :Source code: `On GitHub <https://github.com/dvarrazzo/italian_fts/>`__
 :Download: `From PGXN <https://pgxn.org/dist/italian_fts/>`__
 
-:Abstract: This package provides an ISpell dictionary to perform high quality
+:Summary: This package provides an ISpell dictionary to perform high quality
     *full text search* in Italian documents using the PostgreSQL_ database.
 
     Using the provided dictionary, search operations in Italian documents can
@@ -16,7 +16,6 @@ Italian Full-Text Search Dictionary
     conjugations.
 
     .. _PostgreSQL: http://www.postgresql.org
-    .. _Tsearch2: http://www.sai.msu.su/~megera/postgres/gist/tsearch/V2/
 
 
 :Copyright: 2001, 2002 Gianluca Turconi
