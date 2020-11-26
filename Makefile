@@ -18,15 +18,12 @@ endif
 
 ICONV = iconv -f latin1 -t utf8
 
-.PHONY : dict package site clean
+.PHONY : dict package clean
 
 sdist : dict $(PKGFILE)
 
 dict :
 	$(MAKE) -C dict $@
-
-site :
-	$(MAKE) -C site $@
 
 package: $(PKGFILE)
 
